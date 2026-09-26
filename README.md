@@ -7,10 +7,14 @@ AI](https://philosophical-predecessors-of-ai.netlify.app), built to the same dis
 everything United States public domain, every paragraph citable, working translations marked
 as unofficial, no tracking.
 
-**Status: stage 0 — the scaffold and the stated program.** Eighteen modules are registered in
-`data/works.json` with their source digitisations pinned; none has yet shipped. As modules
-ship they gain readers on stable citation grids, and the apparatus gains the sibling
-machinery (concordance, concept atlas, timeline, plates, citation-bound dialogue).
+**Status: stage 1 — the first two modules are shipped.** Thorndike's *Animal
+Intelligence* (selections: the 1898 standpoint, the puzzle boxes, the laws of effect and
+exercise stated) and Huxley's *Animal Automatism* (1874, complete) are readable on stable
+citation grids (`AI, ch. II/VI [k]` · `Aut. [n]`), and a cross-corpus **concordance**
+searches them; a checker (`tools/check-corpus.py`) runs in CI. Sixteen further modules
+are registered in `data/works.json` with their source digitisations pinned. As modules
+ship, the apparatus gains the remaining sibling machinery (concept atlas, timeline,
+plates, citation-bound dialogue).
 
 ## The four lines
 

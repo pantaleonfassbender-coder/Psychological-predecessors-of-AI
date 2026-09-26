@@ -2,7 +2,7 @@
    Stage 0: the scaffold and the stated program. The readers, concordance,
    atlas and timeline follow the sibling sites' proven machinery as the
    modules ship. */
-const D = { works: [] };
+const D = { works: [], texts: {} };
 const view = document.getElementById("view");
 
 const esc = s => String(s ?? "").replace(/[&<>"']/g, m =>
@@ -35,6 +35,15 @@ const LLEDE = {
     "Hull–Baernstein conditioning machine of 1929/30 — psychologists building a device " +
     "that learns. The corpus closes here.",
 };
+
+/* ------------------------------------------------------- citation grid */
+/* Each shipped work defines how a unit is cited. */
+const CITE = {
+  huxley: (sec, u) => `Aut. [${u.n}]`,
+  thorndike: (sec, u) =>
+    sec.id === 'laws' ? `AI, ch. VI [${u.k}]` : `AI, ch. II [${u.k}]`,
+};
+const citeOf = (workId, sec, u) => (CITE[workId] || ((s, x) => `[${x.n}]`))(sec, u);
 
 const ROUTES = {};
 function route() {
@@ -75,7 +84,7 @@ function viewOverview() {
       </div>`).join("")}
     </div>
 
-    <h2>The program — ${D.works.length} modules stated, none yet shipped</h2>
+    <h2>The program — ${D.works.filter(w=>w.status==="shipped").length} of ${D.works.length} modules shipped</h2>
     <p class="fine" style="margin:.2rem 0 1rem">Each entry names its source digitisation now, and
     moves into a reader as it ships. Status is tracked here and in the repository.</p>
     <div class="grid g2" id="worklist"></div>
@@ -85,20 +94,138 @@ function viewOverview() {
 }
 
 function workCard(w) {
-  return el(`<div class="workcard card linie-${w.linie}">
+  const open = w.status === "shipped";
+  const card = el(`<div class="workcard card linie-${w.linie}" ${open ? 'style="cursor:pointer"' : ""}>
     <div style="display:flex;gap:.6rem;align-items:baseline;justify-content:space-between;flex-wrap:wrap">
       <strong style="font-family:var(--serif)">${esc(w.autor)}</strong>
-      <span class="status planned">planned</span>
+      <span class="status ${open ? "shipped" : "planned"}">${open ? "reader" : "planned"}</span>
     </div>
     <p class="fine" style="margin:.1rem 0 .3rem">${esc(w.leben)} · ${esc(w.sprachen)}</p>
     <h3 style="margin:.1rem 0 .3rem;font-size:1rem">${esc(w.titel)}</h3>
     <p style="font-size:.88rem;color:var(--fg2);margin:0">${esc(w.claim)}</p>
-    <p class="fine" style="margin:.45rem 0 0">Planned: ${esc(w.geplant)}</p>
+    ${open ? "" : `<p class="fine" style="margin:.45rem 0 0">Planned: ${esc(w.geplant)}</p>`}
   </div>`);
+  if (open) card.onclick = () => location.hash = `#/works/${w.id}`;
+  return card;
+}
+
+/* ============================================================== READER */
+function workReader(id, secId) {
+  const w = D.works.find(x => x.id === id);
+  const t = D.texts[id];
+  if (!w || !t) { location.hash = "#/works"; return; }
+  if (secId) return sectionReader(w, t, secId);
+  view.append(el(`<div>
+    <p class="fine"><a href="#/works">← All works</a></p>
+    <div class="viewhead">
+      <span class="tag" style="color:${LCOLOR[w.linie]}">${esc(w.autor)} · ${esc(String(t.jahr))}</span>
+      <h1>${esc(t.titel)}</h1>
+      <p class="lede">${esc(w.claim)}</p>
+    </div>
+    <div class="grid g2" id="toc"></div>
+    <p class="fine" style="margin-top:1.2rem">Cited as <span class="mono">${esc(t.zitierweise)}</span>.
+      ${esc(t.quelle)} ${esc(t.hinweis || "")}</p>
+  </div>`));
+  const toc = view.querySelector("#toc");
+  for (const s of t.sections) {
+    const card = el(`<div class="workcard card linie-${w.linie}" style="cursor:pointer">
+      <div style="display:flex;gap:.6rem;align-items:baseline;justify-content:space-between">
+        <h3 style="margin:0;font-size:1rem">${esc(s.titel)}</h3>
+        <span class="fine">${s.units.length} ¶</span></div>
+    </div>`);
+    card.onclick = () => location.hash = `#/works/${id}/${s.id}`;
+    toc.append(card);
+  }
+}
+
+function sectionReader(w, t, secId) {
+  secId = secId.split("@")[0];
+  const i = t.sections.findIndex(s => s.id === secId);
+  if (i < 0) { location.hash = `#/works/${w.id}`; return; }
+  const s = t.sections[i];
+  const prev = t.sections[(i - 1 + t.sections.length) % t.sections.length];
+  const next = t.sections[(i + 1) % t.sections.length];
+  view.append(el(`<div>
+    <p class="fine"><a href="#/works/${w.id}">← ${esc(w.kurz)}</a>${t.sections.length > 1 ? ` ·
+      <a href="#/works/${w.id}/${prev.id}">${esc(prev.titel.split("—")[0])}</a> ·
+      <a href="#/works/${w.id}/${next.id}">${esc(next.titel.split("—")[0])}</a>` : ""}</p>
+    <div class="viewhead">
+      <span class="tag" style="color:${LCOLOR[w.linie]}">${esc(w.autor)} · ${esc(String(t.jahr))}</span>
+      <h1 style="font-size:1.4rem">${esc(s.titel)}</h1>
+      <p class="fine">${s.units.length} paragraphs · cited as shown on each paragraph</p>
+    </div>
+    <div id="body">${s.units.map(u => unitHtml(w, s, u)).join("")}</div>
+    <p class="fine">${esc(t.quelle)} ${esc(t.hinweis || "")}</p>
+  </div>`));
+  const anchor = (location.hash.split("@")[1] || "");
+  if (anchor) setTimeout(() =>
+    document.getElementById("u" + anchor)?.scrollIntoView({ behavior: "instant", block: "start" }), 0);
+}
+
+function unitHtml(w, s, u) {
+  const label = u.label ? `<p class="ulabel">${esc(u.label)}</p>` : "";
+  const note = u.note ? `<p class="fine" style="color:var(--acc)">${esc(u.note)}</p>` : "";
+  return `<div class="unit" id="u${u.n}">
+    <div style="display:flex;gap:.6rem;align-items:baseline"><span class="cite">${esc(citeOf(w.id, s, u))}</span></div>
+    ${label}<p class="readable">${esc(u.txt)}</p>${note}</div>`;
+}
+
+/* ========================================================= CONCORDANCE */
+function viewConcordance() {
+  view.append(el(`<div>
+    <div class="viewhead">
+      <span class="tag">Cross-corpus search</span>
+      <h1>Concordance</h1>
+      <p class="lede">Keyword in context across every shipped text, each hit resolved to its
+      citation. New modules join the search as they ship.</p>
+    </div>
+    <div class="toolbar">
+      <input class="grow" id="q" type="search" placeholder="Search word or phrase …">
+      <button class="primary" id="go">Search</button>
+    </div>
+    <div id="out"></div>
+    <div class="card" style="margin-top:1.4rem"><span class="tag">Starting points</span>
+      <p style="margin:.5rem 0 0">${["machine", "automaton", "consciousness", "habit",
+        "association", "instinct", "learning", "satisfaction", "law", "soul"]
+        .map(x => `<button class="chip" data-t="${x}">${x}</button>`).join(" ")}</p></div>
+  </div>`));
+  const out = view.querySelector("#out");
+  const q = view.querySelector("#q");
+  function run() {
+    const term = q.value.trim();
+    out.innerHTML = "";
+    if (term.length < 3) { out.append(el(`<p class="fine">Type at least three characters.</p>`)); return; }
+    const rx = new RegExp(term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "gi");
+    let hits = 0;
+    for (const w of D.works.filter(x => x.status === "shipped")) {
+      const t = D.texts[w.id];
+      if (!t) continue;
+      for (const s of t.sections) for (const u of s.units) {
+        rx.lastIndex = 0;
+        const m = rx.exec(u.txt);
+        if (!m) continue;
+        hits++;
+        if (hits > 200) break;
+        const a = Math.max(0, m.index - 90), b = Math.min(u.txt.length, m.index + term.length + 130);
+        const ctx = (a > 0 ? "…" : "") + u.txt.slice(a, b) + (b < u.txt.length ? "…" : "");
+        out.append(el(`<div class="unit">
+          <div style="display:flex;gap:.6rem;align-items:baseline;flex-wrap:wrap">
+            <a class="cite" href="#/works/${w.id}/${s.id}@${u.n}">${esc(citeOf(w.id, s, u))}</a>
+            <span class="fine">${esc(w.autor)}</span></div>
+          <p class="readable" style="font-size:.95rem">${esc(ctx).replace(rx, x => `<mark>${x}</mark>`)}</p>
+        </div>`));
+      }
+    }
+    out.prepend(el(`<p class="fine">${hits}${hits > 200 ? "+ (first 200 shown)" : ""} hits.</p>`));
+  }
+  view.querySelector("#go").onclick = run;
+  q.addEventListener("keydown", e => { if (e.key === "Enter") run(); });
+  view.querySelectorAll("[data-t]").forEach(b => b.onclick = () => { q.value = b.dataset.t; run(); });
 }
 
 /* =============================================================== WORKS */
-function viewWorks() {
+function viewWorks(args) {
+  if (args && args[0]) return workReader(args[0], args[1]);
   view.append(el(`<div>
     <div class="viewhead"><span class="tag">Four lines</span>
       <h1>The corpus, line by line</h1>
@@ -232,11 +359,15 @@ function viewImprint() {
 /* ================================================================ BOOT */
 Object.assign(ROUTES, {
   overview: viewOverview, works: viewWorks, coda: viewCoda,
+  concordance: viewConcordance,
   method: viewMethod, privacy: viewPrivacy, imprint: viewImprint,
 });
 
 async function boot() {
   D.works = await fetch("data/works.json").then(r => r.json());
+  const shipped = D.works.filter(w => w.status === "shipped" && w.datei);
+  const res = await Promise.all(shipped.map(w => fetch(`data/${w.datei}.json`).then(r => r.json())));
+  shipped.forEach((w, i) => D.texts[w.id] = res[i]);
   window.addEventListener("hashchange", route);
   const syncTheme = () => {
     document.getElementById("themeLabel").textContent =

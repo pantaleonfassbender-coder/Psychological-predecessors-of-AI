@@ -1,0 +1,359 @@
+{
+ "id": "thorndike",
+ "autor": "Edward L. Thorndike",
+ "titel": "Animal Intelligence (1911) — selections",
+ "jahr": 1911,
+ "zitierweise": "AI, ch. II/VI [k]",
+ "quelle": "Selections from Animal Intelligence: Experimental Studies (New York: Macmillan, 1911), from the Internet Archive scan animalintellige00thorgoog, OCR emended by hand against the sense. Chapter II reprints the monograph of 1898; its paragraph numbering here runs across both selections, so that a citation 'AI, ch. II [k]' is unique. From chapter VI the two law-stating subsections are carried complete (Laws of Behavior in General; Provisional Laws of Acquired Behavior or Learning); the chapter's long defence of their adequacy is named as the module's next step. Box A's description is carried; the parallel specifications of boxes B–K are omitted, and the volume's figures, time-curve plates and footnotes are not reproduced; the printed list of the cats' ages is folded into a single paragraph. Public domain.",
+ "hinweis": "The corpus's most direct line into present-day AI: the puzzle boxes, the stamping-in of successful impulses, and the formal statement of the laws of effect and exercise that reinforcement learning names as its ancestry.",
+ "sections": [
+  {
+   "id": "stand",
+   "titel": "Ch. II — The standpoint of the monograph (1898)",
+   "units": [
+    {
+     "n": 1,
+     "k": 1,
+     "txt": "This monograph is an attempt at an explanation of the nature of the process of association in the animal mind. Inasmuch as there have been no extended researches of a character similar to the present one either in subject-matter or experimental method, it is necessary to explain briefly its standpoint."
+    },
+    {
+     "n": 2,
+     "k": 2,
+     "txt": "Our knowledge of the mental life of animals equals in the main our knowledge of their sense-powers, of their instincts or reactions performed without experience, and of their reactions which are built up by experience. Confining our attention to the latter, we find it the opinion of the better observers and analysts that these reactions can all be explained by the ordinary associative processes without aid from abstract, conceptual, inferential thinking. These associative processes then, as present in animals' minds and as displayed in their acts, are my subject-matter. Any one familiar in even a general way with the literature of comparative psychology will recall that this part of the field has received faulty and unsuccessful treatment. The careful, minute and solid knowledge of the sense-organs of animals finds no counterpart in the realm of associations and habits. We do not know how delicate or how complex or how permanent are the possible associations of any given group of animals. And although one would be rash who said that our present equipment of facts about instincts was sufficient or that our theories about it were surely sound, yet our notion of what occurs when a chick grabs a worm are luminous and infallible compared to our notion of what happens when a kitten runs into the house at the familiar call. The reason that they have satisfied us as well as they have is just that they are so vague. We say that the kitten associates the soimd 'kitty kitty' with the experience of nice milk to drink, which does very well for a common-sense answer. It also suffices as a rebuke to those who would have the kitten ratiocinate about the matter, but it fails to tell what real mental content is present. Does the kitten feel ' sound of call, memory-image of milk in a saucer in the kitchen, thought of running into the house, a feeling, finally, of '/ will run inf Does he perhaps feel only the soimd of the bell and an impulse to run in, similar in quality to the impulses which make a tennis player run to and fro when playing ? The word ' association ' may cover a multitude of essentially different processes, and when a writer attributes anything that an animal may do to association, his statement has only the negative value of eliminating reasoning on the one hand and instinct on the other. His position is like that of a zoologist who should to-day class an animal among the 'worms.' To give to the word a positive value and several definite possibilities of meaning is one aim of this investigation."
+    },
+    {
+     "n": 3,
+     "k": 3,
+     "txt": "The importance to comparative psychology in general of a more scientific account of the association-process in animals is evident. Apart from the desirability of knowing all the facts we can, of whatever sort, there is the especial consideration that these associations and consequent habits have an immediate import for biological science. In the higher animals the bodily life and preservative acts are largely directed by these associations. They, and not instinct, make the animal xise the best feeding grounds, sleep in the same lair, avoid new dangers and profit by new changes in nature. Their higher development in mammals is a chief factor in the supremacy of that group. This, however, is a minor consideration. The main purpose of the study of the animal mind is to learn the development of mental life down through the phylum, to trace in particular the origin of himian faculty. In relation to this chief purpose of comparative psychology the associative processes assmne a rdle predominant over that of sense-powers or instinct, for in a study of the associative processes lies the solution of the problem. Sense-powers and instincts have changed by addition and supersedence, but the cognitive side of consciousness has changed not only in quantity but also in quality. Somehow out of these associative processes have arisen human consciousnesses with their sciences and arts and religions. The association of ideas proper, imagination, memory, abstraction, generalization, judgment, inference, have here their source. And in the metamorphosb the instincts, impulses, emotions and sense-impressions have been transformed out of their old natures. For the origin and development of human faculty we must look to these processes of association in lower animals. Not only then does this department need treatment more, but promises to repay the worker better."
+    },
+    {
+     "n": 4,
+     "k": 4,
+     "txt": "Although no work done in this field is enough like the present investigation to require an account of its results, the method hitherto in use invites comparison by its contrast and, as I believe, by its faults. In the first place, most of the books do not give us a psychology, but rather a eulogy of animals. They have all been about animal intelligence, never about animal stupidity. Though a writer derides the notion that animals have reason, he hastens to add that they have marvelous capacity of forming associations, and is likely to refer to the fact that hmnan beings only rarely reason anything out, that their trains of ideas are ruled mostly by association, as if, in this latter, animals were on a par with them. The history of books on animals' minds thus fiunishes an illustration of the well-nigh universal tendency in hmnan nature to find the marvelous wherever it can. We wonder that the stars are so big and so far apart, that the microbes are so small and so thick together, and for much the same reason wonder at the things animals do. They used to be wonderful because of the mysterious, God-given faculty of instinct, which could almost remove moimtains. More lately they have been wondered at because of their marvelous mental powers in profiting by experience. Now imagine an astronomer tremendously eager to prove the stars as big as possible, or a bacteriologist whose great scientific desire is to demonstrate the microbes to be very, very little ! Yet there has been a similar eagerness on the part of many recent writers on animal psychology to praise the abilities of animals. It cannot help leading to partiality in deductions from facts and more especially in the choice of facts for investigation. How can scientists who write like lawyers, defending animals against the charge of having no power of rationality, be at the same time impartial judges on the bench? Unfortimately the real work in this field has been done in this spirit. The levelheaded thinkers who might have won valuable results have contented themselves with arguing against the theories of the eulogists. They have not made investigations of their own."
+    },
+    {
+     "n": 5,
+     "k": 5,
+     "txt": "In the second place, the facts have generally been derived from anecdotes. Now quite apart from such pedantry as insists that a man's word about a scientific fact is worthless unless he is a trained scientist, there are really in this field special objections to the acceptance of the testimony about animals' intelligent acts which one gets from anecdotes. Such testimony is by no means on a par with testimony about the size of a fish or the migration of birds, etc. For here one has to deal not merely with ignorant or inaccurate testimony, but also with prejudiced testimony. Himian folk are as a matter of fact eager to find intelligence in animals. They like to. And when the animal observed is a pet belonging to them or their friends, or when the story is one that has been told as a story to entertain, further complications are introduced. Nor is this all. Besides commonly misstating what facts they report, they report only such facts as show the animal at his best Dogs get lost himdreds of times and no one ever notices it or sends an account of it to a scientific magazine. But let one find his way from Brookljm to Yonkers and the fact inunediately becomes a drcxilating anecdote. Thousands of cats on thousands of occasions sit helplessly yowling, and no one takes thought of it or writes to his friend, the professor; but let one cat claw at the knob of a door supposedly as a signal to be let out, and straightway this cat becomes the representative of the cat-mind in aU the books. The unconscious distortion of the facts is almost harmless compared to the unconscious neglect of an animal's mental life until it verges on the imusual and marvelous. It is as if some denizen of a planet where communication was by thought-transference, who was surveying humankind and reporting their psychology, should be oblivious to all our intercommunication save such as the psychical-research society has noted. If he should further misinterpret the cases of mere coincidence of thoughts as facts comparable to telepathic communication, he would not be more wrong than some of the animal psychologists. In short, the anecdotes give really the abnormal or supernormal psychology of animals."
+    },
+    {
+     "n": 6,
+     "k": 6,
+     "txt": "Further, it must be confessed that these vices have been only ameliorated, not obliterated, when the observation is first-hand, is made by the psychologist himself. For as men of the utmost scientific skill have failed to prove good observers in the field of spiritualistic phenomena, so biologists and psychologists before the pet terrier or himted fox often become like Samson shorn. They, too, have looked for the intelligent and imusual and neglected the stupid and normal."
+    },
+    {
+     "n": 7,
+     "k": 7,
+     "txt": "Finally, in all cases, whether of direct observation or report by good observers or bad, there have been three other defects. Only a single case is studied, and so the results are not necessarily true of the type ; the observation is not rei>eated, nor are the conditions perfectly regulated; the previous history of the animal in question is not known. Such observations may tell us, if the observer is perfectly reliable, that a certain thing takes place; but they cannot assure us that it will take place universally among the animals of that species, or universally with the same animal. Nor can the influence of previous experience be estimated. All this refers to means of getting knowledge about what animals do. The next question is, \"What do they feel?' Previous work has not furnished an answer or the material for an answer to this more important question. Nothing but carefully designed, crucial experiments can. In aban- doning the old method one ought to seek above all to replace it by one which will not only tell more accurately whcU they do, and give the much-needed information haw they do it, but also inform us what they feel while they act."
+    },
+    {
+     "n": 8,
+     "k": 8,
+     "txt": "To remedy these defects, experiment must be substituted for observation and the collection of anecdotes. Thus you immediately get rid of several of them. You can repeat the conditions at will, so as to see whether or not the animal's behavior is due to mere coincidence. A number of animals can be subjected to the same test, so as to attain t}rpical results. The animal may be put in situations where its conduct is especially instructive. After considerable preliminary observation of animals' behavior under various conditions, I chose for my general method one which, simple as it is, possesses several other marked advantages besides those which accompany experiment of any sort. It was merely to put animals when hungry in inclosures from which they could escape by some simple act, such as pulling at a loop of cord, pressing a lever, or stepping on a platform. (A detailed description of these boxes and pens will be given later.) The animal was put in the inclosure, food was left outside in sight, and his actions observed. Besides recording his general behavior, special notice was taken of how he succeeded in doing the necessary act (in case he did succeed), and a record was kept of the time that he was in the box before performing the successful pull, or clawing, or bite. This was repeated until the animal had formed a perfect association between the sense-impression of the interior of that box and the impulse leading to the successful movement. When the association was thus perfect, the time taken to escape was, of course, practically constant and very short."
+    },
+    {
+     "n": 9,
+     "k": 9,
+     "txt": "If. on the other hand, after a certain time the animal did not succeed, he was taken out, but not fed. If, after a suffi- dent number of trials, he failed to get out, the case was recorded as one of complete failure. Enough different sorts of methods of escape were tried to make it fairly sure that association in general, not association of a particular sort of impulse, was being studied. Enough animals were taken with each box or pen to make it sure that the results were not due to individual peculiarities. None of the animals used had any previous acquaintance with any of the mechanical contrivances by which the doors were opened. So far as possible the animals were kept in a uniform state of hunger, which was practically utter hunger. That is, no cat or dog was experimented on, when the experiment involved any important question of fact or theory,"
+    },
+    {
+     "n": 10,
+     "k": 10,
+     "txt": "The desideratum is, of course, to have the motive as nearly as possible of equal strength in each experiment with any one animal with any one act. That is, the animal should be as hungry at the tenth or twentieth trial as at the first. To attain this, the animal was given after each 'success' only a very small bit of food as a reward (say, for a young cat, one quarter of a cubic centimeter of fish or meat) and tested not too many times on any one day. 'Utter hunger' means that no diminution in his appetite was noted and that at the close of the experiment for the day he would still eat a hearty meal. After the experiments for the day were done, the cats received abimdant food to maintain health, growth and spirits, but commonly somewhat less than they would of their own accord have taken. No one of the many visitors to the room mentioned anything extraordinary or distressful in the animals' condition. There were no signs of fear or panic."
+    },
+    {
+     "n": 11,
+     "k": 11,
+     "txt": "Possibly I was wrong in choosing the term 'utter hunger' to denote the hunger of an animal in good, but not pampered, condition and without food for fourteen hours. It is not sure, however, that the term 'utter hunger' is inappropriate. The few reports made of experiments in going without food seem to show that, in health, the feeling of hunger reaches its maximum intensity very early. It is of course not at all the same thing as the complex of discomforts produced by long-continued insufidency of food. Hunger 18 not at all a synonym for starvation. unless I was sure that his motive was of the standard strength. With chicks this is not practicable, on account of their delicacy. But with them dislike of loneliness acts as a uniform motive to get back to the other chicks. Cats (or rather kittens), dogs and chicks were the subjects of the experiments. All were apparently in excellent healthy save an occasional chick."
+    },
+    {
+     "n": 12,
+     "k": 12,
+     "txt": "By this method of experimentation the animals are put in situations which call into activity their mental functions and permit them to be carefully observed. One may, by following it, observe personaUy more intelligent acts than are included in any anecdotal collection. And this actual vision of animals in the act of using their minds is far more fruitful than any amount of history of what animals have done without the history of how they did it. But besides affording this opportimity for purposeful and systematic observation, our method is valuable because it frees the animal from any influence of the observer. The animal's behavior is quite independent of any factors save its own hunger, the mechanism of the box it is in, the food outside, and such general matters as fatigue, indisposition, etc. Therefore the work done by one investigator may be repeated and verified or modified by another. No personal factor is present save in the observation and interpretation. Again, our method gives some very important results which are quite uninfluenced by any personal factor in any way. The curves showing the progress of the formation of associations, which are obtained from the records of the times taken by the animal in successive trials, are facts which may be obtained by any observer who can tell time. They are absolute, and whatever can be deduced from them is sure. So also the question of whether an animal does or does not form a certain association requires for an answer no higher qualification in the observer than a pair of eyes. The literature of animal psychology shows so uniformly and often so sadly the influence of the personal equation that any method which can partially eliminate it deserves a trial."
+    },
+    {
+     "n": 13,
+     "k": 13,
+     "txt": "Furthermore, although the associations formed are such as could not have been previously experienced or provided for by heredity, they are still not too remote from the animal's ordinary course of life. They mean simply the connection of a certain act with a certain situation and resultant pleasure, and this general type of association is found throughout the animal's life normally. The muscular movements required are all such as might often be required of the animal. And yet it will be noted that the acts required are nearly enough like the acts of the anecdotes to enable one to compare the results of experiment by this method with the work of the anecdote school. Finally, it may be noticed that the method lends itself readily to experiments on imitation."
+    },
+    {
+     "n": 14,
+     "k": 14,
+     "txt": "We may now start in with the description of the apparatus and of the behavior of the animals."
+    }
+   ]
+  },
+  {
+   "id": "method",
+   "titel": "Ch. II — Apparatus, the cats, and the time-curve",
+   "units": [
+    {
+     "n": 1,
+     "k": 15,
+     "txt": "The shape and general apparatus of the boxes which were used for the cats is shown by the accompanying drawing of box K. Unless special figures are given, it should be understood that each box is approximately 20 inches long, by 15 broad, by 12 high. Except where mention is made to the contrary, the door was pulled open by a weight attached to a string which ran over a pulley and was fastened to the door, just as soon as the animal loosened the bolt or bar which held it. Especial care was taken not to have the widest openings between the bars at all near the lever, or wire loop, or what not, which governed the bolt on the door.",
+     "label": "Description of Apparatus"
+    },
+    {
+     "n": 2,
+     "k": 16,
+     "txt": "For the animal instinctively attacks the large openings first, and if the mechanism which governs the opening of the door is situated near one of them, the animal's task is rendered easier. You do not then get the association-process so free from the helping hand of instinct as you do if you make the box without reference to the position of the mechanism to be set up within it. These various mechanisms are so simple that a verbal description will suffice in most cases. The facts which the reader should note are the nature of the movement which the cat had to make, the nature of the object at which the movement was directed, and the position of the object in the box. In some special cases atten- tion will also be called to the force required. In general, however, that was very slight (20 to 100 grams if applied directly). The various boxes will be designated by capital letters."
+    },
+    {
+     "n": 3,
+     "k": 17,
+     "txt": "A. A string attached to the bolt which held the door ran up over a pulley on the front edge of the box, and was tied to a wire loop (2 inches in diameter) hanging 6 inches above the floor in front center of box. Clawing or biting it, or rubbing against it even, if in a certain way, opened the door. We may call this box A 'O at front.*"
+    },
+    {
+     "n": 4,
+     "k": 18,
+     "txt": "In these various boxes were put cats from among the following. I give approximately their ages while under experiment.",
+     "label": "Experiments with Cats"
+    },
+    {
+     "n": 5,
+     "k": 19,
+     "txt": "No. 1. 8–10 months. No. 7. 3-5 months. No. 2. 5-7 months. No. 8. 6-63 months. No. 3. 5–11 months. No. 10. 4-8 months. No. 4. 5-8 months. No. 11. 7-8 months. No. 5. 5-7 months. No. 12. 4-6 months. No. 6. 3-5 months. No. 13. 18-19 months."
+    },
+    {
+     "n": 6,
+     "k": 20,
+     "txt": "The behavior of all but 11 and 13 was practically the same. When put into the box the cat would show evident signs of discomfort and of an impulse to escape from confinement. It tries to squeeze through any opening ; it claws and bites at the bars or wire; it thrusts its paws out through any opening and claws at everything it reaches ; it continues its efforts when it strikes anything loose and shaky; it may claw at things within the box. It does not pay very much attention to the food outside, but seems simply to strive instinctively to escape from confinement. The vigor with which it struggles is extraordinary. For eight or ten minutes it will claw and bite and squeeze incessantly. With 13, an old cat, and 11, an uncommonly sluggish cat, the behavior was different. They did not struggle vigorously or continually. On some occasions they did not even struggle at all. It was therefore necessary to let them out of some box a few times, feeding them each time. After they thus associate climbing out of the box with getting food, they will try to get out whenever put in. They do not, even then, struggle so vigorously or get so excited as the rest. In either case, whether the impulse to struggle be due to an instinctive reaction to confinement or to an association, it is likely to succeed in letting the cat out of the box. The cat that is clawing all over the box in her impulsive struggle will probably claw the string or loop or button so as to open the door. And gradually all the other nonsuccessful impulses will be stamped out and the particular impulse leading to the successful act will be stamped in by the resulting pleasure, until, after many trials, the cat will, when put in the box, immediately claw the button or loop in a definite way."
+    },
+    {
+     "n": 7,
+     "k": 21,
+     "txt": "The starting point for the formation of any association in these cases, then, is the set of instinctive activities which are aroused when a cat feels discomfort in the box either because of confinement or a desire for food. This discomfort, plus the sense-impression of a surroimding, confining wall, expresses itself, prior to any experience, in squeezings, clawings, bitings, etc. From among these movements one is selected by success. But this is the starting point only in the case of the first box experienced. After that the cat has associated with the feeling of confinement certain impulses which have led to success more than others and are thereby strengthened. A cat that has learned to escape from A by clawing has, when put into C or G, a greater tendency to claw at things than it instinctively had at the start, and a less tendency to squeeze through holes. A very pleasant form of this decrease in instinctive impulses was noticed in the gradual cessation of howling and mewing. However, the useless instinctive impulses die out slowly, and often play an important part even after the cat has had experience with six or eight boxes. And what is important in our previous statement, namely, that the activity of an animal when first put into a new box is not directed by any appreciation of that box's character, but by certain general impulses to act, is not affected by this modification. Most of this activity is determined by heredity; some of it, by previous experience."
+    },
+    {
+     "n": 8,
+     "k": 22,
+     "txt": "My use of the words instinctive and impulse may cause some misunderstanding unless explained here. Let us, throughout this book, understand by instinct any reaction which an animal makes to a situation without experience. It thus includes unconscious as well as conscious acts. Any reaction, then, to totally new phenomena, when first experienced, will be called instinctive. Any impulse then felt will be called an instinctive impulse. Instincts include whatever the nervous system of an animal, as far as inherited, is capable of. My use of the word will, I hope, everywhere make clear what fact I mean. If the reader gets the fact meant in mind it does not in the least matter whether he would himself call such a fact instinct or not. Any one who objects to the word may substitute 'hocus-pocus' for it wherever it occurs. The definition here made will not be used to prove or disprove any theory, but simply as a signal for the reader to imagine a certain sort of fact."
+    },
+    {
+     "n": 9,
+     "k": 23,
+     "txt": "The word impulse is used against the writer's will, but there is no better. Its meaning will probably become clear as the reader finds it in actual use, but to avoid misconception at any time I will state now that impulse means the consciousness accompanying a muscular innervation apart from that feeling of the act which comes from seeing oneself move, from feeling one's body in a different position, etc. It is the direct feeling of the doing as distinguished from the idea of the act done gained through eye, etc. For this reason I say 'impulse and act' instead of simply 'act.' Above all, it must be borne in mind that by impulse I never mean the motive to the act. In popular speech you may say that hunger is the impulse which makes the cat claw. That will never be the use here. The word motive will always denote that sort of consciousness. Any one who thinks that the act ought not to be thus subdivided into impulse and deed may feel free to use the word act for impulse or impulse and act throughout, if he will remember that the act in this aspect of being felt as to be done or as doing is in animals the important thing, is the thing which gets associated, while the act as done, as viewed from outside, is a secondary affair. I prefer to have a separate word, impulse for the former, and keep the word act for the latter, which it commonly means."
+    },
+    {
+     "n": 10,
+     "k": 24,
+     "txt": "Starting, then, with its store of instinctive impulses, the cat hits upon the successful movement, and gradually associates it with the sense-impression of the interior of the box until the connection is perfect, so that it performs the act as soon as confronted with the sense-impression. The formation of each association may be represented graphically by a time-curve. In these curves lengths of one millimeter along the abscissa represent successive experiences in the box, and heights of one millimeter above it each represent ten seconds of time. The curve is formed by joining the tops of perpendiculars erected along the abscissa I mm. apart (the first perpendicular coinciding with the y line), each perpendicular representing the time the cat was in the box before escaping. Thus, in Fig. 2 on page 39 the curve marked 12 in A shows that, in 24 experiences or trials in box A, cat 12 took the following times to perform the act, 160 sec, 30 sec., 90 sec, 60, 15, 28, 20, 30, 22, 11, 15, 20, 12, 10, 14, 10, 8, 8, 5, 10, 8, 6, 6, 7. A short vertical line below the abscissa denotes that an interval of approximately 24 hours elapsed before the next trial. Where the interval was longer it is designated by a figure 2 for two days, 3 for three days, etc. If the interval was shorter, the number of hours is specified by 1 hr., 2 hrs., etc. In many cases the animal failed in some trial to perform the act in ten or fifteen minutes and was then taken out by me. Such failures are denoted by a break in the curve either at its start or along its course. In some cases there are short curves after the main ones. These, as shown by the figures beneath, represent the animal's mastery of the association after a very long interval of time, and may be called memorycurves. A discussion of them will come in the last part of the chapter."
+    },
+    {
+     "n": 11,
+     "k": 25,
+     "txt": "The time-curve is obviously a fair representation of the progress of the formation of the association, for the two essential factors in the latter are the disappearance of all activity save the particular sort which brings success with it, and perfection of that particular sort of act so that it is done precisely and at will. Of these the second is, on deeper analysis, found to be a part of the first ; any clawing at a loop except the particular claw which depresses it is theoretically a useless activity. If we stick to the looser phraseology, however, no harm will be done. The combination of these two factors is inversely proportional to the time taken, provided the animal surely wants to get out at once. This was rendered almost certain by the degree of hunger. Theoretically a perfect association is formed when both factors are perfect, — when the animal, for example, does nothing but claw at the loop, and claws at it in the most useful way for the purpose. In some cases (e.g. 2 in K on page 53) neither factor ever gets perfected in a great many trials. In some cases the first factor does but the second does not, and the cat goes at the thing not always in the desirable way. In all cases there is a fraction of the time which represents getting oneself together after being dropped in the box, and realizing where one is. But for our purpose all these matters coimt little, and we may take the general slope of the curve as representing very fairly the progress of the association. The slope of any particular part of it may be due to accident. Thus, very often the second experience may have a higher time-point than the first, because the first few successes may all be entirely due to accidentally hitting the loop, or whatever it is, and whether the accident will happen sooner in one trial than another is then a matter of chance. Considering the general slope, it is, of course, apparent that a gradual descent — say, from initial times of 300 sec. to a constant time of 6 or 8 sec. in the course of 20 to 30 trials — represents a difficult association; while an abrupt descent, say in 5 trials, from a similar initial height, represents a very easy association. Thus, 2 in Z, on page 57, is a hard, and i in I, on page 49, an easy association."
+    },
+    {
+     "n": 12,
+     "k": 26,
+     "txt": "In boxes A, C, D, E, I, 100 per cent of the cats given a chance to do so, hit upon the movement and formed the association. The following table shows the results where some cats failed: —",
+     "note": "The table that follows in the print is not reproduced."
+    }
+   ]
+  },
+  {
+   "id": "laws",
+   "titel": "Ch. VI — The laws of behavior stated",
+   "units": [
+    {
+     "n": 1,
+     "k": 1,
+     "txt": "Behavior is predictable. The first law of behavior, one fraction of the general law of the uniformity of nature, is that with life and mind, as with mass and motion, the same cause will produce the same effect, — that the same situation will, in the same animal, produce the same response, — and that if the same situation produces on two occasions two different responses, the animal must have changed.",
+     "label": "Laws of Behavior in General"
+    },
+    {
+     "n": 2,
+     "k": 2,
+     "txt": "Scientific students of behavior will, with few exceptions, accept this law in theory, but in practice we have not fully used it. We have too often been content to say that a man may respond in any one of several ways to the same situation, or may attend to one rather than another feature of the same object, without insisting that the man must in each case be different, and without searching for the differences in him which cause the different reactions."
+    },
+    {
+     "n": 3,
+     "k": 3,
+     "txt": "The changes in an organism which make it respond differently on different occasions to the same situation range from temporary to permanent changes. Hunger, fatigue, sleep, and certain diseases on the one hand, and learning, immunity, growth and senility on the other, illustrate this range."
+    },
+    {
+     "n": 4,
+     "k": 4,
+     "txt": "Behavior is predictable without recourse to magical agencies. It is, of course, the case that any given difference between the responses of an animal to the same situation depends upon some particular difference in the animal. Each immunity, for example, has its detailed representation in an altered condition of the blood or other bodily tissue. In general the changes in an animal which cause changes in its behavior to the same situation are fully enumerated in a list of the bodily changes concerned. That is, whatever changes may be supposed to have taken place in the animal's vital force, spiritual essence, or other magical bases for life and thought, are useless for scientific explanation and amtrol of behavior."
+    },
+    {
+     "n": 5,
+     "k": 5,
+     "txt": "No competent thinker probably doubts this in the case of such changes as are referred to by hunger, sleep, fatigue, socalled ' functional ' diseases and immunity, and those who do doubt it in the case of mental growth and learning seem to represent an incomplete evolution from supernatural or rather infrascientific, thinking. There may be in behavior a surplus beyond what would be predictable if the entire history of every atom in the body was known — a surplus necessarily attributable to changes in the animal's incorporeal structure. But scientific thinkers properly refuse to deliberately coimt upon such a surplus."
+    },
+    {
+     "n": 6,
+     "k": 6,
+     "txt": "Every response or change in response of an animal is then the result of the interaction of its original knowable nature and the environment. This may seem too self-evident a corollary for mention. It should be so, but, unfortunately, it is not Two popular psychological doctrines exist in defiance of it. One is the doctrine that the movements of early infancy are random, the oripnal nature of the animal being entirely indifferent as to what movement shall be made u{x>n a given stimulus. But no animal can have an original nature that does not absolutely prescribe just what the resf)onse shall be to every stimulus. If the movements are really random, they occur by virtue of some force that works at random."
+    },
+    {
+     "n": 7,
+     "k": 7,
+     "txt": "If the movements are really the result of the action of the environment on the animal's nature, they are never random. A baby twiddles his thimibs or waves his legs for exactly the same sort of reason that a chick pecks at a worm or preens its wing."
+    },
+    {
+     "n": 8,
+     "k": 8,
+     "txt": "The other doctrine which witnesses to neglect of the axiom that behavior is the creation of the environment, acting on the animal's nature, is the doctrine that the need for a certain behavior helps to create it, that being in a difficulty tends in and of itself to make an animal respond so as to end the difficulty."
+    },
+    {
+     "n": 9,
+     "k": 9,
+     "txt": "The truth is that to a difficulty the animal responds by whatever its inherited and acquired nature has connected with the special form of difficulty and that in many animals the one response of those thus provided which relieves the difficulty is selected and connected more firmly with that difficulty's next appearance. The difficulty acts only as a stimulus to the animal's nature and its relief acts only as a premium to the connection whereby it was relieved. The law of original behavior, or the law of instinct, is then that to any situation an animal will, apart from learning, respond by virtue of the inherited nature of its reception-, connectionand action-systems."
+    },
+    {
+     "n": 10,
+     "k": 10,
+     "txt": "The inquiry into the laws of learning to be made in this essay is limited to those aspects of behavior which the term has come historically to signify, that is, to intellect, skill, morals and the like."
+    },
+    {
+     "n": 11,
+     "k": 11,
+     "txt": "For the purposes of this essay it is not necessary to decide just what features of an animal's behavior to include under intellect, skill, morals and the like. The statements to be made will fit any reasonable dividing line between behavior on the one side and mere circulation, digestion, excretion and the like on the other. There should in fact be no clear dividing line, since there is no dear gap between those activities which naturalists have come to call behavior and the others."
+    },
+    {
+     "n": 12,
+     "k": 12,
+     "txt": "The discussion will include : First, a description of two laws of learning ; second, an argument to prove that no additional forces are needed — that these two laws explain all learning ; and third, an investigation of whether these two laws are reducible to more fundamental laws. I shall also note briefly the consequences of the acceptance of these laws in one sample case, that of the study of mental evolution."
+    },
+    {
+     "n": 13,
+     "k": 13,
+     "txt": "The Law of Effect is that : Of several responses made to the same situation those which are accompanied or closely followed by satisfaction to the animal will, other things being equal, be more firmly connected with the situation, so that when it recurs, they will be more likely to recur; those which are accompanied or closely followed by discomfort to the animal will, other things being equal, have their connections with that situation weakened, so that, when it recurs, they will be less likely to occur. The greater the satisfaction or discomfort the greater the strengthening or weakening of the bond.",
+     "label": "Provisional Laws of Acquired Behavior or Learning"
+    },
+    {
+     "n": 14,
+     "k": 14,
+     "txt": "The Law of Exercise is that : Any response to a situation will, other things being equal, be more strongly connected with the situation in proportion to the number of times it has been connected with that situation and to the average vigor and duration of the connections."
+    },
+    {
+     "n": 15,
+     "k": 15,
+     "txt": "These two laws stand out clearly in every series of experiments on animal learning and in the entire history of the management of human affairs. They give an account of learning that is satisfactory over a wide range of experience, so long as all that is demanded is a rough and general means of prophecy. We can, as a rule, get an animal to learn a given accomplishment by getting him to accomplish it, rewarding him when he does, and punishing him when he does not ; or, if reward or pimishment are kept indifferent, by getting him to accomplish it much oftener than he does any other response to the situation in question."
+    },
+    {
+     "n": 16,
+     "k": 16,
+     "txt": "For more detailed and perfect prophecy, the phrases * result in satisfaction ' and ' result in discomfort ' need further definition, and the other things that are to be equal need comment."
+    },
+    {
+     "n": 17,
+     "k": 17,
+     "txt": "By a satisfying state of affairs is meant one which the animal does nothing to avoid, often doing such things as attain and preserve it. By a discomforting or annoying state of affairs is meant one which the animal commonly avoids and abandons."
+    },
+    {
+     "n": 18,
+     "k": 18,
+     "txt": "The satisfiers for any animal in any given condition cannot be determined with precision and surety save by observation. Food when hungry, society when lonesome, sleep when fatigued, relief from pain, are samples of the common occurrence that what favors the life of the species satisfies its individual members. But this does not furnish a completely valid rule."
+    },
+    {
+     "n": 19,
+     "k": 19,
+     "txt": "The satisfying and annoying are not synonymous with favorable and unfavorable to the life of either the individual or the species. Many animals are satisfied by deleterious conditions. Excitement, overeating, and alcoholic intoxication are, for instance, three very common and very potent satisfiers of man. Conditions useful to the life of the species in moderation are often satisfying far beyond their useful point : many conditions of great utility to the life of the species do not satisfy and may even annoy its members."
+    },
+    {
+     "n": 20,
+     "k": 20,
+     "txt": "The annoyers for any animal follow the rough rule that alterations of the animal's ' natural ' or ' normal ' structure — as by cuts, bruises, blows, and the like, — and deprivations of or interference with its ' natural ' or * normal ' activities, — as by capture, starvation, solitude, or indigestion, — are intolerable. But interference with the structure and functions by which the species is perpetuated is not a sufficient criterion for discomfort. Nature's adaptations are too crude."
+    },
+    {
+     "n": 21,
+     "k": 21,
+     "txt": "Upon examination it appears that the pernicious states of affairs which an animal welcomes are not pernicious ai ike timey to the neurones. We learn many bad habits, such as morphinism, because there is incomplete adaptation of all the interests of the body-state to the temporary interest of its ruling class, the neurones. So also the unsatisfying goods are not goods to the neurones at the time. We neglect many benefits because the neurones choose their inunediate advantage. The neurones must be tricked into permitting the animal to take exercise when freezing or quinine when in a fever, or to free the stomach from certain poisons."
+    },
+    {
+     "n": 22,
+     "k": 22,
+     "txt": "Satisfaction and discomfort, welcoming and avoiding, thus seem to be related to the maintenance and hindrance of the life processes of the neurones rather than of the animal as a whole, and to temporary rather than permanent mainte* nance and hindrance."
+    },
+    {
+     "n": 23,
+     "k": 23,
+     "txt": "The chief life processes of a neurone concerned in learning are absorption of food, excretion of waste, reception and conduction of the nerve impulse, and modifiability or change of connections. Of these onlv the latter demands comment."
+    },
+    {
+     "n": 24,
+     "k": 24,
+     "txt": "The connections formed between situation and response are represented by connections between neurones and neurones, whereby the disturbance or neural current arising in the former is conducted to the latter across their s>iiapses. The strength or weakness of a connection means the greater or less likelihood that the same current will be conducted from the former to the latter rather than to some other place. The strength or weakness of the connection is a condition of the synapse. What condition of the synapse it is remains a matter for hypothesis. Close connection might mean protoplasmic union, or proximity of the neurones in space, or a greater permeability of a membrane, or a lowered electrical resistance, or a favorable chemical condition of some other sort. Let us call this undefined condition which parallels the strength of a connection between situation and response the intimacy of the synapse. Then the modifiability or connection changing of a neurone equals its power to alter the intimacy of its synapses."
+    },
+    {
+     "n": 25,
+     "k": 25,
+     "txt": "As a provisional hypothesis to account for what satisfies and what annoys an animal, I suggest the following : —"
+    },
+    {
+     "n": 26,
+     "k": 26,
+     "txt": "A neurone modifies the intimacy of its synapses so as to keep intimate those by whose intimacy its other life processes are favored and to weaken the intimacy of those whereby its other life processes are hindered. The animal's action-system as a whole consequently does nothing to avoid that response whereby the life processes of the neurones other than connection-changing are maintained, but does cease those responses whereby such life processes of the neurones are hindered."
+    },
+    {
+     "n": 27,
+     "k": 27,
+     "txt": "This hypothesis has two important consequences. First : Learning by the law of effect is then more fully adaptive for the neurones in the changing intimacy of whose synapses learning consists, than for the animal as a whole. It is adaptive for the animal as a whole only in so far as his organization makes the neurones concerned in the learning welcome states of affairs that are favorable to his life and that of his species and reject those that are harmful."
+    },
+    {
+     "n": 28,
+     "k": 28,
+     "txt": "Second : A mechanism in the neurones gives results in the behavior of the animal as a whole that seem beyond mechanism. By their immodifiable abandonment of certain specific conditions and retention of others, the animal as a whole can modify its behavior. Their one rule of conduct causes in him a countless complexity of habits. The learning of an animal is an instinct of its neurones."
+    },
+    {
+     "n": 29,
+     "k": 29,
+     "txt": "I have limited the discussion to animals in whom the connection-system is a differentiated organ, the neurones. In so far as the law of effect operates in an animal whose connection-system is not anatomically distinguishable and is favored and hindered in its life by the same conditions that favor and hinder the life of the animal as a whole, the satisf3dng and annoying will be those states of affairs which the connection-system, whatever it be, maintains and abandons."
+    },
+    {
+     "n": 30,
+     "k": 30,
+     "txt": "The other things that have to be equal in the case of the law of effect are : First, the frequency, energy and duration of the connection, — that is, the action of the law of exercise ; second, the closeness with which the satisfaction is associated with the response; and, third, the readiness of the response to be connected with the situation."
+    },
+    {
+     "n": 31,
+     "k": 31,
+     "txt": "The first of these accessory conditions requires no comment. A slightly satisf3dng or indifferent response made often may win a closer connection than a more satisfying response made only rarely."
+    },
+    {
+     "n": 32,
+     "k": 32,
+     "txt": "The second is most clearly seen in the effect of increasing the interval between the response and the satisfaction or discomfort. Such an increase diminishes the rate of learning. If, for example, four boxes were arranged so that turning a button caused a door to open (and permit a cat to get freedom and food) in one, five, fifty and five hundred seconds, respectively, a cat would form the habit of prompt escape from the first box most rapidly and would almost certainly never form that habit in the case of the fourth."
+    },
+    {
+     "n": 33,
+     "k": 33,
+     "txt": "The electric shock administered just as an animal starts on the wrong path or touches the wrong mechanism, is potent, but the same pimishment administered ten or twenty seconds after an act will have little or no effect upon that act."
+    },
+    {
+     "n": 34,
+     "k": 34,
+     "txt": "Close temporal sequence is not the only means of insuring the connection of the satisfaction with the response producing it. What is called attention to the response counts also. If a cat pushes a button around with its nose, while its main occupation, the act to which its general 'set' impels it, to which, we say, it is chiefly attentive, is that of clawing at an opening, it will be less aided in the formation of the habit than if it had been chiefly concerned in what its nose was doing. The successful response is as a rule only a part of all that the animal is doing at the time. In proportion as it is an eminent, emphatic part of it, learning is aided. Similarly discomfort eliminates most the eminent, emphatic features of the total response which it accompanies or shortly follows."
+    },
+    {
+     "n": 35,
+     "k": 35,
+     "txt": "The third factor, the susceptibility of the response and situation to connection, is harder to illustrate. But, apparently, of those responses which are equally strongly connected with a situation by nature and equally attended to, some are more susceptible than others to a more intimate connection."
+    },
+    {
+     "n": 36,
+     "k": 36,
+     "txt": "The things which have to be equal in the case of the law of exercise are the force of satisf)dngness; that is, the action of the law of effect, and again the readiness of the response to be connected with the situation."
+    },
+    {
+     "n": 37,
+     "k": 37,
+     "txt": "The operation of the laws of instinct, exercise and effect is conditioned further by (i) what may be called the law of assimilation or analogy, — that a situation, especially one to which no particular response is connected by original nature or previous experience, may connect with whatever response is bound to some situation muck like it, — and (2) by the law of partial activity — that more or less of the total situation may be specially active in determining the response."
+    },
+    {
+     "n": 38,
+     "k": 38,
+     "txt": "The first of these laws is a result of the facts that conduction in the neurones follows the line of least resbtance or closest connection, that the action-system is so organized that certain responses tend to be made in their totality if at all, and that slightly different situations may, therefore, produce some one response, the effects of their differences being in the accessories of that response."
+    },
+    {
+     "n": 39,
+     "k": 39,
+     "txt": "The second law is a result of the facts that the situation, itself a compound, produces a compound action in the neurones, and that by reason of inner conditions, the relative intensities of different parts of the compound may vary. The commonest response will be that due to the modal condition of the neural compound, but every condition of the compound will have its response."
+    }
+   ]
+  }
+ ]
+}

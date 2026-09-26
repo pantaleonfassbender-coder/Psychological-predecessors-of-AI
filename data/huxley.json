@@ -1,0 +1,544 @@
+{
+ "id": "huxley",
+ "autor": "Thomas Henry Huxley",
+ "titel": "On the Hypothesis that Animals are Automata, and its History (1874)",
+ "jahr": 1874,
+ "zitierweise": "Aut. [n]",
+ "quelle": "The address of 1874 complete, from Collected Essays, vol. I: Method and Results (London: Macmillan), printed pp. 199–250; Internet Archive scan methodandresult01huxlgoog, OCR emended by hand against the sense. The address's footnotes are not carried, except that the reference for the long Bonnet quotation is kept as a note; the print's quotation marks are normalised; the paragraph numbers are this site's own. Public domain.",
+ "hinweis": "The automaton theory at full strength: Descartes's beast-machine retold and defended, the frog experiments as evidence, and the conclusion that we ourselves are conscious automata — consciousness a collateral product of the body's working. The debate about machine minds begins here, as a debate about our own.",
+ "sections": [
+  {
+   "id": "text",
+   "titel": "The address, complete",
+   "units": [
+    {
+     "n": 1,
+     "k": 1,
+     "txt": "The first half of the seventeenth century is one of the great epochs of biological science. For though suggestions and indications of the conceptions which took definite shape, at that time, are to be met with in works of earlier date, they are little more than the shadows which coming truth casts forward ; men's knowledge was neither extensive enough, nor exact enough, to show them the solid body of fact which threw these shadows."
+    },
+    {
+     "n": 2,
+     "k": 2,
+     "txt": "But, in the seventeenth century, the idea that the physical processes of life are capable of being explained in the same way as other physical phenomena, and, therefore, that the living body is a mechanism, was proved to be true for certain classes of vital actions ; and, having thus taken firm root in irrefragable fact, this conception has not only successfully repelled every assault which has been made upon it, but has steadily grown in force and extent of application, until it is now the expressed or implied fundamental proposition of the whole doctrine of scientific Physiology."
+    },
+    {
+     "n": 3,
+     "k": 3,
+     "txt": "If we ask to whom mankind are indebted for this great service, the general voice will name William Harvey. For, by his discovery of the circulation of the blood in the higher animals, by his explanation of the nature of the mechanism by which that circulation is effected, and by his no less remarkable, though less known, investigations of the process of development, Harvey solidly laid the foundations of all those physical explanations of the functions of sustentation and reproduction which modern physiologists have achieved."
+    },
+    {
+     "n": 4,
+     "k": 4,
+     "txt": "But the living body is not only sustained and reproduced : it adjusts itself to external and internal changes ; it moves and feels. The attempt to reduce the endless complexities of animal motion and feeling to law and order is, at least, as important a part of the task of the physiologist as the elucidation of what are sometimes called the vegetative processes. Harvey did not make this attempt himself; but the influence of his work upon the man who did make it is patent and unquestionable. This man was Ren6 Descartes, who, though by many years Harvey'a junior, died before him ; and yet in his ehort span of fifty-four years, took an undisputed place, not only among the chiefs of philosophy, hut amongst the greatest and most original of mathematicians ; while, in my belief, he is no less certainly entitled to the rank of a great and original physiologist ; inasmuch as he did for the physiology of motion and sensation that which Harvey had done for the circulation of the blood, and opened up that road to the mechanical theory of these processes, which has been followed by all his successors, Descartes was no mere speculator, as some would have ua believe : but a man who knew of his own knowledge what was to be known of the facta of anatomy and physiology in his day. He was an unwearied dissector and observer ; and it is said, that, on a visitor once asking to see his library, Descartes led him into a room set aside for dissections, and full of specimens under examination. \" There,\" said he, \" is my library.\""
+    },
+    {
+     "n": 5,
+     "k": 5,
+     "txt": "I anticipate a smile of incredulity when I thus champion Descaxtea' claim to be considered a physiologist of the first rank, I expect to be told that I have read into his works what I find there, and to be asked, Why is it that we are left to discover Descartes' deserts at this time of day, more than two centuries after his death ? How is it that Descartes is utterly ignored in some of the latest works which treat expressly of the subject in which he is said to have been so great?"
+    },
+    {
+     "n": 6,
+     "k": 6,
+     "txt": "It is much easier to ask such questions than to answer them, especially if one desires to be on good terms with one's contemporaries ; but, if I must give an answer, it is this : The gi-owth of physical science is now so prodigiously rapid, that those who are actively engaged in keeping up with the present, have much ado to find time to look at the past, and even grow into the habit of neglecting it. But, natural as this result may be, it is none the less detrimental The intellect loses, for there is assuredly no more effectual method of clearing up one's own mind on any subject than by talking it over, so to speak, with men of real power and grasp, who have considered it from a totally different point of view. The parallax of time helps us to the true position of a conception, as the parallax of space helps us to that of a star. And the moral nature loses no less. It is well to turn aside from the fretful stir of the present and to dwell with gratitude and respect upon the services of those \" mighty men of old who have gone down to the grave with their weapons of war,\" but who, while they yet lived, won splendid victories over ignorance. It is well, again, to reflect that the fame of Descartes filled all Europe, and his authority overshadowed it, for a century ; while now, most of those who know his name think of him, either as a person who had some preposterous notions about vorticea and was deservedly annihilated by the great Sir Isaac Newton ; or as the apostle of an essentially vicious method of deductive speculation ; and that, nevertheless, neither the chatter of shifting opinion, nor the silence of personal oblivion, has in the slightest degree affected the growth of the great ideas of which he was the instrument and the mouthpiece."
+    },
+    {
+     "n": 7,
+     "k": 7,
+     "txt": "It is a matter of fact that the greatest physiologist of the eighteenth centuiy, Haller, in treating of the functions of nerve, does little more than reproduce and enlarge upon the ideas of Descartes, It is a matter of fact that David Hartley, in his remarkable work the \" Essay oa Man,\" expreasly, though still insufficiently, acknowledges the resemblance of his fundamental conceptions to those of Descartes ; and I shall now endeavour to show that a series of propositions, which constitute the foundation and essence of the modern physiology of the nervous system, are fully expressed and illustrated in the works of Descartes."
+    },
+    {
+     "n": 8,
+     "k": 8,
+     "txt": "I, The hrain is the organ of scnsaiion, Ihougkl, and emotion; that is ta my,somA duvngcin the condition of the maiter cf this organ is the invariahle antecedent of the state of consdouentss to whivh each of these terms is applied."
+    },
+    {
+     "n": 9,
+     "k": 9,
+     "txt": "In the \"Principes de la Philosophie \" (§ 169), Descartes says : —"
+    },
+    {
+     "n": 10,
+     "k": 10,
+     "txt": "\" Althougli the soul is nnitcd to the whole body, its principal fonctions are, neverthelesSi performed in the brain ; it is here that it not only understands and imagines, but also feels ; and this is effected by the intermediation of the nerves, which extend in the form of delicate threads from the brain to all parts of the body, to which they are attached in snch a manner, that we can hardly touch any part of the body without setting the extremity of some nerve in motion. This motion passes along the nerve to that part of the brain which is the common sensorium, as I have sufficiently explained in my ' Treatise on Dioptrics ; ' and the movements which thus travel along the nerves, as far as that part of the brain with which the soul is closely joined and united, cause it, by reason of their diverse characters, to have different thoughts. And it is these different thoughts of the soul, which arise immediately from the movements that are excited by the nerves in the brain, which we properly term our feelings, or the perceptions of our senses.\""
+    },
+    {
+     "n": 11,
+     "k": 11,
+     "txt": "Elsewhere,* Descartes, in arguing that the seat of the passions is not (as many suppose) the heart, but the brain, uses the following remarkable language : —"
+    },
+    {
+     "n": 12,
+     "k": 12,
+     "txt": "\" The opinion of those who think that the soul receives its passions in the heart, is of no weight, for it is based upon the fact that the passions cause a change to be felt in that organ ; and it is easy to see that this change is felt, as if it were in the"
+    },
+    {
+     "n": 13,
+     "k": 13,
+     "txt": "\"Les Passions de VAme, Article zxxiii. heart, only by the intennediation of a little nerve which descends from the brain to it ; jnst as pain is felt, as if it were in the foot, by the intermediation of the nerves of the foot ; and the stars are perceived, as if they were in the heavens, by the intermediation of their light and of the optic nerves. So that it is no more necessary for the soul to exert its fimctions immediately in the heart, to feel its passions there, than it is necessaiy that it should be in the heavens to see the stars there.\""
+    },
+    {
+     "n": 14,
+     "k": 14,
+     "txt": "This definite allocation of all the phenomena of consciousness to the brain as their organ, was a step the value of which it is difficult for us to appraise, so completely has Descartes' view incorporated itself with every-day thought and common language. A lunatic is said to be \" crack-brained \" or \" touched in the head,\" a confused thinker is \" muddle-headed,\" while a clever man is said to have \"plenty of brains\"; but it must be remembered that at the end of the last century a considerable, though much over-estimated, anatomist, Bichat, so far from having reached the level of Descartes, could gravely argue that the apparatuses of organic life are the sole seat of the passions, which in no way aflfect the brain, except so far as it is the agent by which the influence of the passions is transmitted to the muscles."
+    },
+    {
+     "n": 15,
+     "k": 15,
+     "txt": "Modem physiology, aided by pathology, easily demonstrates that the brain is the seat Qf all forms of consciousness, and fully bears out Descartes' explanation of the reference of those sensations in the viscera which accompany intense emotion, to these organs. It proves, directly, that those states of consciousness which we call sensations are the immediate consequent of a change in the brain excited by the sensory nerves ; and, on the well-known effects of injuries, of stimulants, and of narcotics, it bases the conclusion that thought and emotion are, in hke manner, the consequents of physical antecedents."
+    },
+    {
+     "n": 16,
+     "k": 16,
+     "txt": "II. The movements of animals are due to the change of form of muscles, which shorten and become thicker; and this change of form in a muscle arises from a motion of the substance contained within the nerves which go to the muscle."
+    },
+    {
+     "n": 17,
+     "k": 17,
+     "txt": "In the \" Passions de l'Ame,\" Art. vii., Descartes writes : —"
+    },
+    {
+     "n": 18,
+     "k": 18,
+     "txt": "\" Moreover, we know that all the moyements of the limbs depend on the muscles, and that these muscles are opposed to one another in such a manner, that when one of them shortens, it draws along the part of the body to which it is attached, and 80 gives rise to a simultaneous elongation of the muscle which is opposed to it. Then, if it happens, afterwards, that the latter shortens, it causes the former to elongate, and draws towards itself the part to which it is attached. Lastly, we know that all these movements of the muscles, as all the senses, depend on the nerves, which are like little threads or tubes, which all come from the brain, and, like it, contain a certain very subtle air or wind, termed the animal spirits.\""
+    },
+    {
+     "n": 19,
+     "k": 19,
+     "txt": "The property of muscle mentioned by Descartes now goes by the general name of contractility, but his definition of it remains untouched. Tho ]ong-;ontioued controversy whether contractile substance, speaking generally, has an inherent power of contraction, or whether it contracts only in virtue of an influence exerted by nerve, ia now settled in Haller'a favour ; but Descartes* statement of the dependence of muscular contraction on nerve holds good for the higher forms of miiscle, under normal circumstances ; so that, although the structure of the various modifications of contiactile matter has been worked out with astonishing minuteness — although the delicate physical and cheniical changes which accompany muscular contraction have been determined to an extent of which Descartes could not have dreamed, and have quite upset his hypothesis that the cause of the shortening and thickening of the muscle is the flow of animal spirits into it from the nerves —"
+    },
+    {
+     "n": 20,
+     "k": 20,
+     "txt": "[ the important and fundamental part of his state- l meut remains perfectly true."
+    },
+    {
+     "n": 21,
+     "k": 21,
+     "txt": "The like may be affirmed of what he says about nerve. We know now that nerves are not exactly tubes, and that \" animal spirits \" are myths ; but the exquisitely refined methods of investigation of Dubois -Reymond and of Helmholz have no leas clearly proved that the antecedent of ordinary muscular contraction ia a motion of the molecules I of the nerve going to the muscle ; and that this i motion ia propagated with a measurable, and by no means great, velocity, through the substance of the nerve towards the muscle."
+    },
+    {
+     "n": 22,
+     "k": 22,
+     "txt": "With the progress of research, the term \"animal spirits \" gave way to \" nervous fluid,\" and \" nervous fluid \" has now given way to \" molecular motion of nerve-substance.\" Our conceptions of what takes place in nerve have altered in the same way as our conceptions of what takes place in a conducting wire have altered, since electricity was shown to be not a fluid, but a mode of molecular motion. The change is of vast importance, but it does not aflect Descartes* fundamental idea, that a change in the substance of a motor nerve propagated towards a muscle is the ordinary cause of muscular contraction."
+    },
+    {
+     "n": 23,
+     "k": 23,
+     "txt": "III. The sensatioTis of animals are due to a motion of the substance of the nerves which conn the sensory organs with the train."
+    },
+    {
+     "n": 24,
+     "k": 24,
+     "txt": "In \"La Dioptrique\" (Discours Quatrime), Descartes explains, more fully than in the passage cited above, his hypothesis of the mode of action of sensory nerves : —"
+    },
+    {
+     "n": 25,
+     "k": 25,
+     "txt": "\"It is the little threads of which the inner substance of the nerves is composed which subserve sensation. You must conceive that these little threads, being inclosed in tubes, which are always distended and kept open by the animal spirits which they contain, neither press upon nor interfere with one another and are extended from the brain to the extremities of all the tndm- ben which are sensitive —in such a maimer, that the slightest touch which excites the part of one of the members to which a thread is attached, gives rise to a motion of the part of the brain whence it arises, just as b j pulling one of the ends of a stretched cord, the other end is instantaneously moved. . . . And we must take care not to imagine that, in order to feel, the soul needs to behold certain images sent by the objects of sense to the brain, as our philosophers commonly suppose ; or, at least, we must conceive these images to be something quite different from what they suppose them to be. For, as all they suppose is that these images ought to resemble the objects which they represent, it is impossible for them to show how they can be formed by the objects received by the organs of the external senses and transmitted to the brain. And they have had no reason for supposing the existence of these images except this ; seeing that the mind is readily excited by a picture to conceive the object which is depicted, they have thought that it must be excited in the same way to conceive those objects which affect our senses by little pictures of them formed in the head ; instead of which we ought to recollect that there are many things besides images which may excite the mind, as, for example, signs and words, which have not the least resemblance to the objects which they signify.\""
+    },
+    {
+     "n": 26,
+     "k": 26,
+     "txt": "Modem physiology amends Descartes' conception of the mode of action of sensory nerves in detail, by showing that their structure is the same as that of motor nerves; and that the changes which take place in them, when the sensory organs with which they are connected are excited, are of just the same nature as those which occur in motor nerves, when the muscles to which they are distributed are made to contract : there is a molecular change which, in the case of the sensory nerve, is propagated towards the brain. But the great fact insisted upon by Descartes, that no likeness of external things is, or can be, transmitted to the mind by the sensory organs ; on the contrary, that, between the external cause of a sensation and the sensation, there is interposed a mode of motion of nervous matter, of which the state of consciousness is no likeness, but a mere symbol, is of the profoundest importance. It is the physiological foundation of the doctrine of the relativity of knowledge, and a more or less complete idealism is a necessary consequence of it."
+    },
+    {
+     "n": 27,
+     "k": 27,
+     "txt": "For of two alternatives one must be true. Either consciousness is the function of a something distinct from the brain, which we call the soul, and a sensation is the mode in which this soul is aflfected by the motion of a part of the brain ; or there is no soul, and a sensation is something generated by the mode of motion of a part of the brain. In the former case, the phenomena of the senses are purely spiritual aflfections ; in the latter, they are something manufactured by the mechanism of the body, and as unlike the causes which set that mechanism in motion, as the sound of a repeater is unlike the pushing of the spring which gives rise to it."
+    },
+    {
+     "n": 28,
+     "k": 28,
+     "txt": "The nervous system stands between consciousness and the assumed external world, as an interpreter who can talk with his fingers stands between a hidden speaker and a man who is stone deaf — and Realism is equivalent to a belief on the part of the deaf man, that the speaker must also be talking with his fingers. \"Les extremes se touchent;\" the shibboleth of materialists that \"thought is a secretion of the brain,\" is the Fichtean doctrine that \"the phenomenal universe is the creation of the Ego,\" expressed in other language."
+    },
+    {
+     "n": 29,
+     "k": 29,
+     "txt": "IV. The motion of the matter of a sensory nerve may he transmitted through the brain to motor nerves, and thereby give rise to conrtraction of the muscles to which these motor nerves are distributed ; and this reflection of motion from a sensory into a motor nerve may take place without volition, or even contrary to it."
+    },
+    {
+     "n": 30,
+     "k": 30,
+     "txt": "In stating these important truths, Descartes defined that which we now term \" reflex action.\" Indeed he almost uses the term itself, as he talks of the \"animal spirits\" as \"rflchis,\" from the sensory into the motor nerves. And that this use of the word \" reflected \" was no mere accident, but that the importance and appropriateness of the idea it suggests was fully understood by Descartes' contemporaries, is apparent from a passage in Willis's well-known essay, \" De Anim Brutorum,\" published in 1672, in which, in giving an account of Descartes' views, he speaks of the animal spirits being diverted into motor channels, \" velut undulatione reflexS,/' *"
+    },
+    {
+     "n": 31,
+     "k": 31,
+     "txt": "Nothing can be clearer in statement, or in illustration, than the view of reflex action which Descartes gives in the \"Passions de l'Ame,\" Art. xiii."
+    },
+    {
+     "n": 32,
+     "k": 32,
+     "txt": "After recapitujatiiig the manner in which sensory impressions transmitted by the sensory nerves to the brain give rise to sensation, he proceeds : —"
+    },
+    {
+     "n": 33,
+     "k": 33,
+     "txt": "\"And in addition to the different feelings excited in the soul by these different motions of the brain, the animal spirits, without the intervention of the soul, may take their course towards certain muscles, rather than towards others, and thus move the limbs, as I shall prove by an example. If some one moves his hand rapidly towards our eyes, as if he were going to strike us, although we know that he is a friend, that he does it only in jest, and that he will be very careful to do us no harm, nevertheless it will be hard to keep from winking. And this shows, that it is not by the agency of the soul that the eyes shut, since this action is contrary to that volition which is the only, or at least the chief, function of the soul ; but it is because the mechanism of our body is so disposed, that the motion of the hand towards our eyes excites another movement in our brain, and this sends the animal spirits into those muscles which cause the eyelids to close.\""
+    },
+    {
+     "n": 34,
+     "k": 34,
+     "txt": "Since Descartes' time, experiment has eminently enlarged our knowledge of the details of reflex action. The discovery of Bell has enabled us to follow the tracks of the sensory and motor impulses, along distinct bundles of nerve fibres; and the spinal cord, apart from the brain, has been proved to be a great centre of reflex action; but the fundamental conception remains as Descartes left it, and it is one of the pillars of nerve physiology at the present day."
+    },
+    {
+     "n": 35,
+     "k": 35,
+     "txt": "V. The motion of any given portion of the matter of the brain excited by the motion of a sensory nerve, leaves behind a readiness to be moved in the same way, in that part. Anything which resuscitates the motion gives rise to the appropriate feeling. This is the physical mechanism of memory."
+    },
+    {
+     "n": 36,
+     "k": 36,
+     "txt": "Descartes imagined that the pineal body (a curious appendage to the upper side of the brain, the function of which, if it have any, is wholly unknown) was the instrument through which the soul received impressions from, and communicated them to, the brain. And he thus endeavours to"
+    },
+    {
+     "n": 37,
+     "k": 37,
+     "txt": "\"See ftbove : p. 189, wAc. explain what happens when one tries to recollect something : —"
+    },
+    {
+     "n": 38,
+     "k": 38,
+     "txt": "\"Thus when the soul wills to remember anything, this volition, causing the [pineal] gland to incline itself in different directions, drives the [animal] spirits towards different regions of the brain, until they reach that part in which are the traces, which the object which it desires to remember has leffc. These traces are produced thus : those pores of the brain through which the [animal] spirits hare previously been driven, by reason of the presence of the object, have thereby acquired a tendency to be opened by the animal spirits which return towards them more easily than other pores, so that the animal spirits, impinging on these pores, enter them more readily than others. By this means they excite a particular movement in the pineal gland, which represents the object to the soul, and causes it to know what it is which it desired to recollect.\""
+    },
+    {
+     "n": 39,
+     "k": 39,
+     "txt": "That memory is dependent upon some condition of the brain is a fact established by many considerations — among the most important of which are the remarkable phenomena of aphasia. And that the condition of the brain on which memory depends, is largely determined by the repeated occurrence of that condition of its molecules, which gives rise to the idea of the thing remembered, is no less certain. Every boy who learns his lesson by repeating it exemplifies the fact. Descartes, as we have seen, supposes that the pores of a given part of the brain are stretohed by the animal spirits, on the occurrence of a sensation, and that the part of the brain thus stretched, being imperfectly elastic, does not return to exactly its previous condition, but remains more distensible than it was before. Hartley supposes that the vibrations, excited by a sensory, or other, impression, do not die away, but are represented by smaller vibrations or \" vibratiunculea,\" the permanency and intensity of which are in relation with the frequency of repetition of the primary vibrations. Haller has substantially the same idea, but contents himself with the general term \" mutationes,\" to express the cerebral change which is the cause of a state of consciousness. These \"mutationes\" persist for a long time after the cause which gives rise to them has ceased to operate, and are arranged in the brain according to the order of coexistence and succession of their causes. And he gives these persistent \"mutationes\" the picturesque name of vestigia rentwi, \" quae non in mente aed in ipso corpore et in medulla quidem cerebri inefFahih modo incredibiliter minutis notia et copia infinita, inscriptse sunt.\"' I do not know that any modern theory of the physical conditions of memory differs essentially from these, which are all children — mutatis mutandis — of the Cartesian doctrine. Physiology is, at present, incompetent to say anything positively about the matter, or to go farther than the expression of the high probabihty, that every molecular change which gives rise to a state of 216 ANIMAL AUTOMATISK y consciousness, leaves a more or less persistent stractural modification, through which the same molecular change may be regenerated by other agencies than the cause which first produced it."
+    },
+    {
+     "n": 40,
+     "k": 40,
+     "txt": "Thus far, the prepositions respectmg the physiology of the nervouss ystem which are stated by Descartes have simply been more clearly defined, more fully illustrated, and, for the most part, demonstrated, by modern physiological research. But there remains a doctrine to which Descartes attached great weight, so that full acceptance of it became a sort of note of a thoroughgoing Cartesian, but which, nevertheless, is so opposed to ordinary prepossessions that it attained more general notoriety, and gave rise to more discussion, than almost any other Cartesian hypothesis. It is the doctrine that brute animals are mere machines or automata, devoid not only of reason, but of any kind of consciousness, which is stated briefly in the \" Discours de la Methode,\" and more fully in the \"Reponses aux Quatrifemes Objections,'* and in the correspondence with Henry More."
+    },
+    {
+     "n": 41,
+     "k": 41,
+     "txt": "The process of reasoning by which Descartes arrived at this startling conclusion is well shown in the following passage of the \" Expenses : \" —"
+    },
+    {
+     "n": 42,
+     "k": 42,
+     "txt": "\" Bat as regards the souls of beasts, although this is not the place for considering them, and though, without a general exposition of physics, I can say no more on this sabjeot than I have already said in the fifth part of my Treatise on Method ; yet, I will further state, here, that it appears to me to be a very remarkable circumstance that no movement can take place, either in the bodies of beasts, or even in our own, if these bodies have not in themselves all the organs and instruments by means of which the very same movements would be accomplished in a machine. So that, even in us, the spirit, or the soul, does not directly move the limbs, but only determines the course of that very subtle liquid which is csdled the animal spirits, which, running continually from the heart by the brain into the muscles, is the cause of all the movements of our limbs, and often may cause many different motions, one as easily as the other."
+    },
+    {
+     "n": 43,
+     "k": 43,
+     "txt": "\"And it does not even always exert this determination ; for among the movements which take place in us, there are many which do not depend on the mind at all, such as the beating of the heart, the digestion of food, the nutrition, the respiration of those who sleep ; and even in those who are awake, walking, singing, and other similar actions, when they are performed without the mind thinking about them. And, when one who falls from a height throws his hands forward to save his head, it is in virtue of no ratipcination that he performs this action ; it does not depend upon his mind, but takes place merely because his senses being affected by the present danger, some change arises in his brain which determines the animal spirits to pass thence into the nerves, in such a manner as is required to produce this motion, in the same way as in a machine, and without the mind being able to hinder it. Now since we observe this in ourselves, why should we be so much astonished if the light reflected from the body of a wolf into the eye of a sheep has the same force to excite in it the motion of flight t"
+    },
+    {
+     "n": 44,
+     "k": 44,
+     "txt": "\"After having observed this, if we wish to learn by reasoning, whether certain movements of beasts are comparable to those which are effected in us by the operation of the mind, or, on the contrary, to those which depend only on the animal spirits and the disposition of the organs, it is necessary to consider the difference between the two, which I have explained in the fifth part of the Discourse on Method (for I do not think that any others are discoyerable), and then it will easily be seen, that all the actions of beasts are similar only to those which we perform without the help of our minds. For which reason we shall be forced to conclude, that we know of the existence in them of no other principle of motion than the disposition of their organs and the continual afSuence of animal spirits produced by the heat of the heart, which attenuates and subtilises the blood ; and, at the same time, we shall acknowledge that we have had no reason for assuming any other principle, except that, not having distinguished these two principles of motion, and seeing that the one, which depends only on the animal spirits and tho organs, exists in beasts as well as in us, we have hastily con- eluded that the other, which depends on mind and on thought was also possessed by them.\""
+    },
+    {
+     "n": 45,
+     "k": 45,
+     "txt": "Descartes' line of argument is perfectly clear. He starts from reflex action in man, from the unquestionable fact that, in ourselves, co-ordinate, purposive, actions may take place, without the intervention of consciousness or volition, or even contrary to the latter. As actions of a certain degree of complexity are brought about by mere mechanism, why may not actions of still greater complexity be the result of a more refined mechanism ? What proof is there that brutes are other than a superior race of marionettes, which eat without pleasure, cry without pain, desire nothing, know nothing, and only simulate intelligence as a bee simulates a mathematician ?"
+    },
+    {
+     "n": 46,
+     "k": 46,
+     "txt": "The Port Royalists adopted the hypothesis that brutes are machines, and are said to have carried its practical applications so far as to treat domestic animals with neglect, if not with actual cruelty. As late as the middle of the eighteenth century, the problem was disciisse<l very fully and ably by Bouillier, in his \" Essai philosophique sur I'Ame des Betes,\" while Condillac deals with it in his \" Traits des Animaux ; \" but since then it lias received httle attention. Nevertheless, mixlem research has brought to hght a great multitude of facts, which not only show that Descartes' view is defensible, hut render it far more defensible than it was in his day. middle of the back, for example, the skin of the feet may be cut, or pinched, or burned, or wetted with vitriol, without any sensation of touch, or of pain, arising in consciousness. So far as the man is concerned, therefore, the part of the central nervous system which lies beyond the injury is cut off from consciousness. It must indeed be admitted, that, if any one think fit to maintain that the spinal cord below the injury is conscious, but that it is cut off from any means of making its consciousness known to the other consciousness in the brain, there is no means of driving him from his position by logic. But assuredly there is no way of proving it, and in the matter of consciousness, if in anything, we may hold by the rule, \" De non apparentibus et de non existentibus eadem est ratio.\" However near the brain the spinal cord is injured, consciousness remains intact, except that the irritation of parts below the injury is no longer represented by sensation. On the other hand, pressure upon the anterior division of the brain, or extensive injuries to it, abolish consciousness. Hence, it is a highly probable conclusion, that consciousness in man depends upon the integrity of the anterior division of the brain, while the middle and hinder divisions of the brain, and the rest of the nervous centres, have nothing to do with it. And it is further highly probable, Not to be confounded with the anterior middle and hinder parts of the hemispheres of the cerebrum. that what is true for man is true for other vertebra ted animals."
+    },
+    {
+     "n": 47,
+     "k": 47,
+     "txt": "We may assume, then, that in a living vertehrated animal, any segment of the cerebro-apiiial axis (or spinal cord and brain) separated from that anterior division of the brain which is the organ of consciousness, is as completely incapable of giving rise to consciousness as we know it to be incapable of carrying out volitions. Nevertheless, this separated segment of the spinal cord is not passive and inert. On the contrary, it is the seat of extremely remarkable powers. In our imaginary case of injury, the man would, as we have seen, be devoid of sensation in his legs, and would have not the least power of moving them. But, if the soles of his feet were tickled, the legs would be drawn up just as vigorously as they would have been before the injury. We know exactly what happens when the soles of the feet are tickled ; a molecular change takes place in tlie sensory nerves of the skin, and is propagated along them and through the posterior roots of the spinal nerves, which are constituted by them, to the grey matter of the spinal cord. Tlirough that grey matter the molecular motion is reflected into the anterior roots of the same nerves, constituted by the lilamenta which supply the muscles of the legs, and, travelling along these motor filaments, reaches the muscles, which at once contract, and cause the limbs to be drawn up."
+    },
+    {
+     "n": 48,
+     "k": 48,
+     "txt": "In order to move the legs in this way, a definite co-ordination of muscular contractions is necessary ; the muscles must contract in a certain order and with duly proportioned force; and moreover, as the feet are drawn away from the source of irritation, it may be said that the action has a final cause, or is purposive."
+    },
+    {
+     "n": 49,
+     "k": 49,
+     "txt": "Thus it follows, that the grey matter of the segment of the man's spinal cord, though it is devoid of consciousness, nevertheless responds to a simple stimulus by giving rise to a complex set of muscular contractions, co-ordinated towards a definite end, and serving an obvious purpose."
+    },
+    {
+     "n": 50,
+     "k": 50,
+     "txt": "If the spinal cord of a frog is cut across, so as to provide us with a segment separated from the brain, we shall have a subject parallel to the injured man, on which experiments can be made without remorse ; as we have a right to conclude that a frog's spinal cord is not likely to be conscious, when a man's is not."
+    },
+    {
+     "n": 51,
+     "k": 51,
+     "txt": "Now the frog behaves just as the man did. The legs are utterly paralysed, so far as voluntary movement is concerned ; but they are vigorously drawn up to the body when any irritant is applied to the foot. But let us study our frog a little farther. Touch the skin of the side of the body with a little acetic acid, which gives rise to all the signs of great pain in an uninjured frog. In this case, there can be no pain, because the application is made to a part of the skin supplied with nerves which come off from the cord below the point of section ; nevertheless, the frog lifts up the limb of the same aide, and applies the foot to rub off the acetic acid ; and, what is still more remarkable, if the Umb be held so that the frog cannot use it, it will, by and by, move the limb of the other side, turn it across the body, and use it for the same rubbing process. It is impo.'jsible that the frog, if it were in its entirety and could reason, should perform actions more purposive than these: and yet we have most complete assurance that, in this case, the frog is not acting from purpose, has no consciousness, and is a mere insensible machine."
+    },
+    {
+     "n": 52,
+     "k": 52,
+     "txt": "But now suppose that, instead of making a Beciion of the cord in the middle of the body, it had been made in sueh a manner as to separate the hindermost division of the brain from the rest of the oin, and suppose the foremost twothirds of the brain entirely taken away. The frog is then absolutely devoid of any spontaneity; it sits upright in the attitude which a frog habitually assumes ; and it will not stir unless it is touched ; but it differs from the frog which I have just described in this, that, if it be thrown into the water, it begins to swim, and swims just as well as the perfect frog does. But swimming requires the combination and successive co-ordination of a great number of muscular actions. And we are forced to conclude, that the impression made upon the sensory nerves of the skin of the frog by the contact with the water into which it is thrown, causes the transmission to the central nervous apparatus of an impulse which sets going a certain machinery by which all the muscles of swimming are brought into play in due co-ordination. If the frog be stimulated by some irritating body, it jumps or walks as well as the complete frog can do. The simple sensory impression, acting through the machinery of the cord, gives rise to these complex combined movements."
+    },
+    {
+     "n": 53,
+     "k": 53,
+     "txt": "It is possible to go a step farther. Suppose that only the anterior division of the brain — so much of it as lies in front of the \" optic lobes \" — is removed. If that operation is performed quickly and skilfully, the frog may be kept in a state of full bodily vigour for months, or it may be for years; but it will sit unmoved. It sees nothing : it hears nothing. It will starve sooner than feed itself, although food put into its mouth is swallowed. On irritation, it jumps or walks ; if thrown into the water it swims. If it be put on the hand, it sits there, crouched, perfectly quiet, and would sit there for ever. If the hand be inclined very gently and slowly, so that the frog would naturally tend to slip off, the creature's fore paws are shifted on to the edge of the hand, until he can just prevent himself from falling. If the turning of the hand be slowly continued, he mounts up with great care and deliberation, putting first one leg forward and then another, until he balances himself with perfect precision upon the edge; and if the turning of the hand is continued, he goes through the needful set of muscular operations, until he comes to be seated in security, upon the back of the hand. The doing of all this requires a delicacy of coordination, and a precision of adjustment of the muscular apparatus of the body, which are only comparable to those of a rope-dancer. To the ordinary influences of light, the frog, deprived of its cerebral hemispheres, appears to be blind. Nevertheless, if the animal be put upon a table, with a book at some little distance between it and the light, and the skin of the hinder part of its body is then irritated, it will jump forward, avoiding the book by passing to the right or left of it. Therefore, although the frcg appears to have no sensation of light, visible objects act through its brain upon the motor mechanism of its body."
+    },
+    {
+     "n": 54,
+     "k": 54,
+     "txt": "It is obvious, that had Descartes been acquainted with these remarkable results of modern research, they would have furnished him with far more powerful arguments than he possessed in favour of his view of the automatism of brutes. The habits of a frog, leading its natural life, involve such simple adaptations to surrounding conditions, that the machinery which is competent to do so much without the intervention of consciousness, might well do all. And this argument is vastly strengthened by what has been learned in recent times of the marvellously complex operations which are performed mechanically, and to all appearance without consciousness, by men, when, in consequence of injury or disease, they are reduced to a condition more or less comparable to that of a frog, in which the anterior part of the brain has been removed. A case has recently been pubUshed by an eminent French physician, Dr. Mesnet, which illustrates this condition so remarkably, that I make no apology for dwelling upon it at considerable length."
+    },
+    {
+     "n": 55,
+     "k": 55,
+     "txt": "A sergeant of the French army, F , twentyseven years of age, was wounded during the battle of Bazeilles, by a ball which fractured his left parietal bone. He ran his bayonet through the Prussian soldier who wounded him, but almost immediately his right arm became paralysed ; after walking about two hundred yards, his right leg became similarly aflfected, and he lost his senses. When he recovered them, three weeks afterwards, in hospital at Mayence, the right half of the body was completely paralysed, and remained in this condition for a year. At present, the only trace of tiie paratysia wliich remains is a slight weakness of the right half of the body. Three or four months after the wound waa inflicted, periodical disturbances of the functions of the brain made their appearance, and have continued ever since. The disturbances last from fifteen to thirty hours; the intervals at which they occur being from fifteen to thirty days, For four years, therefore, the life of this man has been divided into alternating phases — short abnormal states intervening between long normal states."
+    },
+    {
+     "n": 56,
+     "k": 56,
+     "txt": "In the periods of normal life, the ex-sergeajit's health is perfect ; he is intelligent and kindly, and performs, satisfactorily, the duties of a hospital attendant. The commencement of the abnormal state is ushered in by uneasiness and a sense of weight about the forehead, which the patient compares to the constriction of a circle of iron ; and, after its tennination, lie complains, for some hours, of dulness and heaviness of the head. But the transition from the normal to the abnormal state takes place in a few minutes, without convulsions or cries, anil without anything to indicate the change to a bystander. His movements remain free and his expression calm, except for a contraction of the brow, an incessant movement of the eyeballs, and a chewing motion of the jaws. The eyes are wide open, and their pupils dilated. If the man happens to be in a place to which he is accustomed, he walks about as usual ; but, if he is in a new place, or if obstacles are intentionally placed in his way, he stumbles gently against them, stops, and then, feeling over the objects with his hands, passes on one side of them. He oflFers no resistance to any change of direction which may be impressed upon him, or to the forcible acceleration or retardation of his movements. He eats, drinks, smokes, walks about, dresses and undresses himself, rises and goes to bed at the accustomed hours. Nevertheless, pins may be run into his body, or strong electric shocks sent through it, without causing the least indication of pain ; no odorous substance, pleasant or unpleasant, makes the least impression ; he eats and drinks with avidity whatever is oflfered, and takes asafoetida, or vinegar, or quinine, as readily as water ; no noise affects him ; and light influences him only under certain conditions. Dr. Mesnet remarks, that the sense of touch alone seems to persist, and indeed to be more acute and delicate than in the normal state : and it is by means of the nerves of touch, almost exclusively, that his organism is brought into relation with the external world. Here a difficulty arises. It is clear from the facts detailed, that the nervous apparatus by which, in the normal state, sensations of touch are excited, is that by which external influences determiae the movements of the body, in the abnormal state. But does the state of consciousness, which we term a tactile sensation, accompany the operation of this nervous apparatus in the abnormal state ? or is consciousness utterly absent, the man being reduced to an insensible mechanism?"
+    },
+    {
+     "n": 57,
+     "k": 57,
+     "txt": "It is impossible to obtain direct evidence in favour of the one conclusion or the other ; all that can be said is, that the case of the frog shows that the man may be devoid of any kind of consciousness."
+    },
+    {
+     "n": 58,
+     "k": 58,
+     "txt": "A further difficult problem is this. The man is insensible to sensory impressions made through the ear, the nose, the tongue, and, to a great extent, the eye ; nor is he susceptible of pain from causes operating during his abnormal state. Nevertheless, it is possible so to act upon his tactile apparatus, as to give rise to those molecular changes in his sensorium, which are ordinarily the causes of associated trains of ideas. I give a striking example of this process in Dr. Mesnet's words : —"
+    },
+    {
+     "n": 59,
+     "k": 59,
+     "txt": "\"II 86 promenait dans lo jardin, sous nn massif d'arbres, on lui remet k la main sa canne qu'il avait laiss tomber qnelques minutes ayant. U la palpe, promne k plusieurs reprises la main sur la poign coudee de sa canno — devient attentif —semble prSter Toreille — et, tout-k-coup, appelle * Heuri I ' Puis, * Lea Yoilk 1 lis sont au moins-une vingtdno ! k nous deux, nous en viendrona k bont ! ' Et alors portant la main demure son dos comme pour prendre one cartouche, il fait le mouvement de charger son arme, se conche dans Therbe k plat ventre, la tSte cachee par un arbre, dans la position d'un tirailleut, et suit Tarme epaulee, tons les mouyements de Tennemi qn'il croit voircourte distance.\""
+    },
+    {
+     "n": 60,
+     "k": 60,
+     "txt": "In a subsequent abnormal period, Dr. Mesnet caused the patient to repeat this scene by placing him in the same conditions. Now, in this case, the question arises whether the series of actions constituting this singular pantomime was accompanied by the ordinary states of consciousness, the appropriate train of ideas, or not ? Did the man dream that he was skirmishing ? or was he in the condition of one of Vaucauson's automata — a senseless mechanism worked by molecular changes in his nervous system ? The analogy of the frog shows that the latter assumption is perfectly justifiable."
+    },
+    {
+     "n": 61,
+     "k": 61,
+     "txt": "The ex-sergeant has a good voice, and had, at one time, been employed as a singer at a cbSL In one of his abnormal states he was observed to begin humming a tune. He then went to his room, dressed himself carefully, and took up some parts of a periodical novel, which lay on his bed, as if he were trying to find something. Dr. Mesnet, suspecting that he was seeking his music, made up one of these into a roll and put it into his hand. He appeared satisfied, took his cane and went down stairs to the door. Here Dr. Mesnet tunied him round, and he walked quite contentedly, in the opposite direction, towards the room of the concierge. The light of the sun shining through a window now happened to fall upon him, and seemed to suggest the footlights of the stage on which he was accastomed to make his appearance. He stopped, opened his roll of imaginary music, put himself into the attitude of a singer, and sang, with perfect execution, three songs, one after the other. After which he wiped his face with his handkerchief and drank, ■without a grimace, a tumbler of strong vinegar and water which was put into his hand."
+    },
+    {
+     "n": 62,
+     "k": 62,
+     "txt": "An experiment which may be performed upon the frog deprived of the fore part of its brain, well known as Gtiltz's \" Quak-versuch,\" affords a parallel to this performance. If the skin of a certain part of the back of such a frog is gently stroked with the finger, it immediately croaks. It never croaks unless it is so stroked, and the croak always follows the stroke, just as the sound of a repeater follows the touching of the spring. In the frog, this \" song \" is innate — so to speak a priori-— and depends upon a mechanism in the brain governing the vocal apparatus, which is set at work by the molecular change set up in the sensory nerves of the skin of the back by the contact of a foreign body."
+    },
+    {
+     "n": 63,
+     "k": 63,
+     "txt": "In man there is also a vocal mechanism, and the cry of an infant is in the same sense innate and d priori, inasmuch as it depends on an organic relation between its sensory nerves and the nervous mechanism which governs the vocal apparatus. Learning to speak, and learning to sing, are processes by which the vocal mechanism is set to new tunes. A song which has been learned has its molecular equivalent, which potentially represents it in the brain, just as a musical box, wound up, potentially represents an overture. Touch the stop and the overture begins ; send a molecular impulse along the proper aflferent nerve and the singer begins his song."
+    },
+    {
+     "n": 64,
+     "k": 64,
+     "txt": "Again, the manner in which the frog, though apparently insensible to light, is yet, under some circumstances, influenced by visual images, finds a singular parallel in the case of the ex-sergeant."
+    },
+    {
+     "n": 65,
+     "k": 65,
+     "txt": "Sitting at a table, in one of his abnormal states, he took up a pen, felt for paper and ink, and began to write a letter to his general, in which he recommended himself for a medal, on account of his good conduct and courage. It occurred to Dr. Mesnet to ascertain experimentally how far vision was concerned in this act of writing. He therefore interposed a screen between the man s eyes and his hands ; under these circumstances he went on writing for a short time, but the words became illegible, and he finally stopped, without manifesting any discontent. On the withdrawal of the screen he began to write again where he had left oflf. The substitution of water for ink in the inkstand had a similar result. He stoppedj looked at his pen, wiped it on his coat, dipped it in the water, and began again with the same eflfect."
+    },
+    {
+     "n": 66,
+     "k": 66,
+     "txt": "On one occasion, he began to write upon the topmost of ten superimposed sheets of paper. After he had written a line or two, this sheet was suddenly drawn away. There was a slight expression of surprise, but he continued his letter on the second sheet exactly as if it had been the first. This operation was repeated five times, so that the fifth sheet contained nothing but the writer's signature at the bottom of the page. Nevertheless, when the signature was finished, his eyes turned to the top of the blank sheet, and he went through the form of reading over what he had written, a movement of the lips accompanying each word ; moreover, with his pen, he put in such corrections as were needed, in that part of the blank page which corresponded with the position of the words which required correction, in the sheets which had been taken away. K the five sheets had been transparent, therefore, they would, when superposed, have formed a properly written and corrected letter."
+    },
+    {
+     "n": 67,
+     "k": 67,
+     "txt": "Immediately after he had written his letter, F got up, walked down to the garden, made himself a cigarette, lighted and smoked it. He was about to prepare another, but sought in vain for his tobacco-pouch, which had been purposely taken away. The pouch was now thrust before bis eyes and put under his nose, but he neither 234 AmMAL AtrrOXATISIU T saw nor Bmelt it ; yet, when it was placed in his hand, he at once seized it, made a fresh cigarette, and ignited a match to light the latter. The match was blown out, and another lighted match placed close before his eyes, but he made no attempt to take it; and, if his cigarette was lighted for him, he made no attempt to smoke. All this time the eyes were vacant, and neither winked, nor exhibited any contraction of the pupils. From these and other experiments. Dr. Mesnet draws the conclusion that his patient sees some things and not others ; that the sense of sight is accessible to all things which are brought into relation with him by the sense of touch, and, on the contrary, insensible to things which lie outside this relation. He sees the match he holds and does not see any other."
+    },
+    {
+     "n": 68,
+     "k": 68,
+     "txt": "Just so the frog \" sees \" the book which is in the way of his jump, at the same time that isolated visual impressions take no eflfect upon him. that F ia absolutely unconscious in hia ab- nonnal state, but it is no less impossible to prove the contrary ; and the case of the frog goes a long way to justify the assumption that, in the abnormal state, the man is a mere insensible machine."
+    },
+    {
+     "n": 69,
+     "k": 69,
+     "txt": "If such facts as these had come under the knowledge of Descartes, would they not have formed an apt commentary upon that remarkable passage in the \"Traite de I'Homme,\" which I have quoted elsewhere, but which is worth repetition ? —"
+    },
+    {
+     "n": 70,
+     "k": 70,
+     "txt": "\" All tba fiuiclionB which I have attritiuted to this machine (tho body), as the digestioii of food, tha pulsation of the heart and of the arterieH ; the nntrition and tha growth of t!ie limbs ; nspiration, wakefulness, and ale«p ; the reception of Ught. aounda, odouis, flavours, heat, and such like gnalities, in tlie Cleans of tha external senses ; the impression of the ideas of theEe in the organ of com ivi, for though, in his nonnal state, he is a perfect! honest man, in his abnormal condition he id au inveterate thief, stealing and hiding awaj whatever he can laj hands on, with miicb dEiCerit]', and with an absurd indilTerence as to whether the property is his own or not. HoflTman'a terrible conception of the \" Doppelt-ganger \" ia roaliaed by men in this state— who live two liTCB, m the one of which they may be guilty of the most criminal acts, while, in the other, they are eminently Tirtaoua and respectable. Neither life known anything of the other. Dr. Mesnet states that he has watched a man iu his abnormal state elaboralely prepare to hang himself, and has let him go on until asphyxia tet in, when he cut him down. But on pasBlng into the nonnal state the would-be suieiile was wholly ignoTant of what hul happened. The problem of respon. aibility is here oa complicated as that of the prince-bishop, who swore as a prince and not as a bishop. \" But, highness, if the prince is damned, wiutt will beuome of the biahop I \" said the peasant. the retention or the impression of these ideas on the memory ; the internal movements of the appetites and the passions ; and lastly the external movements of all the limhs, which follow so aptly, as well the action of the objects which are presented to the senses, as the impressions which meet in the memory, that they imitate as nearly as possible those of a real man ; I desire, I say, that you should consider that these ftinctions in the machine naturally proceed from the mere arrangement of its organs, neither more nor less than do the movements of a dock, or other automaton, from that of its weights and its wheels ; so that, so far as these are concerned, it is not necessary to conceive any other vegetative or sensitive soul, nor any other principle of motion or of life, than the blood and the spirits agitated by the fire which bums continually in the heart, and which is no wise essentially different from all the fires which exist in inanimate bodies.\""
+    },
+    {
+     "n": 71,
+     "k": 71,
+     "txt": "And would Descartes not have been justified in asking why we need deny that animals are machines, when men, in a state of unconsciousness, perform, mechanically, actions as complicated and as seemingly rational as those of any animals ?"
+    },
+    {
+     "n": 72,
+     "k": 72,
+     "txt": "But though I do not think that Descartes' hypothesis can be positively refuted, I am not disposed to accept it. The doctrine of continuity is too well established for it to be permissible to me to suppose that any complex natural phenomenon comes into existence suddenly, and without being preceded by simpler modifications; and very strong arguments would be needed to prove that such complex phenomena as those of consciousness, first make their appearance in man. We know, that, in the individual man, consciousness grows from a dim glimmer to its full light, whether we consider the infant advancing in years, or the adult emerging from slumber and swoon. We know, further, that the lower animals possess, though less developed, that part of the brain which we have every reason to believe to be the organ of consciousness in man ; and as, in other cases, function and organ are proportional, so we have a right to conclude it is with the brain ; and that the brutes, though they may not possess our intensity of consciousness, and though, from the absence of language, they can have no trains of thoughts, but only trains of feelings, yet have a consciousness which, more or less distinctly, foreshadows our own."
+    },
+    {
+     "n": 73,
+     "k": 73,
+     "txt": "I confess that, in view of the struggle for existence which goes on in the animal world, and of the frightful quantity of pain with which it must be accompanied, I should be glad if the probabilities were in favour of Descartes' hypothesis ; but, on the other hand, considering the terrible practical consequences to domestic animals which might ensue from any error on our part, it is as well to err on the right side, if we err at all, and deal with them as weaker brethren, who are bound, like the rest of us, to pay their toll for living, and suflfer what is needful for the general good. As Hartley finely says, \" We seem to be in the place of God to them ; \" and we may justly follow the precedents He sets in nature in our dealings with them."
+    },
+    {
+     "n": 74,
+     "k": 74,
+     "txt": "But though we may see reason to disagree with Descartes* hypothesis that bnites are unconscious machines, it does not follow that he was wrong in regarding them as automata. They may be more or less conscious, sensitive, automata; and the view that they are such conscious machines is that which is implicitly, or explicitly, adopted by most persons. When we speak of the actions of the lower animals being guided by instinct and not by reason, what we really mean is that, though they feel as we do, yet their actions are the results of their physical organisation. We believe, in short, that they are machines, one part of which (the nervous system) not only sets the rest in motion, and co-ordinates its movements in relation with changes in surrounding bodies, but is provided with special apparatus, the function of which is the calling into existence of .those states of consciousness which are termed sensations, emotions, and ideas. I believe that this generally accepted view is the best expression of the facts at present known."
+    },
+    {
+     "n": 75,
+     "k": 75,
+     "txt": "It is experimentally demonstrable — any one who cares to run a pin into himself may perform a sufficient demonstration of the fact —that a mode of motion of the nervous system is the immediate antecedent of a state of consciousness. All but the adherents of \" Occasionalism,\" or of the doctrine of \" Pre-established Harmony \" (if any such now exist), must admit that we have as much reason for regarding the mode of motion of the nervoua bye e of CI as the cause of the state o B have for regarding any event as the cause of another. How the one phenomenon causes the other we know, as much or aa Uttle, aa in any other case of causation ; but we have as much right to beUeve that the sensation is an effect of the molecular change, as we have to believe that motion is an effect of impact ; and there is aa much propriety in saying that the brain evolves sensation, as there is in saying that an iron rod, when hammered, evolves lieat."
+    },
+    {
+     "n": 76,
+     "k": 76,
+     "txt": "Aa I have endeavoured to show, we are justified in supposing that something analogous to what happens in ourselves takes place in the brutes, and that the affections of their sensory nerves give rise to molecular changes in the brain, which again give rise to, or evolve, the corresponding states of consciousness. Nor can there be any reasonable douht that the emotions of hrutea, and such ideas aa they possess, are similarly dependent upon molecular brain changes. Each sensory impression leaves behind a record in the structure of the brain — an \" ideagenous \" molecule, so to speak, which ia competent, under certain conditions, to reproduce, in a fainter condition, the state of consciousness which corresponds with tliat sensory impression ; and it is these \" ideagenous molecules \" which are the physical basis of memoiy."
+    },
+    {
+     "n": 77,
+     "k": 77,
+     "txt": "It may be assumed, then, that molecular changes in the brain are the causes of all the states of consciousness of brutes. Is there any evidence that these states of consciousness may, conversely, cause those molecular changes which give rise to muscular motion? I see no such evidence. The frog walks, hops, swims, and goes through his gymnastic performances quite as well without consciousness, and consequently without volition, as with it ; and, if a frog, in his natural state, possesses anything corresponding with what we call volition, there is no reason to think that it is anything but a concomitant of the molecular changes in the brain which form part of the series involved in the production of motion."
+    },
+    {
+     "n": 78,
+     "k": 78,
+     "txt": "The consciousness of brutes would appear to be related to the mechanism of their body simply ad a collateral product of its working, and to be as completely without any power of modifying that working as the steam-whistle which accompanies the work of a locomotive engine is without influence upon its machinery. Their volition, if they have any, is an emotion indicative of physical changes, not a cause of such changes."
+    },
+    {
+     "n": 79,
+     "k": 79,
+     "txt": "This conception of the relations of states of consciousness with molecular changes in the brain — of psychoses with neuroses — does not prevent us from ascribing free will to brutes. For an agent is free when there is nothing to prevent him from doing that which he desires to do. If a greyhound chases a hare, he is a free agent, because his action is in entire accordance with his strong desire to catch the hare ; while so long as he is held back by the leash he is Dot free, being prevented by external force from following his inclination. And the ascription of freedom to the greyhound under the former circumstances is by no means inconsistent with the other aspect of the facts of the case —that he is a machine impelled to the chase, and caused, at the same time, to have the desire to catch the game by the impression which the rays of light proceeding from the hare make upon his eyes, and through them upon his brain."
+    },
+    {
+     "n": 80,
+     "k": 80,
+     "txt": "Much ingenious argument has at various times been bestowed upon the question : How is it possible to imagine that volition, which is a state of consciousness, and, as such, has not the slightest community of nature with matter in motion, can act upon the moving matter of which the body is composed, as it is assumed to do in voluntary acts ? But if, as is here suggested, the voluntary acts of brutes — or, in other words, the acts which they desire to perform — are as purely mechanical as the rest of their actions, and are simply accompanied by the state of consciousness called volition, the inquiry, so far as they are concerned, becomes superfluous. Their volitions do not enter into the chain of causation of their actions at ail."
+    },
+    {
+     "n": 81,
+     "k": 81,
+     "txt": "The hypothesis that brutes are conscious automata is perfectly consistent with any view that may be held respecting the often discussed and curious question whether they have souls or not ; atid, if they have souls, whether those souls are immortal or not. It is obviously harmonious with the most literal adherence to the text of Scripture concerning \" the beast that perisheth \" ; but it is not inconsistent with the amiable conviction ascribed by Pope to his \"untutored savage,\" that when he passes to the happy hunting-grounds in the sky, \"his faithful dog shall bear him company.\" If the brutes have consciousness and no souls, then it is clear that, in them, consciousness is a direct function of material changes; while, if they possess immaterial subjects of consciousness, or souls, then, as consciousness is brought into existence only as the consequence of molecular motion of the brain, it follows that it is an indirect product of material changes. The soul stands related to the \"body as the bell of a clock to the works, and consciousness answers to the sound which the bell gives out when it is struck."
+    },
+    {
+     "n": 82,
+     "k": 82,
+     "txt": "Thus far I have strictly confined myself to the problem with which I proposed to deal at starting — the automatism of brutes. The question is, I believe, a perfectly open one, and I feel happy in running no risk of either Papal or Presbyteriicondemnation for the views which I have ventured to put forward. And there are so very few interesting questions which one is, at present, allowed to htink out acientiiically — to go as far as reason leads, and atop where evidence comes to an end — without speedily being deafened by the tattoo of \" the drum ecclesiastic \"—that I have luxuriated in my rare freedom, and would now willingly bring this disquisition to an end if I could hope that other people would go no farther. Unfortunately, past experience debars me &om entertaiaing any such hope, even if »\" . . . ■ tbat dnuu's diBcordnot sannd Panuling roimd and round and roimd,\" were not, at present, as audible to me as it was to the mild poet who ventured to express his hatred of drums in general, in that well-known couplet."
+    },
+    {
+     "n": 83,
+     "k": 83,
+     "txt": "It will be said, that I mean that the conclusions deduced from the study of the brutes are applicable to man, and that the logical consequences of such application are fatalism, materialism, and atheism — whereupon the drums will beat the pas de charge."
+    },
+    {
+     "n": 84,
+     "k": 84,
+     "txt": "One does not do battle with drummers ; but I venture to offer a few remarks for the calm consideration of thoughtful persons, untrammelled by foregone conclusions, unpledged to ahore-up tottering dogmas, and anxious only to know the true bearings of the case."
+    },
+    {
+     "n": 85,
+     "k": 85,
+     "txt": "It is quite true that, to the best of my judgment, the argumentation which applies to brutes holds equally good of men ; and, therefore, that all states of consciousness in us, as in them, are immediately caused by molecular changes of the brain-substance. It seems to me that in men, as in brutes, there is no proof that any state of consciousness is the cause of change in the motion of the matter of the organism. If these positions are well based, it follows that our mental conditions are simply the symbols in consciousness of the changes which takes place automatically in the organism ; and that, to take an extreme illustration, the feeling we call volition is not the cause of a voluntary act, but the symbol of that state of the brain which is the immediate cause of that act. We are conscious automata, endowed with free will in the only intelligible sense of that much-abused term — inasmuch as in many respects we are able to do as we like — but none the less parts of the great series of causes and eflFects which, in unbroken continuity, composes that which is, and has been, and shall be — the sum of existence."
+    },
+    {
+     "n": 86,
+     "k": 86,
+     "txt": "As to the logical consequences of this conviction of mine, I may be permitted to remark that logical consequences are the scarecrows of fools and the beacons of wise men. The only question which any wise man can ask himself, and which any honest man will ask himself, is whether a doctrine is true or false. Consequences will take care of themselves ; at most their importance can only justify us in testing with extra care the reasoning process from which they result."
+    },
+    {
+     "n": 87,
+     "k": 87,
+     "txt": "So that if the view I have taken did really and logically lead to fatalism, materialLsm, and atheism, I should profess myself a fatalist, materialist, and atheist ; and I should look upon those who, while they believed in my honesty of purpose and intellectual competency, should raise a hue and cry against me, as people who by their own admission preferred lying to truth, and whose opinions therefore were unworthy of the smallest attention."
+    },
+    {
+     "n": 88,
+     "k": 88,
+     "txt": "But, as I have endeavoured to explain on other occasions, I really have no claim to rank myself among fatalistic, materialistic, or atheistic philosophers. Not among fatalists, for I take the conception of necessity to have a logical, smd not a physical foundation ; not among materialists, for I am utterly incapable of conceiving the existence of matter if there is no mind in which to picture that existence ; not among atheists, for the probity m of the ultimate cause of existence is one which seems to me to be hopelessly out of reach of my poor powers. Of all the senseless babble I have ever had occasion to read, the demonstrations of these philosophers who undertake to tell ns all about the nature of God would be the worst, if they were not surpassed by the still greater absurdities of the philosophers who try to prove that there is no God."
+    },
+    {
+     "n": 89,
+     "k": 89,
+     "txt": "And if this personal disclaimer should not be enough, let me further point out that a great many persons whose acuteness and learning will not be contested, and whose Christian piety, and, in some cases, strict orthodoxy, are above suspicion, have held more or less definitely the view that man is a conscious automaton."
+    },
+    {
+     "n": 90,
+     "k": 90,
+     "txt": "It is held, for example, in substance, by the whole school of predestinarian theologians, typified by St. Augustine, Calvin, and Jonathan Edwards — the great work of the latter on the will showing in this, as in other cases, that the growth of physical science has introduced no new diflSculties of principle into theological problems, but has merely given visible body, as it were, to those already existed."
+    },
+    {
+     "n": 91,
+     "k": 91,
+     "txt": "Among philosophers, the pious Geulincx and the whole school of occasionalist Cartesians held this view; the orthodox Leibnitz invented the term \" automate spirituel,\" and applied it to man ; the fervent Christian, Hartley, was one of the chief advocates and best expositors of the doctrine ; while another zealous apologist of Christianity in a sceptical age, and a contemporary of Hartley, Charles Bonnet, the Genevese naturalist, has embodied the doctrine in language of such precision and simplicity, that I will quote the littleknown passage of his \" Essai de Psychologie \" at length : —",
+     "note": "Huxley's footnote gives the source of the quotation: Bonnet, Essai de psychologie, ch. xxvii."
+    },
+    {
+     "n": 92,
+     "k": 92,
+     "txt": "\"Philosophers accustomed to judge of things by that which they are in themselves, and not by their relation to received ideas, would not be shocked if they met with the proposition that the soul is a mere spectator of the movements of its body ; that the latter performs of itself all that series of actions which constitutes life : that it moves of itself : that it is the body alone which reproduces ideas, compares and arranges them ; which forms reasonings, imagines and executes plans of all kinds, etc. This hypothesis, though perhaps of an excessiye boldness, nevertheless deserves some consideration.",
+     "label": "Bonnet: \"Another Hypothesis concerning the Mechanism of Ideas\""
+    },
+    {
+     "n": 93,
+     "k": 93,
+     "txt": "\"It is not to be denied that Supreme Power could create an automaton which should exactly imitate all the external and internal actions of man."
+    },
+    {
+     "n": 94,
+     "k": 94,
+     "txt": "\"I understand by external actions, all those movements which pass under our eyes : I term internal actions, all the motions which in the natural state cannot be observed because they take place in the interior of the body — such as the movements of digestion, circulation, sensation, etc. Moreover, I include in this category the movements which give rise to ideas, whatever be their nature."
+    },
+    {
+     "n": 95,
+     "k": 95,
+     "txt": "\"In the automaton which we are considering everything would be precisely determined. Everything would occur according to the rules of the most admirable mechanism : one state would succeed another state, one operation would lead to another operation, according to invariable laws ; motion would become alternately cause and effect, effect and cause ; reaction would answer to action, and reproduction to production."
+    },
+    {
+     "n": 96,
+     "k": 96,
+     "txt": "\"Constructed with definite relations to the activity of the beings which compose the world, the automaton would receive impressions from it, and, in faithful correspondence thereto, it would execute a corresponding series of motions."
+    },
+    {
+     "n": 97,
+     "k": 97,
+     "txt": "\"Indifferent towards any determination, it would yield equally to all, if the first impressions did not, so to speak, wind up the machine and decide its operations and its course."
+    },
+    {
+     "n": 98,
+     "k": 98,
+     "txt": "\"The series of movements which this automaton could execute would distinguish it from all others formed on the same model, but which, not having been placed in similar circumstances, would not have experienced the same impressions, or would not have experienced them in the same order."
+    },
+    {
+     "n": 99,
+     "k": 99,
+     "txt": "\"The senses of the automaton, set in motion by the objects presented to it, would communicate their motion to the brain, the chief motor apparatus of the machine. This would put in action the muscles of the hands and feet, in virtue of their secret connection with the senses. These muscles, alternately contracted and dilated, would approximate or remove the automaton from the objects, in the relation which they would bear to the conservation or the destruction of the machine."
+    },
+    {
+     "n": 100,
+     "k": 100,
+     "txt": "\" The motions of perception and sensation which the objects would have impressed on the brain, would be preserved in it by the energy of its mechanism. They would become more vivid according to the actual condition of the automaton, considered in itself and relatively to the objects."
+    },
+    {
+     "n": 101,
+     "k": 101,
+     "txt": "\"Words being only the motions impressed on the organ of hearing and that of voice, the diversity of these movements, their combination, the order in which they would succeed one another, would represent judgments, reasoning, and all the operations of the mind."
+    },
+    {
+     "n": 102,
+     "k": 102,
+     "txt": "\"A close correspondence between the organs of the senses, either by the opening into one another of their nervous ramifications, or by interposed springs (ressorts\\ would establish such a connection in their working, that, on the occasion of the movements impressed on one of these organs, other movements would be excited, or would become more vivid in some of the other senses."
+    },
+    {
+     "n": 103,
+     "k": 103,
+     "txt": "\" Give the automaton a soul which contemplates its movements, which believes itself to be the author of them, which has different volitions on the occasion of the different movements, and you will on this hypothesis construct a man."
+    },
+    {
+     "n": 104,
+     "k": 104,
+     "txt": "\"But would this man be free ? Can the feeling of our liberty this feeling which is so clear and so distinct and so vivid as to persnadeus that we are the authors of our actions, be conciliated with this hypothesis ? If it removes the diflBculty which attends the conception of the action of the soul on the body, on the other hand it leaves untouched that which meets us in endeayoming to conceive the action of the body on the sooL\""
+    },
+    {
+     "n": 105,
+     "k": 105,
+     "txt": "But if Leibnitz, Jonathan Edwards, and Hartley —men who rank among the giants of the world of thought— could see no antagonism between the doctrine under discussion and Christian orthodoxy, is it not just possible that smaller folk may be wrong in making such a coil about \" logical consequences \" ? And, seeing how large a share of this clamour is raised by the clergy of one denomination or another, may I say, in conclusion, that it really would be well if ecclesiastical persons would reflect that ordination, whatever deep-seated graces it may confer, has never been observed to be followed by any visible increase in the learning or the logic of its subject. Making a man a Bishop, or entrusting him with the office of ministering to even the largest of Presbyterian congregations, or setting him up to lecture to a Church congress, really does not in the smallest degree augment such title to respect as his opinions may intrinsically possess. And when such a man presumes on an authority which was conferred upon him for other purposes to sit in judgment upon matters his incompetence to deal with which is patent, it is permissible to ignore his sacerdotal pretensions, and to tell him, as one would tell a mere common, unconsecrated, layman : that it is not necessary for any man to occupy himself with problems of this kind unless he so choose ; life is filled full enough by the performance of its ordinary and obvious duties. But that, if a man elect to become a judge of these I grave questions; still more, if he assume the responsibility of attaching praise or blame to his fellow-men for the conclusions at which they arrive touching them, he will commit a sin more grievous than most breaches of the Decalogue, unless he avoid a lazy reliance upon the information that is gathered by prejudice and filtered through passion, unless he go back to the prime sources of knowledge — the facts of Nature, and the thoughts of those wise men who for generations past have been her best interpreters."
+    }
+   ]
+  }
+ ]
+}

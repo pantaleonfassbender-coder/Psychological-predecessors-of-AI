@@ -4,6 +4,8 @@
 |---|---|---|
 | **Source code** | `index.html`, `app.js`, `style.css`, `robots.txt`, `netlify.toml`, future `tools/*.py` | [MIT](LICENSE) |
 | **Editorial matter** | the claims and plans in `data/works.json`, the overview, method and coda texts in `app.js`, `README.md`, `SOURCES.md` | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+| **Thorndike, Animal Intelligence (selections)** | `data/thorndike.json` | English: public domain (1911 publication); selection, emendation and paragraph numbering: CC0 1.0 |
+| **Huxley, Animal Automatism (1874), complete** | `data/huxley.json` | English: public domain (1874 address, 1893 collected printing); emendation and paragraph numbering: CC0 1.0 |
 | **Editions and derived data** | every future `data/<work>.json`: segmentation, editorial paragraph numbering, OCR emendations, and any working translations | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) — public-domain dedication |
 
 The texts themselves are, and will remain, United States public domain (published through

@@ -110,14 +110,15 @@
  {
   "id": "thorndike",
   "linie": "lernen",
-  "status": "planned",
+  "status": "shipped",
   "autor": "Edward L. Thorndike",
   "leben": "1874–1949",
   "kurz": "Thorndike",
   "titel": "Animal Intelligence (1898/1911) — selections",
   "sprachen": "English",
   "claim": "The law of effect: responses followed by satisfaction are stamped in. Reinforcement learning cites this book as its origin — the corpus's single most direct line into present-day AI.",
-  "geplant": "Selections from the 1911 collected volume (Internet Archive animalintellige00thorgoog) with the 1898 monograph (animalintelligen00thoruoft) beside it: the puzzle boxes, the curves, the laws of exercise and effect."
+  "geplant": "Selections from the 1911 collected volume (Internet Archive animalintellige00thorgoog) with the 1898 monograph (animalintelligen00thoruoft) beside it: the puzzle boxes, the curves, the laws of exercise and effect.",
+  "datei": "thorndike"
  },
  {
   "id": "watson",
@@ -158,14 +159,15 @@
  {
   "id": "huxley",
   "linie": "automat",
-  "status": "planned",
+  "status": "shipped",
   "autor": "Thomas Henry Huxley",
   "leben": "1825–1895",
   "kurz": "Huxley",
   "titel": "On the Hypothesis that Animals are Automata, and its History (1874) — complete",
   "sprachen": "English",
   "claim": "The automaton theory stated at full strength: animals — and we — as conscious machines, consciousness a mere accompaniment. The debate about machine minds begins as a debate about our own.",
-  "geplant": "The 1874 address complete, from Collected Essays vol. I, Method and Results (Internet Archive methodandresult01huxlgoog)."
+  "geplant": "The 1874 address complete, from Collected Essays vol. I, Method and Results (Internet Archive methodandresult01huxlgoog).",
+  "datei": "huxley"
  },
  {
   "id": "james",

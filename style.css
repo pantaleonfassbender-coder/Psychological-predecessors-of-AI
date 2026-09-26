@@ -16,6 +16,7 @@
   --accfg: #0d1412;
   --accbg: rgba(90,169,160,.09); --accline: rgba(90,169,160,.28);
   --markbg: rgba(90,169,160,.32);
+  --ok: #8fce8f; --okline: #3c5c3c;
   --serif: Georgia, "Times New Roman", serif;
   --mono: "Consolas", "SF Mono", monospace;
 }
@@ -38,6 +39,7 @@ html[data-theme="light"] {
   --accfg: #f4fbf9;
   --accbg: rgba(31,110,102,.07); --accline: rgba(31,110,102,.3);
   --markbg: rgba(31,110,102,.16);
+  --ok: #2f7a3c; --okline: #9cc3a2;
 }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
@@ -113,3 +115,26 @@ footer .fine { max-width: 66rem; }
   main { padding: 1.2rem 1rem 2.4rem; }
   .topbar { padding: .7rem 1rem; }
 }
+
+/* ------------------------------------------------ reader & concordance */
+.cite {
+  font-family: var(--mono); font-size: .74rem; color: var(--acc);
+  background: var(--accbg); border: 1px solid var(--accline);
+  padding: .05rem .45rem; border-radius: 4px; white-space: nowrap;
+}
+a.cite:hover { text-decoration: none; border-color: var(--acc); }
+.unit { border-left: 2px solid var(--line); padding-left: .95rem; margin-bottom: 1.35rem; }
+.unit .ulabel { font-size: .8rem; color: var(--acc); margin: 0 0 .2rem; font-family: var(--serif); font-style: italic; }
+.unit p { margin: .2rem 0 0; }
+mark { background: var(--markbg); color: inherit; padding: 0 .1em; }
+.toolbar { display: flex; gap: .5rem; flex-wrap: wrap; align-items: center; margin: .6rem 0 1rem; }
+.toolbar input[type=search] {
+  background: var(--bg2); color: var(--fg); border: 1px solid var(--line); border-radius: 6px;
+  padding: .5rem .8rem; font: inherit;
+}
+.toolbar .grow { flex: 1; min-width: 220px; }
+button.primary {
+  background: var(--acc); color: var(--accfg); border: none; border-radius: 6px;
+  padding: .5rem 1.1rem; font: inherit; font-weight: 600; cursor: pointer;
+}
+.status.shipped { color: var(--ok); border: 1px solid var(--okline); border-radius: 999px; padding: .1rem .5rem; font-size: .72rem; }

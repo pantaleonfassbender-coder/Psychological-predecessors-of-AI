@@ -35,9 +35,16 @@ checkable. All are United States public domain (published through 1930). Entries
   <https://archive.org/details/anintroductiont01morggoog>.
 - **Loeb, Comparative Physiology of the Brain and Comparative Psychology (New York 1900)** —
   <https://archive.org/details/comparativephysi00loeb>.
-- **Thorndike, Animal Intelligence (New York 1911; the 1898 monograph beside it)** —
-  <https://archive.org/details/animalintellige00thorgoog> and
-  <https://archive.org/details/animalintelligen00thoruoft>.
+- **Thorndike, Animal Intelligence — SHIPPED** (`data/thorndike.json`, built by
+  `tools/build-thorndike.py`): selections from the 1911 collected volume (New York:
+  Macmillan) — <https://archive.org/details/animalintellige00thorgoog> — OCR emended by
+  hand against the sense. Carried: the standpoint of the 1898 monograph (ch. II opening),
+  the apparatus and the cats in the puzzle boxes with the time-curve as record (box A's
+  description carried, the parallel specifications B–K omitted; figures and footnotes not
+  reproduced), and the law-stating subsections of ch. VI complete. Named next step: the
+  chapter's defence of the laws' adequacy. Cited as `AI, ch. II/VI [k]`; k runs across
+  the two chapter-II sections. The 1898 monograph printing
+  (<https://archive.org/details/animalintelligen00thoruoft>) is named beside it.
 - **Watson, Psychology as the Behaviorist Views It** — Psychological Review 20 (1913);
   public-domain journal printing, exact item to be pinned at ship time (JSTOR Early Journal
   Content / Internet Archive journal scans).
@@ -48,9 +55,13 @@ checkable. All are United States public domain (published through 1930). Entries
 
 ## The automaton debate
 
-- **Huxley, On the Hypothesis that Animals are Automata, and its History (1874)** — in
-  Collected Essays, vol. I: Method and Results —
-  <https://archive.org/details/methodandresult01huxlgoog>.
+- **Huxley, On the Hypothesis that Animals are Automata — SHIPPED**
+  (`data/huxley.json`, built by `tools/build-huxley.py`): the address of 1874 complete,
+  from Collected Essays, vol. I: Method and Results (printed pp. 199–250) —
+  <https://archive.org/details/methodandresult01huxlgoog> — OCR emended by hand against
+  the sense; running heads and signature marks dropped, the footnotes not carried (the
+  reference for the long Bonnet quotation kept as a note), quotation marks normalised.
+  Cited as `Aut. [n]`.
 - **James, "Are We Automata?" (Mind IV, 1879)** — public-domain journal printing, exact item
   to be pinned at ship time; **The Principles of Psychology (New York 1890)** —
   <https://archive.org/details/principlesofpsyc01jameuoft>.
