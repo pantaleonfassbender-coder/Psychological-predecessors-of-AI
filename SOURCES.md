@@ -96,6 +96,25 @@ checkable. All are United States public domain (published through 1930). Entries
   time. The 1931 sequel (Baernstein & Hull, Journal of General Psychology) joins on
   1 January 2027.
 
+## The plates
+
+One plate per shipped module (`assets/plates/`, registered in `data/plates.json`, built
+by `tools/build-plates.py`): a single page each, fetched over IIIF from the same
+digitisations the editions cite — no full scans are downloaded or carried. All are
+faithful reproductions of public-domain two-dimensional pages; each plate's caption and
+credit name the source, digitisation and leaf.
+
+- **Fechner** — title page of *Elemente der Psychophysik*, vol. I (Leipzig 1860);
+  `elementederpsych001fech`, leaf 9.
+- **Ebbinghaus** — title page of *Memory* (New York: Teachers College, 1913);
+  `memorycontributi00ebbiuoft`, leaf 7.
+- **Spearman** — the paper's first page as printed, AJP 15 (1904), p. 201;
+  `jstor-1412107`, leaf 1.
+- **Huxley** — title page of *Method and Results: Essays* (New York: D. Appleton and
+  Company, 1894); `methodandresult01huxlgoog`, leaf 6.
+- **Thorndike** — the puzzle box, Fig. 1 on p. 30 of *Animal Intelligence* (New York:
+  Macmillan, 1911); `animalintellige00thorgoog`, leaf 43.
+
 ---
 
 Scans and transcriptions are linked as documentation of the editions to be used; the

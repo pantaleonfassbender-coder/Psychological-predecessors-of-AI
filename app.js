@@ -48,6 +48,17 @@ const CITE = {
 };
 const citeOf = (workId, sec, u) => (CITE[workId] || ((s, x) => `[${x.n}]`))(sec, u);
 
+/* One public-domain plate per module where a suitable image exists
+   (assets/plates/, registry data/plates.json, built by tools/build-plates.py). */
+const plateFig = id => {
+  const pl = (D.plates || {})[id];
+  return pl ? `<figure class="plate">
+    <img src="assets/plates/${id}.jpg" alt="${esc(pl.caption)}" loading="lazy">
+    <figcaption class="fine">${esc(pl.caption)}
+      <span style="color:var(--fg3)"> — ${esc(pl.credit)}</span></figcaption>
+  </figure>` : "";
+};
+
 const ROUTES = {};
 let atlasStop = null;
 function route() {
@@ -101,6 +112,7 @@ function viewOverview() {
 function workCard(w) {
   const open = w.status === "shipped";
   const card = el(`<div class="workcard card linie-${w.linie}" ${open ? 'style="cursor:pointer"' : ""}>
+    ${(D.plates || {})[w.id] ? `<img class="platethumb" src="assets/plates/${w.id}_t.jpg" alt="" loading="lazy">` : ""}
     <div style="display:flex;gap:.6rem;align-items:baseline;justify-content:space-between;flex-wrap:wrap">
       <strong style="font-family:var(--serif)">${esc(w.autor)}</strong>
       <span class="status ${open ? "shipped" : "planned"}">${open ? "reader" : "planned"}</span>
@@ -127,6 +139,7 @@ function workReader(id, secId) {
       <h1>${esc(t.titel)}</h1>
       <p class="lede">${esc(w.claim)}</p>
     </div>
+    ${plateFig(id)}
     <div class="grid g2" id="toc"></div>
     <p class="fine" style="margin-top:1.2rem">Cited as <span class="mono">${esc(t.zitierweise)}</span>.
       ${esc(t.quelle)} ${esc(t.hinweis || "")}</p>
@@ -633,6 +646,7 @@ Object.assign(ROUTES, {
 
 async function boot() {
   D.works = await fetch("data/works.json").then(r => r.json());
+  D.plates = await fetch("data/plates.json").then(r => r.json()).catch(() => ({}));
   const shipped = D.works.filter(w => w.status === "shipped" && w.datei);
   const res = await Promise.all(shipped.map(w => fetch(`data/${w.datei}.json`).then(r => r.json())));
   shipped.forEach((w, i) => D.texts[w.id] = res[i]);
