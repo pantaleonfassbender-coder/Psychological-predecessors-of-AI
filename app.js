@@ -42,6 +42,8 @@ const CITE = {
   huxley: (sec, u) => `Aut. [${u.n}]`,
   thorndike: (sec, u) =>
     sec.id === 'laws' ? `AI, ch. VI [${u.k}]` : `AI, ch. II [${u.k}]`,
+  spearman: (sec, u) => `GI [${u.k}]`,
+  ebbinghaus: (sec, u) => `Mem. [${u.k}]`,
 };
 const citeOf = (workId, sec, u) => (CITE[workId] || ((s, x) => `[${x.n}]`))(sec, u);
 

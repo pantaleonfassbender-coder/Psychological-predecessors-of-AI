@@ -13,14 +13,25 @@ checkable. All are United States public domain (published through 1930). Entries
   <https://archive.org/details/10255089> (vol. II). German; the English translation of 1966
   is in copyright and will not be consulted — the module carries a working translation made
   for this site (CC0).
-- **Ebbinghaus, Memory: A Contribution to Experimental Psychology** — trans. Ruger &
-  Bussenius (New York, 1913), public domain —
-  <https://archive.org/details/memorycontributi00ebbiuoft>. German original of 1885 named.
+- **Ebbinghaus, Memory — SHIPPED** (`data/ebbinghaus.json`, built by
+  `tools/build-ebbinghaus.py`): selections from the Ruger/Bussenius translation (New
+  York: Teachers College, 1913; public domain) —
+  <https://archive.org/details/memorycontributi00ebbiuoft> — OCR emended against the
+  sense. Thirteen sections carried complete in five chapter groups (I §§ 1–3, II §§ 4–5,
+  III §§ 11–12, VI §§ 22–23, VII §§ 26–27 and 29–30); § 28, the results tables
+  themselves, is omitted and named as the module's next step; tables and formula
+  displays are not reproduced, a note marking each place. Cited as `Mem. [k]`, k unique
+  across the module. The German original of 1885 is named, not carried.
 - **Galton, Inquiries into Human Faculty and its Development (London 1883)** —
   <https://archive.org/details/inquiriesintohu00galtgoog>.
-- **Spearman, "General Intelligence," Objectively Determined and Measured** — American
-  Journal of Psychology 15 (1904), JSTOR Early Journal Content —
-  <https://archive.org/details/jstor-1412107>.
+- **Spearman, "General Intelligence" — SHIPPED** (`data/spearman.json`, built by
+  `tools/build-spearman.py`): selections from the American Journal of Psychology 15
+  (1904), pp. 201–292, in the original printing via JSTOR Early Journal Content —
+  <https://archive.org/details/jstor-1412107> — OCR emended against the sense. Carried
+  complete: ch. I (the programme), ch. V §§ 4–5 (universal unity and the hierarchy — the
+  correlation tables not reproduced, each omission marked), and ch. V § 8, the Summary of
+  Conclusions. Cited as `GI [k]`, k unique across the selections; the paper's section
+  headings carried as labels; page-bottom footnotes not carried.
 - **Binet & Simon, The Development of Intelligence in Children** — trans. Elizabeth S. Kite
   (Vineland, 1916), public domain —
   <https://archive.org/details/developmentofint00binerich>. French papers of 1905–1911 named.

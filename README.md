@@ -7,11 +7,14 @@ AI](https://philosophical-predecessors-of-ai.netlify.app), built to the same dis
 everything United States public domain, every paragraph citable, working translations marked
 as unofficial, no tracking.
 
-**Status: stage 1 — the first two modules are shipped.** Thorndike's *Animal
-Intelligence* (selections: the 1898 standpoint, the puzzle boxes, the laws of effect and
-exercise stated) and Huxley's *Animal Automatism* (1874, complete) are readable on stable
-citation grids (`AI, ch. II/VI [k]` · `Aut. [n]`), and a cross-corpus **concordance**
-searches them; a checker (`tools/check-corpus.py`) runs in CI. Sixteen further modules
+**Status: stage 2 — four modules shipped.** Thorndike's *Animal
+Intelligence* (the puzzle boxes and the laws of effect and exercise), Huxley's *Animal
+Automatism* (1874, complete), Spearman's *"General Intelligence"* (1904: the programme,
+the universal unity, the hierarchy, the summary of conclusions) and Ebbinghaus's *Memory*
+(1913 translation: the nonsense syllables, the savings method, the forgetting curve) are
+readable on stable citation grids (`AI, ch. II/VI [k]` · `Aut. [n]` · `GI [k]` ·
+`Mem. [k]`), and a cross-corpus **concordance** searches them; a checker
+(`tools/check-corpus.py`) runs in CI. Fourteen further modules
 are registered in `data/works.json` with their source digitisations pinned. As modules
 ship, the apparatus gains the remaining sibling machinery (concept atlas, timeline,
 plates, citation-bound dialogue).

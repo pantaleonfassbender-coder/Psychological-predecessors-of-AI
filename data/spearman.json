@@ -1,0 +1,289 @@
+{
+ "id": "spearman",
+ "autor": "Charles Spearman",
+ "titel": "“General Intelligence,” Objectively Determined and Measured (1904) — selections",
+ "jahr": 1904,
+ "zitierweise": "GI [k]",
+ "quelle": "Selections from the American Journal of Psychology 15 (1904), pp. 201–292, in the original printing via JSTOR Early Journal Content (Internet Archive jstor-1412107), OCR emended by hand against the sense. Carried complete: Chapter I (the programme), Chapter V sections 4–5 (the Universal Unity of the Intellective Function and the Hierarchy of the Intelligences — the correlation tables themselves are not reproduced), and Chapter V section 8, the Summary of Conclusions. Paragraph numbering k runs across the three selections, so a citation 'GI [k]' is unique; the paper's own section headings are carried as labels. The page-bottom footnotes are not carried. Public domain.",
+ "hinweis": "Intelligence becomes a factor: correlation corrected for attenuation, the hierarchy of the specific intelligences, and the conclusion that all branches of intellectual activity share one fundamental function — the mathematics of ‘how intelligent?’, the question later asked of machines.",
+ "sections": [
+  {
+   "id": "intro",
+   "titel": "Ch. I — Introductory (complete)",
+   "units": [
+    {
+     "n": 1,
+     "k": 1,
+     "txt": "To-day, it is difficult to realize that only as recently as 1879 Wundt first obtained from the authorities of Leipsic University one little room for the then novel purpose of a \"psychological laboratory. '",
+     "label": "§ 1. Signs of Weakness in Experimental Psychology"
+    },
+    {
+     "n": 2,
+     "k": 2,
+     "txt": "In twenty-four years, not only has this modest beginning expanded into a suite of apartments admirably equipped with elaborate apparatus and thronged with students from the most distant quarters of the globe, but all over Germany and in almost every other civilized country have sprung up a host of similar institutions, each endeavoring to outbid the rest in perfection. The brief space of time has sufficed for Experimental Psychology to become a firmly established science, everywhere drawing to itself the most vigorous energies and keenest intellects."
+    },
+    {
+     "n": 3,
+     "k": 3,
+     "txt": "But in spite of such a brilliant career, strangely enough this new branch of investigation still meets with resolute, wide spread, and even increasing opposition. Nor are its enemies at all confined to belated conservatives or crotchety reactionaries; they are rather to be found among the most youthful schools of thought; their strength may be in some measure estimated from the very elaborate apology which one of the best known experimental psychologists has lately found himself called upon to utter on behalf of his profession.1"
+    },
+    {
+     "n": 4,
+     "k": 4,
+     "txt": "And, indeed, when we without bias consider the whole actual fruit so far gathered from this science — which at the outset seemed to promise an almost unlimited harvest — we can scarcely avoid a feeling of great disappointment. Take for an example Education. This is the line of practical inquiry that more than all others has absorbed the energy and talent of the younger workers and that appears to offer a peculiarly favorable field for such methods. Yet at this moment, notwithstanding all the laborious experiments and profuse literature on the subject, few competent and unprejudiced judges will venture to assert that much unequivocal information of capital importance has hitherto thus come to light. Nor have the results been more tangible in Psychiatry or in any other department of applied psychology."
+    },
+    {
+     "n": 5,
+     "k": 5,
+     "txt": "Those, then, who have the highest opinion concerning the potentialities of this new science, will feel most bound to critically examine it for any points of structural incompleteness."
+    },
+    {
+     "n": 6,
+     "k": 6,
+     "txt": "Most of those hostile to Experimental Psychology are in the habit of reproaching its methods with insignificance, and even with triviality. They regard it as an infatuation to pass life in measuring the exact average time required to press a button or in ascertaining the precise distance apart where two simultaneous pinpricks cannot any more be distinguished from one another; they protest that such means can never shed any real light upon the human soul, unlock the eternal antinomy of Free Will, or reveal the inward nature of Time and Space.",
+     "label": "§ 2. The Cause of this Weakness"
+    },
+    {
+     "n": 7,
+     "k": 7,
+     "txt": "Such blame, however, would appear ill founded — at any rate, in principle. This same apparent triviality lies at the base of every successful science. The three laws of Newton on first inspection are by no means remarkably significant; yet by a large number of instructed persons they have been found implicitly to contain the supreme key to every event on the earth below and in the heavens above. When starting any new branch of mathematics, again, most people have had occasion to be astonished at the curious suddenness with which the seemingly shallow beginnings have shelved down into drowning deep water. The general fact is that our limited intellects can only hope to deal with the infinite complexity of Nature after analyzing it down into its bare unsesthetic elements."
+    },
+    {
+     "n": 8,
+     "k": 8,
+     "txt": "On the other hand, it must frankly be admitted that such a procedure is, after all, only indirect; that it does not immediately handle the things which really interest us, but other things which are believed to accurately enough betoken the former; that the results arrived at concerning the simpler terms are therefore always worthless, except in proportion as their 204 SPBARMAN : elements have been proved beyond dispute to be identical with those of the more complex terms. Now, even in physical sciences this proof is not such an infallible operation that we can afford to neglect the possibility of lurking errors which may vitiate all our conclusions; and in psychical research such dangers are enormously magnified. When we pass an electric current through water until it vaporizes away into bubbles of hydrogen and oxygen, we can with reasonable precautions be tolerably certain that we have still got in our jars almost the whole of the same material substance, only reduced to simpler forms. But when we assert that the decision of Regulus to vote against making peace with Carthage was no more than a conglomeration of visual, auditory, and tactual sensations in various stages of intensity and association, then there is an undeniable risk that some precious psychical elements may have slipped through our fingers."
+    },
+    {
+     "n": 9,
+     "k": 9,
+     "txt": "On this vital matter, it must reluctantly be confessed that most of Wundt's disciples have failed to carry forward the work in at all the positive spirit of their master. For while the simpler psychoses of the Laboratory have been investigated with great zeal and success, their identification with the more complex psychoses of Life has still continued to be almost exclusively ascertained by the older method of introspection. This pouring of new wine into old bottles has not been to the benefit of either, but rather has created a yawning gulf between the Science and the Reality. The results of all good experimental work will live, but as yet most of them are like hieroglyphics awaiting their deciphering Rosetta stone."
+    },
+    {
+     "n": 10,
+     "k": 10,
+     "txt": "Here, we naturally arrive at the important question as to what actually constitutes 'identity' for scientific purposes.",
+     "label": "§ 3. The Identities of Science"
+    },
+    {
+     "n": 11,
+     "k": 11,
+     "txt": "As regards the material atoms of the physical sciences, this relation is of two orders. There is the Identity in the looser use of the word, which really means no more than uniformity of potential function, or the fact of having like reactions under like conditions; this alone constitutes the proper topic of the science. And then there is the true Identity involved in the metaphysical idea of persistence of substance, which in science is only a convenient working hypothesis to aid in establishing uniformities of the former order."
+    },
+    {
+     "n": 12,
+     "k": 12,
+     "txt": "For psychology, also, the identification is of two orders. First, there is once more Uniformity of Function, and again this appears to be the proper topic of the positive science. But the second order is quite disparate from anything in physics, being that of in ward resemblance as ascertained by introspection; such a \"Conceptual Uniformity,\" though in metaphysics per- haps of primary importance, in psychology is but an indispensable substructure — and one of lamentable fallibility. It cannot even be forthwith assumed necessarily to imply complete Functional Uniformity; and it is peculiarly insusceptible of scientific precision, propositions scarcely ever admitting of either decisive confirmation or refutation."
+    },
+    {
+     "n": 13,
+     "k": 13,
+     "txt": "Now, it is one of the great merits of experimental psychology to have largely introduced the direct investigation of these Functional Uniformities, which have the infinite advantage of being eventually susceptible of conclusive proof, and on being securely established are in their turn capable of throwing back a valuable corrective light upon the Conceptual ones also. So far, however, this matter of research seems to have been almost entirely confined to such correspondences as are approximately complete (these, indeed, being the only ones attainable without a new development of methodics). But the vast majority of the functional relations are not thus complete; they are more or less thwarted by other factors; they outwardly present themselves only in the form of stronger or weaker tendencies. And precisely of this incomplete nature are most of the Functional Uniformities which connect the psychics of the Laboratory with those of real Life."
+    },
+    {
+     "n": 14,
+     "k": 14,
+     "txt": "The present article, therefore, advocates a \"Correlational Psychology,\" for the purpose of positively determining all psychical tendencies, and in particular those which connect together the so-called \"mental tests\" with psychical activities of greater generality and interest. These will usually belong to that important class of tendencies produced by community ot organism, whereby sufficiently similar acts are almost always performed by any one person in much the same manner; if, for example, he once proves good at discriminating two musical tones, he may be expected to manifest this talent on any subsequent occasion, and even in another portion of the scale.",
+     "label": "§ 4. Scope of the Present Experiments"
+    },
+    {
+     "n": 15,
+     "k": 15,
+     "txt": "For finding out the classes and limits of these individual functions, modern psychology seems to have mainly contented itself with borrowing statements from the discredited ' faculties\" of the older school, and then correcting and expanding such data by inward illumination. The following work is an attempt at the more fatiguing procedure of eliciting verifiable facts; the good intention and the difficulty of such an enterprise may, perhaps, be allowed to palliate the shortcomings in its execution. Our particular topic will be that cardinal function which we can provisionally term \"General Intelligence; \" first, there will be an inquiry into its exact relation to the Sensory Discrimination of which we hear so much in laboratory work; and then — by the aid of information thus coming to light — it is hoped to determine this Intelligence in a definite objective manner, and to discover means of precisely measuring it. Should this ambitious programme be achieved even in small degree, Experimental Psychology would thereby appear to be supplied with the missing link in its theoretical justification, and at the same time to have produced a practical fruit of almost illimitable promise."
+    }
+   ]
+  },
+  {
+   "id": "unity",
+   "titel": "Ch. V, §§ 4–5 — Universal unity and the hierarchy",
+   "units": [
+    {
+     "n": 1,
+     "k": 16,
+     "txt": "In view of this community being discovered between such diverse functions as in-school Cleverness, out-of-school Common Sense, Sensory Discrimination, and Musical Talent, we need scarcely be astonished to continually come upon it no less paramount in other forms of intellectual activity. Always in the r * present experiments, approximately, pq = 1.",
+     "label": "§ 4. Universal Unity of the Intellective Function"
+    },
+    {
+     "n": 2,
+     "k": 17,
+     "txt": "^rpp rqq I have actually tested this relation in twelve pairs of such groups taken at random, and have found the average value to be precisely 1.00 for the first two decimal places with a mean deviation of only 0.05. All examination, therefore, in the different sensory, school, or other specific intellectual faculties, may be regarded as so many independently obtained estimates of the one great common Intellective Function."
+    },
+    {
+     "n": 3,
+     "k": 18,
+     "txt": "Though the range of this central Function appears so universal, and that of the specific functions so vanishingly minute, the latter must not be supposed to be altogether non-existent."
+    },
+    {
+     "n": 4,
+     "k": 19,
+     "txt": "'Where rpq = the mean of the correlations between the members of the one group p with the members of the other group q, rpp = the mean of the inter-correlations of the members of the group p among themselves, and rqq = the same as regards group q."
+    },
+    {
+     "n": 5,
+     "k": 20,
+     "txt": "We can always come upon them eventually, if we sufficiently narrow our field of view and consider branches of activity closely enough resembling one another. When, for instance, in this same preparatory school we take on the one side Latin translation with Latin grammar and on the other side French prose with French dictation, then our formula gives us a new result; for the two Latin studies correlate with the French ones by an average of 0.59, while the former correlate together by 0.66 and the latter by 0.71; so that the element common to the Latin correlates with the element common to the French by °-59 z = 0.86 only."
+    },
+    {
+     "n": 6,
+     "k": 21,
+     "txt": "That is to say, the two common elements by no means coincide completely this time, but only to the extent of 0.862 or 74% ; 1 so that in the remaining 26% , each pair must possess a community purely specific and unshared by the other pair.8"
+    },
+    {
+     "n": 7,
+     "k": 22,
+     "txt": "We therefore bring our general theorem to the following form. Whenever branches of intellectual activity are at all dissimilar, then their correlations with one another appear wholly due to their being all variously saturated with some common fundamental Function {or group of Functions) . This law of the Universal Unity of the Intellective Function is both theoretically and practically so momentous, that it must acquire a much vaster corroborative basis before we can accept it even as a general principle and apart from its inevitable eventual corrections and limitations. Discussion of the subjective nature of this great central Function has been excluded from the scope of the present work. But clearly, if it be mental at all, it must inevitably become one of the foundation pillars of any psychological system claiming to accord with actual fact — and the majority of prevalent theories may have a difficulty in reckoning with it."
+    },
+    {
+     "n": 8,
+     "k": 23,
+     "txt": "Of its objective relations, the principal is its unique universality, seeing that it reappears always the same in all the divers forms of intellectual activity tested; whereas the specific factor seems in every instance new and wholly different from that in all the others. As regards amount, next, there seems to be an immense diversity; already in the present examples, the central factor varies from less than 1/5 to over fifteen times the size of the accompanying specific one. But all cases appear equally susceptible of positive and accurate measurement; thus we are becoming able to give a precise arithmetical limitation Journal — 11 to the famous assertion that \"at bottom, the Great Man is ever the same kind of thing. '"
+    },
+    {
+     "n": 9,
+     "k": 24,
+     "txt": "Finally, there is the exceedingly significant fact that this central Function, whatever it may be, is hardly anywhere more prominent than in the simple act of discriminating two nearly identical tones; here we find a correlation exceeding 0.90,1 indicating the central Function to be more than four times larger than all the other influences upon individual differentiation. Not only the psychical content but also the external relations of Sensory Discrimination offer a most valuable simplicity; for it is a single monotonous act, almost independent of age, previous general education, memory, industry, and many other factors that inextricably complicate the other functions. Moreover, the specific element can to a great extent be readily eliminated by varying and combining the kind of test. For these reasons, Discrimination has unrivalled advantages for investigating and diagnosing the central Function."
+    },
+    {
+     "n": 10,
+     "k": 25,
+     "txt": "The Theorem of Intellective Unity leads us to consider a corollary proceeding from it logically, testing it critically, and at once indicating some of its important practical uses. This corollary may be termed that of the Hierarchy of the Specific Intelligences.",
+     "label": "§ 5. The Hierarchy of the Intelligences"
+    },
+    {
+     "n": 11,
+     "k": 26,
+     "txt": "For if we consider the correspondences between the four branches of school study, a very remarkable uniformity may be observed. English and French, for instance, agree with one another in having a higher correlation with Classics than with Mathematics. Quite similarly, French and Mathematics agree in both having a higher correlation with Classics than with English. And the same will be found to be the case when any other pair is compared with the remainder. The whole thus forms a perfectly constant Hierarchy in the following order: Classics, French, English, and Mathematics. This unbroken regularity becomes especially astonishing when we regard the minuteness of the variations involved, for the four branches have average correlations of 0.77, 0.72, 0.70, and 0.67 respectively."
+    },
+    {
+     "n": 12,
+     "k": 27,
+     "txt": "When in the same experimental series we turn to the Discrimination of Pitch, we find its correlations to be of slightly less magnitude (raw) but in precisely the same relative rank, being: 0.66 with Classics, 0.65 with French, 0.54 with Engglish, and 0.45 with Mathematics. Even in the crude correlations furnished by the whole school without excluding the non-musicians, exactly the same order is repeated, though with the general diminution caused by the impurity: Classics 0.60, French 0.56, English 0.45, and Mathematics 0.39."
+    },
+    {
+     "n": 13,
+     "k": 28,
+     "txt": "Just the same principle governs even Musical Talent, a faculty that is usually set up on a pedestal entirely apart. For it is not only correlated with all the other functions, but once again in precisely the same order: with Classics 0.63, with French 0.57, with English 0.51, with Mathematics 0.51, and with Discrimination 0.40. Ability for music corresponds substantially with Discrimination of tones, but nevertheless not so much as it does with algebra, irregular verbs, etc.1"
+    },
+    {
+     "n": 14,
+     "k": 29,
+     "txt": "The actual degree of uniformity in this Hierarchy can be most conveniently and summarily judged from the following table of correlation; the values given are those actually observed (theoretical correction would modify the relative order, but in no degree affect the amount of Hierarchy or otherwise) . Each number shows the correlation between the faculty vertically above and that horizontally to the left; except in the oblique line italicized, the value always becomes smaller as the eye travels either to the right or downwards."
+    },
+    {
+     "n": 15,
+     "k": 30,
+     "txt": "Classics. French. English. Mathem. Discrim. Music.",
+     "note": "The hierarchy table that follows in the print — the specific activities in their constant order of correlation — is not reproduced."
+    },
+    {
+     "n": 16,
+     "k": 31,
+     "txt": "/ e \"t4dt where h is a measure of the correlation between Musicality and Intelligence, and a = the given inferiority in the latter faculty. the oblique line, which is no measure of the central Function and where consequently the gradation abruptly and entirely vanishes.1"
+    },
+    {
+     "n": 17,
+     "k": 32,
+     "txt": "The above correlations are raw, and therefore do not tell us either the true rank of the respective activities or the full absolute saturation of each with General Intelligence. For the former purpose we must eliminate the observational errors, and for the latter our result must further be squared.2 Thus we get:",
+     "note": "The hierarchy table that follows in the print — the specific activities in their constant order of correlation — is not reproduced."
+    },
+    {
+     "n": 18,
+     "k": 33,
+     "txt": "Correlation with Ratio of the common factor Gen. Intell. to the specific factor.",
+     "note": "The hierarchy table that follows in the print — the specific activities in their constant order of correlation — is not reproduced."
+    },
+    {
+     "n": 19,
+     "k": 34,
+     "txt": "It is clear how much the amount of any observable raw correlation depends upon the two very different influences: first, there is the above intellective saturation, or extent to which the considered faculty is functionally identical with General Intelligence; and secondly, there is the accuracy with which we have estimated the faculty. As regards the ordinary school studies, this accuracy is indicated by the oblique italicized line, and therefore appears about equal in all cases (not in the least following the direction of the Hierarchy) ; but in other cases there is a large divergence on this head, which leads to important practical consequences. Mathematics, for example, has a saturation of 74 and Common Sense has one of about 96; but in actual use the worth of these indications becomes reversed, so that a subjective impression as to a child's \"brightness\" is a less reliable sign than the latter' s rank in the arithmetic class; almost as good as either appears a few minutes' test with a monochord."
+    },
+    {
+     "n": 20,
+     "k": 35,
+     "txt": "In the above Hierarchy one of the most noticeable features is the high position of languages; to myself, at any rate, it was no small surprise to find Classics and even French placed unequivocally above English (note that this term does not refer to any study of the native tongue, but merely to the aggregate of all the lessons conducted therein, such as History, Geography, Dictation, Scripture, and Repetition)."
+    },
+    {
+     "n": 21,
+     "k": 36,
+     "txt": "However it may be with these or any other special facts, here would seem to lie the long wanted general rational basis for public examinations. Instead of continuing ineffectively to protest that high marks in Greek syntax are no test as to the capacity of men to command troops or to administer provinces, we shall at last actually determine the precise accuracy of the various means of measuring General Intelligence, and then we shall in an equally positive objective manner ascertain the exact relative importance of this General Intelligence as compared with the other characteristics desirable for the particular post which the candidate is to assume (such as any required Specific Intelligences, also Instruction, Force of Will, Physical Constitution, Honesty, Zeal, etc.; though some of these factors cannot easily be estimated separately, there is no insuperable obstacle to weighing their total influence as compared with tually reach our pedagogical conclusions, not by easy subjective theories, nor by the insignificant range of personal experiences, nor yet by some catchpenny exceptional cases, but rather by an adequately representative array of established facts."
+    }
+   ]
+  },
+  {
+   "id": "concl",
+   "titel": "Ch. V, § 8 — Summary of conclusions",
+   "units": [
+    {
+     "n": 1,
+     "k": 37,
+     "txt": "To conclude, the following is a brief summary of the principal conclusions indicated by the foregoing experiments:",
+     "label": "§ 8. Summary of Conclusions"
+    },
+    {
+     "n": 2,
+     "k": 38,
+     "txt": "I. The results hitherto obtained in respect of psychic correlation would, if true, be almost fatal to experimental psychology as a profitable branch of science. But none of these results, as at present standing, can be considered to possess any value other than suggestive only; this fact is not so much due to individual shortcomings of the investigators, as to the general non-existence of any adequate system of investigation."
+    },
+    {
+     "n": 3,
+     "k": 39,
+     "txt": "II. On making good this methodological deficiency, there is found to actually occur a correspondence — continually varying in size according to the experimental conditions — between all the forms of Sensory Discrimination and the more complicated Intellectual Activities of practical life."
+    },
+    {
+     "n": 4,
+     "k": 40,
+     "txt": "III. By this same new system of methodics, there is also shown to exist a correspondence between what may provisionally be called \"General Discrimination\" and \"General Intelligence\" which works out with great approximation1 to one or absoluteness. Unlike the result quoted in the preceding paragraph, this phenomenon appears independent of the particular experimental circumstances; it has nothing to do with the procedure selected for testing either Discrimination or Intelligence, nor with the true representativeness of the values obtained by these tests, nor even with the homogeneousness of the experimental reagents; if the thesis be correct, its proof should be reproducible in all times, places, and manners — on the sole condition of adequate methodics."
+    },
+    {
+     "n": 5,
+     "k": 41,
+     "txt": "IV. The above and other analogous observed facts indicate that all branches of intellectual activity have in common one fundamental function {or group of functions) , whereas the remaining or specific elements of the activity seem in every case to be wholly different from that in all the others. The relative influence of the general to the specific function varies in the ten departments here investigated from 15:1 to 1:4."
+    },
+    {
+     "n": 6,
+     "k": 42,
+     "txt": "V. As an important practical consequence of this universal Unity of the Intellectual Function, the various actual forms of mental activity constitute a stably interconnected Hierarchy according to their different degrees of intellective saturation. Hence, the value of any method of examination as to intellectual fitness for any given post is capable of being precisely ascertained, since it depends upon:"
+    },
+    {
+     "n": 7,
+     "k": 43,
+     "txt": "(a) the accuracy with which it can be conducted;"
+    },
+    {
+     "n": 8,
+     "k": 44,
+     "txt": "(b) the hierarchical intellective rank of the test;"
+    },
+    {
+     "n": 9,
+     "k": 45,
+     "txt": "(c) the hierarchical intellective rank of the duties involved in the post. Methods have been given whereby all these three points can be sufficiently ascertained."
+    },
+    {
+     "n": 10,
+     "k": 46,
+     "txt": "VI. Discussion as to the psychical nature of this fundamental Function has been reserved until a more complete acquaintance has been gained concerning its objective relations. Among the latter, the principal and determining one is its unique position as indicated in paragraph IV. The chief further evidence is to the following effect:"
+    },
+    {
+     "n": 11,
+     "k": 47,
+     "txt": "The function appears to become fully developed in children by about their ninth year, and possibly even much earlier. From this moment, there normally occurs no further change even into extreme old age."
+    },
+    {
+     "n": 12,
+     "k": 48,
+     "txt": "In adult life, there would seem no appreciable difference between the two sexes."
+    },
+    {
+     "n": 13,
+     "k": 49,
+     "txt": "The Function almost entirely controls the relative position of children at school (after making due allowance for difference of age), and is nine parts out of ten responsible for success in such a simple act as Discrimination of Pitch."
+    },
+    {
+     "n": 14,
+     "k": 50,
+     "txt": "Its relation to the intellectual activity does not appear to be of any loosely connected or auxiliary character (such as willingness to make an effort, readiness in adaptation to unfamiliar tests, or dexterity in the fashion of executing them,), but rather to be intimately bound up in the very essence of the process."
+    }
+   ]
+  }
+ ]
+}

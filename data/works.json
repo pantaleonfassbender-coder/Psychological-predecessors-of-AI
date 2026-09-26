@@ -14,14 +14,15 @@
  {
   "id": "ebbinghaus",
   "linie": "messen",
-  "status": "planned",
+  "status": "shipped",
   "autor": "Hermann Ebbinghaus",
   "leben": "1850–1909",
   "kurz": "Ebbinghaus",
   "titel": "Memory: A Contribution to Experimental Psychology (1885) — selections",
   "sprachen": "English (1913, public domain)",
   "claim": "Learning becomes a curve: nonsense syllables, the savings method, forgetting as a lawful function of time. The learning curve that machine learning still plots begins here.",
-  "geplant": "Selections from the Ruger/Bussenius translation of 1913 (Internet Archive memorycontributi00ebbiuoft), public domain; the German original of 1885 named beside it."
+  "geplant": "Selections from the Ruger/Bussenius translation of 1913 (Internet Archive memorycontributi00ebbiuoft), public domain; the German original of 1885 named beside it.",
+  "datei": "ebbinghaus"
  },
  {
   "id": "galton",
@@ -38,14 +39,15 @@
  {
   "id": "spearman",
   "linie": "messen",
-  "status": "planned",
+  "status": "shipped",
   "autor": "Charles Spearman",
   "leben": "1863–1945",
   "kurz": "Spearman",
   "titel": "“General Intelligence,” Objectively Determined and Measured (1904)",
   "sprachen": "English",
   "claim": "Intelligence becomes a factor: correlation, measurement error, and the general factor g extracted from the numbers. The mathematics of “how intelligent?” — the question later asked of machines.",
-  "geplant": "The 1904 American Journal of Psychology paper, carried in selections from the original printing (Internet Archive jstor-1412107, JSTOR Early Journal Content)."
+  "geplant": "The 1904 American Journal of Psychology paper, carried in selections from the original printing (Internet Archive jstor-1412107, JSTOR Early Journal Content).",
+  "datei": "spearman"
  },
  {
   "id": "binet",

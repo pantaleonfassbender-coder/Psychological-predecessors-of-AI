@@ -1,0 +1,514 @@
+{
+ "id": "ebbinghaus",
+ "autor": "Hermann Ebbinghaus",
+ "titel": "Memory: A Contribution to Experimental Psychology (1885; English 1913) — selections",
+ "jahr": 1913,
+ "zitierweise": "Mem. [k]",
+ "quelle": "Selections from the translation of Henry A. Ruger and Clara E. Bussenius (New York: Teachers College, Columbia University, 1913; public domain), Internet Archive scan memorycontributi00ebbiuoft, OCR emended by hand against the sense. Thirteen of the book's sections carried complete in five chapter groups (I §§ 1–3, II §§ 4–5, III §§ 11–12, VI §§ 22–23, VII §§ 26–27 and 29–30; § 28, the results tables themselves, is omitted and named as the module's next step); the print's section headings are carried as labels, and its tables and formula displays are not reproduced — a note marks each place where one falls. Paragraph numbering k runs across the whole module, so a citation 'Mem. [k]' is unique. The German original of 1885 (Über das Gedächtnis) is named, not carried. Public domain.",
+ "hinweis": "Learning becomes a curve: nonsense syllables, constant conditions, the savings method — and the forgetting curve of chapter VII, rapid at first and then slow, which every machine-learning textbook still plots. The measured mind's central exhibit.",
+ "sections": [
+  {
+   "id": "chI",
+   "titel": "Ch. I — Memory in its effects and dependence (§§ 1–3)",
+   "units": [
+    {
+     "n": 1,
+     "k": 1,
+     "txt": "The language of life as well as of science in attributing a memory to the mind attempts to point out the facts and their interpretation somewhat as follows:",
+     "label": "§ 1. Memory in its Effects"
+    },
+    {
+     "n": 2,
+     "k": 2,
+     "txt": "Mental states of every kind,— sensations, feelings,. ideas, — { which were at one time present Jn consciousness and then have. disappeared from it. have not with their disappearance absolutely ceased to exist. Although the inwardly-turned look may no longer be able to find them, nevertheless they have not been utterly destroyed and annulled, but in a certain manner they, continue to exfet, sjoreiTul jro to speak,.in. the memory. We cannot of course, directly observe_their present existence, but it is revealed by the effects which come to our knowledge with a certainty like that with which we infer the existence of the stars below the horizon. These effects are of different kinds."
+    },
+    {
+     "n": 3,
+     "k": 3,
+     "txt": "In a first group of cases we can call back into consciousness by an exertion of the will directed to this purpose the seemingly lost states (or, indeed, in case these consisted in immediate sense-perceptions, we can recall their true memory images) : that is, we can reproduce them voluntarily. During attempts of this sort, — that is, attempts to recollect— all sorts of images toward which our aim was not directed, accompany the desired images to the light of consciousness. Often, indeed, the latter entirely miss the goal, but as a general thing among the repre- sentations is found the one which we sought, and it is imme- \\ diately recognised as something formerly experienced. It would be absurd to suppose that our will has created it anew and, as it were, out of nothing; it must have been present somehow or somewhere. The will, so to speak, has only discovered it and brought it to us again."
+    },
+    {
+     "n": 4,
+     "k": 4,
+     "txt": "In a second group of cases this survival is even more striking. Often, even after years, mental states once present in consciousness return to it with apparent spontaneity and without any act of the will; that is, they are reproduced involuntarily. Here, also, in the majority of cases we at once recognise the returned mental state as one that has already been experienced; that is, we remember it. Under certain conditions, however, this accompanying consciousness is lacking, and we know only indirectly that the \" now \" must be identical with the \" then \" ; yet we receive in this way a no less valid proof for its existence during the intervening time. As more exact observation teaches us, the occurrence of these involuntary reproductions is not an entirely random and accidental one. On the contrary they are j brought about through the instrumentality of other, immediately present mental images. Moreover they occur in certain regular ways which in general terrns are described under the so-called ffrAlaws of association —"
+    },
+    {
+     "n": 5,
+     "k": 5,
+     "txt": "Finally there is a third and large group to be reckoned with here. The vanished mental states give indubitable proof of their continuing existence.even if they themselves do not return to V consciousness at all, or at least not exactly at the given time. Employment of a certain range of thought facilitates under cer-, tain conditions the employment of a similar range of thought, even if the former does not come before the mind directly either in its methods or in its results. The boundless domain of the \\ effect of accumulated experiences belongs here. This effect results from the frequent conscious occurrence of any condition or process, and consists in facilitating the occurrence and progress of similar processes. This effect is not fettered by the condition that the factors constituting the experience shall return in toto to consciousness. This may incidentally be the case with a part of them; it must not happen to a too great extent and with too great clearness, otherwise the course of the present process will immediately be disturbed. Most of these experiences remain concealed from consciousness and yet produce an effect which is significant and which authenticates their previous existence."
+    },
+    {
+     "n": 6,
+     "k": 6,
+     "txt": "Along' with this bare knowledge of the existence of memory and its effects, there is abundant knowledge concerning the conditions upon which depend the vitality of that inner survnljal' as well as the fidelity and promptness of the reproduction. \\\\",
+     "label": "§ 2. Memory in its Dependence"
+    },
+    {
+     "n": 7,
+     "k": 7,
+     "txt": "How differently do different individuals behave in this respect! One retains and reproduces well; another, poorly. And not only does this comparison hold good when different individuals are compared with each other, but also when different phases of the existence of the same individual are compared: morning and evening, youth and old age, find him different in/ this respect."
+    },
+    {
+     "n": 8,
+     "k": 8,
+     "txt": "Differences in the content of the thing to be reproduced are \\ of great influence. Melodies may become a source of torment _'_ by the undesired persistency of their return. Forms and colors are not so importunate; and if they do return, it is with noticeable loss of clearness and certainty. The musician writes for the orchestra what his inner voice sings to him; the painter rarely relies without disadvantage solely upon the images which his inner eye presents to him; nature gives him his forms, study1 governs his combinations of them. It is with something of a struggle that past states of feeling are realized; when realized, and this is often only through the instrumentality of the movements which accompanied them, they are but pale shadows of themselves. Emotionally true singing is rarer than technically correct singing."
+    },
+    {
+     "n": 9,
+     "k": 9,
+     "txt": "If the two foregoing points of view are taken together — differences in individuals and Differences in content — an endless number of differences come to light. One individual overflows with poetical reminiscences, another directs symphonies from memory, while numbers and formulae, which come to a third without effort, slip away from the other two as from a polished stone."
+    },
+    {
+     "n": 10,
+     "k": 10,
+     "txt": "Veryjyreat is the dependence _ of retention and-jffimvlnciion upon the inten iyoijhe_attention and interest which were attached to the mental states the first time they were present. The burnt child shuns the fire, and the dog which has been beaten runs from the whip,y after a single vivid experience. People in whom we are\" interested we may see daily and yet not be able to recall the color of their hair or of their eyes."
+    },
+    {
+     "n": 11,
+     "k": 11,
+     "txt": "Under ordinary circumstances, indeed, frequent repetitions are indispensable in order to make possible the reproduction of a given content. Vocabularies, discourses, and poems of any length cannot be learned by a single repetition even with the greatest concentration of attention on the part of an individual of very great ability. By a sufficient number of repetitions their final mastery is ensured, and by additional later reproductions gain in assurance and ease is secured."
+    },
+    {
+     "n": 12,
+     "k": 12,
+     "txt": "\") / Left to itself every mental content gradually loses its capacity / for being revived, or at least suffers loss_in this regard under \\ the influence of time. Facts crammed at examination time soon vanish, if they were not sufficiently grounded by other study and later subjected to a sufficient review. But even a thing so early and deeply founded as one's mother tongue is noticeably impaired if not used for several years."
+    },
+    {
+     "n": 13,
+     "k": 13,
+     "txt": "The foregoing sketch of our knowledge concerning memory makes no claim to completeness. To it might be added such a series of propositions known to psychology as the following: '' He who learns quickly also forgets quickly,\" \" Relatively long series of ideas are retained better than relatively short ones,\" Old people forget most quickly the things they learned last,\" and the like. Psychology is wont to make the pictu-re rich with anecdote and illustration. But — and this is the main point — even if we particularise our knowledge by a most extended use (.of illustrative material, everything that we can say retains the indefinite, general, and comparative character of the propositions quoted above. Our information comes almost exclusively from the observation of extreme and especially striking cases. We are able to describe these quite correctly in a general way and in vague expressions of more or less. We suppose, again quite correctly, that the same influences exert themselves, although in a less degree, in the case of the inconspicuous, but a thousandfold more frequent, daily activities of memory. But if our i.' curiosjty__ carries us further and we crave more specific and detailed information concerning these dependencies and inter- dependencies, both those already mentioned and others, — if we put questions, so to speak, concerning their inner structure — our answer is silence. HQW does the disappearance of the ability to reproduce, forgetfulness, depend upon the length of, time during which a_mp_e±kiQps have taken place? What, proportion does the increase in the certainty of reproduction! bear to the number ojj petitions ? How do these relations vary with the greater or less intensity of the interest in the thing to' be reproduced ? These and similar questions no one can answer.",
+     "label": "§ 3. Deficiencies in our Knowledge concerning Memory"
+    },
+    {
+     "n": 14,
+     "k": 14,
+     "txt": "This inability does not arise from a chance neglect of investigation of these relations. We cannot say that tomorrow, or whenever we wish to take time, we can investigate these problems. On the contrary this inability is inherent in the nature of the questions themselves. Although the conceptions in question— namely, degrees of forgetfulness, of certainty and interest — are quite correct, we have no means for establishing such degrees in our experience except at the extremes, and even then we cannot accurately limit those extremes. We feel therefore that we are not at all in a condition to undertake the investigation. We form certain conceptions during striking experiences, but we cannot find any realisation of them in the similar but less striking experiences of everyday life. Vice versa there are prob-~ ably many conceptions which we have not as yet formed which would be serviceable and indispensable for a clear understanding of the facts, and their theoretical mastery."
+    },
+    {
+     "n": 15,
+     "k": 15,
+     "txt": "The amount of detailed information which an individual has at his command and his theoretical elaborations of the same are rnutually_,dep_endent ; they grow in and through each other. It is because of the indefinite and little specialised character of our knowledge that the theories concerning the processes of memory, reproduction, and association have been up to the present time of so little value for a proper comprehension of those processes. For example, to express our ideas concerning their physical basis we use different metaphors — stored up ideas, engraved images, well-beaten paths. There is only one thing certain about these figures of speech and that is that they are not suitable."
+    },
+    {
+     "n": 16,
+     "k": 16,
+     "txt": "Of course the existence of all these deficiencies has its perfectly sufficient basis in the extraordinary difficulty and complexity of the matter. It remains to be proved whether, in spite of the clearest insight into the inadequacy of our knowledge, we shall ever make any actual progress. Perhaps we shall always have to be resigned to this. But a somewhat greater accessibility than has so far been realised in this field cannot be denied to it, as I hope to prove presently. If by any chance a way to a deeper penetration into this matter should present itself, surely, considering the significance of memory for all mental phenomena, it should be our wish to enter that path at once. For at the very worst we should prefer to see resignation arise from the failure of earnest investigations rather than from persistent, helpless astonishment in the face of their difficulties."
+    }
+   ]
+  },
+  {
+   "id": "chII",
+   "titel": "Ch. II — Measurement enters (§§ 4–5)",
+   "units": [
+    {
+     "n": 1,
+     "k": 17,
+     "txt": "The method of obtaining exact measurements — i.e., numerically exact ones — of the inner structure of causal relations -is, by virtue of its nature, of general validity. This R€thod,( indeed) has been so exclusively used and so fully worked out by the natural sciences that, as a rule, it is defined as something peculiar to them, as the method of natural science. To repeat, however, its logical nature makes it generally applicable to all spheres of existence and phenomena. Moreover, the possibility of defining accurately and exactly the actual behavior of any process whatever, and thereby of giving a reliable basis for the direct comprehension of its connections depends above all upon the possibility of applying this method.",
+     "label": "§ 4. The Method of Natural Science"
+    },
+    {
+     "n": 2,
+     "k": 18,
+     "txt": "We all know of what this method consists: an attempt is of these conditions~IT Isolated from the rest and jrarted: in a CJT*~ way that can be numerically described; then the accompanying change on the side of the effect is ascertained by measurement or computation.",
+     "note": "A table or formula display of the print falls in this paragraph and is not reproduced."
+    },
+    {
+     "n": 3,
+     "k": 19,
+     "txt": "• Two fundamental and insurmountable difficulties, seem, however, to oppose a transfer of this method to the investigation of the causal relations of mental events in general and of those of memory in particular. In the first place, how are we to keep even approximately constant the bewildering mass of causal conditions which, in so far as they are of mental nature, almost completely elude our control, and which, moreover, are subject to endless and incessant change? In the second place, by what possible means are we to measure numerically the mental processes which flit by so quickly and which on introspection are so hard to analyse? I shall first discuss the second difficulty in connection, of course, with memory, since that is our present oncern.",
+     "note": "A table or formula display of the print falls in this paragraph and is not reproduced."
+    },
+    {
+     "n": 4,
+     "k": 20,
+     "txt": "If we consider once more the conditions of retention and reproduction mentioned above (§2), but now with regard to the possibility of computation, we shall see that with two of them, at least, a numerical determination and a numerical variation are possible. The different times which elapse between [the first production and the reproduction of a series of ideas can be measured and the repetitions necessary to make these series reproducible can be counted. At first sight, however, there seems to be nothing similar to this on the side of the effects. Here there is only one alternative, a reproduction is either possible or it is not possible. It takes place or it does not take place. Of course we take for granted that it may approach, under different conditions, more or less near to actual occurrence so that in its subliminal existence the series possesses graded differences. But as long as we limit our observations to that which, either by chance or at the call of our will, comes out from this inner realm, all these differences are for us equally non-existent.",
+     "label": "§ 5. Introduction of Numerical Measurements for Memory"
+    },
+    {
+     "n": 5,
+     "k": 21,
+     "txt": "By somewhat less dependence upon introspection we can, however, by indirect* means force these differences into the open. A poem is learned by heart and then not again repeated. We will suppose that after a half year it has been forgotten: no effort of recollection is able to call it back again into conscious • ness. At best only isolated fragments return. Suppose that the poem is again learned by heart. It then becomes evident that, although to all appearances totally forgotten, it still in a certain sense exists and in a way to be effective. The second learning requires noticeably less time or a noticeably smaller umber of repetitions than the first. It also requires less time or repetitions than would now be necessary to learn a similar poem of the same length. In this difference in time and number of repetitions we have evidently obtained a certain measure for that inner energy which a half year after the first learning still dwells in that orderly complex of ideas which make up the Possibility of Enlarging Our Knowledge of Memory 9 poem. After a shorter time we should expect to find the difference greater; after a longer time we should expect to find it less. If 'the first committing to memory is a very careful and long continued one, the difference will be greater than if it is desultory and soon abandoned."
+    },
+    {
+     "n": 6,
+     "k": 22,
+     "txt": "In short, we have without doubt in these differences numerical expressions for the difference between these subliminally persistent series of ideas, differences which otherwise we would have to take for granted and would not be able to demonstrate by direct observation. Therewith we have gained possession of something that is at least like that which we are seeking in our attempt to get a foothold for the application of the method of the natural sciences : namely, phenomena on the side of the effects which are clearly ascertainable, which vary in accordance with the variation of conditions, and which are capable of numerical determination. Whether we possess in them correct measures for these inner differences, and whether / we can achieve through them correct conceptions as to the causal relations into which this hidden mental life enters — these ques-' tions cannot be answered a priori. Chemistry is just as little able to determine a priori whether it is the electrical phenomena, or the thermal, or some other accompaniment of the process of chemical union, which gives it its correct measure of the effective forces of chemical affinity. There is only one way to do this, and that is to see whether it is possible to obtain, on the presupposition of the correctness of such an hypothesis well classified, uncontradictory results, and correct anticipations of the future."
+    },
+    {
+     "n": 7,
+     "k": 23,
+     "txt": "Instead of the simple phenomenon — occurrence or non-occurrence of a reproduction — which admits of no numerical distinc-} tion, I intend therefore to consider from the experimental standpoint a more complicated, process as the effect, and I shall observe and measure its changes as the conditions are variedU By this I mean the artificial bringing about by an appropriate number of repetitions of a reproduction which would not occur of its own accord."
+    },
+    {
+     "n": 8,
+     "k": 24,
+     "txt": "But in order to realise this experimentally, two conditions at least must be fulfilled."
+    },
+    {
+     "n": 9,
+     "k": 25,
+     "txt": "Tn the first place, it must be possible to define with. some certainty the moment when the goal is reached — i.e., when the process of learning by heart is completed. For if the process of learning by heart is sometimes carried past that moment and sometimes broken off before it, then part of the differences found under the varying circumstances would be due to this inequality, and it would be incorrect to attribute it solely to inner differences in the series of ideas. Consequently among the different reproductions of, say, a poem, occurring during the process of its memorisation, the experimenter must single out one' asi especially characteristic, and be able to find it again with practical accuracy."
+    },
+    {
+     "n": 10,
+     "k": 26,
+     "txt": "__In the second place the presupposition must be allowed that the number of repetitions by means of which, the other conditions being unchanged, this characteristic reproduction is brought about would be every time the same. For if this number, under conditions otherwise equivalent, is now this and now that, the differences arising from varied conditions lose, of course, all significance for the critical evaluation of those varying conditions."
+    },
+    {
+     "n": 11,
+     "k": 27,
+     "txt": "Now, as far as the first condition is concerned, it is easily fulfilled wherever you have what may properly be called learning by heart, as in the case of poems, series of words, tonesequences, and the like. Here, in general, as the number of repetitions increases, reproduction is at first fragmentary and halting; then it gains in certainty; and finally takes place smoothly and without error. The first reproduction in which this last result appears can not only be singled out as especially characteristic, but can also be practically recognised. For convenience I will designate this briefly as the first possible reproduction."
+    },
+    {
+     "n": 12,
+     "k": 28,
+     "txt": "The question now is: — Does this fulfill the second condition mentioned above? Is the number of repetitions necessary to bring about this reproduction always the same, the other conditions being equivalent?"
+    },
+    {
+     "n": 13,
+     "k": 29,
+     "txt": "However, in this form, the question will be justly rejected because it forces upon us, as if it were an evident supposition, the real point in question, the very heart of the matter, and admits of none but a misleading answer. Anyone will be ready to admit without hesitation that this relation of dependence will be the same if perfect equality of experimental conditions is maintained. The much invoked freedom of the will, at least."
+    },
+    {
+     "n": 14,
+     "k": 30,
+     "txt": "Possibility of Enlarging Our Knowledge of Memory 1 1 has hardly ever been misunderstood by anybody so far as to come in here. But this theoretical constancy is of little value: How shall I find it when the circumstances under which I am actually forced to make my observations are never the same? So I must rather ask: — Can I bring under my control the inevitably and ever fluctuating circumstances and equalise them to such an extent that the constancy presumably existent in the causal relations in question becomes visible and palpable to me? Thus the discussion of the one difficulty which opposes an exact examination of the causal relations in the mental sphere has led us of itself to the other (§4). A numerical determinsT\") tion of the interdependent changes of cause and effect appears indeed possibl/ if)only we can realise the necessary uniformity of the significant conditions in the repetition of our experiments."
+    }
+   ]
+  },
+  {
+   "id": "chIII",
+   "titel": "Ch. III — The nonsense syllables (§§ 11–12)",
+   "units": [
+    {
+     "n": 1,
+     "k": 31,
+     "txt": "In order to test practically, although only for a limited field, a way of penetrating more deeply into memory processes — and it is to these that the preceding considerations have been directed — I have hit upon the following method.",
+     "label": "§ 11. Series of Nonsense Syllables"
+    },
+    {
+     "n": 2,
+     "k": 32,
+     "txt": "Out of the simple consonants of the alphabet and our eleven vowels and diphthongs all possible syllables of a certain sort were constructed, a vowel sound being placed between two consonants.1"
+    },
+    {
+     "n": 3,
+     "k": 33,
+     "txt": "These syllables, about 2,300 in number, were mixed together and then drawn out by chance and used to construct series of different lengths, several of which each time formed the material for a test.8"
+    },
+    {
+     "n": 4,
+     "k": 34,
+     "txt": "At the beginning a few rules were observed to prevent, in the construction of the syllables, too immediate repetition of similar sounds, but these were not strictly adhered to. Later they were abandoned and the matter left to chance. The syllables used each time were carefully laid aside till the whole number had been used, then they were mixed together and used again."
+    },
+    {
+     "n": 5,
+     "k": 35,
+     "txt": "The aim of the tests carried on with these syllable series was, by means of repeated audible perusal of the separate series, to so impress them that immediately afterwards they could voluntarily just be reproduced. This aim was considered attained 1 The vowel sounds employed were a, e, i, o, u, a, 6, ii, au, ei, eu. For the beginning of the syllables the following consonants were employed : b, d, f, g, h, j, k, 1, m, n, p, r, s, (= sz), t, w and in addition ch, sch, soft s, and the French j (19 altogether) ; for the end of the syllables f, k, 1, m, n, p, r, s, (= sz) t, ch, sch (n altogether). For the final sound fewer consonants were employed than for the initial sound, because a German tongue even after several years practise in foreign languages does not quite accustom itself to the correct pronunciation of the mediae at the end. For the same reason I refrained from the use of other foreign sounds although I tried at first to use them for the sake of enriching the material."
+    },
+    {
+     "n": 6,
+     "k": 36,
+     "txt": "2 1 shall retain in what follows the designations employed above and call a group of several syllable series or a single series a \" test.\" A number of \" tests \" I shall speak of as a \" test series \" or a \" group of tests.\" when, the initial syllable being given, a series could be recited at the first attempt, without hesitation, at a certain rate, and with the consciousness of being correct.",
+     "note": "A table or formula display of the print falls in this paragraph and is not reproduced."
+    },
+    {
+     "n": 7,
+     "k": 37,
+     "txt": "The nonsense material, just described, offers many advantages, in part because of this very lack of meaning. First of all, it is.relatively simple and relatively homogeneous. In the case of the material nearest at hand, tiamelypoetry or prose, the content is now narrative in style, now descriptive, or now reflective; it contains now a phrase that is pathetic, now one that is humorous ; its metaphors are sometimes beautiful, sometimes harsh; its rhythm is sometimes smooth and sometimes rough. There is thus brought into play a multiplicity of influences which change without regularity and are therefore disturbing. Such are associations which dart here and there, different degrees of interest, lines of verse recalled because of their striking quality or their beauty, and the like. All this is avoided with our syllables - Among many thousand combinations there occur scarcely a few TfozerTthat have a meaning and among these there are again only a few whose meaning was realised while they were being memorised.",
+     "label": "§ 12. Advantages of the Material"
+    },
+    {
+     "n": 8,
+     "k": 38,
+     "txt": "However, the simplicity and homogeneity of the material must not be overestimated. It is still far from ideal. The learning of the syllables calls into play the three sensory fields, sight, t hearing and the muscle sense of the organs of speech. And ! although the part that each of these senses plays is well limited and always similar in kind, a certain complication of the results must still be anticipated because of their combined action. Again, to particularise, the homogeneity of the series of syllables falls considerably short of what might be expected of it. These series, \\ exhibit very important and almost incomprehensible variations as to the ease or difficulty with which they are learned. It even appears from this point of view as if the differences between sense and nonsense material were not nearly so great as one would be inclined a priori to imagine. At least I found in the case of learning by heart a few cantos from Byron's \" Don Juan \" no greater range of distribution of the separate numerfcal measures than in the case of a series of nonsense syllables in ] the learning of which an approximately equal time had been spent. In the former case the innumerable disturbing influences mentioned above seem to have compensated each other in producing a certain intermediate effect; whereas in the latter case the predisposition, due to the influence of the mother tongue, for certain combinations of letters and syllables must be a very heterogeneous one."
+    },
+    {
+     "n": 9,
+     "k": 39,
+     "txt": "More indubitable are the advantages of our material in two other respects. In the. first place it permits an inexhaustible amount of new combinations of quite homogeneous character, while different poems, different prose pieces always have something incomparable., It also makes possible a quantitative variation which is adequate and certain ; whereas to break off before the end or to begin in the middle of the verse or the sentence leads to new complications because of various and unavoidable disturbances of the meaning."
+    },
+    {
+     "n": 10,
+     "k": 40,
+     "txt": "-.Series of numbers, which I also tried, appeared impracticable for the more thorough tests. Their fundamental elements were too small in number and therefore too easily exhausted."
+    }
+   ]
+  },
+  {
+   "id": "chVI",
+   "titel": "Ch. VI — Retention and repetitions: the savings method (§§ 22–23)",
+   "units": [
+    {
+     "n": 1,
+     "k": 41,
+     "txt": "The result of the fourth chapter was as follows: When in repeated cases I memorised series of syllables of a certain length to the point of their first possible reproduction, the times, (or number of repetitions) necessary differed greatly from each other, but the mean values derived from them had the character of genuine constants of natural science. Ordinarily, therefore, I learned by heart homogeneous series under similar conditions with, on the average, a similar number of repetitions.. The large deviations of the separate values from each other/ change the total result not at all; but it would require too much time to ascertain with exactness the number necessary for greater precision in detail.",
+     "label": "§ 22. Statement of the Problem"
+    },
+    {
+     "n": 2,
+     "k": 42,
+     "txt": "What will happen, it may be asked, if the number of repetitions actually given to a certain series is less than is required for memorisation or if the number exceeds the necessary minimum ?"
+    },
+    {
+     "n": 3,
+     "k": 43,
+     "txt": "The general nature of what happens has already been described. Naturally the surplus repetitions of the latter alternative do not go to waste. Even though the immediate effect, the smooth and errorless reproduction, is not affected by them, yet they are not without significance in that they serve to make other such reproductions possible at a more or less distant time. The longer a person studies, the longer he retains. And, even in the first case, something evidently occurs even if the repetitions do V not suffice for a free reproduction. By them a way is at least opened for the first errorless reproduction, and the disconnected, hesitating, and faulty reproductions keep approximating more and more to it, These relations can be described figuratively by speaking of the series as being more or less deeply engraved in some mental substratum. To carry out this figure: as the number of repetitions increases, the series are engraved more 'and more deeply and j indelibly; if the number of repetitions is small, the inscription is but surface deep and only fleeting glimpses of the tracery can be caught ; with a somewhat greater number the inscription can, for a time at least, be read at will ; as the number of repetitions is still further increased, the deeply cut picture of the series fades out only after ever longer intervals."
+    },
+    {
+     "n": 4,
+     "k": 44,
+     "txt": "What is to be said in case a person is not satisfied with this general statement of a relation of dependence between the number of repetitions and the depth of the mental impression obtained, and if he demands that it be defined more clearly and in detail? The thermometer rises with increasing temperature, the magnetic needle is displaced to an increasing angle as the intensity, of the electric current around it increases. But while the mercury always rises by equal spaces for each equal increase in temperature, the increase of the angle showing the displacement of the magnetic needle becomes less with a like increase in the electric current. Which analogy is it which holds for the effect of the number of repetitions of the series to be memorised upon the depth of the resulting impression? Without further discussion shall we make it proportional to the number of repetitions, and accordingly say that it is twice or three times as great when homogenous series are repeated with the same degree of attention twice or thrice as many times as are others? Or does it increase less and less with each and every constant increase in the jmmber of repetitions? Or what does happen?"
+    },
+    {
+     "n": 5,
+     "k": 45,
+     "txt": "Evidently this question is a good one; its answer would be of theoretical as well as practical interest and importance. But with the resources hitherto at hand it could not be answered, nor even investigated. Even its meaning will not be quite clear so long as the words \" inner stability \" and \" depth of impression \" denote something indefinite and figurative rather than something clear and objectively defined."
+    },
+    {
+     "n": 6,
+     "k": 46,
+     "txt": "Applying the principles developed in section 5, I define the inner stability of a series of ideas— the degree of its retainability —by the greater or less readiness with which it is reproduced at some definite time subsequent to its first memorisation. This readiness I measure by the amount of work saved in the re- learning, of any series as compared with the work necessary for memorising a similar but entirely new series."
+    },
+    {
+     "n": 7,
+     "k": 47,
+     "txt": "The interval of time between the two processes of memorisation is of course a matter of choice. I chose 24 hours."
+    },
+    {
+     "n": 8,
+     "k": 48,
+     "txt": "Since in the case of this definition we are not trying to settle a matter of general linguistic usage, it cannot be properly asked whether it is correct, but only whether it serves the purpose, or, at the most, whether it is applicable to the indefinite ideas connected with the notion of different depths of mental impression. The latter will probably be granted. But nothing can be said in advance as to how well it fulfills its purpose. That dan be judged only after more extensive results have been obtained. And the character of the judgment will depend to a great extent on whether the results obtained with the help of this means of measurement fulfill the primary demand which we make with reference to any system of measurement. It consists in this, — that if any change whatever is made in the controllable conditions of that scale, the results obtained by the scale in its new form can be reduced to those of the old form by multiplication by some one constant. In our present case, for example, it would consequently be necessary to know whether the character of the results would remain the same if any other interval had been employed instead of that of 24 hours, arbitrarily chosen for measuring the after-effect of repetitions, or whether as a consequence the entire rationale of the results would be different, just as the absolute values are necessarily different. Naturally, this question cannot be decided a priori."
+    },
+    {
+     "n": 9,
+     "k": 49,
+     "txt": "For ascertaining the relation of dependence between the increase in the number of repetitions of a series and the ever vjl deeper impression of it which results, I have formulated the jMK1; problem as follows: If homogeneous series are impressed to ' A different extents as a result of different numbers of repetitions, and then 24 hours later are learned to the point of the first possible reproduction by heart, how are the resulting savings in work related to each other and to the corresponding number of former repetitions?"
+    },
+    {
+     "n": 10,
+     "k": 50,
+     "txt": "In order to answer the question just formulated, I have carried out 70 double tests, each of six series of 16 syllables each.",
+     "label": "§ 23. The Tests and their Results"
+    },
+    {
+     "n": 11,
+     "k": 51,
+     "txt": "Each double test consisted in this, that the separate series — each for itself — were first read attentively a given number of times (after frequently repeated readings they were recited by heart instead of read), and that 24 hours later I relearned up to the point of first possible reproduction the series thus impressed and then in part forgotten. The first reading was repeated 8, An increase of the readings used for the first learning beyond 64 repetitions proved impracticable, at least for six series of this length. For with this number each test requires about of an hour, and toward the end of this time exhaustion, headache, aftd other symptoms were often felt which would have complicated the conditions of the test if the number of repetitions had been increased.",
+     "note": "A table or formula display of the print falls in this paragraph and is not reproduced."
+    },
+    {
+     "n": 12,
+     "k": 52,
+     "txt": "The tests were equally divided among the seven numbers of repetitions investigated so that to each of them were allotted 10 double tests. The results were as follows for the six series of a single test taken together and without subtraction of the time used for reciting."
+    },
+    {
+     "n": 13,
+     "k": 53,
+     "txt": "After a preceding study of the series by means of \" x \" repetitions, they were learned 24 hours later with an expenditure of \" y \" seconds.",
+     "note": "A table or formula display of the print falls in this paragraph and is not reproduced."
+    },
+    {
+     "n": 14,
+     "k": 54,
+     "txt": "The preceding table of numbers gives the timej_ac£MJ[Z3LJ4££flf ' in learning by heart the series studied 24 hours previously. Since we are interested not so much in the times used as the times saved, we must know how long it would have taken to learn by heart the same series if no previous study had been made. In the case of the series which were repeated 42, 53, and 64 times, this time can be learned from the tests themselves. For, in their case, the number of repetitions is greater than the average ninimum for the first possible reproduction, which in the case i>f the i6-syllable series (p. 46) amounted to 31 repetitions. In their case, therefore, the point can be determined at which the first errorless reproduction of that series appeared as the number of repetitions kept on increasing. But on account of the continued increase in the number of repetitions and the resulting extension of the time of the test, the conditions were somewhat different from those in the customary learning of series not hitherto studied. In the case of the series to which a smaller number of repetitions than the above were given, the numbers necessary for comparison cannot be derived from their own records, since, as a part jaf the plan of the experiment, they were not completely learned by heart. I have consequently preferred each time to find the saving of work in question by comparison with the time required for learning by heart not the same but a similar series up to that time unknown. For this I possess a fairly correct numerical value from the time of the tests in question: any six i6-syllable series was learned, as an average of 53 tests, in 1,270 seconds, with the small probable error ± 7.",
+     "note": "A table or formula display of the print falls in this paragraph and is not reproduced."
+    },
+    {
+     "n": 15,
+     "k": 55,
+     "txt": "If all the mean values are brought together in relation to this last value, the following table results:",
+     "note": "A table or formula display of the print falls in this paragraph and is not reproduced."
+    },
+    {
+     "n": 16,
+     "k": 56,
+     "txt": "The result therefore of the preceding Or, for each of the repetitions, an The simple relation approximately realised in these numbers is evident : the number of repetitions used to impress the series (Column I) and the saving in work in learning the series 24 hours later as a result of such impression (Col. III)Jincrease in the same fashion. Division of the amount of work saved by trie\" corresponding number of repetitions gives as a quotient a practically constant value (Col. IV).",
+     "note": "A table or formula display of the print falls in this paragraph and is not reproduced."
+    },
+    {
+     "n": 17,
+     "k": 57,
+     "txt": "Consequently the results of the test may be summarised and formulated as follows: When nonsense series of 16 syllables each were impressed in memory to greater and greater degrees by means of attentive repetitions, the inner depth of impression in part resulting from the number of the repetitions increased, within certain limits, approximately proportionally to that number. This increase in depth was measured by the greater readiness with which these series were brought to the point of reproduction after 24 hours. The limits within which this relation was determined were on the one side, zero, and, on the other, about double the number of repetitions that on the average just sufficed for learning the series."
+    },
+    {
+     "n": 18,
+     "k": 58,
+     "txt": "For six series taken together the after-effect of each repetition— i.e., the saving it brought about — amounted on the average to 12.7 seconds, consequently to 2.1 seconds for each single series. As the rejg tijaQri of a series of 16 syllables Jn_itself takes from 6.6 to 6.8 seconds, its after-effect 24 hours later amounts to a scant third of its own duration. In other words: for each three additional repetitions which I spent on a given day on the study of a series, I saved, in learning that series 24 houri later, on the average, approximately one repetition; and, within the limits stated, it did not matter how many repetitions alto-,; gether were spent on the memorisation of a series."
+    },
+    {
+     "n": 19,
+     "k": 59,
+     "txt": "Whether the results found can claim any more general importance, or whether they hold good only for the single time of their actual occurrence, and even then give a false impression of a regularity not otherwise present, I cannot now decide. I have no direct control tests. Later, however, (chapter VIII, § 34~) where results obtained in reference to quite a different problem agree with the present results, I can bring forward indirect evidence on this point. I am therefore inclined to ascribe general validity to these results, at least for my own case."
+    },
+    {
+     "n": 20,
+     "k": 60,
+     "txt": "NOTE. — There is in the tests an inner inequality which I can neither avoid, nor remove by correction, but can only point out. It is that a small number of repetitions of the series requires only a few minutes, and consequently come at a time of unusual mental vitality. With 64 repetitions the whole work takes about y$ of an hour ; the great part of the series is, therefore, studied in»a condition of diminished vigor or even of a certain exhaustion, and the repetitions will, consequently, be less effective. It is just the reverse of this in the reproduction of the series the next day. The series impressed by 8 perusals require three times as much time in order to be memorised as those perused 64 times. Consequently the latter will be learned a little more quickly not only on account of their greater fixedness, but also because they are now studied for the most part under better conditions. These irregularities are mutually opposed, as is evident, and therefore partially compensate each other : the series prepared under comparatively unfavorable conditions ire memorised under comparatively more favorable conditions, and vice versa. I cannot tell, however, how far this compensation goes and how far any remaining inequality of conditions disturbs the results."
+    }
+   ]
+  },
+  {
+   "id": "chVII",
+   "titel": "Ch. VII — Retention and obliviscence as a function of time (§§ 26–30)",
+   "units": [
+    {
+     "n": 1,
+     "k": 61,
+     "txt": "All sorts of ideas, if left to themselves, are gradually forgotten. This fact is generally known. Groups or series of ideas which at first we could easily recollect or which recurred frequently of their own accord and in lively colors, gradually return more rarely and in paler colors, and can be reproduced by voluntary effort only with difficulty and in part. After a longer period even this fails, except, to be sure, in rare instances. Names, faces, bits of knowledge and experience that had seemed lost for years suddenly appear before the mind, especially in dreams, with every detail present and in great vividness; and it is hard to see whence they came and how they managed to keep hidden so well in the meantime. Psychologists — each in accordance with his general standpoint — interpret these facts from different points of view, which do not exclude each other entirely but still do not quite harmonise. One set, it seems, lays most importance on the remarkable recurrence of vivid images even after long periods. They suppose that of the perceptions caused by external impressions there remain pale images, \" traces,\" which, although in every respect weaker and more flighty than the original perceptions, continue to exist unchanged in the intensity possessed at present. These mental iniages cannot compete with the much more intense and compact perceptions of real life; but where the latter are missing entirely or partly, the former domineer all the more unrestrainedly. It is also true that the earlier images are more and more overlaid, so to speak, and covered by the later ones. Therefore, in the case of the earlier images, the possibility of recurrence offers itself more rarely and with greater difficulty. But if, by an accidental and favorable grouping of circumstances, the accumu- lated layers are pushed to one side, then, of course, that which was hidden beneath must appear, after whatever lapse of time, | in its original and still existent vividness.1",
+     "label": "§ 26. Explanations of Retention and Obliviscence"
+    },
+    {
+     "n": 2,
+     "k": 62,
+     "txt": "For others2 the ideas, the persisting images, suffer changgs which more and more affect thei? nature ; the concept of obscuration comes in here. Older ideas are repressed and forced to sink 4 down, so to speak, by the more recent ones. As time passes one of these general qualities, inner clearness and intensity of con-/ sciousness, suffers damage. Connections of ideas and series of j ideas are subject to the same process of progressive weakening; it is furthered by a resolution of the ideas into their components, as a result of which the now but loosely connected members are eventually united in new combinations. The complete disappearance of the more and more repressed ideas occurs only j after a long time. But one should not imagine the repressed ideas in their time of obscuration to be pale images, but rather to be tendencies, \" dispositions,\" to recreate the image contents forced to sink down. If these dispositions are somehow supported and strengthened, it may happen at any one moment that 1 This is the opinion of Aristotle and is still authoritative for many people. Lately, for instance, Delboeuf has taken it up again, and has used it as a complement to his \" theorie generate de la sensibilite.\" In his article, Le sommeil et les reves (Rev. Philos. IX, p. 153 f.), he says: \" Nous voyons maintenant que tout acte de sentiment, de pensee ou de volition en vertu d'une loi universelle imprime en nous une trace plus ou moins profonde, mais indelebile, generalement gravee sur une infinite de traits anterieurs, surchargee plus tard d'une autre infinite de lineaments de toute nature, mais dont 1'ecriture est neanmoins indefiniment susceptible de reparaitre vive et nette au jour.\" (We see now that by a general law every act of feeling, thought or will leaves a more or less deep but indelible impress upon our mind, that such a tracing is usually graven upon an infinite number of previous traces and later is itself overlaid with innumerable others but nevertheless is still capable of vivid and clear reappearance.) It is true that he proceeds: \"neanmoins... il y a quelque verite dans 1'opinion qui veut que la memoire non seulement se fatigue mais s'oblitere\" (nevertheless... there is some truth in the opinion that memory not only becomes fatigued but that it disappears\"), but he explains this by the theory that one memory might hinder another from appearing. \" Si un souvenir rre chasse pas I'autre on peut du moins pretendre qu'un souvenir empeche 1'autre et qu'ainsi pour la substance cerebrale, chez 1'individu, il y a un maximum de saturation.\" (If one recollection does not actually drive out another, it may at least be maintained that one recollection hinders the other and that thus the brain of each individual is saturated.)"
+    },
+    {
+     "n": 3,
+     "k": 63,
+     "txt": "The curious theory of Bain and others that each idea is lodged in a separate ganglion cell, an hypothesis impossible both psychologically and physiologically, is also rooted to a certain extent in Aristotle's view."
+    },
+    {
+     "n": 4,
+     "k": 64,
+     "txt": "\"Herbart and his adherents. See, for instance, Waitz, Lehrbuch der Psychologic Sect. 16. the repressing and hindering ideas become depressed themselves, and that the apparently forgotten idea arises again in perfect clearness."
+    },
+    {
+     "n": 5,
+     "k": 65,
+     "txt": "A third view holds that, at least in the case of complex ideas, obliviscence consists in the crumbling into parts and the loss of separate components instead of in general obscuration. The idea of resolution into component parts recently spoken of supplies here the only explanation. \" The image of a complex object is dim in our memory not because as a whole with all its parts present and in ordei/it is illuminated by a feebler light of consciousness, but it is because it has become incomplete. Some parts of it are entirely lacking. Above all the precise connection of those still extant is, in general, missing and is supplied only by the thought that some sort of union once existed between them ; the largeness of the sphere in which, without being able to make a final decision, we think this or that connection equally probable, determines the degree of dimness which we are to ascribe to the idea in question.\"1"
+    },
+    {
+     "n": 6,
+     "k": 66,
+     "txt": "Each of these opinions receives a certain, but not exclusive, support from the actual inner experiences, or experiences supposed to be actual, which we at times have. And what is the reason? It is that these fortuitous and easily obtained inner experiences are much too vague, superficial and capable of various interpretations to admit in their entirety of only a single interpretation, or even to let it appear as of preponderating probability. Who could, with even tolerable exactness, describe in its gradual course the supposed overlaying or sinking or crumbling of ideas? Who can say anything satisfactory about the inhibitions caused by series of ideas of different extent, or about the disintegration that a firm complex of any kind suffers by the use of its components in new connections? Everybody has his private \" explanation \" of these processes, but the actual condi- /tions which are to be explained are, after all, equally unknown ifio all of us."
+    },
+    {
+     "n": 7,
+     "k": 67,
+     "txt": "If one considers the limitation to direct, unaided observation and to the chance occurrence of useful experiences, there seems but little prospect or improvement in conditions. How will one for example determine the degree of obscuration reached at a certain point, or the number of fragments remaining? Or how can the probable course of inner processes be traced if the almost entirely forgotten ideas return no more to consciousness ?"
+    },
+    {
+     "n": 8,
+     "k": 68,
+     "txt": "By the help of our method we have a possibility of indirectly approaching the problem just stated in a small and definitely limited sphere, and, by means of keeping aloof for a while from any theory, perhaps of constructing one.",
+     "label": "§ 27. Methods of Investigation of Actual Conditions"
+    },
+    {
+     "n": 9,
+     "k": 69,
+     "txt": "After a definite time, the hidden but yet existent dispositions laid down by the learning of a syllable-series may be strengthened by a further memorisation of the series, and thereby the remaining fragments may be united again to a whole. The work necessary for this compared with that necessary when such dispositions and fragments are absent gives a measure for what has been lost as well as for what remains. The inhibitions which idea-groups of different sorts or extents may occasion in relation to others must, as a result of the interposition of well defined complexes of ideas between learning and relearning, betray itself | in the more or less increased work of relearning. The loosening \\ of a bond of connection by some other use of its components can be investigated in a similar manner as follows : after a certain series has been studied, new combinations of the same series are memorised and the change in the amount of work necessary for relearning the original combination is then ascertained."
+    },
+    {
+     "n": 10,
+     "k": 70,
+     "txt": "First, I investigated the first mentioned of these relations and put the question : If syllable series of a definite kind are learned by heart and then left to themselves, how will the process of forgetting go on when left merely to the influence ofjime or the. daijyjsyents of life which fill it? The determination of the losses suffered was made in the way described : after certain intervals of time, the series memorised were relearned, and the times necessary in both cases were compared."
+    },
+    {
+     "n": 11,
+     "k": 71,
+     "txt": "The investigations in question fell in the year 1879-80 and comprised 163 double tests. Each double test consisted in learn- ing eight series of 13 syllables each (with the exception of 38 double tests taken from 11-12 A. M. which contained only six ceries each) and then in relearning them after a definite time. The learning was continued untif twd errorless recitations of the series in question were possible. The relearning was carried to the same point; it occurred at one of the following seven times, — namely, after about one third of an hour, after i hour, after 9 hours, one day, two days, six days, or 31 days."
+    },
+    {
+     "n": 12,
+     "k": 72,
+     "txt": "The times were measured from the completion of the first set of first learnings, as a consequence of which no great accuracy was required in case of the longer intervals. The influence of the last four intervals was tested at three different times of day (p. 33). Some preliminary remarks are necessary before the results obtained can be communicated."
+    },
+    {
+     "n": 13,
+     "k": 73,
+     "txt": "Similar experimental conditions may be taken for granted in the case of the series relearned after a number of whole days. At any rate there is no way of meeting the actual fluctuations even when external conditions are as far as possible similar, other than by a multiplication of the tests. Where the inner dissimilarity was presumably the greatest, namely after the interval of an entire month, I approximately doubled the number of tests."
+    },
+    {
+     "n": 14,
+     "k": 74,
+     "txt": "In the case of an interval of nine hours and an interval of one hour between learning and relearning, there existed, how- \\ ever, a noticeably constant difference in the experimental con- > ditions. - In the later hours of the day mental vigor and receptivity; are less. The series learned in the morning and then relearned at a later hour, aside from other influences, require more work for relearning than they would if the relearning were done at a time of mental vigor equal to that of the original learning. Therefore, in order to become comparable, the numerical values found for relearning must suffer a diminution which, at least in the case of the 8 hour interval, is so considerable that it cannot be neglected. It must be ascertained how much longer it takes to learn at the time of day, B, series which were learned in \" a \" seconds at the time of day, A. The actual determination of this quantity presupposes more tests than I, up to the present, possess. If a necessary but inexact correction is applied to the numbers found for i and for 8 hours, these become even more unreliable than if left to themselves."
+    },
+    {
+     "n": 15,
+     "k": 75,
+     "txt": "In the case of the smallest interval, one third of an hour, the same drawback reappears, though to a less degree; but it is probably compensated for by another circumstance. The interval as a whole is so short that the relearning of the first series of a test followed almost immediately or after an interval of one or two minutes upon the learning of the last series of the same test. For this reason the whole formed, so to speak, one con- tinuous test in which the relearning of the series took place under increasingly unfavorable conditions as regards mental freshness. But on the other hand the relearning after such a S short interval was done rather quickly. It took hardly half of the time required for the learning. By this means the interval between the learning and relearning of a certain series became gradually smaller. The later series therefore had more favorable conditions with regard to the time interval. In view of the difficulty of more accurate determinations, I have taken it for granted that these two supposed counteracting influences approximately compensated each other."
+    },
+    {
+     "n": 16,
+     "k": 76,
+     "txt": "1. It will probably be claimed that the fact that forgetting would be very rapid at the beginning of the process and very slow at the end should have been foreseen. However, it would be just as reasonable to be surprised at this initial rapidity and later slowness as they come to light here under the definite conditions of our experiment for a certain individual, and for a series of 13 syllables. One hour after the end of the learning, the forgetting had already progressed so far that one half the amount of the original work had to be expended before the series could be reproduced again ; after 8 hours the work to be made up amounted to two thirds of the first effort. Gradually, however, the process became slower so that even for rather long periods the additional loss could be ascertained only with difficulty. After 24 hours about one third was always remembered ; after 6 days about one fourth, and after a whole month fully one fifth of the first work persisted in effect. The decrease of this after-effect in the latter intervals of time is evidently so slow that it is easy to predict that a complete vanishing of the effect of the first memorisation of these series would, if they had been left to themselves, have occurred only after an indefinitely long period of time.",
+     "label": "§ 29. Discussion of Results"
+    },
+    {
+     "n": 17,
+     "k": 77,
+     "txt": "2. Least satisfactory in the results is the difference between the third and fourth values, especially when taken in connection with the greater difference between the fourth and fifth numbers. In the period 9-24 hours the decrease of the after-effect would accordingly have been 2 per cent. In the period 24 to 48 hours it would have been 6.1 per cent; in the later 24 hours, then, about three times as much as in the earlier 15. Such a condition is not credible, since in the case of all the other numbers the decrease in the after-effect is greatly retarded by an increase in ! time. It does not become credible even under the plausible ; assumption that night and sleep, which form a greater part of the 15 hours but a smaller part of the 24, retard considerably the decrease in the after-effect."
+    },
+    {
+     "n": 18,
+     "k": 78,
+     "txt": "Therefore it must be assumed that one of these three values is - i greatly affected by accidental influences. It would fit in well with the other observations to consider the number 33.7 per cent for the relearning after 24 hours as somewhat too large and to suppose that with a more accurate repetition of the tests it would be i to 2 units smaller. However, it is upheld by observations to be stated presently, so that I am in doubt about it."
+    },
+    {
+     "n": 19,
+     "k": 79,
+     "txt": "3. Considering the special, individual, and uncertain character of our numerical results no one will desire at once to know what \" law \" is revealed in them. However, it is noteworthy that all the seven values which cover intervals of one third of an hour in length to 31 days in length (thus from singlefold to 2,ooofold) may with tolerable approximation be put into a rather simple mathematical formula. I call: t the time in minutes counting from one minute before the _end of the learning, ~~ FtKe saving of work evident in relearning, the equivalent of the amount remembered from the first learning expressed in percentage of the time necessary for this first learning, c and k two constants to be defined presently Then the following formula may be written:",
+     "note": "A table or formula display of the print falls in this paragraph and is not reproduced."
+    },
+    {
+     "n": 20,
+     "k": 80,
+     "txt": "By using common logarithms and with merely approximate estimates, not involving exact calculation by the method of least squares, Then the results are as follows:",
+     "note": "A table or formula display of the print falls in this paragraph and is not reproduced."
+    },
+    {
+     "n": 21,
+     "k": 81,
+     "txt": "The deviations of the calculated values from the observed values surpass the probable limits of error only at the second and fourth values. With regard to the latter I have already expressed the conjecture that the test might have given here too large a value ; the second suffers from an uncertainty concerning the correction made. By the determination made for t, the formula has the advantage that it is valid for the moment in which the learning ceases and that it gives correctly b =? 100. In the moment when the series can just be recited, the relearning, of course, requires no time, so that the saving is equal to the work expended.",
+     "note": "A table or formula display of the print falls in this paragraph and is not reproduced."
+    },
+    {
+     "n": 22,
+     "k": 82,
+     "txt": "This expression, 100 — b the complement of the work saved, is nothing other than the work required for relearning, the equivalent of the amount forgotten from the first learning. Calling this, v, the following simple relation results :",
+     "note": "A table or formula display of the print falls in this paragraph and is not reproduced."
+    },
+    {
+     "n": 23,
+     "k": 83,
+     "txt": "To express it in words: when nonsense series of 13 syllables each were memorised and relearned after different intervals, the quotients of the work saved and the work required were about inversely proportional to a small power of the logarithm of those intervals of time. To express it more briefly and less accurately : the quotients of the amounts retained and the amounts forgotten were inversely as the logarithms of the times."
+    },
+    {
+     "n": 24,
+     "k": 84,
+     "txt": "Of course this statement and the formula upon which it rests have here no other value than that of a shorthand statement of the above results which have been found but once and under the circumstances described. Whether they possess a more general significance so that, under other circumstances or with other individuals, they might find expression in other constants I cannot at the present time say."
+    },
+    {
+     "n": 25,
+     "k": 85,
+     "txt": "At any rate, even though only for my own case, I can to a certain extent give support to two of the values mentioned by tests which were made at other periods.",
+     "label": "§ 30. Control Tests"
+    },
+    {
+     "n": 26,
+     "k": 86,
+     "txt": "From a period even further back than that of the investigations above mentioned I possess several tests with series of ten syllables, fifteen series composing one test. The series were first memorised and then, at an average of 18 minutes after the first learning, each series was relearned. Six tests had the following results : —",
+     "note": "A table or formula display of the print falls in this paragraph and is not reproduced."
+    },
+    {
+     "n": 27,
+     "k": 87,
+     "txt": "When relearning series of ten syllables each, 18 minutes after the first memorisation, 56 per cent of the work originally expended was therefore saved. The number agrees satisfactorily with the one found above (p. 68) for the relearning of series of syllables of 13 syllables each after 19 minutes, 58 per cent. Also the fact that the latter, notwithstanding the longer interval, is still a little greater, harmonises completely, as will be seen, with the results of the next chapter. According to them, shorter series, when memorised, are forgotten a little more quickly than longer ones.",
+     "note": "A table or formula display of the print falls in this paragraph and is not reproduced."
+    },
+    {
+     "n": 28,
+     "k": 88,
+     "txt": "From the period of 1883-84, I have seven tests, consisting of nine series of 12 syllables each that were relearned 24 hours after the first memorisation. The following results were obtained :",
+     "note": "A table or formula display of the print falls in this paragraph and is not reproduced."
+    },
+    {
+     "n": 29,
+     "k": 89,
+     "txt": "The after-effect _of,the first memorisation still noticeable after 24 hours, was here equivalent to a saving ofjwork of 33.4 per cent of the first expenditure. This number also agrees satisfactorily with the one communicated above for the relearning of series of 13 syllables each after 24 hours (33.7 per cent), although these two were obtained at far separated time-periods and in the course of widely different investigations."
+    }
+   ]
+  }
+ ]
+}
