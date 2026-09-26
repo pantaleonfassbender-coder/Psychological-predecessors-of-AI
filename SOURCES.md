@@ -8,11 +8,18 @@ checkable. All are United States public domain (published through 1930). Entries
 
 ## The measured mind
 
-- **Fechner, Elemente der Psychophysik (Leipzig 1860)** — Internet Archive
+- **Fechner, Elemente der Psychophysik — SHIPPED** (`data/fechner.json`, built by
+  `tools/build-fechner.py` with the working translations in `tools/fechner_en.py`):
+  selections from the 1860 printing — the Vorwort and vol. I ch. II (Begriff und Aufgabe
+  der Psychophysik) complete, and the Fundamentalformel–Massformel passage of vol. II
+  ch. XVI through γ = k log (β/b) and its immediate interpretation. Internet Archive
   <https://archive.org/details/elementederpsych001fech> (vol. I) and
-  <https://archive.org/details/10255089> (vol. II). German; the English translation of 1966
-  is in copyright and will not be consulted — the module carries a working translation made
-  for this site (CC0).
+  <https://archive.org/details/10255089> (vol. II); the 1860 Antiqua's OCR emended
+  against the sense, the displayed formulas restored by hand (the OCR renders γ and β as
+  y and ß/8), the small table of logarithms and the print's small-type remark not carried
+  (notes mark both places). German with an unofficial working translation made for this
+  site (CC0); the translation of 1966 is in copyright and was not consulted. Cited as
+  `EP [k]`, k unique across the module.
 - **Ebbinghaus, Memory — SHIPPED** (`data/ebbinghaus.json`, built by
   `tools/build-ebbinghaus.py`): selections from the Ruger/Bussenius translation (New
   York: Teachers College, 1913; public domain) —

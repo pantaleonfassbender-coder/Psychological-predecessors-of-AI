@@ -2,14 +2,15 @@
  {
   "id": "fechner",
   "linie": "messen",
-  "status": "planned",
+  "status": "shipped",
   "autor": "Gustav Theodor Fechner",
   "leben": "1801–1887",
   "kurz": "Fechner",
   "titel": "Elemente der Psychophysik (1860) — selections",
   "sprachen": "German · working translation",
   "claim": "The founding act of the measured mind: sensation brought under a formula. Fechner's Maßformel is the first claim that inner life obeys an equation — the premise every later attempt to compute the mind inherits.",
-  "geplant": "Selections from vol. I (the programme of psychophysics, Weber's law, the measurement formula) from the 1860 printing (Internet Archive elementederpsych001fech; vol. II 10255089). German with a working translation made for this site — the English translation of 1966 is in copyright and will not be consulted."
+  "geplant": "Selections from vol. I (the programme of psychophysics, Weber's law, the measurement formula) from the 1860 printing (Internet Archive elementederpsych001fech; vol. II 10255089). German with a working translation made for this site — the English translation of 1966 is in copyright and will not be consulted.",
+  "datei": "fechner"
  },
  {
   "id": "ebbinghaus",

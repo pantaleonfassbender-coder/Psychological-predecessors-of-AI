@@ -8,6 +8,7 @@
 | **Huxley, Animal Automatism (1874), complete** | `data/huxley.json` | English: public domain (1874 address, 1893 collected printing); emendation and paragraph numbering: CC0 1.0 |
 | **Spearman, General Intelligence (1904), selections** | `data/spearman.json` | English: public domain (1904 journal printing); selection, emendation and numbering: CC0 1.0 |
 | **Ebbinghaus, Memory (1913 translation), selections** | `data/ebbinghaus.json` | English: public domain (1913 publication); selection, emendation and numbering: CC0 1.0 |
+| **Fechner, Elemente der Psychophysik (1860), selections** | `data/fechner.json` | German: public domain (1860 printing); emendation, formula restoration, numbering and the English working translation: CC0 1.0 |
 | **Editions and derived data** | every future `data/<work>.json`: segmentation, editorial paragraph numbering, OCR emendations, and any working translations | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) — public-domain dedication |
 
 The texts themselves are, and will remain, United States public domain (published through

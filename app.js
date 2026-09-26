@@ -44,6 +44,7 @@ const CITE = {
     sec.id === 'laws' ? `AI, ch. VI [${u.k}]` : `AI, ch. II [${u.k}]`,
   spearman: (sec, u) => `GI [${u.k}]`,
   ebbinghaus: (sec, u) => `Mem. [${u.k}]`,
+  fechner: (sec, u) => `EP [${u.k}]`,
 };
 const citeOf = (workId, sec, u) => (CITE[workId] || ((s, x) => `[${x.n}]`))(sec, u);
 
@@ -158,20 +159,45 @@ function sectionReader(w, t, secId) {
       <h1 style="font-size:1.4rem">${esc(s.titel)}</h1>
       <p class="fine">${s.units.length} paragraphs · cited as shown on each paragraph</p>
     </div>
-    <div id="body">${s.units.map(u => unitHtml(w, s, u)).join("")}</div>
+    <div id="langbar"></div>
+    <div id="body"></div>
     <p class="fine">${esc(t.quelle)} ${esc(t.hinweis || "")}</p>
   </div>`));
+  const bilingual = s.units.some(u => u.orig);
+  const render = () => {
+    view.querySelector("#body").innerHTML = s.units.map(u => unitHtml(w, s, u)).join("");
+  };
+  if (bilingual) {
+    const bar = el(`<div class="toolbar" style="margin-bottom:1rem">
+      ${["en", "orig", "both"].map(m => `<button class="chip ${LANG === m ? "on" : ""}" data-m="${m}">
+        ${{ en: "English", orig: "Original", both: "Both" }[m]}</button>`).join(" ")}</div>`);
+    bar.querySelectorAll("[data-m]").forEach(b => b.onclick = () => {
+      LANG = b.dataset.m;
+      bar.querySelectorAll("[data-m]").forEach(x => x.classList.toggle("on", x.dataset.m === LANG));
+      render();
+    });
+    view.querySelector("#langbar").append(bar);
+  }
+  render();
   const anchor = (location.hash.split("@")[1] || "");
   if (anchor) setTimeout(() =>
     document.getElementById("u" + anchor)?.scrollIntoView({ behavior: "instant", block: "start" }), 0);
 }
 
+let LANG = "en"; /* language mode for bilingual readers: en | orig | both */
+
 function unitHtml(w, s, u) {
   const label = u.label ? `<p class="ulabel">${esc(u.label)}</p>` : "";
   const note = u.note ? `<p class="fine" style="color:var(--acc)">${esc(u.note)}</p>` : "";
+  let body;
+  if (!u.orig) body = `<p class="readable">${esc(u.txt)}</p>`;
+  else if (LANG === "orig") body = `<p class="readable">${esc(u.orig)}</p>`;
+  else if (LANG === "both") body =
+    `<p class="readable" style="color:var(--fg2)">${esc(u.orig)}</p><p class="readable">${esc(u.txt)}</p>`;
+  else body = `<p class="readable">${esc(u.txt)}</p>`;
   return `<div class="unit" id="u${u.n}">
     <div style="display:flex;gap:.6rem;align-items:baseline"><span class="cite">${esc(citeOf(w.id, s, u))}</span></div>
-    ${label}<p class="readable">${esc(u.txt)}</p>${note}</div>`;
+    ${label}${body}${note}</div>`;
 }
 
 /* ========================================================= CONCORDANCE */
@@ -206,12 +232,13 @@ function viewConcordance() {
       if (!t) continue;
       for (const s of t.sections) for (const u of s.units) {
         rx.lastIndex = 0;
-        const m = rx.exec(u.txt);
+        let src = u.txt, m = rx.exec(u.txt);
+        if (!m && u.orig) { rx.lastIndex = 0; m = rx.exec(u.orig); src = u.orig; }
         if (!m) continue;
         hits++;
         if (hits > 200) break;
-        const a = Math.max(0, m.index - 90), b = Math.min(u.txt.length, m.index + term.length + 130);
-        const ctx = (a > 0 ? "…" : "") + u.txt.slice(a, b) + (b < u.txt.length ? "…" : "");
+        const a = Math.max(0, m.index - 90), b = Math.min(src.length, m.index + term.length + 130);
+        const ctx = (a > 0 ? "…" : "") + src.slice(a, b) + (b < src.length ? "…" : "");
         out.append(el(`<div class="unit">
           <div style="display:flex;gap:.6rem;align-items:baseline;flex-wrap:wrap">
             <a class="cite" href="#/works/${w.id}/${s.id}@${u.n}">${esc(citeOf(w.id, s, u))}</a>
