@@ -48,10 +48,12 @@ const CITE = {
 const citeOf = (workId, sec, u) => (CITE[workId] || ((s, x) => `[${x.n}]`))(sec, u);
 
 const ROUTES = {};
+let atlasStop = null;
 function route() {
   const h = (location.hash || "#/overview").slice(2).split("/");
   const name = h[0] || "overview";
   document.querySelectorAll("#nav a").forEach(a => a.classList.toggle("active", a.dataset.v === name));
+  if (atlasStop) { atlasStop(); atlasStop = null; }
   view.innerHTML = ""; window.scrollTo(0, 0);
   (ROUTES[name] || viewOverview)(h.slice(1));
 }
@@ -250,6 +252,243 @@ function viewWorks(args) {
   }
 }
 
+/* =============================================================== ATLAS */
+/* Concept map: paragraph-level co-occurrence of the corpus's leading
+   content terms (data/network.json, built by tools/build-network.py).
+   Ported from the sibling apparatus: canvas force layout, cursor-centred
+   zoom, pan, labels in screen space; colours read from the CSS variables
+   so the atlas follows the theme (the view rebuilds on a theme switch). */
+let NET = null;
+async function viewAtlas() {
+  if (!NET) NET = await fetch("data/network.json").then(r => r.json());
+  view.append(el(`<div>
+    <div class="viewhead"><span class="tag">Term network</span>
+      <h1>Atlas</h1>
+      <p class="lede">The ${NET.nodes.length} leading content terms of the shipped corpus, linked
+      where they occur in the same paragraph. Colour is the line whose texts use the term most
+      (<span style="color:var(--messen)">the measured mind</span> ·
+      <span style="color:var(--lernen)">the learning animal</span> ·
+      <span style="color:var(--automat)">the automaton debate</span> ·
+      <span style="color:var(--labor)">the machine in the laboratory</span>); size is frequency.
+      Click a term for its neighbours and citations; scroll or double-click to zoom — more labels
+      appear as you go — and drag to pan. The map grows as modules ship.</p></div>
+    <div class="toolbar">
+      <label class="fine" for="dens">Density</label>
+      <select id="dens">
+        <option value="140">sparse</option>
+        <option value="260" selected>medium</option>
+        <option value="420">dense</option>
+      </select>
+      <button class="chip" id="zin" title="Zoom in">+</button>
+      <button class="chip" id="zout" title="Zoom out">−</button>
+      <button class="chip" id="zreset" title="Reset view">Reset</button>
+      <span class="fine" id="atlasinfo"></span>
+    </div>
+    <div class="card" style="padding:0;overflow:hidden"><canvas id="cv" style="width:100%;display:block;cursor:grab"></canvas></div>
+    <div id="sel"></div>
+    <div class="card" style="margin-top:1.2rem"><span class="tag">Bridge terms</span>
+      <p style="margin:.5rem 0 0" class="readable">Terms carried by three or more of the works —
+      the shared vocabulary in which the lines argue with each other:
+      ${NET.bridges.map(b => `<button class="chip" data-b="${esc(b)}">${esc(b)}</button>`).join(" ")}</p></div>
+  </div>`));
+  const cv = view.querySelector("#cv");
+  const selBox = view.querySelector("#sel");
+  const densSel = view.querySelector("#dens");
+  const W = Math.min(Math.max(view.clientWidth || 900, 480), 980), H = Math.max(460, Math.round(W * 0.62));
+  const dpr = window.devicePixelRatio || 1;
+  cv.width = W * dpr; cv.height = H * dpr; cv.style.height = H + "px";
+  const cx = cv.getContext("2d"); cx.scale(dpr, dpr);
+
+  const nodes = NET.nodes.map(n => ({ ...n,
+    x: W / 2 + (Math.random() - 0.5) * W * 0.8, y: H / 2 + (Math.random() - 0.5) * H * 0.8,
+    vx: 0, vy: 0, r: 3 + Math.sqrt(n.f) * 0.9 }));
+  const byId = Object.fromEntries(nodes.map(n => [n.id, n]));
+  let edges = [], selected = null, tick = 0;
+
+  function setDensity() {
+    edges = NET.edges.slice(0, +densSel.value).map(e => ({ ...e, a: byId[e.s], b: byId[e.t] }))
+      .filter(e => e.a && e.b);
+    view.querySelector("#atlasinfo").textContent =
+      `${nodes.length} terms · ${edges.length} links · from ${NET.n_units} paragraphs`;
+    tick = 0;
+  }
+  setDensity();
+  densSel.onchange = setDensity;
+
+  function step() {
+    for (const n of nodes) { n.fx = 0; n.fy = 0; }
+    for (let i = 0; i < nodes.length; i++) for (let j = i + 1; j < nodes.length; j++) {
+      const a = nodes[i], b = nodes[j];
+      let dx = a.x - b.x, dy = a.y - b.y, d2 = dx * dx + dy * dy + 40;
+      const f = 1400 / d2;
+      const d = Math.sqrt(d2);
+      dx /= d; dy /= d;
+      a.fx += dx * f; a.fy += dy * f; b.fx -= dx * f; b.fy -= dy * f;
+    }
+    for (const e of edges) {
+      let dx = e.b.x - e.a.x, dy = e.b.y - e.a.y;
+      const d = Math.sqrt(dx * dx + dy * dy) || 1;
+      const want = 60 + 700 / (e.w + 4);
+      const f = (d - want) * 0.004 * Math.min(e.w, 6);
+      dx /= d; dy /= d;
+      e.a.fx += dx * f * d * 0.02; e.a.fy += dy * f * d * 0.02;
+      e.b.fx -= dx * f * d * 0.02; e.b.fy -= dy * f * d * 0.02;
+    }
+    for (const n of nodes) {
+      n.fx += (W / 2 - n.x) * 0.004; n.fy += (H / 2 - n.y) * 0.004;
+      n.vx = (n.vx + n.fx) * 0.82; n.vy = (n.vy + n.fy) * 0.82;
+      n.x += n.vx; n.y += n.vy;
+      n.x = Math.max(14, Math.min(W - 14, n.x)); n.y = Math.max(14, Math.min(H - 14, n.y));
+    }
+  }
+
+  const _csv = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+  const COLOR = { messen: _csv("--messen"), lernen: _csv("--lernen"),
+                  automat: _csv("--automat"), labor: _csv("--labor") };
+  const LIGHT = document.documentElement.getAttribute("data-theme") === "light";
+  const EDGE_ON = LIGHT ? "rgba(31,110,102,.55)" : "rgba(90,169,160,.55)";
+  const EDGE = LIGHT ? "rgba(90,100,115,.16)" : "rgba(160,160,180,.13)";
+  const RING = LIGHT ? "#17222c" : "#fff";
+  const LABEL = LIGHT ? "rgba(28,38,48,.92)" : "rgba(233,230,224,.92)";
+
+  let Z = 1, OX = 0, OY = 0;
+  const clampZ = z => Math.max(0.6, Math.min(8, z));
+  function zoomAt(sx, sy, factor) {
+    const nz = clampZ(Z * factor);
+    OX = sx - (sx - OX) * (nz / Z);
+    OY = sy - (sy - OY) * (nz / Z);
+    Z = nz;
+  }
+
+  function draw() {
+    cx.clearRect(0, 0, W, H);
+    const neigh = new Set();
+    if (selected) for (const e of edges) {
+      if (e.a === selected) neigh.add(e.b);
+      if (e.b === selected) neigh.add(e.a);
+    }
+    cx.save();
+    cx.translate(OX, OY); cx.scale(Z, Z);
+    for (const e of edges) {
+      const on = selected && (e.a === selected || e.b === selected);
+      cx.strokeStyle = on ? EDGE_ON : EDGE;
+      cx.lineWidth = (on ? 1.4 : Math.min(1, 0.3 + e.w * 0.05)) / Z;
+      cx.beginPath(); cx.moveTo(e.a.x, e.a.y); cx.lineTo(e.b.x, e.b.y); cx.stroke();
+    }
+    for (const n of nodes) {
+      const dimmed = selected && n !== selected && !neigh.has(n);
+      cx.globalAlpha = dimmed ? 0.25 : 1;
+      cx.fillStyle = COLOR[n.linie];
+      cx.beginPath(); cx.arc(n.x, n.y, n.r, 0, 7); cx.fill();
+      if (n === selected) { cx.strokeStyle = RING; cx.lineWidth = 1.5 / Z; cx.stroke(); }
+      cx.globalAlpha = 1;
+    }
+    cx.restore();
+    for (const n of nodes) {
+      const dimmed = selected && n !== selected && !neigh.has(n);
+      if (dimmed) continue;
+      if (!(n.f * Z > 25 || n === selected || neigh.has(n))) continue;
+      const sx = n.x * Z + OX, sy = n.y * Z + OY - n.r * Z - 4;
+      if (sx < -40 || sx > W + 40 || sy < -20 || sy > H + 14) continue;
+      cx.fillStyle = LABEL;
+      cx.font = (n === selected ? "600 " : "") + "11px system-ui, sans-serif";
+      cx.textAlign = "center";
+      cx.fillText(n.id, sx, sy);
+    }
+  }
+
+  let raf;
+  function loop() {
+    if (tick < 260) { step(); tick++; }
+    draw();
+    raf = requestAnimationFrame(loop);
+  }
+  loop();
+
+  const toScreen = ev => {
+    const r = cv.getBoundingClientRect();
+    return [(ev.clientX - r.left) * (W / r.width), (ev.clientY - r.top) * (H / r.height)];
+  };
+  function pick(sx, sy) {
+    const x = (sx - OX) / Z, y = (sy - OY) / Z;
+    let best = null, bd = Infinity;
+    for (const n of nodes) {
+      const d = (n.x - x) ** 2 + (n.y - y) ** 2;
+      if (d < (n.r + 10 / Z) ** 2 && d < bd) { best = n; bd = d; }
+    }
+    return best;
+  }
+  let drag = null;
+  cv.onmousedown = ev => {
+    const [sx, sy] = toScreen(ev);
+    drag = { sx, sy, ox: OX, oy: OY, moved: false };
+    cv.style.cursor = "grabbing";
+    ev.preventDefault();
+  };
+  const onMove = ev => {
+    if (!drag) return;
+    const [sx, sy] = toScreen(ev);
+    if (Math.abs(sx - drag.sx) + Math.abs(sy - drag.sy) > 4) drag.moved = true;
+    if (drag.moved) { OX = drag.ox + (sx - drag.sx); OY = drag.oy + (sy - drag.sy); }
+  };
+  const onUp = ev => {
+    if (!drag) return;
+    cv.style.cursor = "grab";
+    const wasClick = !drag.moved;
+    drag = null;
+    if (wasClick) { const [sx, sy] = toScreen(ev); select(pick(sx, sy)); }
+  };
+  window.addEventListener("mousemove", onMove);
+  window.addEventListener("mouseup", onUp);
+  cv.addEventListener("wheel", ev => {
+    ev.preventDefault();
+    const [sx, sy] = toScreen(ev);
+    zoomAt(sx, sy, Math.exp(-ev.deltaY * 0.0015));
+  }, { passive: false });
+  cv.ondblclick = ev => {
+    ev.preventDefault();
+    const [sx, sy] = toScreen(ev);
+    zoomAt(sx, sy, 1.7);
+  };
+  view.querySelector("#zin").onclick = () => zoomAt(W / 2, H / 2, 1.4);
+  view.querySelector("#zout").onclick = () => zoomAt(W / 2, H / 2, 1 / 1.4);
+  view.querySelector("#zreset").onclick = () => { Z = 1; OX = 0; OY = 0; };
+
+  atlasStop = () => {
+    cancelAnimationFrame(raf);
+    window.removeEventListener("mousemove", onMove);
+    window.removeEventListener("mouseup", onUp);
+  };
+
+  function select(n) {
+    selected = n;
+    selBox.innerHTML = "";
+    if (!n) return;
+    const co = edges.filter(e => e.a === n || e.b === n)
+      .map(e => ({ o: e.a === n ? e.b : e.a, c: e.c })).sort((a, b) => b.c - a.c).slice(0, 14);
+    const wk = Object.entries(n.works).sort((a, b) => b[1] - a[1]);
+    selBox.append(el(`<div class="card" style="margin-top:1.2rem">
+      <div style="display:flex;gap:.8rem;align-items:baseline;flex-wrap:wrap">
+        <h3 style="margin:0;color:${COLOR[n.linie]}">${esc(n.id)}</h3>
+        <span class="fine">${n.f} paragraphs · in ${n.spread} of ${D.works.filter(w => w.status === "shipped").length} works</span></div>
+      <p class="fine" style="margin:.4rem 0">${wk.map(([id, c]) => {
+        const w = D.works.find(x => x.id === id);
+        return `${esc(w ? w.kurz : id)}: ${c}`; }).join(" · ")}</p>
+      <p style="margin:.4rem 0 0">${co.map(x =>
+        `<button class="chip" data-b="${esc(x.o.id)}">${esc(x.o.id)} <span class="fine">${x.c}</span></button>`).join(" ")}</p>
+      <p style="margin:.6rem 0 0">${n.cites.map(([wid, sid, un]) => {
+        const t = D.texts[wid];
+        const s = t && t.sections.find(x => x.id === sid);
+        const u = s && s.units.find(x => x.n === un);
+        return u ? `<a class="cite" href="#/works/${wid}/${sid}@${un}">${esc(citeOf(wid, s, u))}</a>` : "";
+      }).join(" ")}</p>
+    </div>`));
+    selBox.querySelectorAll("[data-b]").forEach(b => b.onclick = () => select(byId[b.dataset.b]));
+  }
+
+  view.querySelectorAll("[data-b]").forEach(b => b.onclick = () => select(byId[b.dataset.b]));
+}
+
 /* ================================================================ CODA */
 /* Editorial closing note. Editorial matter, CC BY 4.0. */
 function viewCoda() {
@@ -361,7 +600,7 @@ function viewImprint() {
 /* ================================================================ BOOT */
 Object.assign(ROUTES, {
   overview: viewOverview, works: viewWorks, coda: viewCoda,
-  concordance: viewConcordance,
+  concordance: viewConcordance, atlas: viewAtlas,
   method: viewMethod, privacy: viewPrivacy, imprint: viewImprint,
 });
 

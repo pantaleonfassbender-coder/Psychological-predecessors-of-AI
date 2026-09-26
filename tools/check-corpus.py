@@ -28,7 +28,7 @@ for w in works:
 registered = {w.get('datei') for w in works if w.get('datei')}
 for p in glob.glob('data/*.json'):
     b = os.path.basename(p)[:-5]
-    if b not in registered and b not in ('works',):
+    if b not in registered and b not in ('works', 'network'):
         warns.append(f'unregistered data file: {b}')
 
 total = 0
