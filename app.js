@@ -529,6 +529,151 @@ async function viewAtlas() {
   view.querySelectorAll("[data-b]").forEach(b => b.onclick = () => select(byId[b.dataset.b]));
 }
 
+/* ============================================================ TIMELINE */
+/* Chronological view of the four lines, planned stations included — the
+   registry pins its sources in advance, so the chart can show the whole
+   program. Dates are editorial anchors: the year of the work, not of the
+   author; translated modules sit at their originals, the carried
+   public-domain translation named in the reader. Editorial matter, CC BY 4.0. */
+const TIMELINE = [
+  { id: "hartley", y: 1749, jahr: "1749" },
+  { id: "bain", y: 1855, jahr: "1855" },
+  { id: "fechner", y: 1860, jahr: "1860" },
+  { id: "huxley", y: 1874, jahr: "1874" },
+  { id: "james", y: 1879, jahr: "1879 / 1890" },
+  { id: "galton", y: 1883, jahr: "1883" },
+  { id: "ebbinghaus", y: 1885, jahr: "1885" },
+  { id: "morgan", y: 1894, jahr: "1894" },
+  { id: "thorndike", y: 1898, jahr: "1898 / 1911" },
+  { id: "loeb", y: 1900, jahr: "1900" },
+  { id: "spearman", y: 1904, jahr: "1904" },
+  { id: "binet", y: 1905, jahr: "1905–11" },
+  { id: "mcdougall", y: 1911, jahr: "1911" },
+  { id: "watson", y: 1913, jahr: "1913" },
+  { id: "koehler", y: 1917, jahr: "1917" },
+  { id: "pavlov", y: 1927, jahr: "1927" },
+  { id: "hull_aptitude", y: 1928, jahr: "1928" },
+  { id: "hull_machines", y: 1929, jahr: "1929/30" },
+];
+const TL_ERAS = [
+  { until: 1800, titel: "The eighteenth century" },
+  { until: 1875, titel: "The mid-nineteenth century" },
+  { until: 1900, titel: "The laboratory decades" },
+  { until: 1917, titel: "Into the twentieth century" },
+  { until: 9999, titel: "To the threshold — where the corpus ends" },
+];
+/* Crossings between stations. A crossing with an anchor is documented by a
+   carried passage; the others are documented by the works themselves and
+   gain their passage when the module ships. */
+const TL_CROSS = [
+  { from: "bain", to: "ebbinghaus", anchor: "#/works/ebbinghaus/chVII@3",
+    titel: "Ebbinghaus dismisses Bain's one-idea-one-ganglion-cell theory (Mem. [63]) — the corpus arguing with itself across thirty years" },
+  { from: "huxley", to: "james",
+    titel: "James's title is the reply: “Are We Automata?” (1879) answers the automaton hypothesis of 1874 — the passage joins when the module ships" },
+  { from: "pavlov", to: "hull_machines",
+    titel: "Hull & Baernstein build “a mechanical parallel to the conditioned reflex” (1929) — the closing arc; the passage joins when the module ships" },
+];
+
+function viewTimeline() {
+  const CX = { messen: 165, lernen: 380, automat: 595, labor: 810 };
+  const W = 960, ROW = 44, ERAROW = 42, TOP = 46;
+  const byId = Object.fromEntries(D.works.map(w => [w.id, w]));
+  const rows = [...TIMELINE].sort((a, b) => a.y - b.y);
+
+  /* lay out rows, inserting an era band whenever the era changes */
+  let yy = TOP, eraIdx = -1;
+  const bands = [], pos = {};
+  for (const r of rows) {
+    const e = TL_ERAS.findIndex(x => r.y < x.until);
+    if (e !== eraIdx) { eraIdx = e; bands.push({ y: yy, titel: TL_ERAS[e].titel }); yy += ERAROW; }
+    pos[r.id] = { x: CX[byId[r.id].linie], y: yy + ROW / 2, jahr: r.jahr };
+    yy += ROW;
+  }
+  const H = yy + 16;
+
+  /* per-line spines from first to last station */
+  const spines = Object.keys(CX).map(l => {
+    const ys = rows.filter(r => byId[r.id].linie === l).map(r => pos[r.id].y);
+    return { l, y1: Math.min(...ys), y2: Math.max(...ys) };
+  });
+
+  const bandSvg = bands.map(b => `
+    <text x="20" y="${b.y + 28}" font-family="var(--serif)" font-size="14" font-style="italic"
+      fill="var(--fg3)">${esc(b.titel)}</text>
+    <line x1="20" x2="${W - 20}" y1="${b.y + 36}" y2="${b.y + 36}" stroke="var(--line)"/>`).join("");
+
+  const spineSvg = spines.map(s => `
+    <line x1="${CX[s.l]}" x2="${CX[s.l]}" y1="${s.y1}" y2="${s.y2}"
+      stroke="${LCOLOR[s.l]}" stroke-width="2" stroke-opacity=".35"/>`).join("");
+
+  const crossSvg = TL_CROSS.map(c => {
+    const a = pos[c.from], b = pos[c.to];
+    const same = a.x === b.x, bow = same ? a.x - 78 : (a.x + b.x) / 2;
+    const d = `M ${a.x} ${a.y} C ${bow} ${a.y + (b.y - a.y) * .25}, ${bow} ${a.y + (b.y - a.y) * .75}, ${b.x} ${b.y}`;
+    return `<path d="${d}" fill="none" stroke="var(--fg3)" stroke-width="1.4"
+      stroke-dasharray="4 4" stroke-opacity="${c.anchor ? ".75" : ".35"}"><title>${esc(c.titel)}</title></path>`;
+  }).join("");
+
+  const dotSvg = rows.map(r => {
+    const w = byId[r.id], p = pos[r.id];
+    const open = w.status === "shipped";
+    const right = w.linie !== "labor";
+    return `<a href="${open ? `#/works/${w.id}` : "#/works"}">
+      <title>${esc(w.autor)} — ${esc(w.titel)}${open ? "" : " (planned)"}</title>
+      <text x="96" y="${p.y + 4}" text-anchor="end" font-family="var(--mono)" font-size="11"
+        fill="var(--fg3)">${esc(p.jahr)}</text>
+      <circle cx="${p.x}" cy="${p.y}" r="5.5"
+        fill="${open ? LCOLOR[w.linie] : "var(--bg)"}"
+        stroke="${open ? "var(--bg)" : LCOLOR[w.linie]}" stroke-width="1.5"/>
+      <text x="${p.x + (right ? 15 : -15)}" y="${p.y + 4.5}" text-anchor="${right ? "start" : "end"}"
+        font-family="var(--serif)" font-size="13.5" fill="${open ? "var(--fg)" : "var(--fg3)"}"
+        paint-order="stroke" stroke="var(--bg)" stroke-width="4" stroke-linejoin="round">
+        ${esc(w.kurz)}</text>
+    </a>`;
+  }).join("");
+
+  const headSvg = Object.entries(LINIE).map(([l, t]) => `
+    <text x="${CX[l]}" y="24" text-anchor="middle" font-size="13" font-weight="600"
+      fill="${LCOLOR[l]}">${esc(t)}</text>`).join("");
+
+  view.append(el(`<div>
+    <div class="viewhead"><span class="tag">Chronology</span>
+      <h1>Timeline — four lines toward the threshold</h1>
+      <p class="lede">The corpus in time: eighteen stations from Hartley's vibrating
+      associations of 1749 to the conditioning machine of 1929/30, four lines converging on
+      the year the machines begin to learn. Filled dots are shipped modules and open their
+      readers; hollow dots are planned, their sources already pinned on the
+      <a href="#/works">works page</a>. Dashed arcs mark crossings between the stations.</p></div>
+    <div class="tlwrap panel" style="padding:1rem .4rem">
+      <svg class="tl" viewBox="0 0 ${W} ${H}" role="img"
+        aria-label="Chronological chart of the corpus's eighteen modules in four lines">
+        ${headSvg}${bandSvg}${spineSvg}${crossSvg}${dotSvg}
+      </svg>
+    </div>
+    <div class="panel">
+      <h2 style="margin-top:0">The crossings</h2>
+      <ul style="margin:.4rem 0 0;padding-left:1.2rem">
+        <li style="margin-bottom:.5rem"><a href="#/works/ebbinghaus/chVII@3">Bain → Ebbinghaus</a> —
+          the carried passage: Ebbinghaus dismisses the “curious theory of Bain and others that
+          each idea is lodged in a separate ganglion cell” (Mem. [63]).</li>
+        <li style="margin-bottom:.5rem"><a href="#/works/huxley">Huxley → James</a> — the reply in
+          the title: “Are We Automata?” (Mind, 1879) answers the automaton hypothesis of 1874.
+          The passage joins when the James module ships.</li>
+        <li><a href="#/works">Pavlov → Hull &amp; Baernstein</a> — the closing arc: a “mechanical
+          parallel to the conditioned reflex” (Science, 1929) — psychologists building the machine
+          that learns. The passage joins when the module ships.</li>
+      </ul>
+      <p class="fine" style="margin:.8rem 0 0">Dates are editorial anchors — the year of the work,
+      not of the author. Translated modules sit at their originals (Ebbinghaus 1885, carried in the
+      English of 1913; Köhler 1917, in Winter's English of 1925; Binet–Simon 1905–11, in Kite's
+      English of 1916), the carried public-domain translation named in each reader. Anthology
+      modules span years and are so labelled (James 1879/1890, Thorndike 1898/1911, the Hull
+      machine papers 1929/30). The chart spaces stations by order, not by elapsed time — a linear
+      scale would spend a third of the page on the century between Hartley and Bain.</p>
+    </div>
+  </div>`));
+}
+
 /* ================================================================ CODA */
 /* Editorial closing note. Editorial matter, CC BY 4.0. */
 function viewCoda() {
@@ -640,7 +785,7 @@ function viewImprint() {
 /* ================================================================ BOOT */
 Object.assign(ROUTES, {
   overview: viewOverview, works: viewWorks, coda: viewCoda,
-  concordance: viewConcordance, atlas: viewAtlas,
+  concordance: viewConcordance, atlas: viewAtlas, timeline: viewTimeline,
   method: viewMethod, privacy: viewPrivacy, imprint: viewImprint,
 });
 

@@ -150,3 +150,10 @@ button.primary {
   float: right; width: 60px; margin: 0 0 .5rem .8rem;
   border-radius: 4px; border: 1px solid var(--line); background: #fff;
 }
+
+/* ------------------------------------------------------------ timeline */
+.tlwrap { overflow-x: auto; }
+.tl { width: 100%; min-width: 740px; display: block; }
+.tl a { cursor: pointer; }
+.tl a circle { transition: r .12s; }
+.tl a:hover circle { r: 8px; }
