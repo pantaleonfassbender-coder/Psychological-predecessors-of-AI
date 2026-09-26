@@ -1,0 +1,13 @@
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "no-referrer"
+
+# Data files must revalidate: after a deploy, browsers pick up new modules
+# immediately (the lesson of the sibling sites — never cache /data/* for an hour).
+[[headers]]
+  for = "/data/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"

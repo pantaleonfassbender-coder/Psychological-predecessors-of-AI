@@ -1,0 +1,115 @@
+/* Psychological Predecessors of AI — sister apparatus to Calculemus */
+:root {
+  color-scheme: dark;
+  --bg: #12151a;
+  --bg2: #181d24;
+  --panel: #1d232c;
+  --line: #2b3542;
+  --fg: #dee4ea;
+  --fg2: #a8b2bc;
+  --fg3: #7a858f;
+  --acc: #5aa9a0;         /* laboratory teal — the site accent */
+  --messen: #6f9fd0;      /* the measured mind */
+  --lernen: #7fbf8a;      /* the learning animal */
+  --automat: #c9847a;     /* the automaton debate */
+  --labor: #d0b060;       /* the machine in the laboratory */
+  --accfg: #0d1412;
+  --accbg: rgba(90,169,160,.09); --accline: rgba(90,169,160,.28);
+  --markbg: rgba(90,169,160,.32);
+  --serif: Georgia, "Times New Roman", serif;
+  --mono: "Consolas", "SF Mono", monospace;
+}
+/* Daylight: the same apparatus on paper. Every colour is a variable, so the
+   theme is this block and nothing else. */
+html[data-theme="light"] {
+  color-scheme: light;
+  --bg: #f7fafc;
+  --bg2: #edf2f6;
+  --panel: #ffffff;
+  --line: #d2dbe3;
+  --fg: #17222c;
+  --fg2: #47545e;
+  --fg3: #6d7a84;
+  --acc: #1f6e66;
+  --messen: #2a6099;
+  --lernen: #2f7a44;
+  --automat: #9a4b3e;
+  --labor: #8a6a14;
+  --accfg: #f4fbf9;
+  --accbg: rgba(31,110,102,.07); --accline: rgba(31,110,102,.3);
+  --markbg: rgba(31,110,102,.16);
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0; background: var(--bg); color: var(--fg);
+  font: 16px/1.62 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+a { color: var(--messen); text-decoration: none; }
+a:hover { text-decoration: underline; }
+h1, h2, h3, h4 { font-family: var(--serif); font-weight: 600; line-height: 1.25; }
+h1 { font-size: 2rem; margin: .2rem 0 .6rem; }
+h2 { font-size: 1.35rem; margin: 1.6rem 0 .6rem; }
+h3 { font-size: 1.08rem; margin: 1rem 0 .4rem; }
+
+.topbar {
+  display: flex; align-items: center; gap: 1.4rem; flex-wrap: wrap;
+  padding: .8rem 1.6rem; border-bottom: 1px solid var(--line);
+  background: var(--bg2);
+}
+.brand { display: flex; align-items: center; gap: .7rem; color: var(--fg); }
+.brand:hover { text-decoration: none; }
+.mark {
+  display: grid; place-items: center; width: 2.1rem; height: 2.1rem;
+  border-radius: 50%; background: var(--acc); color: var(--accfg);
+  font-family: var(--serif); font-size: 1.25rem; font-weight: 700;
+}
+.brandtext { display: flex; flex-direction: column; line-height: 1.2; }
+.brandtext strong { font-family: var(--serif); font-size: 1.05rem; }
+.brandtext em { font-style: normal; font-size: .74rem; color: var(--fg3); }
+#nav { display: flex; gap: 1rem; flex-wrap: wrap; }
+#nav a { color: var(--fg2); font-size: .92rem; padding: .15rem 0; border-bottom: 2px solid transparent; }
+#nav a.active, #nav a:hover { color: var(--fg); border-bottom-color: var(--acc); text-decoration: none; }
+
+main { max-width: 66rem; margin: 0 auto; padding: 1.6rem 1.6rem 3rem; }
+footer {
+  border-top: 1px solid var(--line); background: var(--bg2);
+  padding: 1.2rem 1.6rem 2rem; color: var(--fg2); font-size: .9rem;
+}
+footer .fine { max-width: 66rem; }
+
+.viewhead { margin-bottom: 1.4rem; }
+.tag {
+  font-size: .72rem; letter-spacing: .08em; text-transform: uppercase;
+  color: var(--acc); font-weight: 600;
+}
+.lede { font-size: 1.05rem; color: var(--fg2); max-width: 62rem; }
+.fine { font-size: .82rem; color: var(--fg3); }
+.readable { max-width: 46rem; }
+.mono { font-family: var(--mono); font-size: .9em; }
+
+.card, .panel {
+  background: var(--panel); border: 1px solid var(--line);
+  border-radius: 8px; padding: 1rem 1.1rem; margin-bottom: 1rem;
+}
+.workcard { cursor: default; transition: border-color .15s; }
+.grid { display: grid; gap: 1rem; }
+.g2 { grid-template-columns: repeat(auto-fill, minmax(310px, 1fr)); }
+.g3 { grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
+
+.chip {
+  display: inline-block; padding: .12rem .55rem; border-radius: 999px;
+  border: 1px solid var(--line); background: var(--bg2); color: var(--fg2);
+  font-size: .74rem; cursor: pointer;
+}
+.status.planned { color: var(--fg3); border: 1px solid var(--line); border-radius: 999px; padding: .1rem .5rem; font-size: .72rem; }
+
+.linie-messen  { border-left: 3px solid var(--messen); }
+.linie-lernen  { border-left: 3px solid var(--lernen); }
+.linie-automat { border-left: 3px solid var(--automat); }
+.linie-labor   { border-left: 3px solid var(--labor); }
+
+@media (max-width: 700px) {
+  main { padding: 1.2rem 1rem 2.4rem; }
+  .topbar { padding: .7rem 1rem; }
+}
