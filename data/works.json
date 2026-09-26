@@ -28,14 +28,15 @@
  {
   "id": "galton",
   "linie": "messen",
-  "status": "planned",
+  "status": "shipped",
   "autor": "Francis Galton",
   "leben": "1822–1911",
   "kurz": "Galton",
   "titel": "Inquiries into Human Faculty and its Development (1883) — selections",
   "sprachen": "English",
   "claim": "Association timed with a stopwatch, mental imagery surveyed by questionnaire, faces averaged into composite photographs — statistical portraits of the mind, a century before embeddings.",
-  "geplant": "Selections from the first edition (Internet Archive inquiriesintohu00galtgoog): the association experiments, the imagery questionnaire, composite portraiture. Galton's role in founding eugenics is stated, not passed over."
+  "geplant": "Selections from the first edition (Internet Archive inquiriesintohu00galtgoog): the association experiments, the imagery questionnaire, composite portraiture. Galton's role in founding eugenics is stated, not passed over.",
+  "datei": "galton"
  },
  {
   "id": "spearman",

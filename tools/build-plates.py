@@ -48,6 +48,15 @@ PLATES = [
    'credit': "Spearman, “General Intelligence,” AJP 15 (1904). "
              "Internet Archive jstor-1412107 (JSTOR Early Journal "
              "Content), leaf 1. Public domain." },
+ { 'id': 'galton',
+   # this Google-digitised item times out above ~800px wide
+   'url': ia('inquiriesintohu00galtgoog', 8, w=800),
+   'caption': "Title page of the first edition: Inquiries into Human "
+              "Faculty and its Development, London 1883 — the book that "
+              "coins the word 'eugenics'.",
+   'credit': "Galton, Inquiries into Human Faculty and its Development "
+             "(London: Macmillan, 1883). Internet Archive "
+             "inquiriesintohu00galtgoog, leaf 8. Public domain." },
  { 'id': 'thorndike',
    # the IIIF endpoint refuses this Google-digitised item above ~600px wide
    'url': ia('animalintellige00thorgoog', 43, w=600),

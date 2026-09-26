@@ -29,8 +29,18 @@ checkable. All are United States public domain (published through 1930). Entries
   themselves, is omitted and named as the module's next step; tables and formula
   displays are not reproduced, a note marking each place. Cited as `Mem. [k]`, k unique
   across the module. The German original of 1885 is named, not carried.
-- **Galton, Inquiries into Human Faculty and its Development (London 1883)** —
-  <https://archive.org/details/inquiriesintohu00galtgoog>.
+- **Galton, Inquiries into Human Faculty — SHIPPED** (`data/galton.json`, built by
+  `tools/build-galton.py`): selections from the first edition (London: Macmillan, 1883) —
+  <https://archive.org/details/inquiriesintohu00galtgoog> — OCR emended by hand against the
+  sense, the worst passages verified against the page images (leaf = printed page + 19).
+  Carried: the Introduction complete; the paragraph of p. 24 whose footnote coins the word
+  "eugenics", the footnote in full as a note; Composite Portraiture complete (pp. 8–19);
+  Mental Imagery in selections (the questionnaire and the returns of the hundred, pp. 83–93,
+  and the closing passage on generic images, pp. 108–113; the omitted middle named in a
+  note); Psychometric Experiments complete (pp. 185–203; Tables I–III not reproduced, each
+  place marked). The numbered survey returns and the octile scale are carried grouped, one
+  unit per printed group. Cited as `IHF [k]`, k unique across the module. Galton's eugenics
+  program is carried in his own words, stated, not passed over.
 - **Spearman, "General Intelligence" — SHIPPED** (`data/spearman.json`, built by
   `tools/build-spearman.py`): selections from the American Journal of Psychology 15
   (1904), pp. 201–292, in the original printing via JSTOR Early Journal Content —

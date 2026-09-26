@@ -45,6 +45,7 @@ const CITE = {
   spearman: (sec, u) => `GI [${u.k}]`,
   ebbinghaus: (sec, u) => `Mem. [${u.k}]`,
   fechner: (sec, u) => `EP [${u.k}]`,
+  galton: (sec, u) => `IHF [${u.k}]`,
 };
 const citeOf = (workId, sec, u) => (CITE[workId] || ((s, x) => `[${x.n}]`))(sec, u);
 
