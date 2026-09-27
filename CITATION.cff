@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: >-
+  If you use this apparatus, please cite it as below. When citing a passage,
+  cite the printed original — the paragraph grids exist so that you can;
+  where a numbering or a working translation is this site's own (stated per
+  module), name the site as its source.
+title: "Psychological Predecessors of AI"
+type: dataset
+authors:
+  - family-names: Fassbender
+    given-names: Pantaleon
+abstract: >-
+  A digital research apparatus for the psychological prehistory of
+  artificial intelligence: the public-domain sources, 1749–1930, in which
+  the mind became mechanism, measure, and law of learning. Four lines — the
+  measured mind (Fechner, Ebbinghaus, Galton, Spearman, Binet), the
+  learning animal (Hartley, Bain, Morgan, Loeb, Thorndike, Watson, Pavlov,
+  Köhler), the automaton debate (Huxley, James, McDougall) and the machine
+  in the laboratory (Hull) — in paragraph-exact citable editions, with a
+  cross-corpus concordance, a concept atlas, a chronological timeline,
+  plates from the cited digitisations, and an introductory essay. The
+  corpus ends, deliberately, in 1930 — where the machines begin to learn.
+  Sister apparatus to Calculemus: Philosophical Predecessors of AI
+  (doi:10.5281/zenodo.22677079).
+keywords:
+  - history of psychology
+  - history of artificial intelligence
+  - digital humanities
+  - public domain editions
+  - psychophysics
+  - intelligence testing
+  - law of effect
+  - comparative psychology
+  - distant writing
+license: MIT
+repository-code: "https://github.com/pantaleonfassbender-coder/Psychological-predecessors-of-AI"
+url: "https://psychological-predecessors-of-ai.netlify.app"
+version: 1.0.0
+date-released: 2026-09-27
