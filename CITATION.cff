@@ -33,6 +33,10 @@ keywords:
   - comparative psychology
   - distant writing
 license: MIT
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23000126
+    description: "Concept DOI - resolves to the latest archived version on Zenodo"
 repository-code: "https://github.com/pantaleonfassbender-coder/Psychological-predecessors-of-AI"
 url: "https://psychological-predecessors-of-ai.netlify.app"
 version: 1.0.0

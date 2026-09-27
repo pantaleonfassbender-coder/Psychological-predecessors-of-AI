@@ -1,5 +1,7 @@
 # Psychological Predecessors of AI
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23000126.svg)](https://doi.org/10.5281/zenodo.23000126)
+
 A research apparatus on the psychological prehistory of artificial intelligence — the
 public-domain sources, 1749–1930, in which the mind became **mechanism, measure, and law of
 learning**. Sister site to [Calculemus — philosophical predecessors of
@@ -58,6 +60,19 @@ Turing (1950) are not, and are named in the coda rather than carried. The thresh
 works of 1931 join on 1 January 2027, the second Baernstein–Hull machine paper among them.
 Freud's *Entwurf* (written 1895, published 1950) is the coda's strangest case: written inside
 the period, locked behind the threshold.
+
+## Citing
+
+> Pantaleon Fassbender, *Psychological Predecessors of AI*,
+> https://doi.org/10.5281/zenodo.23000126 (accessed …).
+
+The DOI above is the concept DOI and always resolves to the latest archived
+version; each release also carries its own version DOI on Zenodo (v1.0.0:
+10.5281/zenodo.23000127).
+
+When citing a passage, cite the printed original — the paragraph grids exist so that
+you can; where a numbering or a working translation is this site's own (stated per
+module), name the site as its source.
 
 ## Licensing
 
