@@ -92,6 +92,15 @@ PLATES = [
              "(London: Walter Scott, 1894). Internet Archive "
              "introductiontoco00morg (University of Toronto copy), "
              "leaf 7. Public domain." },
+ { 'id': 'loeb',
+   'url': ia('comparativephysi00loeb', 11, w=600),
+   'caption': "Title page of the 1900 printing: Comparative Physiology of "
+              "the Brain and Comparative Psychology — the tropism-machine's "
+              "book, dedicated to Ernst Mach.",
+   'credit': "Jacques Loeb, Comparative Physiology of the Brain and "
+             "Comparative Psychology (New York: G. P. Putnam's Sons, "
+             "1900). Internet Archive comparativephysi00loeb, leaf 11. "
+             "Public domain." },
  { 'id': 'thorndike',
    # the IIIF endpoint refuses this Google-digitised item above ~600px wide
    'url': ia('animalintellige00thorgoog', 43, w=600),

@@ -12,6 +12,7 @@
 | **Galton, Inquiries into Human Faculty (1883), selections** | `data/galton.json` | English: public domain (1883 publication); selection, emendation and numbering: CC0 1.0 |
 | **Binet & Simon, The Development of Intelligence in Children (1916 translation), selections** | `data/binet.json` | English: public domain (1916 publication); selection, emendation and numbering: CC0 1.0 |
 | **Lloyd Morgan, An Introduction to Comparative Psychology (1894), ch. III** | `data/morgan.json` | English: public domain (1894 publication); emendation and numbering: CC0 1.0 |
+| **Loeb, Comparative Physiology of the Brain (1900), selections** | `data/loeb.json` | English: public domain (1900 publication); selection, emendation and numbering: CC0 1.0 |
 | **Plates** | `assets/plates/*.jpg`, `data/plates.json` | images: public domain (faithful reproductions of public-domain 2-D works; sources leaf by leaf in [SOURCES.md](SOURCES.md)); captions and credits: CC0 1.0 |
 | **Editions and derived data** | every future `data/<work>.json`: segmentation, editorial paragraph numbering, OCR emendations, and any working translations | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) — public-domain dedication |
 

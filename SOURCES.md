@@ -81,8 +81,16 @@ checkable. All are United States public domain (published through 1930). Entries
   unique across the module; the canon carries a label. The chapters that apply the canon
   are named as the module's next step; the chapter's period frame ('civilised',
   'primitive') is carried as printed, stated, not passed over.
-- **Loeb, Comparative Physiology of the Brain and Comparative Psychology (New York 1900)** —
-  <https://archive.org/details/comparativephysi00loeb>.
+- **Loeb, Comparative Physiology of the Brain — SHIPPED** (`data/loeb.json`, built by
+  `tools/build-loeb.py`): selections from the 1900 printing (New York: G. P. Putnam's Sons;
+  trans. Anne Leonard Loeb, revised by the author) —
+  <https://archive.org/details/comparativephysi00loeb> — OCR emended against the sense.
+  Carried: the Preface (dedicated to Ernst Mach) and Chapter I complete; ch. XIII §§ 1–3
+  (instincts as tropisms — the moth and the flame, the mock 'flying-into-the-flame centre',
+  with the Steiner footnote as a note); ch. XV §§ 1–4 (associative memory defined, the
+  phonograph comparison, the criterion — if an animal can learn it has associative memory —
+  and the Bethe ant experiments). Chapter bibliographies not carried; the omitted
+  continuations named in notes. Cited as `CPB [k]`, k unique across the module.
 - **Thorndike, Animal Intelligence — SHIPPED** (`data/thorndike.json`, built by
   `tools/build-thorndike.py`): selections from the 1911 collected volume (New York:
   Macmillan) — <https://archive.org/details/animalintellige00thorgoog> — OCR emended by
@@ -149,6 +157,7 @@ credit name the source, digitisation and leaf.
 - **Morgan** — title page of the first edition of 1894; the cited Google scan's front
   matter is unusable, so this one leaf comes from the University of Toronto copy of the
   same printing: `introductiontoco00morg`, leaf 7.
+- **Loeb** — title page of the 1900 printing; `comparativephysi00loeb`, leaf 11.
 - **Huxley** — title page of *Method and Results: Essays* (New York: D. Appleton and
   Company, 1894); `methodandresult01huxlgoog`, leaf 6.
 - **Thorndike** — the puzzle box, Fig. 1 on p. 30 of *Animal Intelligence* (New York:

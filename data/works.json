@@ -104,14 +104,15 @@
  {
   "id": "loeb",
   "linie": "lernen",
-  "status": "planned",
+  "status": "shipped",
   "autor": "Jacques Loeb",
   "leben": "1859–1924",
   "kurz": "Loeb",
   "titel": "Comparative Physiology of the Brain and Comparative Psychology (1900) — selections",
   "sprachen": "English",
   "claim": "The organism as tropism-machine: orientation to stimulus without inner life. The behavioural blueprint the first robot-builders read — and the hard lower bound of the automaton debate.",
-  "geplant": "Selections from the 1900 printing (Internet Archive comparativephysi00loeb): tropisms, associative memory as criterion of consciousness."
+  "geplant": "Selections from the 1900 printing (Internet Archive comparativephysi00loeb): tropisms, associative memory as criterion of consciousness.",
+  "datei": "loeb"
  },
  {
   "id": "thorndike",
