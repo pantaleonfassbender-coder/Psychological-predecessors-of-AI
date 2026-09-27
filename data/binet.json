@@ -1,0 +1,470 @@
+{
+ "id": "binet",
+ "autor": "Alfred Binet · Théodore Simon",
+ "titel": "The Development of Intelligence in Children (1905–1911; Kite's English of 1916) — selections",
+ "jahr": 1905,
+ "zitierweise": "DIC [k]",
+ "quelle": "Selections from Elizabeth S. Kite's translation (Vineland, N.J.: The Training School, 1916; public domain), Internet Archive developmentofint00binerich, OCR emended against the sense. Carried: the opening of 'New Methods for the Diagnosis of the Intellectual Level of Subnormals' (1905) complete, with the definition of intelligence as judgment; from the 1905 instrument the general recommendations, test 1 complete, the printed list of the thirty tests, tests 27 and 30 complete, and the scoring rubric; from 'The Development of Intelligence in the Child' (1908) the General Conditions of the Examination, the classification of the tests by age (three to thirteen, the scan's two-column shred restored against the print's page references), and the Estimate of Results through the rule of the mental level. Two editorial and two authorial page-bottom footnotes are carried as notes; the French papers of 1905–1911 in L'Année Psychologique are named, not carried; the 1911 revision (ch. V of the volume) is the module's named next step. Paragraph numbering k runs across the four selections, so a citation 'DIC [k]' is unique.",
+ "hinweis": "The intelligence test itself, and with it the ancestral form of every benchmark: graded tasks, age norms, a scoring rubric (plus, minus, fraction — and the exclamation point for the absurd reply), protocol discipline for the examiner, and a rule for computing the mental level. Binet's own warning is carried with it: it is 'not an automatic method comparable to a weighing machine' — the results 'have no value if deprived of all comment; they need to be interpreted.'",
+ "sections": [
+  {
+   "id": "programm",
+   "titel": "The problem and the definition — \"New Methods\" (1905), the opening complete",
+   "units": [
+    {
+     "n": 1,
+     "k": 1,
+     "txt": "Before explaining these methods let us recall exactly the conditions of the problem which we are attempting to solve. Our purpose is to be able to measure the intellectual capacity of a child who is brought to us in order to know whether he is normal or retarded. We should therefore, study his condition at the time and that only. We have nothing to do either with his past history or with his future; consequently we shall neglect his etiology, and we shall make no attempt to distinguish between acquired and congenital idiocy; for a stronger reason we shall set aside all consideration of pathological anatomy which might explain his intellectual deficiency. So much for his past. As to that which concerns his future, we shall exercise the same abstinence; we do not attempt to establish or prepare a prognosis and we leave unanswered the question of whether this retardation is curable, or even improvable. We shall limit ourselves to ascertaining the truth in regard to his present mental state."
+    },
+    {
+     "n": 2,
+     "k": 2,
+     "txt": "Furthermore, in the definition of this state, we should make some restrictions. Most subnormal children, especially those in the schools, are habitually grouped in two categories, those of backward intelligence, and those who are unstable. This latter class, which certain alienists call moral imbeciles, do not necessarily manifest inferiority of intelligence; they are turbulent, vicious, rebellious to all discipline; they lack sequence of ideas, and probably power of attention. It is a matter of great delicacy to make the distinction between children who are unstable, and those who have rebellious dispositions. Elsewhere we have insisted upon the necessity of instructors not treating as unstable, that is as pathological cases, those children whose character is not sympathetic with their own. It would necessitate a long study, and probably a very difficult one, to establish the distinctive signs which separate the unstable from the undisciplined. For the present we shall not take up this study. We shall set the unstable aside, and shall consider only that which bears upon those who are backward in intelligence."
+    },
+    {
+     "n": 3,
+     "k": 3,
+     "txt": "This is not, however, to be the only limitation of our subject because backward states of intelligence present several different types. There is the insane type — or the type of intellectual decay— which consists in a progressive loss of former acquired intelligence. Many epileptics, who suffer from frequent attacks, progress toward insanity. It would be possible and probably very important, to be able to make the distinction between those with decaying intelligence on the one hand, and those of inferior intelligence on the other. But as we have determined to limit on this side also, the domain of our study, we shall rigorously exclude all forms of insanity and decay. Moreover we believe that these are rarely present in the schools, and need not be taken into consideration in the operation of new classes for subnormals."
+    },
+    {
+     "n": 4,
+     "k": 4,
+     "txt": "Another distinction is made between those of inferior intelligence and degenerates. The latter are subjects in whom occur clearly defined, episodical phenomena, such as impulsions, obsessions, deliriums. We shall eliminate the degenerates as well as the insane."
+    },
+    {
+     "n": 5,
+     "k": 5,
+     "txt": "Lastly, we should say a word upon our manner of studying those whom most alienists call idiots but whom we here call of inferior intelligence. The exact nature of this inferiority is not known; and today without other proof, one very prudently refuses to liken this state to that of an arrest of normal development. It certainly seems that the intelligence of these beings has undergone a certain arrest; but it does not follow that the disproportion between the degree of intelligence and the age is the only characteristic of their condition. There is also in many cases, most probably a deviation in the development, a perversion. The idiot of fifteen years, who, like a baby of three, is making his first verbal attempts, can not be completely likened to a three-year old child, because the latter is normal, but the idiot is not. There exists therefore between them, necessarily, differences either apparent or hidden. The careful study of idiots shows, among some of them at least, that whereas certain faculties are almost wanting, others are better developed. They have therefore certain aptitudes. Some have a good auditory or musical memory, and a whole repertoire of songs; others have mechanical ability."
+    },
+    {
+     "n": 6,
+     "k": 6,
+     "txt": "If all were carefully examined, many examples of these partial aptitudes would probably be found. Our purpose is in no wise to study, analyze, or set forth the aptitudes of those of inferior intelligence. That will be the object of a later work. Here we shall limit ourselves to the measuring of their general intelligence. We shall determine their intellectual level, and, in order the better to appreciate this level, we shall compare it with that of normal children of the same age or of an analogous level. The reservations previously made as to the true conception of arrested development, will not prevent our finding great advantage in a methodical comparison between those of inferior and those of normal intelligence."
+    },
+    {
+     "n": 7,
+     "k": 7,
+     "txt": "To what method should we have recourse in making our diagnosis of the intellectual level? No one method exists, but there are a number of different ones which should be used cumulatively, because the question is a very difficult one to solve, and demands rather a collaboration of methods. It is important that the practitioner be equipped in such a manner that he shall use, only as accessory, the information given by the parents of the child, so that he may always be able to verify this information, or, when necessary, dispense with it. In actual practice quite the opposite occurs. When the child is taken to the clinic the physician listens a great deal to the parents and questions the child very little, in fact scarcely looks at him, allowing himself to be influenced by a very strong presumption that the child is intellectually inferior. If, by a chance not likely to occur, but which would be most interesting some time to bring about, the physician were submitted to the test of selecting the subnormals from a mixed group of children, he would certainly find himself in the midst of grave difficulties, and would commit many errors especially in cases of slight defect."
+    },
+    {
+     "n": 8,
+     "k": 8,
+     "txt": "The organization of methods is especially important because, as soon as the schools for subnormals are in operation, one must be on his guard against the attitude of the parents. Their sincerity will be worth very little when it is in conflict with their interests. If the parents wish the child to remain in the regular school, they will not be silent concerning his intelligence. \"My child understands everything,\" they will say, and they will be very careful not to give any significant information in regard to him. If, on the contrary, they wish him to be admitted into an institution where gratuitous board and lodging are furnished, they will change completely. They will be capable even of teaching him how to simulate mental debility. One should, therefore, be on his guard against all possible frauds."
+    },
+    {
+     "n": 9,
+     "k": 9,
+     "txt": "In order to recognize the inferior states of intelligence we believe that three different methods should be employed. We have arrived at this synthetic view only after many years of research, but we are now certain that each of these methods renders some service. These methods are:"
+    },
+    {
+     "n": 10,
+     "k": 10,
+     "txt": "1. The medical method, which aims to appreciate the anatomical, physiological, and pathological signs of inferior intelligence."
+    },
+    {
+     "n": 11,
+     "k": 11,
+     "txt": "2. The pedagogical method, which aims to judge of the intelligence according to the sum of acquired knowledge."
+    },
+    {
+     "n": 12,
+     "k": 12,
+     "txt": "3. The psychological method, which makes direct observations and measurements of the degree of intelligence."
+    },
+    {
+     "n": 13,
+     "k": 13,
+     "txt": "From what has gone before it is easy to see the value of each of these methods. The medical method is indirect because it conjectures the mental from the physical. The pedagogical method is more direct; but the psychological is the most direct of all because it aims to measure the state of the intelligence as it is at the present moment. It does this by experiments which oblige the subject to make an effort which shows his capability in the way of comprehension, judgment, reasoning, and invention."
+    },
+    {
+     "n": 14,
+     "k": 14,
+     "txt": "The fundamental idea of this method is the establishment of what we shall call a measuring scale of intelligence. This scale is composed of a series of tests of increasing difficulty, starting from the lowest intellectual level that can be observed, and ending with that of average normal intelligence. Each group in the series corresponds to a different mental level.",
+     "label": "I. The Psychological Method"
+    },
+    {
+     "n": 15,
+     "k": 15,
+     "txt": "This scale properly speaking does not permit the measure of the intelligence, because intellectual qualities are not superposable, and therefore cannot be measured as linear surfaces are measured, but are on the contrary, a classification, a hierarchy among diverse intelligences; and for the necessities of practice this classification is equivalent to a measure. We shall therefore be able to know, after studying two individuals, if one rises above the other and to how many degrees, if one rises above the average level of other individuals considered as normal, or if he remains below. Understanding the normal progress of intellectual development among normals, we shall be able to determine how many years such an individual is advanced or retarded. In a word we shall be able to determine to what degrees of the scale idiocy, imbecility, and moronity correspond.",
+     "note": "Editor's note: Binet's classification of defectives is idiot, imbecile, and \"dbile.\" This seems to correspond closely to our American terminology of idiot, imbecile, and moron. We have accordingly translated \"debile\" as moron and \"debility\" as moronity."
+    },
+    {
+     "n": 16,
+     "k": 16,
+     "txt": "The scale that we shall describe is not a theoretical work; it is the result of long investigations, first at the Salpetriere, and after- E wards in the primary schools of Paris, with both normal and subnormal children. These short psychological questions have been given the name of tests. The use of tests is today very common, and there are even contemporary authors who have made a specialty of organizing new tests according to theoretical views, but who have made no effort to patiently try them out in the schools. Theirs is an amusing occupation, comparable to a person's making a colonizing expedition into Algeria, advancing always only upon the map, without taking off his dressing gown. We place but slight confidence in the tests invented by these authors and we have borrowed nothing from them. All the tests which we propose have been repeatedly tried, and have been retained from among many, which after trial have been discarded. We can certify that those which are here presented have proved themselves valuable."
+    },
+    {
+     "n": 17,
+     "k": 17,
+     "txt": "We have aimed to make all our tests simple, rapid, convenient, y precise, heterogeneous, holding the subject in continued contact with the experimenter, and bearing principally upon the faculty of judgment. Rapidity is necessary for this sort of examination. It is impossible to prolong it beyond twenty minutes without fatiguing the subject. During this maximum of twenty minutes, it must be turned and turned about in every sense, and at least ten tests must be executed, so that not more than about two minutes can be given to each. In spite of their interest, we were obliged to proscribe long exercises. For example, it would be very instructive to know how a subject learns by heart a series of sentences. We have often tested the advantage of leaving a person by himself with a lesson of prose or verse after having said to him, \"Try to learn as much as you can of this in five minutes.\" Five minutes is too long for our test, because during that time the subject escapes us; it may be that he becomes distracted or thinks of other things; the test loses its clinical character and becomes too scholastic. We have therefore reluctantly been obliged to renounce testing the rapidity and extent of the memory by this method. Several other equivalent examples of elimination could be cited. In order to cover rapidly a wide field of observation, it goes without saying that the tests should be heterogeneous."
+    },
+    {
+     "n": 18,
+     "k": 18,
+     "txt": "Another consideration. Our purpose is to evaluate a level of intelligence. It is understood that we here separate natural intelligence and instruction. It is the intelligence alone that we seek to measure, by disregarding in so far as possible, the degree of instruction which the subject possesses. He should, indeed, be considered by the examiner as a complete ignoramus knowing neither how to read nor write. This necessity forces us to forego a great many exercises having a verbal, literary or scholastic character. These belong to a pedagogical examination. We believe that we have succeeded in completely disregarding the acquired information of the subject. We give him nothing to read, nothing to write, and submit him to no test in which he might succeed by means of rote learning. In fact we do not even notice his inability to read if a case occurs. It is simply the level of his natural intelligence that is taken into account."
+    },
+    {
+     "n": 19,
+     "k": 19,
+     "txt": "But here we must come to an understanding of what meaning to give to that word so vague and so comprehensive, \"the intelligence.\" Nearly all the phenomena with which psychology concerns itself are phenomena of intelligence; sensation, perception, are intellectual manifestations as much as reasoning. Should we therefore bring into our examination the measure of sensation after the manner of the psycho-physicists? Should we put to the test all of his psychological processes? A slight reflection has shown us that this would indeed be wasted time."
+    },
+    {
+     "n": 20,
+     "k": 20,
+     "txt": "It seems to us that in intelligence there is a fundamental faculty, the alteration or the lack of which, is of the utmost importance for practical life. This faculty is judgment, otherwise called good sense, practical sense, initiative, the faculty of adapting one's self to circumstances. To judge well, to comprehend well, to reason well, these are the essential activities of intelligence. A person may be a moron or an imbecile if he is lacking in judgment; but with good judgment he can never be either. Indeed the rest of the intellectual faculties seem of little importance in comparison with judgment. What does it matter, for example, whether the organs of sense function normally? Of what import that certain ones are hyperesthetic, or that others are anesthetic or are weakened? Laura Bridgman, Helen Keller and their fellow-unfortunates were blind as well as deaf, but this did not prevent them from being very intelligent. Certainly this is demonstrative proof that the total or even partial integrity of the senses does not form a mental factor equal to judgment. We may measure the acuteness of the sensibility of subjects; nothing could be easier. But we should do this, not so much to find out the state of their sensibility as to learn the exactitude of their judgment."
+    },
+    {
+     "n": 21,
+     "k": 21,
+     "txt": "The same remark holds good for the study of the memory. At first glance, memory being a psychological phenomenon of capital importance, one would be tempted to give it a very conspicuous part in an examination of intelligence. But memory is distinct from and independent of judgment. One may have good sense and lack memory. The reverse is also common. Just at the present time we are observing a backward girl who is developing before our astonished eyes a memory very much greater than our own. We have measured that memory and we are not deceived regarding it. Nevertheless that girl presents a most beautifully classic type of imbecility."
+    },
+    {
+     "n": 22,
+     "k": 22,
+     "txt": "As a result of all this investigation, in the scale which we present we accord the first place to judgment; that which is of importance to us is not certain errors which the subject commits, but absurd errors, which prove that he lacks judgment. We have even made special provision to encourage people to make absurd replies. In spite of the accuracy of this directing idea, it will be easily understood that it has been impossible to permit of its regulating exclusively our examinations. For example, one can not make tests of judgment on children of less than two years when one begins to watch their first gleams of intelligence. Much is gained when one can discern in them traces of coordination, the first delineation of attention and memory. We shall therefore bring out in our lists some tests of memory; but so far as we are able, we shall give these tests such a turn as to invite the subject to make absurd replies, and thus under cover of a test of memory, we shall have an appreciation of their judgment."
+    }
+   ]
+  },
+  {
+   "id": "tests",
+   "titel": "The instrument of 1905 — recommendations, the thirty tests, the scoring",
+   "units": [
+    {
+     "n": 1,
+     "k": 23,
+     "txt": "General recommendations. The examination should take place in a quiet room, quite isolated, and the child should be called in alone without other children. It is important that when a child sees the experimenter for the first time, he should be reassured by the presence of someone he knows, a relative, an attendant, or a school superintendent. The witness should be instructed to remain passive and mute, and not to intervene in the examination either by word or gesture."
+    },
+    {
+     "n": 2,
+     "k": 24,
+     "txt": "The experimenter should receive each child with a friendly familiarity to dispel the timidity of early years. Greet him the moment he enters, shake hands with him and seat him comfortably. If he is intelligent enough to understand certain words, awaken his curiosity, his pride. If he refuses to reply to a test, pass to the next one, or perhaps offer him a piece of candy; if his silence continues, send him away until another time. These are little incidents that frequently occur in an examination of the mental state, because in its last analysis, an examination of this kind is based upon the good will of the subject."
+    },
+    {
+     "n": 3,
+     "k": 25,
+     "txt": "We here give the technique of each question. It will not suffice simply to read what we have written in order to be able to conduct examinations. A good experimenter can be produced only by example and imitation, and nothing equals the lesson gained from the thing itself. Every person who wishes to familiarize himself with our method of examination should come to our school. Theoretical instruction is valuable only when it merges into practical experience. Having made these reservations, let us point out the principal errors likely to be committed by inexperienced persons. There are two: the first consists in recording the gross results without making psychological observations, without noticing such little facts as permit one to give to the gross results their true value. The second error, equally frequent, is that of making suggestions. An inexperienced examiner has no idea of the influence of words; he talks too much, he aids his subject, he puts him on the track, unconscious of the help he is thus giving. He plays the part of pedagogue, when he should remain psychologist. Thus his examination is vitiated. It is a difficult art to be able to encourage a subject, to hold his attention, to make him do his best without giving aid in any form by an unskillful suggestion."
+    },
+    {
+     "n": 4,
+     "k": 26,
+     "txt": "In this test the examiner seeks to discover if there exists that coordination in the movement of the head and the eyes which is associated with the act of vision. If such coordination does exist it proves that the subject not only sees but more than that he \"regards\" (that is he is able to follow with his eyes a moving object).",
+     "label": "1. \"Le Regard\"",
+     "note": "Editor's note: We have here retained the word used by Binet, because in the English there is no one word exactly synonymous with it. The word literally translated means \"the ability to follow with the eyes a moving object.\""
+    },
+    {
+     "n": 5,
+     "k": 27,
+     "txt": "Procedure. A lighted match is slowly moved before the eyes of the subject in such a way as to provoke a movement of the head or of the eyes to follow the flame. If a first attempt does not succeed the experiment should be tried again after a little while. It is preferable to operate in a quiet place where no kind of distraction is likely to occur. It is not important that the subject follow the movements of the match constantly for any length of time or persistently. The least sign of coordination of the movements of vision is sufficient, if it leaves no doubt in the mind of the examiner."
+    },
+    {
+     "n": 6,
+     "k": 28,
+     "txt": "Additional remarks. The observation of a few spontaneous phenomena may well be noted. Thus it is possible sometimes for the examiner, by fixing his gaze steadily upon the child, to satisfy himself that the child really coordinates for a moment. If the subject is afflicted with or suspected of blindness, the visual stimulus may be replaced by an auditory stimulus. For example, call him loudly, or better, ring a little bell behind his head and notice if he turns his head toward the sound, or if he has any peculiar facial expression which would indicate that he hears. The reaction of attention to sound seems to develop later than the reaction to light. We have observed children who, when a bell was rung behind the head, would not make a single movement in order to hear better, and yet would follow with their eyes the lighted match. It is scarcely necessary to add that the child who hides his face behind his hand when questioned, or who replies to your smile by a smile, or who walks about the room without knocking against obstacles, stove, chairs, wall, table, proves by his behavior that he coordinates the movements of vision, and thus he has passed the first test."
+    },
+    {
+     "n": 7,
+     "k": 29,
+     "txt": "1. Le Regard. 2. Prehension Provoked by a Tactile Stimulus. 3. Prehension Provoked by a Visual Perception. 4. Recognition of Food. 5. Quest of Food Complicated by a Slight Mechanical Difficulty. 6. Execution of Simple Commands and Imitation of Simple Gestures. 7. Verbal Knowledge of Objects. 8. Verbal Knowledge of Pictures. 9. Naming of Designated Objects. 10. Immediate Comparison of Two Lines of Unequal Lengths. 11. Repetition of Three Figures. 12. Comparison of Two Weights. 13. Suggestibility. 14. Verbal Definition of Known Objects. 15. Repetition of Sentences of Fifteen Words. 16. Comparison of Known Objects from Memory. 17. Exercise of Memory on Pictures. 18. Drawing a Design from Memory. 19. Immediate Repetition of Figures. 20. Resemblances of Several Known Objects Given from Memory. 21. Comparison of Lengths. 22. Five Weights to be Placed in Order. 23. Gap in Weights. 24. Exercise upon Rhymes. 25. Verbal Gaps to be Filled. 26. Synthesis of Three Words in One Sentence. 27. Reply to an Abstract Question. 28. Reversal of the Hands of a Clock. 29. Paper Cutting. 30. Definitions of Abstract Terms.",
+     "label": "The thirty tests of 1905, in the order of the print",
+     "note": "The print describes each of the thirty in full — procedure and remarks; carried complete here are test 1 (the lowest rung of the scale), test 27 and test 30 (its highest); the rest are named, not carried."
+    },
+    {
+     "n": 8,
+     "k": 30,
+     "txt": "This test is one of the most important of all, for the diagnosis of mental debility. It is rapid, easily given, sufficiently precise. It consists in placing the subject in a situation presenting a difficulty of an abstract nature. Any mind which is not apt in abstraction succumbs here.",
+     "label": "27. Reply to an Abstract Question"
+    },
+    {
+     "n": 9,
+     "k": 31,
+     "txt": "Procedure. This consists in reading the beginning of a sentence and suspending the voice when one arrives at the point, and repeating, \"What ought one to do?\" The sentences are constructed in such a manner that the slight difficulty of comprehension which they present, comes from the ideas rather than from the words. The child who does not understand, is hindered less by his ignorance of the language than by his lack of ability to seize an abstract idea. There are twenty-five questions. The first are very easy and tend to put the subject at his ease. We do not reproduce them here as they will be found farther on with the results."
+    },
+    {
+     "n": 10,
+     "k": 32,
+     "txt": "Here are only four of the sentences. They are among those of medium difficulty. 1. When one has need of good advice — what must one do? 2. Before making a decision about a very important affair — what must one do? 3. When anyone has offended you and asks you to excuse him — what ought you to do? 4. When one asks your opinion of someone whom you know only a little — what ought you to say?"
+    },
+    {
+     "n": 11,
+     "k": 33,
+     "txt": "It is often a delicate matter to estimate the value of a reply. Sometimes the subject does not gather all the shades of the question and the reply is too simple, not absolutely adequate to the demand. Nevertheless one must be satisfied if it expresses sense, if it proves that the general bearing of the question has been grasped."
+    },
+    {
+     "n": 12,
+     "k": 34,
+     "txt": "In other cases the reply is equivocal; it would be excellent if it came from a dilletante, or a decadent, because of the double meaning which is ironically evoked. It is of no value in the mouth of a school child. Thus to the first question, \"When one has need of good advice — \" a child replied, \"one says nothing.\" We suppose he has not understood but if this had been an ironical reply, one might have found in it a curious meaning. As a matter of fact, these uncertainties, which are truly matters of conscience with the examiner, present themselves but rarely, for ordinarily the interpretation is easy because one knows already about what to expect from his subject."
+    },
+    {
+     "n": 13,
+     "k": 35,
+     "txt": "This test resembles closely those which consist in replying to an abstract question. It differs especially in that it requires a knowledge of vocabulary.",
+     "label": "30. Definitions of Abstract Terms"
+    },
+    {
+     "n": 14,
+     "k": 36,
+     "txt": "Procedure. Without preliminaries, one asks of the subject, \"What difference is there between esteem and affection? What difference is there between weariness and sadness?\" Often the subject does not reply. He sometimes gives an absurd or nonsensical answer."
+    },
+    {
+     "n": 15,
+     "k": 37,
+     "txt": "We conclude here the list of tests we have used. It would have been easy to continue them by rendering them more complicated, if one had wished to form a hierarchy among normal children. One could even extend the scale up to the adult normal, the average intelligent, the very intelligent, the hyper-intelligent and measure, or try to measure, talent and genius. We shall postpone for another time this difficult study."
+    },
+    {
+     "n": 16,
+     "k": 38,
+     "txt": "When a subnormal, or a child suspected of being such, is questioned, it is not necessary to follow the exact order of tests. A little practice enables one to cut short, and put the finger upon the decisive test."
+    },
+    {
+     "n": 17,
+     "k": 39,
+     "txt": "The solutions given by the subjects can be put into four categories:"
+    },
+    {
+     "n": 18,
+     "k": 40,
+     "txt": "1. Absence of solution. This is either a case of mutism, or refraining from making an attempt, or an error so great that there is nothing satisfactory in the result. We indicate the absence of result by the algebraic sign minus (—)."
+    },
+    {
+     "n": 19,
+     "k": 41,
+     "txt": "2. Partial solutions. A part of the truth has been discovered. The reply is passable. This is indicated by a fraction; the fraction in use is ½. When the test permits several degrees one can have ¼, or ¾, etc."
+    },
+    {
+     "n": 20,
+     "k": 42,
+     "txt": "3. Complete solution. This does not admit of definition. It is indicated by the algebraic sign plus (+)."
+    },
+    {
+     "n": 21,
+     "k": 43,
+     "txt": "4. Absurdities. We have cited a great number of examples and insist upon their importance; they are indicated by the exclamation sign (!)."
+    },
+    {
+     "n": 22,
+     "k": 44,
+     "txt": "The cause for certain defective replies can sometimes be grasped with sufficient clearness to admit of classification."
+    },
+    {
+     "n": 23,
+     "k": 45,
+     "txt": "Besides the failure to comprehend the tests as a whole, we encounter:"
+    },
+    {
+     "n": 24,
+     "k": 46,
+     "txt": "1. Ignorance; the subject does not know the sense of a word or has never seen the object of which one speaks. Thus a child does not know a poppy. We write an I."
+    },
+    {
+     "n": 25,
+     "k": 47,
+     "txt": "2. Resistance to the examination because of bad humor, unwillingness, state of nerves, etc. We write an R."
+    },
+    {
+     "n": 26,
+     "k": 48,
+     "txt": "3. Accentuated timidity. We write a T."
+    },
+    {
+     "n": 27,
+     "k": 49,
+     "txt": "4. The failure of attention, distraction. We write a D. The distraction may be of different kinds. There is an accidental distraction, produced by an exterior excitant or an occasional cause. For example, the case of a normal who spoils a memory test because he must use his handkerchief. There is constitutional distraction frequent among subnormals. We have ascertained among them the following types: Distraction from scattered perceptions. Distraction from preoccupation. Distraction from inability to fix the attention."
+    }
+   ]
+  },
+  {
+   "id": "skala",
+   "titel": "The scale of 1908 — conditions of the examination, and the tests age by age",
+   "units": [
+    {
+     "n": 1,
+     "k": 50,
+     "txt": "First the testing should take place in a quiet isolated room. The examiner should be alone with the child and when possible he should have a secretary whose duty is to record verbatim the child's answers. This secretary may be a child of thirteen or fourteen years, provided he is very intelligent and one can supervise his work a little. The subject to be examined should be kindly received; if he seems timid he should be reassured at once, not only by a kind tone but also by giving him first the tests which seem most like play, for example — giving change for 20 sous. Constantly encourage him during the tests in a gentle voice; one should show satisfaction with his answers whatever they may be. One should never criticise nor lose time by attempting to teach him the test; there is a time for everything. The child is here that his mental capacity may be judged, not that he may be instructed. Never help him by a supplementary explanation which may suggest the answer. Often one is tempted to do so, but it is wrong.",
+     "label": "General Conditions of the Examination"
+    },
+    {
+     "n": 2,
+     "k": 51,
+     "txt": "Do not become over anxious nor ask the child if he has understood, a useless scruple since the test is such that he ought to understand. Therefore one should adhere rigorously to the formulas of the experiment, without any addition or omission. Encouragement should be in the tone of voice or in meaningless words, which serve only to arouse him. \"Come now! Very good! Hurry a little! Good! Very good! Perfect! Splendid! etc. etc.\" If witnesses are inevitable impose upon them a rigorous silence. How difficult this is to obtain! Every teacher wishes to interfere in the examination, to supplement the explanation of an embarrassed pupil, especially if he belongs to her class. Have the courage to insist that they keep silent."
+    },
+    {
+     "n": 3,
+     "k": 52,
+     "txt": "Always begin with the tests that fit the child's age. If one gives him too difficult work at first he is discouraged. If, on the contrary, it is too easy it arouses his contempt, and he asks himself if he is not being made fun of, and so makes no effort. We have seen manifestations of this misplaced self-esteem."
+    },
+    {
+     "n": 4,
+     "k": 53,
+     "txt": "On the part of the experimenter, some conditions are necessary. He must not allow himself to be influenced by information regarding the child obtained from other sources. He must say to himself that nothing which he already knows about the child counts at all. He must consider the child as an X to be solved by this means alone. He must be entirely convinced that by using this method, he will be able by it alone to obtain a thorough knowledge of the child without depending on any outside help. But this self-confidence is liable to many fluctuations. In the beginning everything seems easy; it is the period of illusions. After a few trials, if one has at all the critical spirit, errors are seen everywhere, and this leads to discouragement. But if one keeps at it faithfully, patiently, confidence will return little by little; it is no longer the optimism of the beginner, but a confidence grounded upon deliberate reason and proof; one has a consciousness of his own power as well as of his limitations."
+    },
+    {
+     "n": 5,
+     "k": 54,
+     "txt": "This period of initiation should last through at least 5 or 6 sessions of two hours each, and bear upon a total of twenty children. Every experimenter wishing to commence should submit himself to a similar preparation."
+    },
+    {
+     "n": 6,
+     "k": 55,
+     "txt": "Classification of the tests according to age. We here give the series of tests ranged according to the ages at which the majority of children succeed in them. This constitutes our measuring scale of intelligence. Those who adopt our method will very often need to refer to it. (For discussion see pages indicated)",
+     "note": "\" These tests are not the first ones of which we had thought; if we keep them it is after long trial; they appear to us all good and practical. But we are far from claiming that they are the best. Those who will take up this work after us will find better; they will certainly succeed in eliminating more strictly than we have been able to do, the tests that are influenced by education. In pursuing the experiments we have ourselves succeeded in making some improvements. But we have made no record of them, in order not to change the economy of the work and the value of our figures as to the result. The main point after all is that on the one hand the principle of the measure of intelligence be stated, and on the other that our method be, in spite of its defects, good enough to be put into practice. We lack time to establish tests corresponding to ages under 3 years. Our experiment in hospitals showed us which are the tests to be used, but we do not yet know to which exact age of normal development they correspond. In any case we give them here for reference. Voluntary look (follow a lighted match which the experimenter moves). Prehension of an object by contact (put the object in contact with the hand.) Prehension after visual perception. (One hands the object and the child must try to take it.) Knowledge of food. (One presents a piece of wood, then a biscuit. One notices if the child rejects the piece of wood to take the biscuit.) Execution of order given by gestures. (For instance, the order to sit down.) Imitation of simple gestures. (For instance, clap the hands.)"
+    },
+    {
+     "n": 7,
+     "k": 56,
+     "txt": "Show eyes, nose, mouth (p. 184). Name objects in a picture (p. 188). Repeat 2 figures (p. 187). Repeat a sentence of 6 syllables (p. 186). Give last name (p. 194).",
+     "label": "Three years"
+    },
+    {
+     "n": 8,
+     "k": 57,
+     "txt": "Give sex (p. 195). Name key, knife, penny (p. 195). Repeat 3 figures (p. 196). Compare 2 lines (p. 196).",
+     "label": "Four years"
+    },
+    {
+     "n": 9,
+     "k": 58,
+     "txt": "Compare 2 boxes of different weights (p. 196). Copy a square (p. 198). Repeat a sentence of 10 syllables (p. 186). Count 4 sous (p. 200). Put together two pieces in a \"game of patience\" (p. 198).",
+     "label": "Five years"
+    },
+    {
+     "n": 10,
+     "k": 59,
+     "txt": "Repeat a sentence of 16 syllables (p. 186). Compare two figures from an esthetic point of view (p. 202). Define by use only, some simple objects (p. 202). Execute 3 simultaneous commissions (p. 205). Give one's age (p. 206). Distinguish morning and evening (p. 206).",
+     "label": "Six years"
+    },
+    {
+     "n": 11,
+     "k": 60,
+     "txt": "Indicate omissions in drawings (p. 207). Give the number of fingers (p. 209). Copy a written sentence (p. 209). Copy a triangle and a diamond (p. 209). Repeat 5 figures (p. 210). Describe a picture (p. 210). Count 13 single sous (p. 210). Name 4 pieces of money (p. 211).",
+     "label": "Seven years"
+    },
+    {
+     "n": 12,
+     "k": 61,
+     "txt": "Read selection and retain two memories (p. 211). Count 9 sous, 3 single and 3 double (p. 214). Name four colors (p. 215). Count backward from 20 to 0 (p. 215). Compare 2 objects from memory (p. 216). Write from dictation (p. 216).",
+     "label": "Eight years"
+    },
+    {
+     "n": 13,
+     "k": 62,
+     "txt": "Give the date complete — day, month, day of the month, year (p. 217). Name the days of the week (p. 218). Give definitions superior to use (p. 205). Retain 6 memories after reading (p. 220). Make change, 4 sous from 20 sous (p. 218). Arrange 5 weights in order (p. 220).",
+     "label": "Nine years"
+    },
+    {
+     "n": 14,
+     "k": 63,
+     "txt": "Name the months (p. 221). Name 9 pieces of money (p. 221). Place 3 words in 2 sentences (p. 222). Answer 3 comprehension questions (p. 224). Answer 5 comprehension questions (p. 226).",
+     "label": "Ten years"
+    },
+    {
+     "n": 15,
+     "k": 64,
+     "txt": "Criticize sentences containing absurdities (p. 227). Place 3 words in 1 sentence (p. 229). Find more than 60 words in 3 minutes (p. 229). Give abstract definitions (p. 230). Place disarranged words in order (p. 231).",
+     "label": "Eleven years"
+    },
+    {
+     "n": 16,
+     "k": 65,
+     "txt": "Repeat 7 figures (p. 232). Find 3 rhymes (p. 232). Repeat a sentence of 26 syllables (p. 230). Interpret pictures (p. 193). Problem of facts (p. 233).",
+     "label": "Twelve years"
+    },
+    {
+     "n": 17,
+     "k": 66,
+     "txt": "Paper cutting (p. 234). Reversed triangle (p. 235). Give differences of meaning (p. 235).",
+     "label": "Thirteen years",
+     "note": "The print restores this list in two columns; the column interleaving of the scan for ages ten to thirteen has been reordered against the page references. The revision of 1911 redistributes several tests and extends the scale — the module's named next step."
+    },
+    {
+     "n": 18,
+     "k": 67,
+     "txt": "A few words upon the value of this classification. It is not exact for the age of three years, because certain tests placed at the level of that age can be done by much younger children, children of two years for instance. But this does not trouble us, for the measuring scale that we present is designed only for children of school age. Should a child of three years present himself these tests are sufficient to classify him. The only difficulty that could arise would be in classifying a child of two years."
+    },
+    {
+     "n": 19,
+     "k": 68,
+     "txt": "At the other extremity of the scale, there is also a little uncertainty. A pupil who passes all the tests for the thirteenth year may have a mental capacity superior to that age. But how much? Our tests do not show us."
+    }
+   ]
+  },
+  {
+   "id": "niveau",
+   "titel": "The mental level (1908) — recording, absurdities, and the rule",
+   "units": [
+    {
+     "n": 1,
+     "k": 69,
+     "txt": "In the course of our explanation, we have insisted on the character of our method of measuring. Notwithstanding appearances it is not an automatic method comparable to a weighing machine in a railroad station on which one need but stand in order that the machine throw out the weight printed on a ticket. It is a method which requires some originality to operate, and we warn the busy doctor who would apply it by means of hospital attendants that he will be disappointed. The results of our examination have no value if deprived of all comment; they need to be interpreted. We are conscious that in insisting upon the necessity of this interpretation we seem to open the door to arbitrary opinions and to deprive our method of all precision. This is so only in appearance. Our examination of intelligence will always be superior to the ordinary examinations of instruction, because it has many advantages over these. It unfolds according to an invariable plan, it takes the exact age into account; it not only depends upon the replies but compares them with a norm which is at the same time a real average determined by experience.",
+     "label": "Necessity of Making an Estimate of Results"
+    },
+    {
+     "n": 2,
+     "k": 70,
+     "txt": "If in spite of all this precision we admit that the process must be used with intelligence, we do not think its value lessened by such reservation. The microscope, the graphic method, are admirable examples of precision; but how much intelligence, circumspection, erudition and skill are implied in the practice of these methods! And can one imagine any value in the observations made with the microscope by one who was an ignoramus and at the same time an imbecile? We have seen examples of this and it makes us shudder."
+    },
+    {
+     "n": 3,
+     "k": 71,
+     "txt": "It is necessary then to abandon the idea that a method of investigation can be made precise enough to be entrusted to the first comer. Every scientific process is an instrument which needs to be directed by an intelligent hand. With this new instrument that we have just made we have examined more than 300 subjects. At each new examination our attention has been aroused, surprised, charmed by the observations we have made upon the manner of response, the manner of understanding, the mischievousness of some, the stupidity of others, and the thousand peculiarities which go to make up the attractive spectacle of an intelligence in activity. Some persons to whom, very rarely however, we have accorded the privilege of witnessing our tests, have also understood and have, of their own accord, declared what a deep impression they had received, and how they were able to form a good idea of the intelligence of each child, even those whom they had known for a long time. It is this deep impression that one should know how to gather, interpret and estimate at its true value. The notations that we recommend should serve only as an aid to the memory, and to facilitate the assembling of those elements out of which our mind alone can compose the synthesis."
+    },
+    {
+     "n": 4,
+     "k": 72,
+     "txt": "With these reservations we shall now explain our system of recording."
+    },
+    {
+     "n": 5,
+     "k": 73,
+     "txt": "Recording results. In practice one has before him in a vertical column the names of the tests in the order in which we have here given them. The tests for the different ages are separated by a horizontal line. When one is about to test a child, begin with the tests for his age, and according as the test has been passed or not, mark the answer with the sign + or —. But that record is not sufficiently graded; it is necessary, we think, to adopt the exclamation point for those cases where the failure takes on an evident character of absurdity. Let us cite some examples of absurd replies."
+    },
+    {
+     "n": 6,
+     "k": 74,
+     "txt": "Repetition of sentences. What we have called \"bafouillage\" — (words that have no sense). Repetition of five figures. Pronouncing the figures in the natural order. One has said: 2, 8, 7, 3, 9. The child says 8, 2, 3, 4, 5, 6, 7, 9. This is a particularly serious error, if the child who makes it has been able at another time to repeat 5 figures. It is then clear that it is not so much memory that he lacks, as judgment. Study of a picture. Making lengthy enumerations implies a childish intelligence having had experience which has not developed it. This is often encountered among the subnormal. To count thirteen sous. To know how to count correctly as far as 30 and then in counting 13 sous to make a serious error — for example of ten units. Pieces of money. To invent; to discover pieces of 25 sous; 30 sous; 3 francs; 30 francs, etc. Reading. To mispronounce words when one is able to read fluently. Counting backwards. To skip regularly 2 figures at the end of a certain time, which indicates that the directing idea is lost; or even after having counted backwards to begin counting forwards. Defining objects. To repeat the word, as \"a chair is a chair.\" Or to point to the object, \"a table.\" \"There it is\" (placing his finger on the table). Date. Inventing extraordinary dates. Saying it is the year 19; it is the month 9, etc. Memory of what is read. Inventing statements which have not been read. Comparison from memory. Repeating the word. Saying: \"Wood is made of wood. Glass is made of glass.\" Making change from twenty sous. Giving change at random, 5 francs, 10 francs, etc; or giving a number much less than 16 sous; using pieces of known value, for example — giving 19 sous with a 10-sou piece and the rest in single sous. Arranging weights in order. Making mistakes which indicate that the subject has not understood the meaning \"decreasing;\" or arranging the boxes, haphazard, two by two. Three words in a sentence. To write a sentence without sense as, \"Paris is a city of fortune for the streams.\" Criticism of sentences. Absurd answers. For instance to answer the second sentence with \"It is Ernest who was not kind.\" To the third, \"'Tis like saying, I am not well.\" Abstract definitions. Absurdities. Example. \"Charity is to raise one's hat.\" Arranging words in a sentence. Making a sentence void of sense: \"One must finish his exercises.\" \"A good dog his bravely master defends.\" Rhymes. Coining words, or sometimes, what is worse, coining words that have not even the merit of rhyming. Such answers deserve not merely a minus but an exclamation point as well.",
+     "label": "The absurd replies — examples deserving the exclamation point"
+    },
+    {
+     "n": 7,
+     "k": 75,
+     "txt": "Utilization of notes. A series of signs is thus obtained in a vertical column; these signs succeed one another irregularly; here are minus signs, there are plus signs. How shall they be interpreted? First of all it is evident that in whatever order we place the tests, we shall never be able to find any single test of such a nature that when this one has been passed, all the previous ones will also be successful, and all the following ones failures."
+    },
+    {
+     "n": 8,
+     "k": 76,
+     "txt": "This order of tests might be established for one child in particular, but the same order would not be satisfactory for a second or a third. So, let us examine the results of the order of the tests which we have chosen, and let us see how ten children of nine years react. For the five tests at nine years, which furnish 50 replies (since there are 5 tests and ten pupils) there are 6 failures and 44 successes. For the tests at ten years, there are 14 failures and 36 successes. A test limit could never be found which would stop all the children, or which would stop only children of that age, or to which they would all attain. That would be a very convenient criterion, but we have never found it, nor do we believe it exists. The reality is less simple. What we have found is the following: children of nine years pass all the easy tests; in the very difficult tests, children of nine years pass none; in the tests of moderate difficulty some pass one, some another. This varies with each child. This is a fact of which one must take account. Every child has his individuality; one succeeds best in test \"A\" and fails in test \"B\"; another, of the same age, fails in \"A\" and on the other hand succeeds in \"B.\" How shall we account for these individual differences in the experimental results? We do not know exactly; it is probable that the mental faculties involved in the tests are different, and of unequal development in the children. If a child has a better memory than one of his companions, it is natural that he should succeed better in a test of simple repetition. Another who has already a trained hand will succeed better in the arranging of the weights. Another reason may be alleged. All our tests suppose an effort of attention; and attention varies constantly in the degree of concentration, especially among the young; now it is intense; a moment later it is relaxed. Suppose that the subject has a moment of distraction, of constraint, of ennui during a test; he fails. One cannot doubt the weight of this last reason. We are so convinced of it that we consider it chimerical and absurd to judge the intelligence of a child on any single test."
+    },
+    {
+     "n": 9,
+     "k": 77,
+     "txt": "From the preceding considerations we conclude that we can determine the intellectual level of a child only by the sum total of the tests. Success in many different tests is alone characteristic. The mark of intelligence is therefore not made nor can it be made as one measures height. For the height it suffices to have a table of average measurements for that age. Being given a child we take his height and referring it to the table of average measurements we easily, by a simple reckoning, learn if the child measures up to the average for his age, or if he is backward by one year, by two years, etc., or on the contrary advanced a year or two years, etc. Such a process of estimation is on the whole but slightly artificial."
+    },
+    {
+     "n": 10,
+     "k": 78,
+     "txt": "It is altogether different for the measure of intelligence. If one wishes to apply the same system of comparison between the intelligence of a child and the average intelligence of children at different ages, one is at once confronted with the difficulty that we have noted above. A child is backward in certain of the tests for his age and in advance for others. We think it possible to overcome this difficulty; but it is on condition that we adopt some arbitrary rule; and the said rule, however good it may be, will always give an artificial character to the procedure, and to such a degree that if, by chance, one had adopted another rule, one would arrive at quite different results."
+    },
+    {
+     "n": 11,
+     "k": 79,
+     "txt": "We believe it necessary to insist on this point for we shall later be led to say, for the sake of simplicity of language, that a child of eight years has the intelligence of a child of seven or of nine years. These expressions, because they are arbitrary, might cause some illusions. It is necessary to remember that the expression \"retarded\" or \"advanced intelligence,\" results partly from the conventional procedure that we have adopted."
+    },
+    {
+     "n": 12,
+     "k": 80,
+     "txt": "This procedure is the following: A subject has the intellectual development of the highest age at which he passes all the tests, with the allowance of one failure in the tests for that age. Thus young Ernest has passed all the tests at nine years, except one; he has also passed all the tests at ten years except one; therefore we attribute to him the mental level of ten years."
+    },
+    {
+     "n": 13,
+     "k": 81,
+     "txt": "But this rule is too strict, and an example will serve to make this clear. Suppose that Jean who is nine years old passes all the tests at nine years except two, and all the tests at ten years except two. Would that place him on the level of eight years? That would be to make him lose the advantage of the tests he has passed. We propose the following compensating rule; When once the intellectual level of a child is fixed, give him the benefit of an advance of one year every time he passes at least five of the tests beyond his level, and the benefit of an advance of two years if he has passed at least ten above his level. Thus, Jean aged nine is at the level of eight years, which one expresses by saying that he is -1 (that is, in other words, a year behind). But he has passed 3 tests at nine years and 3 tests at ten years; he has been 6 points in advance of his level; he has gained a year; he is then at the level of nine years, he tests at age, and is marked =.",
+     "note": "The print's footnote here points forward: \"For final rule see p. 278\" — the revision of 1911, this module's named next step."
+    },
+    {
+     "n": 14,
+     "k": 82,
+     "txt": "By employing this process, one succeeds in classifying satisfactorily nearly all children. We may even say all, if we ignore two or three exceptions which we found among the pupils of the Maternal School. Thus a little girl of six years lacked two of the tests at four years; she lacked four of those at five years and five of those at six years; unless she was placed at the level of three years one would not know where she belonged. The cause of the difficulty came from the following fact. She had an extremely weak memory and could repeat neither the sentence nor the figures correctly. She had had, we were told, attacks of epilepsy. These are exceptions to the rule, but we have proved that ordinarily these are found in abnormal cases."
+    }
+   ]
+  }
+ ]
+}

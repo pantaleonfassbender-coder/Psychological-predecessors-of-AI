@@ -49,9 +49,22 @@ checkable. All are United States public domain (published through 1930). Entries
   correlation tables not reproduced, each omission marked), and ch. V § 8, the Summary of
   Conclusions. Cited as `GI [k]`, k unique across the selections; the paper's section
   headings carried as labels; page-bottom footnotes not carried.
-- **Binet & Simon, The Development of Intelligence in Children** — trans. Elizabeth S. Kite
-  (Vineland, 1916), public domain —
-  <https://archive.org/details/developmentofint00binerich>. French papers of 1905–1911 named.
+- **Binet & Simon, The Development of Intelligence in Children — SHIPPED**
+  (`data/binet.json`, built by `tools/build-binet.py`): selections from Elizabeth S. Kite's
+  translation (Vineland, N.J.: The Training School, 1916; public domain) —
+  <https://archive.org/details/developmentofint00binerich> — OCR emended against the sense,
+  the scoring notation verified against the page images (leaf = printed page + 8). Carried:
+  the opening of "New Methods" (1905) complete, with the definition of intelligence as
+  judgment; from the 1905 instrument the general recommendations, test 1 ("Le Regard")
+  complete, the printed list of the thirty tests, tests 27 and 30 complete, and the scoring
+  rubric (−, ½, +, ! and the I/R/T/D notes); from the 1908 paper the General Conditions of
+  the Examination, the classification of the tests by age (three to thirteen years — the
+  scan's two-column shred restored against the print's own page references), and the
+  Estimate of Results through the rule of the mental level with its compensating rule. Two
+  editorial and two authorial page-bottom footnotes carried as notes. Cited as `DIC [k]`, k
+  unique across the module. The French papers of 1905–1911 in L'Année Psychologique are
+  named, not carried; the 1911 revision (ch. V of the volume) is the module's named next
+  step.
 
 ## The learning animal
 
@@ -124,6 +137,8 @@ credit name the source, digitisation and leaf.
   `memorycontributi00ebbiuoft`, leaf 7.
 - **Spearman** — the paper's first page as printed, AJP 15 (1904), p. 201;
   `jstor-1412107`, leaf 1.
+- **Binet** — title page of the Vineland translation of 1916;
+  `developmentofint00binerich`, leaf 9.
 - **Huxley** — title page of *Method and Results: Essays* (New York: D. Appleton and
   Company, 1894); `methodandresult01huxlgoog`, leaf 6.
 - **Thorndike** — the puzzle box, Fig. 1 on p. 30 of *Animal Intelligence* (New York:

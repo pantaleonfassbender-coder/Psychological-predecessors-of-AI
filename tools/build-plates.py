@@ -71,6 +71,16 @@ PLATES = [
    'credit': "Galton, Inquiries into Human Faculty and its Development "
              "(London: Macmillan, 1883). Internet Archive "
              "inquiriesintohu00galtgoog, leaf 8. Public domain." },
+ { 'id': 'binet',
+   # this digitisation too times out above ~800px wide
+   'url': ia('developmentofint00binerich', 9, w=800),
+   'caption': "Title page of the Vineland translation: The Development of "
+              "Intelligence in Children (The Binet-Simon Scale), 1916 — "
+              "the edition that carried the scale into English.",
+   'credit': "Binet & Simon, The Development of Intelligence in Children, "
+             "trans. Elizabeth S. Kite (Vineland, N.J.: The Training "
+             "School, 1916). Internet Archive developmentofint00binerich, "
+             "leaf 9. Public domain." },
  { 'id': 'thorndike',
    # the IIIF endpoint refuses this Google-digitised item above ~600px wide
    'url': ia('animalintellige00thorgoog', 43, w=600),

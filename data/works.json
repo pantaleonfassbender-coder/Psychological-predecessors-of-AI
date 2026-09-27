@@ -54,14 +54,15 @@
  {
   "id": "binet",
   "linie": "messen",
-  "status": "planned",
+  "status": "shipped",
   "autor": "Alfred Binet · Théodore Simon",
   "leben": "1857–1911 · 1873–1961",
   "kurz": "Binet",
   "titel": "The Development of Intelligence in Children (1905–1911; Kite's English of 1916) — selections",
   "sprachen": "English (1916, public domain) · French named",
   "claim": "The intelligence test itself: graded tasks, norms, a scale. The instrument that made ‘measuring intelligence’ an operational question — the ancestral form of every benchmark.",
-  "geplant": "Selections from Elizabeth S. Kite's translation (Vineland 1916; Internet Archive developmentofint00binerich), public domain; the French papers of 1905–1911 named beside it."
+  "geplant": "Selections from Elizabeth S. Kite's translation (Vineland 1916; Internet Archive developmentofint00binerich), public domain; the French papers of 1905–1911 named beside it.",
+  "datei": "binet"
  },
  {
   "id": "hartley",
