@@ -91,14 +91,15 @@
  {
   "id": "morgan",
   "linie": "lernen",
-  "status": "planned",
+  "status": "shipped",
   "autor": "C. Lloyd Morgan",
   "leben": "1852–1936",
   "kurz": "Morgan",
   "titel": "An Introduction to Comparative Psychology (1894) — selections",
   "sprachen": "English",
   "claim": "Morgan's canon: never explain behaviour by a higher faculty when a lower one suffices — the founding rule against anthropomorphism, re-argued today wherever machine behaviour is described in mental terms.",
-  "geplant": "Selections from the first edition (Internet Archive anintroductiont01morggoog): the canon and its defence, with the chapters that apply it."
+  "geplant": "Selections from the first edition (Internet Archive anintroductiont01morggoog): the canon and its defence, with the chapters that apply it.",
+  "datei": "morgan"
  },
  {
   "id": "loeb",

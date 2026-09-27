@@ -47,6 +47,7 @@ const CITE = {
   fechner: (sec, u) => `EP [${u.k}]`,
   galton: (sec, u) => `IHF [${u.k}]`,
   binet: (sec, u) => `DIC [${u.k}]`,
+  morgan: (sec, u) => `CP [${u.k}]`,
 };
 const citeOf = (workId, sec, u) => (CITE[workId] || ((s, x) => `[${x.n}]`))(sec, u);
 
@@ -683,6 +684,160 @@ function viewTimeline() {
   </div>`));
 }
 
+/* =============================================================== ESSAY */
+/* Introductory essay on the corpus as a whole, and on the apparatus's own
+   machine-assisted making. Editorial matter, CC BY 4.0. */
+function viewEssay() {
+  const C = (id, sec, n, label) => `<a class="cite" href="#/works/${id}/${sec}@${n}">${label}</a>`;
+  view.append(el(`<div>
+    <div class="viewhead"><span class="tag">Editorial</span>
+      <h1>The mind made measurable</h1>
+      <p class="lede">An introductory essay: what the four lines of this corpus argue when they
+      are read together, why the collection ends in 1930 — and why an edition of the
+      psychological prehistory of artificial intelligence, made with a machine that has
+      learned, should say so on its own pages.</p></div>
+
+    <div class="panel"><h2>Two prehistories</h2>
+      <p class="readable">Artificial intelligence tells its origin story in philosophical
+      quotations: Hobbes's reckoning, Leibniz's <em>calculemus</em>, Turing's question. A sister
+      apparatus, <a href="https://philosophical-predecessors-of-ai.netlify.app"
+      rel="noopener">Calculemus</a>, documents that line in full. But between the philosophers'
+      wager — that reasoning is computation — and the engineers' machines lies a second
+      prehistory, less quoted and more operational: the roughly one hundred and eighty years in
+      which psychology made the mind <em>lawful</em>. Sensation was brought under a formula,
+      memory under a curve, association under a stopwatch, intelligence under a scale; animals
+      taught experimenters the laws of learning; and the question whether we ourselves are
+      automata was argued at full strength a century before anyone asked it of software. When
+      the first machine learning systems appeared, nearly every concept they needed — stimulus
+      and response, reinforcement, learning curve, test, norm, level — was already on the shelf,
+      manufactured by the authors collected here. This corpus assembles that second prehistory
+      in citable, searchable editions, and this essay says what the assembly is meant to
+      show.</p></div>
+
+    <div class="panel"><h2>The measured mind</h2>
+      <p class="readable">The first line runs from a formula to a scale. Fechner's
+      <em>Elemente der Psychophysik</em> (1860) is its founding act: the claim that inner life
+      obeys an equation, culminating in the Massformel ${C('fechner','formel',21,'EP [61]')}
+      and its interpretation as nothing less than a general relation of dependence between
+      mind and matter ${C('fechner','formel',37,'EP [77]')}. Ebbinghaus turned the wager into
+      laboratory routine: nonsense syllables, the savings method
+      ${C('ebbinghaus','chVI',9,'Mem. [49]')}, forgetting as a lawful function of time — the
+      learning curve that machine learning still plots. Galton made statistics portable across
+      persons: composite portraiture, the imagery questionnaire, association timed with a
+      chronograph — and, in one of the corpus's most instructive passages, described a word
+      association that worked "instantaneously and in a meaningless way, just as a machine
+      might act" ${C('galton','psychometric',13,'IHF [65]')}. Spearman extracted from the
+      correlations a single common function, <em>g</em>
+      ${C('spearman','concl',5,'GI [41]')}. And Binet built the instrument: a definition of
+      intelligence as judgment ${C('binet','programm',20,'DIC [20]')}, thirty graded tasks
+      ${C('binet','tests',7,'DIC [29]')}, age norms, a scoring rubric, and a computable mental
+      level — with the warning, carried here in full, that the method is "not an automatic
+      method comparable to a weighing machine"
+      ${C('binet','niveau',1,'DIC [69]')}. Anyone who has assembled an evaluation suite for a
+      language model has re-enacted this line, usually without knowing it: graded tasks, norms,
+      a rubric, a leaderboard — and, mostly forgotten, Binet's warning.</p></div>
+
+    <div class="panel"><h2>The learning animal, and its discipline</h2>
+      <p class="readable">The second line domesticates learning itself. Its centrepiece is
+      Thorndike: cats in puzzle boxes, the gradual stamping-in of the successful movement
+      ${C('thorndike','method',6,'AI, ch. II [20]')}, and the Law of Effect stated as law
+      ${C('thorndike','laws',13,'AI, ch. VI [13]')} — the sentence reinforcement learning
+      cites as its origin, the corpus's most direct wire into the present. Around it stand the
+      ancestors and the correctives: Hartley's associations and Bain's trial and error before
+      it, Loeb's tropisms beneath it, Pavlov's conditioned reflexes beside it, Köhler's
+      insight experiments as the standing counter-evidence within. And over the whole line
+      presides its conscience: Morgan's canon — "in no case may we interpret an action as the
+      outcome of the exercise of a higher psychical faculty, if it can be interpreted as the
+      outcome of the exercise of one which stands lower in the psychological scale"
+      ${C('morgan','kanon',2,'CP [26]')}. Morgan reasoned from a chronometer forced to read
+      all other clockwork in terms of its own works; every present-day argument about whether
+      a model "understands" replays his chapter, and mostly less carefully.</p></div>
+
+    <div class="panel"><h2>The automaton debate</h2>
+      <p class="readable">The third line shows that the debate about machine minds did not
+      wait for machines. Huxley's address of 1874 states the automaton theory at full
+      strength — brutes, and by extension we ourselves, as conscious automata
+      ${C('huxley','text',81,'Aut. [81]')} — and James's "Are We Automata?" (1879), the great
+      reply, answers that consciousness is a fighter for ends, no mere accompaniment. McDougall
+      mounts the last full-dress defence of the soul. The nineteenth century, in other words,
+      rehearsed the entire space of positions — eliminativist, functionalist, animist — about
+      its own minds, before a single relay clicked. The corpus carries the debate so that its
+      re-enactments about software can at least know they are re-enactments.</p></div>
+
+    <div class="panel"><h2>The threshold</h2>
+      <p class="readable">The fourth line is the shortest and the hinge: Hull's
+      aptitude-forecasting machinery, and then, in 1929 and 1930, Hull and Baernstein building
+      an electro-chemical "mechanical parallel to the conditioned reflex" — psychologists
+      constructing a device that learns, and arguing that knowledge and purpose are habit
+      mechanisms a machine could have. There the corpus stops, deliberately. The boundary is a
+      rights fact — works published through 1930 are in the United States public domain, while
+      Craik, McCulloch &amp; Pitts, Wiener and Turing remain in copyright and are named in the
+      <a href="#/coda">coda</a> — but the rights fact coincides with the intellectual
+      watershed: the corpus ends where the machines begin to learn. The threshold moves; works
+      of 1931 join on 1 January 2027.</p></div>
+
+    <div class="panel"><h2>What the corpus knows about the present</h2>
+      <p class="readable">Read together, the lines hand the present four mirrors. The
+      benchmark has an ancestor, and the ancestor came with operating instructions we have
+      dropped: Binet's insistence that results "have no value if deprived of all comment"
+      ${C('binet','niveau',1,'DIC [69]')}. Reinforcement has an ancestor, and the ancestor's
+      finest observers already knew the difference between performing and understanding.
+      Anthropomorphism has a discipline, older than the machines by a century
+      ${C('morgan','kanon',2,'CP [26]')}. And measurement has a politics: the same Galton who
+      built the methods coined "eugenics" on page 24 of the same book
+      ${C('galton','prog',2,'IHF [2]')} — carried here in his own words, stated, not passed
+      over — while his criminal composites quietly delivered the corpus's great negative
+      result: averaged, the faces of convicts dissolve into "the common humanity of a low
+      type", with "no villainy written on them" ${C('galton','composite',17,'IHF [19]')}. A
+      century before face-classification startups, the founding experiment had already
+      failed, and said so in print.</p></div>
+
+    <div class="panel"><h2>Distant reading, distant writing</h2>
+      <p class="readable">One more thing should be said about this apparatus, and it belongs
+      in the essay rather than the small print. Two decades ago Franco Moretti proposed
+      <em>distant reading</em>: understanding literature at scales no reader can reach by
+      reading — graphs, maps, trees, models in place of pages. This corpus is built by the
+      inverse operation, for which <em>distant writing</em> is the honest name: the editions,
+      emendations, translations and apparatus here were produced in sustained working sessions
+      with a large language model, under an editor who directed every selection, verified the
+      worst passages against the page images, and answers for every printed word. Distance, in
+      Moretti's sense, was a condition of knowledge; here it is a condition of production —
+      and it changes what an edition owes its reader. Hannes Bajohr has described the coming
+      condition as "post-artificial": texts whose human or machine provenance can no longer be
+      presumed and soon will not be asked. A scholarly edition cannot want that. So this one
+      keeps its making on record — the <a href="#/method">method page</a> says how the work
+      was done, the build scripts in the repository show it being done, and the paragraph
+      grids make every claim checkable against the print.</p>
+      <p class="readable">There is also a stranger symmetry, and it is the real reason this
+      section exists. The machine that helped edit this corpus is a descendant of its
+      contents: trained by gradient methods that descend from the very laws of effect and
+      exercise Thorndike stated ${C('thorndike','laws',13,'AI, ch. VI [13]')}, evaluated by
+      batteries that descend from Binet's thirty tasks
+      ${C('binet','tests',7,'DIC [29]')}, and discussed daily in terms Morgan's canon was
+      built to discipline ${C('morgan','kanon',2,'CP [26]')}. A corpus that ends where the
+      machines begin to learn, edited with a machine that has learned, is not a paradox to be
+      hidden but the exhibit's last vitrine: the prehistory documented here runs, without a
+      break, into the tool that helped document it.</p></div>
+
+    <div class="panel"><h2>How to read this corpus</h2>
+      <p class="readable">These are selections chosen for an argument, not a library: every
+      module says what it carries, what it omits, and why; the registry pins each source
+      digitisation before a line of it is carried, so the plan itself is checkable; and every
+      paragraph carries a stable citation — the codes used in this essay resolve, on click, to
+      the passage in its module. Where the texts are ugly — Galton's eugenics, Morgan's
+      colonial hierarchies of "civilised" and "primitive" — they are carried as printed and
+      named as what they are, because a prehistory of measurement that hid the politics of
+      measurement would document nothing. The <a href="#/works">works page</a> holds the
+      program; the <a href="#/timeline">timeline</a>, the <a href="#/atlas">atlas</a> and the
+      <a href="#/concordance">concordance</a> hold the corpus's own cross-references. The rest
+      is the texts' affair.</p>
+      <p class="fine">Editorial matter, CC BY 4.0. References: Franco Moretti, "Conjectures on
+      World Literature" (2000) and <em>Distant Reading</em> (2013); Hannes Bajohr,
+      "Artifizielle und postartifizielle Texte" (2023). The corpus's own sources are given
+      module by module in <span class="mono">SOURCES.md</span>.</p></div>
+  </div>`));
+}
+
 /* ================================================================ CODA */
 /* Editorial closing note. Editorial matter, CC BY 4.0. */
 function viewCoda() {
@@ -795,6 +950,7 @@ function viewImprint() {
 Object.assign(ROUTES, {
   overview: viewOverview, works: viewWorks, coda: viewCoda,
   concordance: viewConcordance, atlas: viewAtlas, timeline: viewTimeline,
+  essay: viewEssay,
   method: viewMethod, privacy: viewPrivacy, imprint: viewImprint,
 });
 

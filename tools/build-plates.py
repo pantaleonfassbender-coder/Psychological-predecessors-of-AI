@@ -81,6 +81,17 @@ PLATES = [
              "trans. Elizabeth S. Kite (Vineland, N.J.: The Training "
              "School, 1916). Internet Archive developmentofint00binerich, "
              "leaf 9. Public domain." },
+ { 'id': 'morgan',
+   # the cited Google scan's front matter is unusable, so this one leaf
+   # comes from the Toronto copy of the same first printing
+   'url': ia('introductiontoco00morg', 7, w=800),
+   'caption': "Title page of the first edition: An Introduction to "
+              "Comparative Psychology, London 1894 — the book of the "
+              "canon.",
+   'credit': "C. Lloyd Morgan, An Introduction to Comparative Psychology "
+             "(London: Walter Scott, 1894). Internet Archive "
+             "introductiontoco00morg (University of Toronto copy), "
+             "leaf 7. Public domain." },
  { 'id': 'thorndike',
    # the IIIF endpoint refuses this Google-digitised item above ~600px wide
    'url': ia('animalintellige00thorgoog', 43, w=600),

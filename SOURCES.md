@@ -72,8 +72,15 @@ checkable. All are United States public domain (published through 1930). Entries
   <https://archive.org/details/observationsonma01hart>.
 - **Bain, The Senses and the Intellect (London 1855, first edition)** —
   <https://archive.org/details/sensesintellectb00bain>.
-- **Lloyd Morgan, An Introduction to Comparative Psychology (London 1894)** —
-  <https://archive.org/details/anintroductiont01morggoog>.
+- **Lloyd Morgan, An Introduction to Comparative Psychology — SHIPPED**
+  (`data/morgan.json`, built by `tools/build-morgan.py`): Chapter III, Other Minds than
+  Ours, carried complete from the first edition (London: Walter Scott, 1894) —
+  <https://archive.org/details/anintroductiont01morggoog> — OCR emended against the sense,
+  the diagram passage verified against the page image (leaf = printed page + 26). The
+  chapter's three figures are not reproduced, each place marked. Cited as `CP [k]`, k
+  unique across the module; the canon carries a label. The chapters that apply the canon
+  are named as the module's next step; the chapter's period frame ('civilised',
+  'primitive') is carried as printed, stated, not passed over.
 - **Loeb, Comparative Physiology of the Brain and Comparative Psychology (New York 1900)** —
   <https://archive.org/details/comparativephysi00loeb>.
 - **Thorndike, Animal Intelligence — SHIPPED** (`data/thorndike.json`, built by
@@ -139,6 +146,9 @@ credit name the source, digitisation and leaf.
   `jstor-1412107`, leaf 1.
 - **Binet** — title page of the Vineland translation of 1916;
   `developmentofint00binerich`, leaf 9.
+- **Morgan** — title page of the first edition of 1894; the cited Google scan's front
+  matter is unusable, so this one leaf comes from the University of Toronto copy of the
+  same printing: `introductiontoco00morg`, leaf 7.
 - **Huxley** — title page of *Method and Results: Essays* (New York: D. Appleton and
   Company, 1894); `methodandresult01huxlgoog`, leaf 6.
 - **Thorndike** — the puzzle box, Fig. 1 on p. 30 of *Animal Intelligence* (New York:
