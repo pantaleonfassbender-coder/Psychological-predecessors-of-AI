@@ -747,8 +747,30 @@ function viewEssay() {
       ${C('thorndike','laws',13,'AI, ch. VI [13]')} — the sentence reinforcement learning
       cites as its origin, the corpus's most direct wire into the present. Around it stand the
       ancestors and the correctives: Hartley's associations and Bain's trial and error before
-      it, Loeb's tropisms beneath it, Pavlov's conditioned reflexes beside it, Köhler's
-      insight experiments as the standing counter-evidence within. And over the whole line
+      it, Köhler's insight experiments as the standing counter-evidence within. Beneath it
+      lies Loeb's floor. The moth, he insisted, "does not fly into the flame out of
+      'curiosity'", nor is it attracted by the light; "it is only oriented by it"
+      ${C('loeb','instinkt',6,'CPB [29]')}, and to posit a "flying-into-the-flame centre" in
+      its nervous system is to explain a behaviour by naming a module after it
+      ${C('loeb','instinkt',7,'CPB [30]')}. Loeb then drew the line the whole corpus is built
+      around: associative memory, a mechanism he says "can be imitated by machines like the
+      phonograph" ${C('loeb','kriterium',1,'CPB [32]')}, is the criterion of mind, and "if an
+      animal can learn … it must possess associative memory"
+      ${C('loeb','kriterium',8,'CPB [39]')}. Mind begins, for Loeb, where learning begins —
+      which is exactly where this collection stops.</p>
+      <p class="readable">Beside Thorndike, Pavlov turned learning into procedure. The
+      hemispheres' fundamental function is "signalization", reacting to "innumerable stimuli
+      of interchangeable signification" ${C('pavlov','lecture1',32,'CR [32]')}; the difference
+      between an inborn and an acquired reflex is only that of a private line and a
+      connection made at the central exchange ${C('pavlov','lecture2',18,'CR [50]')}; and a
+      new "conditioned" reflex ${C('pavlov','lecture2',19,'CR [51]')}, given the right order
+      of stimuli in a sound-proof chamber, is "infallibly obtained"
+      ${C('pavlov','lecture2',32,'CR [64]')}. Watson drew the programme from it in 1913:
+      psychology as "a purely objective experimental branch of natural science" whose goal
+      is "the prediction and control of behavior", with "no dividing line between man and
+      brute" ${C('watson','text',1,'PBV [1]')}, and consciousness discarded as an object of
+      study ${C('watson','text',8,'PBV [8]')}. It is the psychology most ready to be
+      mechanised — and the one the automaton debate had warned against. Over the whole line
       presides its conscience: Morgan's canon — "in no case may we interpret an action as the
       outcome of the exercise of a higher psychical faculty, if it can be interpreted as the
       outcome of the exercise of one which stands lower in the psychological scale"
@@ -784,7 +806,9 @@ function viewEssay() {
       benchmark has an ancestor, and the ancestor came with operating instructions we have
       dropped: Binet's insistence that results "have no value if deprived of all comment"
       ${C('binet','niveau',1,'DIC [69]')}. Reinforcement has an ancestor, and the ancestor's
-      finest observers already knew the difference between performing and understanding.
+      finest observers already knew the difference between performing and understanding —
+      and between explaining a behaviour and merely naming a centre for it
+      ${C('loeb','instinkt',7,'CPB [30]')}.
       Anthropomorphism has a discipline, older than the machines by a century
       ${C('morgan','kanon',2,'CP [26]')}. And measurement has a politics: the same Galton who
       built the methods coined "eugenics" on page 24 of the same book
