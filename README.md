@@ -7,26 +7,30 @@ AI](https://philosophical-predecessors-of-ai.netlify.app), built to the same dis
 everything United States public domain, every paragraph citable, working translations marked
 as unofficial, no tracking.
 
-**Status: seven modules shipped, the apparatus growing.** Thorndike's *Animal
+**Status: eight modules shipped, the apparatus growing.** Thorndike's *Animal
 Intelligence* (the puzzle boxes and the laws of effect and exercise), Huxley's *Animal
 Automatism* (1874, complete), Spearman's *"General Intelligence"* (1904: the programme,
 the universal unity, the hierarchy, the summary of conclusions), Ebbinghaus's *Memory*
 (1913 translation: the nonsense syllables, the savings method, the forgetting curve),
 Galton's *Inquiries into Human Faculty* (1883: composite portraiture, the imagery
 questionnaire, the psychometric experiments — and the page where "eugenics" is coined,
-stated, not passed over) and Binet & Simon's *Development of Intelligence in Children*
+stated, not passed over), Binet & Simon's *Development of Intelligence in Children*
 (1905/1908 in Kite's English of 1916: the definition of intelligence as judgment, the
 thirty tests, the scale age by age, and the rule of the mental level — the ancestral
-form of the benchmark) are readable on stable citation grids (`AI, ch. II/VI [k]` ·
-`Aut. [n]` · `GI [k]` · `Mem. [k]` · `IHF [k]` · `DIC [k]`), and Fechner's *Elemente der
-Psychophysik* (1860) opens the corpus's bilingual layer: German with this site's working
-translation (`EP [k]`), the Vorwort and the definition chapter complete and the
-Massformel passage restored formula by formula. A cross-corpus **concordance** searches
-all of them (originals included), a concept **atlas** maps their shared vocabulary, a
-**timeline** charts all eighteen stations, **plates** from the cited digitisations open
-the readers, and a checker (`tools/check-corpus.py`) runs in CI. Eleven further modules
-are registered in `data/works.json` with their source digitisations pinned. Still to
-come from the sibling machinery: the citation-bound dialogue.
+form of the benchmark) and Lloyd Morgan's *Introduction to Comparative Psychology*
+(1894: ch. III complete — the chronometer analogy, the doubly inductive method, and the
+canon itself, the founding rule against anthropomorphism) are readable on stable
+citation grids (`AI, ch. II/VI [k]` · `Aut. [n]` · `GI [k]` · `Mem. [k]` · `IHF [k]` ·
+`DIC [k]` · `CP [k]`), and Fechner's *Elemente der Psychophysik* (1860) opens the
+corpus's bilingual layer: German with this site's working translation (`EP [k]`), the
+Vorwort and the definition chapter complete and the Massformel passage restored formula
+by formula. An introductory **essay** reads the corpus as a whole — and reads the
+apparatus's own machine-assisted making against it. A cross-corpus **concordance**
+searches every module (originals included), a concept **atlas** maps their shared
+vocabulary, a **timeline** charts all eighteen stations, **plates** from the cited
+digitisations open the readers, and a checker (`tools/check-corpus.py`) runs in CI. Ten
+further modules are registered in `data/works.json` with their source digitisations
+pinned. Still to come from the sibling machinery: the citation-bound dialogue.
 
 ## The four lines
 
