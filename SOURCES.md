@@ -114,6 +114,10 @@ digitisations the editions cite — no full scans are downloaded or carried. All
 faithful reproductions of public-domain two-dimensional pages; each plate's caption and
 credit name the source, digitisation and leaf.
 
+- **Overview anchor** — the frontispiece of Galton's *Inquiries* (1883), "Specimens of
+  Composite Portraiture"; the Google scan the edition cites omits the plate pages, so this
+  one leaf comes from the Wellcome Collection copy of the same first printing:
+  `b21914631`, leaf 8.
 - **Fechner** — title page of *Elemente der Psychophysik*, vol. I (Leipzig 1860);
   `elementederpsych001fech`, leaf 9.
 - **Ebbinghaus** — title page of *Memory* (New York: Teachers College, 1913);

@@ -80,7 +80,7 @@ footer {
 }
 footer .fine { max-width: 66rem; }
 
-.viewhead { margin-bottom: 1.4rem; }
+.viewhead { margin-bottom: 1.4rem; display: flow-root; }
 .tag {
   font-size: .72rem; letter-spacing: .08em; text-transform: uppercase;
   color: var(--acc); font-weight: 600;
@@ -146,6 +146,12 @@ button.primary {
   border-radius: 6px; border: 1px solid var(--line); background: #fff;
 }
 .plate figcaption { margin-top: .45rem; max-width: 640px; }
+.plate.anchor { float: right; width: min(40%, 300px); margin: .2rem 0 1rem 1.6rem; }
+.plate.anchor img { max-width: 100%; max-height: none; }
+@media (max-width: 720px) {
+  .plate.anchor { float: none; width: 100%; margin: 0 0 1rem; }
+  .plate.anchor img { max-width: min(100%, 440px); }
+}
 .platethumb {
   float: right; width: 60px; margin: 0 0 .5rem .8rem;
   border-radius: 4px; border: 1px solid var(--line); background: #fff;

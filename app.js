@@ -77,6 +77,13 @@ function viewOverview() {
     <div class="viewhead">
       <span class="tag">Research apparatus · in construction</span>
       <h1>Before the machines could learn, psychologists made the mind lawful</h1>
+      ${(D.plates || {}).overview ? `<figure class="plate anchor">
+        <a href="#/works/galton"><img src="assets/plates/overview.jpg"
+          alt="${esc(D.plates.overview.caption)}"></a>
+        <figcaption class="fine">${esc(D.plates.overview.caption)}
+          <a href="#/works/galton">The module carries it.</a>
+          <span style="color:var(--fg3)"> — ${esc(D.plates.overview.credit)}</span></figcaption>
+      </figure>` : ""}
       <p class="lede">Artificial intelligence has a philosophical prehistory — reasoning become
       reckoning — and it has a psychological one: the mind become mechanism, measure, and law of
       learning. This apparatus will collect the public-domain sources of that second prehistory in

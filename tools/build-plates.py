@@ -18,6 +18,20 @@ def ia(item, leaf, w=1400):
     return f"https://iiif.archive.org/iiif/{item}${leaf}/full/{w},/0/default.jpg"
 
 PLATES = [
+ { 'id': 'overview',
+   # the site's visual anchor, shown on the overview page — the Google scan
+   # of the first edition omits the plate pages, so this one leaf comes from
+   # the Wellcome Collection copy of the same 1883 printing
+   'url': ia('b21914631', 8),
+   'caption': "Specimens of Composite Portraiture — the frontispiece of "
+              "Galton's Inquiries (1883): faces averaged into statistical "
+              "portraits. The corpus's thesis in one plate, and the very "
+              "plate the Galton module's composite chapter describes, "
+              "panel by panel.",
+   'credit': "Galton, Inquiries into Human Faculty and its Development "
+             "(London: Macmillan, 1883), frontispiece. Internet Archive "
+             "b21914631 (Wellcome Collection copy), leaf 8. Public "
+             "domain." },
  { 'id': 'fechner',
    'url': ia('elementederpsych001fech', 9),
    'caption': "Title page of the first edition: Elemente der Psychophysik, "
