@@ -101,9 +101,16 @@ checkable. All are United States public domain (published through 1930). Entries
   chapter's defence of the laws' adequacy. Cited as `AI, ch. II/VI [k]`; k runs across
   the two chapter-II sections. The 1898 monograph printing
   (<https://archive.org/details/animalintelligen00thoruoft>) is named beside it.
-- **Watson, Psychology as the Behaviorist Views It** — Psychological Review 20 (1913);
-  public-domain journal printing, exact item to be pinned at ship time (JSTOR Early Journal
-  Content / Internet Archive journal scans).
+- **Watson, Psychology as the Behaviorist Views It — SHIPPED** (`data/watson.json`, built
+  by `tools/build-watson.py`): the paper of 1913 complete, Psychological Review 20,
+  pp. 158–177, in the journal's public-domain printing —
+  <https://archive.org/details/sim_psychological-review_1913-03_20_2> (the March issue;
+  Watson was the Review's editor) — OCR emended against the sense; the microfilm scan's
+  gutter debris, running heads and page numbers dropped; the page-bottom footnotes, which
+  the scan splices into the text stream, disentangled by hand and carried as notes on the
+  paragraphs they close (among them the long larynx footnote of pp. 174–176 in full).
+  Cited as `PBV [n]`. Titchener's reply of 1914 (`jstor-984126` — often mistaken for the
+  paper itself) and Angell's protest in the same issue are named, not carried.
 - **Pavlov, Conditioned Reflexes** — trans. G. V. Anrep (Oxford 1927), US public domain —
   <https://archive.org/details/conditioned-reflexes-an-investigation-of-the-physiological-activity-of-the-cerebral-cortex>.
 - **Köhler, The Mentality of Apes** — trans. Ella Winter (1925), US public domain —
@@ -158,6 +165,9 @@ credit name the source, digitisation and leaf.
   matter is unusable, so this one leaf comes from the University of Toronto copy of the
   same printing: `introductiontoco00morg`, leaf 7.
 - **Loeb** — title page of the 1900 printing; `comparativephysi00loeb`, leaf 11.
+- **Watson** — the paper's first page as printed, Psychological Review 20 (1913), p. 158;
+  `sim_psychological-review_1913-03_20_2`, leaf 69, the film borders trimmed by IIIF
+  region.
 - **Huxley** — title page of *Method and Results: Essays* (New York: D. Appleton and
   Company, 1894); `methodandresult01huxlgoog`, leaf 6.
 - **Thorndike** — the puzzle box, Fig. 1 on p. 30 of *Animal Intelligence* (New York:

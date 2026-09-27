@@ -49,6 +49,7 @@ const CITE = {
   binet: (sec, u) => `DIC [${u.k}]`,
   morgan: (sec, u) => `CP [${u.k}]`,
   loeb: (sec, u) => `CPB [${u.k}]`,
+  watson: (sec, u) => `PBV [${u.n}]`,
 };
 const citeOf = (workId, sec, u) => (CITE[workId] || ((s, x) => `[${x.n}]`))(sec, u);
 

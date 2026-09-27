@@ -130,14 +130,15 @@
  {
   "id": "watson",
   "linie": "lernen",
-  "status": "planned",
+  "status": "shipped",
   "autor": "John B. Watson",
   "leben": "1878–1958",
   "kurz": "Watson",
   "titel": "Psychology as the Behaviorist Views It (1913) — complete",
   "sprachen": "English",
   "claim": "The behaviorist manifesto: prediction and control of behaviour, consciousness set aside. The psychology most ready to be mechanised — and the one the automaton debate warned against.",
-  "geplant": "The Psychological Review paper of 1913 complete, from the journal's public-domain printing (JSTOR Early Journal Content / Internet Archive journal scans; exact item at ship time)."
+  "geplant": "The Psychological Review paper of 1913 complete, from the journal's public-domain printing (JSTOR Early Journal Content / Internet Archive journal scans; exact item at ship time).",
+  "datei": "watson"
  },
  {
   "id": "pavlov",

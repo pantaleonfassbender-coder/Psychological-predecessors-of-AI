@@ -101,6 +101,17 @@ PLATES = [
              "Comparative Psychology (New York: G. P. Putnam's Sons, "
              "1900). Internet Archive comparativephysi00loeb, leaf 11. "
              "Public domain." },
+ { 'id': 'watson',
+   # microfilm scan: film borders trimmed by IIIF region; times out above ~600px
+   'url': ('https://iiif.archive.org/iiif/sim_psychological-review_1913-03_20_2'
+           '$69/pct:10,6,82,88/600,/0/default.jpg'),
+   'caption': "The manifesto's first page as printed: Psychological "
+              "Review 20 (1913), p. 158 — 'a purely objective "
+              "experimental branch of natural science.'",
+   'credit': "Watson, “Psychology as the Behaviorist Views It,” "
+             "Psychological Review 20 (1913). Internet Archive "
+             "sim_psychological-review_1913-03_20_2, leaf 69 (film "
+             "borders trimmed). Public domain." },
  { 'id': 'thorndike',
    # the IIIF endpoint refuses this Google-digitised item above ~600px wide
    'url': ia('animalintellige00thorgoog', 43, w=600),
