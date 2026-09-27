@@ -181,14 +181,15 @@
  {
   "id": "james",
   "linie": "automat",
-  "status": "planned",
+  "status": "shipped",
   "autor": "William James",
   "leben": "1842–1910",
   "kurz": "James",
   "titel": "Anthology: Are We Automata? (1879) · from The Principles of Psychology (1890)",
   "sprachen": "English",
   "claim": "The great reply: consciousness as a fighter for ends, habit as plasticity, the stream of thought against the mosaic of ideas — the strongest nineteenth-century case that minds are not mere mechanism.",
-  "geplant": "“Are We Automata?” (Mind IV, 1879) with selections from the Principles (Internet Archive principlesofpsyc01jameuoft): Habit, The Automaton-Theory, The Stream of Thought."
+  "geplant": "“Are We Automata?” (Mind IV, 1879) with selections from the Principles (Internet Archive principlesofpsyc01jameuoft): Habit, The Automaton-Theory, The Stream of Thought.",
+  "datei": "james"
  },
  {
   "id": "mcdougall",

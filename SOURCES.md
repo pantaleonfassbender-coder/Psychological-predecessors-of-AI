@@ -136,9 +136,19 @@ checkable. All are United States public domain (published through 1930). Entries
   the sense; running heads and signature marks dropped, the footnotes not carried (the
   reference for the long Bonnet quotation kept as a note), quotation marks normalised.
   Cited as `Aut. [n]`.
-- **James, "Are We Automata?" (Mind IV, 1879)** — public-domain journal printing, exact item
-  to be pinned at ship time; **The Principles of Psychology (New York 1890)** —
-  <https://archive.org/details/principlesofpsyc01jameuoft>.
+- **James, Anthology — SHIPPED** (`data/james.json`, built by `tools/build-james.py`):
+  "Are We Automata?" complete, from Mind IV, no. 13 (January 1879), pp. 1–22, in the
+  journal's public-domain printing — <https://archive.org/details/sim_mind_1879-01_4_13>
+  (pinned at ship time); and from The Principles of Psychology (New York: Holt, 1890;
+  Toronto copy of the unaltered 1891 printing) —
+  <https://archive.org/details/principlesofpsyc01jameuoft> — two passages of ch. IV, Habit
+  (pp. 104–106, 120–121), and the section of ch. IX in which thought is shown sensibly
+  continuous and the stream is named (pp. 237–239). Ch. V, "The Automaton-Theory", reworks
+  the Mind paper, which stands for it. The Mind scan splices footnote continuations into the
+  text across page breaks; two were lifted out by hand, and the one damaged passage (the
+  squint footnote, pp. 9–10: "what happens", "rather cheap—'all may raise the flowers now,
+  for all have got the seed'") restored against the page images (leaf = page − 1). Cited as
+  `AWA [k]` (Mind) and `PP [k]` (Principles), k unique across the module.
 - **McDougall, Body and Mind — SHIPPED** (`data/mcdougall.json`, built by
   `tools/build-mcdougall.py`): selections from the 1918 printing of the 1911 text (London:
   Methuen) — <https://archive.org/details/cu31924029080880> (Cornell copy) — OCR emended
@@ -190,6 +200,8 @@ credit name the source, digitisation and leaf.
   the experimenter beyond the partition); `conditionedrefle0000ippa`, leaf 52, margins
   trimmed by IIIF region.
 - **McDougall** — title page of the Methuen printing of 1918; `cu31924029080880`, leaf 6.
+- **James** — Mind, January 1879, p. 1: the masthead and the opening of "Are We
+  Automata?"; `sim_mind_1879-01_4_13`, leaf 0, margins trimmed by IIIF region.
 - **Huxley** — title page of *Method and Results: Essays* (New York: D. Appleton and
   Company, 1894); `methodandresult01huxlgoog`, leaf 6.
 - **Thorndike** — the puzzle box, Fig. 1 on p. 30 of *Animal Intelligence* (New York:

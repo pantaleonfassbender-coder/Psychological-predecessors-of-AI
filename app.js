@@ -52,6 +52,7 @@ const CITE = {
   watson: (sec, u) => `PBV [${u.n}]`,
   pavlov: (sec, u) => `CR [${u.k}]`,
   mcdougall: (sec, u) => `BM [${u.k}]`,
+  james: (sec, u) => sec.id === 'automata' ? `AWA [${u.k}]` : `PP [${u.k}]`,
 };
 const citeOf = (workId, sec, u) => (CITE[workId] || ((s, x) => `[${x.n}]`))(sec, u);
 
@@ -584,8 +585,8 @@ const TL_CROSS = [
     titel: "Ebbinghaus dismisses Bain's one-idea-one-ganglion-cell theory (Mem. [63]) — the corpus arguing with itself across thirty years" },
   { from: "loeb", to: "mcdougall", anchor: "#/works/mcdougall/verhalten@4",
     titel: "McDougall answers the tropism doctrine, citing Loeb's Die Bedeutung der Tropismen (BM [4], note) — the learning line meets the automaton debate" },
-  { from: "huxley", to: "james",
-    titel: "James's title is the reply: “Are We Automata?” (1879) answers the automaton hypothesis of 1874 — the passage joins when the module ships" },
+  { from: "huxley", to: "james", anchor: "#/works/james/automata@1",
+    titel: "James's reply opens by naming Huxley's Belfast address (AWA [1]) — “Are We Automata?” (1879) answers the automaton hypothesis of 1874" },
   { from: "pavlov", to: "hull_machines",
     titel: "Hull & Baernstein build “a mechanical parallel to the conditioned reflex” (1929) — the closing arc; the passage joins when the module ships" },
 ];
@@ -676,9 +677,12 @@ function viewTimeline() {
           the carried passage: McDougall's chapter on behaviour opens against the tropism
           doctrine, and his footnote names its source — Loeb's <em>Die Bedeutung der
           Tropismen</em> (BM [4]). The learning line and the automaton debate meet here.</li>
-        <li style="margin-bottom:.5rem"><a href="#/works/huxley">Huxley → James</a> — the reply in
-          the title: “Are We Automata?” (Mind, 1879) answers the automaton hypothesis of 1874.
-          The passage joins when the James module ships.</li>
+        <li style="margin-bottom:.5rem"><a href="#/works/james/automata@1">Huxley → James</a> — the
+          carried passage: “Are We Automata?” (Mind, 1879) opens by naming the “Conscious-Automaton-theory
+          to which Prof. Huxley gave such publicity in his Belfast address” (AWA [1]), and closes
+          by hailing Huxley and Clifford as true prophets only on a condition no philosophy has
+          met. James's Principles, in turn, quote Huxley's drilled veteran as the very image of
+          habit (PP [55]).</li>
         <li><a href="#/works">Pavlov → Hull &amp; Baernstein</a> — the closing arc: a “mechanical
           parallel to the conditioned reflex” (Science, 1929) — psychologists building the machine
           that learns. The passage joins when the module ships.</li>
@@ -790,7 +794,11 @@ function viewEssay() {
       wait for machines. Huxley's address of 1874 states the automaton theory at full
       strength — brutes, and by extension we ourselves, as conscious automata
       ${C('huxley','text',81,'Aut. [81]')} — and James's "Are We Automata?" (1879), the great
-      reply, answers that consciousness is a fighter for ends, no mere accompaniment. McDougall
+      reply, names Huxley's address in its first sentence ${C('james','automata',1,'AWA [1]')}
+      and answers it with Darwin: consciousness has evolved like every organ that has a use,
+      and its use is to load the dice of an unstable brain — "a fighter as well as a
+      standard-bearer" ${C('james','automata',20,'AWA [20]')}, not an impotently paralytic
+      spectator of the game ${C('james','automata',47,'AWA [47]')}. McDougall
       mounts the last full-dress defence of the soul, and he fights on the mechanists' own
       ground — behaviour. Against the tropism doctrine he sets persistence with varied
       effort: "the clock-work stops without a struggle if you thrust a spoke into its wheel"

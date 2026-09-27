@@ -133,6 +133,17 @@ PLATES = [
    'credit': "William McDougall, Body and Mind (London: Methuen, 1918; "
              "first published 1911). Internet Archive cu31924029080880 "
              "(Cornell copy), leaf 6. Public domain." },
+ { 'id': 'james',
+   # journal scan: film margins trimmed by IIIF region, capped near 600px
+   'url': ('https://iiif.archive.org/iiif/sim_mind_1879-01_4_13'
+           '$0/pct:8,4,84,90/600,/0/default.jpg'),
+   'caption': "Mind, January 1879: the journal's masthead and the first "
+              "page of 'Are We Automata?' — whose opening sentence names "
+              "Huxley's Belfast address.",
+   'credit': "William James, “Are We Automata?”, Mind IV, no. 13 "
+             "(January 1879), p. 1 (University of Minnesota library "
+             "copy). Internet Archive sim_mind_1879-01_4_13, leaf 0, "
+             "margins trimmed. Public domain." },
  { 'id': 'thorndike',
    # the IIIF endpoint refuses this Google-digitised item above ~600px wide
    'url': ia('animalintellige00thorgoog', 43, w=600),
