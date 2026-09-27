@@ -9,7 +9,7 @@ AI](https://philosophical-predecessors-of-ai.netlify.app), built to the same dis
 everything United States public domain, every paragraph citable, working translations marked
 as unofficial, no tracking.
 
-**Status: ten modules shipped, the apparatus growing.** Thorndike's *Animal
+**Status: eleven modules shipped, the apparatus growing.** Thorndike's *Animal
 Intelligence* (the puzzle boxes and the laws of effect and exercise), Huxley's *Animal
 Automatism* (1874, complete), Spearman's *"General Intelligence"* (1904: the programme,
 the universal unity, the hierarchy, the summary of conclusions), Ebbinghaus's *Memory*
@@ -24,18 +24,21 @@ form of the benchmark) Lloyd Morgan's *Introduction to Comparative Psychology*
 canon itself, the founding rule against anthropomorphism) Loeb's *Comparative
 Physiology of the Brain* (1900: the tropism-machine — the moth and the flame demystified,
 and associative memory as the criterion of consciousness: mind begins where learning
-begins) and Watson's *Psychology as the Behaviorist Views It* (1913, complete: the
+begins) Watson's *Psychology as the Behaviorist Views It* (1913, complete: the
 manifesto — prediction and control, no dividing line between man and brute, with the
-long larynx footnote disentangled from the microfilm and carried in full) are readable
-on stable citation grids (`AI, ch. II/VI [k]` · `Aut. [n]` · `GI [k]` · `Mem. [k]` ·
-`IHF [k]` · `DIC [k]` · `CP [k]` · `CPB [k]` · `PBV [n]`), and Fechner's *Elemente der Psychophysik* (1860) opens the
+long larynx footnote disentangled from the microfilm and carried in full) and Pavlov's
+*Conditioned Reflexes* (Anrep's English of 1927: Lectures I–II complete — the reflex
+carried into the cortex, signalization, the salivary fistula and the sound-proof double
+chamber, and the conditions under which a new reflex is "infallibly obtained") are
+readable on stable citation grids (`AI, ch. II/VI [k]` · `Aut. [n]` · `GI [k]` ·
+`Mem. [k]` · `IHF [k]` · `DIC [k]` · `CP [k]` · `CPB [k]` · `PBV [n]` · `CR [k]`), and Fechner's *Elemente der Psychophysik* (1860) opens the
 corpus's bilingual layer: German with this site's working translation (`EP [k]`), the
 Vorwort and the definition chapter complete and the Massformel passage restored formula
 by formula. An introductory **essay** reads the corpus as a whole — and reads the
 apparatus's own machine-assisted making against it. A cross-corpus **concordance**
 searches every module (originals included), a concept **atlas** maps their shared
 vocabulary, a **timeline** charts all eighteen stations, **plates** from the cited
-digitisations open the readers, and a checker (`tools/check-corpus.py`) runs in CI. Eight
+digitisations open the readers, and a checker (`tools/check-corpus.py`) runs in CI. Seven
 further modules are registered in `data/works.json` with their source digitisations
 pinned. Still to come from the sibling machinery: the citation-bound dialogue.
 

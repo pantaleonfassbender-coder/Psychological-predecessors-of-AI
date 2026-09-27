@@ -50,6 +50,7 @@ const CITE = {
   morgan: (sec, u) => `CP [${u.k}]`,
   loeb: (sec, u) => `CPB [${u.k}]`,
   watson: (sec, u) => `PBV [${u.n}]`,
+  pavlov: (sec, u) => `CR [${u.k}]`,
 };
 const citeOf = (workId, sec, u) => (CITE[workId] || ((s, x) => `[${x.n}]`))(sec, u);
 

@@ -112,6 +112,19 @@ PLATES = [
              "Psychological Review 20 (1913). Internet Archive "
              "sim_psychological-review_1913-03_20_2, leaf 69 (film "
              "borders trimmed). Public domain." },
+ { 'id': 'pavlov',
+   # margins trimmed by IIIF region; this item times out above ~800px
+   'url': ('https://iiif.archive.org/iiif/conditionedrefle0000ippa'
+           '$52/pct:11,2,81,88/700,/0/default.jpg'),
+   'caption': "The double chamber, as the 1927 plates show it: the dog "
+              "on its stand in the animal's section (Fig. 4), the "
+              "experimenter at his registering apparatus beyond the "
+              "sound-proof partition (Fig. 5) — the separation Lecture II "
+              "describes.",
+   'credit': "Pavlov, Conditioned Reflexes, trans. G. V. Anrep (London: "
+             "Oxford University Press, 1927), Figs. 4–5. Internet Archive "
+             "conditionedrefle0000ippa, leaf 52 (margins trimmed). Public "
+             "domain in the United States." },
  { 'id': 'thorndike',
    # the IIIF endpoint refuses this Google-digitised item above ~600px wide
    'url': ia('animalintellige00thorgoog', 43, w=600),

@@ -111,8 +111,19 @@ checkable. All are United States public domain (published through 1930). Entries
   paragraphs they close (among them the long larynx footnote of pp. 174–176 in full).
   Cited as `PBV [n]`. Titchener's reply of 1914 (`jstor-984126` — often mistaken for the
   paper itself) and Angell's protest in the same issue are named, not carried.
-- **Pavlov, Conditioned Reflexes** — trans. G. V. Anrep (Oxford 1927), US public domain —
-  <https://archive.org/details/conditioned-reflexes-an-investigation-of-the-physiological-activity-of-the-cerebral-cortex>.
+- **Pavlov, Conditioned Reflexes — SHIPPED** (`data/pavlov.json`, built by
+  `tools/build-pavlov.py`): Lectures I and II complete, from G. V. Anrep's translation
+  (London: Oxford University Press, 1927; US public domain). Two copies of the same
+  printing are used: the base text is <https://archive.org/details/conditionedrefle0000ippa>
+  (clean OCR, read through the item's stream view), which lacks the leaf with pp. 16–17;
+  those two pages come from
+  <https://archive.org/details/conditioned-reflexes-an-investigation-of-the-physiological-activity-of-the-cerebral-cortex>
+  (the originally pinned copy, leaves 29–30), whose 'Digitized by …' watermark damages a band
+  of words on every page and which was therefore restored by hand against the page images.
+  Bare bibliographic footnotes dropped (Pavlov's bracketed author citations stay in the
+  text); the drop-counting footnote and Mendeleeff's cement carried as notes; Fig. 1 and
+  Dr. Eroféeva's record table noted, not reproduced. Cited as `CR [k]`, k unique across the
+  two lectures. The translation's spelling 'Thorndyke' is kept and flagged.
 - **Köhler, The Mentality of Apes** — trans. Ella Winter (1925), US public domain —
   <https://archive.org/details/in.ernet.dli.2015.187610>.
 
@@ -168,6 +179,9 @@ credit name the source, digitisation and leaf.
 - **Watson** — the paper's first page as printed, Psychological Review 20 (1913), p. 158;
   `sim_psychological-review_1913-03_20_2`, leaf 69, the film borders trimmed by IIIF
   region.
+- **Pavlov** — the double chamber, Figs. 4–5 of the 1927 plates (the dog on its stand;
+  the experimenter beyond the partition); `conditionedrefle0000ippa`, leaf 52, margins
+  trimmed by IIIF region.
 - **Huxley** — title page of *Method and Results: Essays* (New York: D. Appleton and
   Company, 1894); `methodandresult01huxlgoog`, leaf 6.
 - **Thorndike** — the puzzle box, Fig. 1 on p. 30 of *Animal Intelligence* (New York:

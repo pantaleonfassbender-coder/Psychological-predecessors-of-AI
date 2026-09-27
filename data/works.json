@@ -143,14 +143,15 @@
  {
   "id": "pavlov",
   "linie": "lernen",
-  "status": "planned",
+  "status": "shipped",
   "autor": "Ivan P. Pavlov",
   "leben": "1849–1936",
   "kurz": "Pavlov",
   "titel": "Conditioned Reflexes (1927, trans. Anrep) — selections",
   "sprachen": "English (1927, public domain)",
   "claim": "The reflex made experimental system: conditioning, extinction, generalisation — the vocabulary in which learning could be written as procedure.",
-  "geplant": "Selections from G. V. Anrep's translation (Oxford 1927; Internet Archive conditioned-reflexes-an-investigation-of-the-physiological-activity-of-the-cerebral-cortex), public domain in the United States."
+  "geplant": "Selections from G. V. Anrep's translation (Oxford 1927; Internet Archive conditioned-reflexes-an-investigation-of-the-physiological-activity-of-the-cerebral-cortex), public domain in the United States.",
+  "datei": "pavlov"
  },
  {
   "id": "koehler",
