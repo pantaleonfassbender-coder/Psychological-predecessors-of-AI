@@ -125,6 +125,14 @@ PLATES = [
              "Oxford University Press, 1927), Figs. 4–5. Internet Archive "
              "conditionedrefle0000ippa, leaf 52 (margins trimmed). Public "
              "domain in the United States." },
+ { 'id': 'mcdougall',
+   'url': ia('cu31924029080880', 6, w=800),
+   'caption': "Title page of Body and Mind: A History and a Defense of "
+              "Animism, in the Methuen printing of 1918 — the soul's last "
+              "full-dress defence before the machines arrived.",
+   'credit': "William McDougall, Body and Mind (London: Methuen, 1918; "
+             "first published 1911). Internet Archive cu31924029080880 "
+             "(Cornell copy), leaf 6. Public domain." },
  { 'id': 'thorndike',
    # the IIIF endpoint refuses this Google-digitised item above ~600px wide
    'url': ia('animalintellige00thorgoog', 43, w=600),

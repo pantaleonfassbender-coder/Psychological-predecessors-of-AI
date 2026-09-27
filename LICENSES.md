@@ -15,6 +15,7 @@
 | **Loeb, Comparative Physiology of the Brain (1900), selections** | `data/loeb.json` | English: public domain (1900 publication); selection, emendation and numbering: CC0 1.0 |
 | **Watson, Psychology as the Behaviorist Views It (1913), complete** | `data/watson.json` | English: public domain (1913 journal printing); emendation and numbering: CC0 1.0 |
 | **Pavlov, Conditioned Reflexes (1927 translation), Lectures I–II** | `data/pavlov.json` | English: public domain in the United States (1927 publication); restoration, emendation and numbering: CC0 1.0 |
+| **McDougall, Body and Mind (1911; 1918 printing), selections** | `data/mcdougall.json` | English: public domain (1918 printing); selection, emendation and numbering: CC0 1.0 |
 | **Plates** | `assets/plates/*.jpg`, `data/plates.json` | images: public domain (faithful reproductions of public-domain 2-D works; sources leaf by leaf in [SOURCES.md](SOURCES.md)); captions and credits: CC0 1.0 |
 | **Editions and derived data** | every future `data/<work>.json`: segmentation, editorial paragraph numbering, OCR emendations, and any working translations | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) — public-domain dedication |
 

@@ -139,8 +139,15 @@ checkable. All are United States public domain (published through 1930). Entries
 - **James, "Are We Automata?" (Mind IV, 1879)** — public-domain journal printing, exact item
   to be pinned at ship time; **The Principles of Psychology (New York 1890)** —
   <https://archive.org/details/principlesofpsyc01jameuoft>.
-- **McDougall, Body and Mind (1911)** — from the 1918 printing —
-  <https://archive.org/details/cu31924029080880>.
+- **McDougall, Body and Mind — SHIPPED** (`data/mcdougall.json`, built by
+  `tools/build-mcdougall.py`): selections from the 1918 printing of the 1911 text (London:
+  Methuen) — <https://archive.org/details/cu31924029080880> (Cornell copy) — OCR emended
+  against the sense. Carried: Chapter XIX complete (pp. 258–271, the inadequacy of
+  mechanical conceptions to explain behaviour) and the conclusion's reckoning in Chapter
+  XXVI (pp. 355–357). The page-bottom footnotes are carried as notes; three whose
+  continuations crossed a page break without a marker — Driesch, Sherrington, and the
+  Busse–Driesch 'telegram-argument' — were lifted out of the text by hand and restored to
+  their notes. Cited as `BM [k]`, k unique across the two selections.
 
 ## The machine in the laboratory
 
@@ -182,6 +189,7 @@ credit name the source, digitisation and leaf.
 - **Pavlov** — the double chamber, Figs. 4–5 of the 1927 plates (the dog on its stand;
   the experimenter beyond the partition); `conditionedrefle0000ippa`, leaf 52, margins
   trimmed by IIIF region.
+- **McDougall** — title page of the Methuen printing of 1918; `cu31924029080880`, leaf 6.
 - **Huxley** — title page of *Method and Results: Essays* (New York: D. Appleton and
   Company, 1894); `methodandresult01huxlgoog`, leaf 6.
 - **Thorndike** — the puzzle box, Fig. 1 on p. 30 of *Animal Intelligence* (New York:

@@ -51,6 +51,7 @@ const CITE = {
   loeb: (sec, u) => `CPB [${u.k}]`,
   watson: (sec, u) => `PBV [${u.n}]`,
   pavlov: (sec, u) => `CR [${u.k}]`,
+  mcdougall: (sec, u) => `BM [${u.k}]`,
 };
 const citeOf = (workId, sec, u) => (CITE[workId] || ((s, x) => `[${x.n}]`))(sec, u);
 
@@ -581,6 +582,8 @@ const TL_ERAS = [
 const TL_CROSS = [
   { from: "bain", to: "ebbinghaus", anchor: "#/works/ebbinghaus/chVII@3",
     titel: "Ebbinghaus dismisses Bain's one-idea-one-ganglion-cell theory (Mem. [63]) — the corpus arguing with itself across thirty years" },
+  { from: "loeb", to: "mcdougall", anchor: "#/works/mcdougall/verhalten@4",
+    titel: "McDougall answers the tropism doctrine, citing Loeb's Die Bedeutung der Tropismen (BM [4], note) — the learning line meets the automaton debate" },
   { from: "huxley", to: "james",
     titel: "James's title is the reply: “Are We Automata?” (1879) answers the automaton hypothesis of 1874 — the passage joins when the module ships" },
   { from: "pavlov", to: "hull_machines",
@@ -669,6 +672,10 @@ function viewTimeline() {
         <li style="margin-bottom:.5rem"><a href="#/works/ebbinghaus/chVII@3">Bain → Ebbinghaus</a> —
           the carried passage: Ebbinghaus dismisses the “curious theory of Bain and others that
           each idea is lodged in a separate ganglion cell” (Mem. [63]).</li>
+        <li style="margin-bottom:.5rem"><a href="#/works/mcdougall/verhalten@4">Loeb → McDougall</a> —
+          the carried passage: McDougall's chapter on behaviour opens against the tropism
+          doctrine, and his footnote names its source — Loeb's <em>Die Bedeutung der
+          Tropismen</em> (BM [4]). The learning line and the automaton debate meet here.</li>
         <li style="margin-bottom:.5rem"><a href="#/works/huxley">Huxley → James</a> — the reply in
           the title: “Are We Automata?” (Mind, 1879) answers the automaton hypothesis of 1874.
           The passage joins when the James module ships.</li>
@@ -784,7 +791,13 @@ function viewEssay() {
       strength — brutes, and by extension we ourselves, as conscious automata
       ${C('huxley','text',81,'Aut. [81]')} — and James's "Are We Automata?" (1879), the great
       reply, answers that consciousness is a fighter for ends, no mere accompaniment. McDougall
-      mounts the last full-dress defence of the soul. The nineteenth century, in other words,
+      mounts the last full-dress defence of the soul, and he fights on the mechanists' own
+      ground — behaviour. Against the tropism doctrine he sets persistence with varied
+      effort: "the clock-work stops without a struggle if you thrust a spoke into its wheel"
+      ${C('mcdougall','verhalten',6,'BM [6]')}; and against every stimulus-response scheme
+      his telegram — "Your son is dead" — whose effect no physics of black marks on paper
+      explains, since the one link common to all its possible forms is meaning
+      ${C('mcdougall','verhalten',25,'BM [25]')}. The nineteenth century, in other words,
       rehearsed the entire space of positions — eliminativist, functionalist, animist — about
       its own minds, before a single relay clicked. The corpus carries the debate so that its
       re-enactments about software can at least know they are re-enactments.</p></div>

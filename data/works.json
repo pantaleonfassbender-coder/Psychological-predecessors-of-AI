@@ -193,14 +193,15 @@
  {
   "id": "mcdougall",
   "linie": "automat",
-  "status": "planned",
+  "status": "shipped",
   "autor": "William McDougall",
   "leben": "1871–1938",
   "kurz": "McDougall",
   "titel": "Body and Mind: A History and a Defense of Animism (1911) — selections",
   "sprachen": "English",
   "claim": "The last full-dress defence of the soul against mechanism before the machines arrived — carried as the debate's counter-voice, argument by argument.",
-  "geplant": "Selections from the 1911 text (Internet Archive cu31924029080880, 1918 printing): the case against mechanistic psychology and the animist alternative."
+  "geplant": "Selections from the 1911 text (Internet Archive cu31924029080880, 1918 printing): the case against mechanistic psychology and the animist alternative.",
+  "datei": "mcdougall"
  },
  {
   "id": "hull_aptitude",
