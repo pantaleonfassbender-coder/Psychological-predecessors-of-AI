@@ -133,6 +133,20 @@ PLATES = [
    'credit': "William McDougall, Body and Mind (London: Methuen, 1918; "
              "first published 1911). Internet Archive cu31924029080880 "
              "(Cornell copy), leaf 6. Public domain." },
+ { 'id': 'hartley',
+   # microfilm frame of an ECCO copy; page image cropped to the title leaf
+   'url': ('https://archive.org/download/bim_eighteenth-century_observations-'
+           'on-man-his_hartley-david_1749_1/page/n2_w1000.jpg'),
+   'crop': (0.10, 0.02, 0.93, 0.95),
+   'caption': "Title page of the first edition, London 1749 — 'Printed by "
+              "S. Richardson', the printer-novelist of Pamela and Clarissa: "
+              "the book in which association became a mechanism of mind.",
+   'credit': "David Hartley, Observations on Man, his Frame, his Duty, and "
+             "his Expectations (London: S. Richardson for James Leake and "
+             "Wm. Frederick, 1749), vol. I, title page. Internet Archive "
+             "bim_eighteenth-century_observations-on-man-his_hartley-"
+             "david_1749_1 (Eighteenth Century Collections Online "
+             "microfilm), page n2, cropped. Public domain." },
  { 'id': 'koehler',
    # the DLI scan the edition cites carries no plates, and this copy's IIIF
    # endpoint times out: the page image, cropped to photograph and legend

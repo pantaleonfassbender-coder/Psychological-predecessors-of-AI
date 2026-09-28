@@ -54,6 +54,7 @@ const CITE = {
   mcdougall: (sec, u) => `BM [${u.k}]`,
   bain: (sec, u) => `SI [${u.k}]`,
   koehler: (sec, u) => `MA [${u.k}]`,
+  hartley: (sec, u) => `OM [${u.k}]`,
   james: (sec, u) => sec.id === 'automata' ? `AWA [${u.k}]` : `PP [${u.k}]`,
 };
 const citeOf = (workId, sec, u) => (CITE[workId] || ((s, x) => `[${x.n}]`))(sec, u);
@@ -583,6 +584,8 @@ const TL_ERAS = [
    carried passage; the others are documented by the works themselves and
    gain their passage when the module ships. */
 const TL_CROSS = [
+  { from: "hartley", to: "huxley", anchor: "#/works/huxley/text@39",
+    titel: "Huxley restates Hartley's vibratiuncles as the physical basis of memory (Aut. [39]) and names him among the doctrine's best expositors — the root doctrine read back into the automaton debate" },
   { from: "bain", to: "ebbinghaus", anchor: "#/works/ebbinghaus/chVII@3",
     titel: "Ebbinghaus dismisses Bain's one-idea-one-ganglion-cell theory (Mem. [63]) — the corpus arguing with itself across thirty years" },
   { from: "loeb", to: "mcdougall", anchor: "#/works/mcdougall/verhalten@4",
@@ -674,6 +677,11 @@ function viewTimeline() {
     <div class="panel">
       <h2 style="margin-top:0">The crossings</h2>
       <ul style="margin:.4rem 0 0;padding-left:1.2rem">
+        <li style="margin-bottom:.5rem"><a href="#/works/huxley/text@39">Hartley → Huxley</a> —
+          the carried passage: Huxley's account of memory sets Descartes' stretched pores beside
+          Hartley's vibrations that “do not die away, but are represented by” miniatures of
+          themselves (Aut. [39]) — the vibratiuncles of Prop. IX (OM [38]) — and later names
+          Hartley among the “best expositors” of the automaton doctrine (Aut. [91]).</li>
         <li style="margin-bottom:.5rem"><a href="#/works/ebbinghaus/chVII@3">Bain → Ebbinghaus</a> —
           the carried passage: Ebbinghaus dismisses the “curious theory of Bain and others that
           each idea is lodged in a separate ganglion cell” (Mem. [63]).</li>
@@ -766,7 +774,9 @@ function viewEssay() {
       ${C('thorndike','method',6,'AI, ch. II [20]')}, and the Law of Effect stated as law
       ${C('thorndike','laws',13,'AI, ch. VI [13]')} — the sentence reinforcement learning
       cites as its origin, the corpus's most direct wire into the present. Around it stand the
-      ancestors and the correctives: Hartley's associations before it, and Bain, who in 1855
+      ancestors and the correctives: Hartley before it, whose child learns to speak because the
+      sounds its attendants return gain "an ever-growing balance" ${C('hartley','bewegung',6,'OM [63]')},
+      and Bain, who in 1855
       already had the random movement that happens to relieve a pain "clutched in the embrace
       of the feeling" and kept going ${C('bain','wille',16,'SI [16]')} — the law of effect
       forty years early; Köhler's insight experiments as the standing counter-evidence within —

@@ -67,14 +67,15 @@
  {
   "id": "hartley",
   "linie": "lernen",
-  "status": "planned",
+  "status": "shipped",
   "autor": "David Hartley",
   "leben": "1705–1757",
   "kurz": "Hartley",
-  "titel": "Observations on Man (1749) — selections",
+  "titel": "Observations on Man (1749) — Part I, selections",
   "sprachen": "English",
   "claim": "The root doctrine: associations carried by vibrations — a physical mechanism of mind, stated as propositions. Every later learning theory is a refinement of this book's wager.",
-  "geplant": "Selections from Part I (the doctrine of vibrations and associations, the propositions) from an early printing (Internet Archive observationsonma01hart, 1791)."
+  "geplant": "Part I, ch. I from the sixth edition (London: Tegg, 1834; Internet Archive observationsonma00hartuoft), read Proposition by Proposition against the first edition of 1749: the Introduction, the doctrine of vibrations (Props. IV, VIII–IX), the law of association (Props. X–XI), and voluntary and 'secondarily automatic' motion (Props. XXI–XXII).",
+  "datei": "hartley"
  },
  {
   "id": "bain",

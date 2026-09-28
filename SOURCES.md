@@ -68,8 +68,19 @@ checkable. All are United States public domain (published through 1930). Entries
 
 ## The learning animal
 
-- **Hartley, Observations on Man (1749)** — from the 1791 printing —
-  <https://archive.org/details/observationsonma01hart>.
+- **Hartley, Observations on Man — SHIPPED** (`data/hartley.json`, built by
+  `tools/build-hartley.py`): Part I, ch. I, from the sixth edition, "corrected and revised"
+  (London: Thomas Tegg and Son, 1834) — <https://archive.org/details/observationsonma00hartuoft>
+  (University of Toronto copy; a Cornell copy of the same edition is marred by pencil
+  marking) — OCR emended against the sense. The first edition (London: S. Richardson,
+  1749) — <https://archive.org/details/b30529049_0001> (Wellcome Collection) — and the 1791
+  printing first pinned here are set with the long s, ligatures and italic Propositions,
+  which their OCR does not survive; every Proposition carried was read against the first
+  edition, which is followed where the 1834 OCR fails (the algebra of Prop. XI) and cited
+  where the printings differ. Carried: the Introduction and the opening of ch. I; Props. IV
+  and VIII complete, Prop. IX's statement and first demonstration; Props. X and XI
+  complete; Props. XXI and XXII complete with their corollaries. Cited as `OM [k]`, k
+  unique across the four selections.
 - **Bain, The Senses and the Intellect — SHIPPED** (`data/bain.json`, built by
   `tools/build-bain.py`): selections from the first edition (London: John W. Parker and
   Son, 1855) — <https://archive.org/details/sensesintellectb00bain> (Library of Congress
@@ -220,6 +231,11 @@ credit name the source, digitisation and leaf.
   trimmed by IIIF region.
 - **Bain** — title page of the first edition (London: Parker, 1855);
   `sensesintellectb00bain`, leaf 7.
+- **Hartley** — title page of the first edition (London: S. Richardson, 1749), from an
+  Eighteenth Century Collections Online microfilm,
+  `bim_eighteenth-century_observations-on-man-his_hartley-david_1749_1`, page n2, cropped
+  (the Wellcome copy's title leaf is too faded to reproduce; its flyleaf carries a
+  presentation inscription to "Mr Richardson, Author of Clarissa", queried in pencil).
 - **Köhler** — Plate III, "Sultan making a double-stick", facing p. 128; the DLI scan the
   edition cites carries no plates, so this one page comes from a later Routledge reprint of
   the 1927 setting, `mentalityofapes0000kohl_p5t8`, page n144, cropped to photograph and

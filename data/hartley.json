@@ -1,0 +1,472 @@
+{
+ "id": "hartley",
+ "autor": "David Hartley",
+ "titel": "Observations on Man (1749) — Part I, selections",
+ "jahr": 1749,
+ "zitierweise": "OM [k]",
+ "quelle": "Part I, ch. I, from the sixth edition, 'corrected and revised' (London: Thomas Tegg and Son, 1834), Internet Archive observationsonma00hartuoft (University of Toronto copy), OCR emended against the sense. The first edition (London: S. Richardson, 1749; Internet Archive b30529049_0001, Wellcome Collection) is set with the long s, ligatures and italic Propositions that its OCR does not survive; the 1834 edition gives Hartley's text in modern type, nouns no longer capitalised. Every Proposition carried was read against the first edition; where the letters of the 1834 OCR fail (the algebra of Prop. XI) or the two printings differ, the first edition is followed and the unit says so. Carried: the Introduction and the opening of ch. I; Props. IV, VIII and the statement of IX; Props. X and XI complete; Props. XXI and XXII complete with their corollaries. Hartley's Proposition numbers stand in the text; cited as 'OM [k]', k unique across the four selections.",
+ "hinweis": "The root doctrine of the learning line. Hartley sets out, as numbered propositions, a physical mechanism of mind: sensations are vibrations of the 'infinitesimal medullary particles'; repeated, they leave 'vibratiuncles', the traces that are ideas; and whatever occurs together 'a sufficient number of times' comes to call up the rest. From that one law he derives the will: motions begin automatic, become voluntary by association, and with practice sink back into the 'secondarily automatic' — the harpsichordist who plays while holding a conversation. A child learns to speak because the sounds its attendants return gain 'an ever-growing balance', and the motion that relieves a pain is 'confirmed by association, to the exclusion of the rest'. Every later learning theory in this corpus refines this wager; Hartley himself says the doctrine of association stands 'whatever becomes of that of vibrations'.",
+ "sections": [
+  {
+   "id": "einleitung",
+   "titel": "Introduction, and the opening of ch. I (pp. 1–6)",
+   "units": [
+    {
+     "n": 1,
+     "k": 1,
+     "txt": "Man consists of two parts, body and mind."
+    },
+    {
+     "n": 2,
+     "k": 2,
+     "txt": "The first is subjected to our senses and inquiries, in the same manner as the other parts of the external material world."
+    },
+    {
+     "n": 3,
+     "k": 3,
+     "txt": "The last is that substance, agent, principle, &c. to which we refer the sensations, ideas, pleasures, pains, and voluntary motions.",
+     "note": "The first edition (1749) reads 'that Substance, Agent, Principle, to which'; the '&c.' is the later editions'. So also 'speaking, &c. when attended to' below, where 1749 has 'Speaking, when attended to'."
+    },
+    {
+     "n": 4,
+     "k": 4,
+     "txt": "Sensations are those internal feelings of the mind, which arise from the impressions made by external objects upon the several parts of our bodies."
+    },
+    {
+     "n": 5,
+     "k": 5,
+     "txt": "All our other internal feelings may be called ideas. Some of these appear to spring up in the mind of themselves, some are suggested by words, others arise in other ways. Many writers comprehend sensations under ideas; but I every where use these words in the senses here ascribed to them."
+    },
+    {
+     "n": 6,
+     "k": 6,
+     "txt": "The ideas which resemble sensations, are called ideas of sensation: all the rest may therefore be called intellectual ideas."
+    },
+    {
+     "n": 7,
+     "k": 7,
+     "txt": "It will appear in the course of these observations, that the ideas of sensation are the elements of which all the rest are compounded. Hence ideas of sensation may be termed simple, intellectual ones complex."
+    },
+    {
+     "n": 8,
+     "k": 8,
+     "txt": "The pleasures and pains are comprehended under the sensations and ideas, as these are explained above. For all our pleasures and pains are internal feelings, and conversely, all our internal feelings seem to be attended with some degree either of pleasure or pain. However, I shall, for the most part, give the names of pleasure and pain only to such degrees as are considerable; referring all low evanescent ones to the head of mere sensations and ideas."
+    },
+    {
+     "n": 9,
+     "k": 9,
+     "txt": "The pleasures and pains may be ranged under seven general classes; viz."
+    },
+    {
+     "n": 10,
+     "k": 10,
+     "txt": "1. Sensation; 2. Imagination; 3. Ambition; 4. Self-interest; 5. Sympathy; 6. Theopathy; and, 7. The Moral Sense; according as they arise from, 1. The impressions made on the external senses; 2. Natural or artificial beauty or deformity; 3. The opinions of others concerning us; 4. Our possession or want of the means of happiness, and security from, or subjection to, the hazards of misery; 5. The pleasures and pains of our fellow-creatures; 6. The affections excited in us by the contemplation of the Deity; or 7. Moral beauty and deformity."
+    },
+    {
+     "n": 11,
+     "k": 11,
+     "txt": "The human mind may also be considered as endued with the faculties of memory, imagination, or fancy, understanding, affection, and will."
+    },
+    {
+     "n": 12,
+     "k": 12,
+     "txt": "Memory is that faculty by which traces of sensations and ideas recur, or are recalled, in the same order and proportion, accurately or nearly, as they were once actually presented."
+    },
+    {
+     "n": 13,
+     "k": 13,
+     "txt": "When ideas, and trains of ideas, occur, or are called up in a vivid manner, and without regard to the order of former actual impressions and perceptions, this is said to be done by the power of imagination or fancy."
+    },
+    {
+     "n": 14,
+     "k": 14,
+     "txt": "The understanding is that faculty by which we contemplate mere sensations and ideas, pursue truth, and assent to, or dissent from, propositions."
+    },
+    {
+     "n": 15,
+     "k": 15,
+     "txt": "The affections have the pleasures and pains for their objects; as the understanding has the mere sensations and ideas. By the affections we are excited to pursue happiness, and all its means, and to fly from misery, and all its apparent causes."
+    },
+    {
+     "n": 16,
+     "k": 16,
+     "txt": "The will is that state of mind which is immediately previous to, and causes, those express acts of memory, fancy, and bodily motion, which are termed voluntary."
+    },
+    {
+     "n": 17,
+     "k": 17,
+     "txt": "The motions of the body are of two kinds, automatic and voluntary. The automatic motions are those which arise from the mechanism of the body in an evident manner. They are called automatic, from their resemblance to the motions of automata, or machines, whose principle of motion is within themselves. Of this kind are the motions of the heart, and peristaltic motion of the bowels. The voluntary motions are those which arise from ideas and affections, and which therefore are referred to the mind; the immediately preceding state of the mind, or of the ideas and affections, being termed will, as noted in the last article. Such are the actions of walking, handling, speaking, &c. when attended to, and performed with an express design.",
+     "label": "Automatic and voluntary motion"
+    },
+    {
+     "n": 18,
+     "k": 18,
+     "txt": "This may serve as a short account of the chief subjects considered in the first part of these observations. These subjects are so much involved in each other, that it is difficult, or even impossible, to begin any where upon clear ground, or so as to proceed entirely from the data to the quaesita, from things known to such as are unknown. I will endeavour it as much as I can, and for that purpose shall observe the following order."
+    },
+    {
+     "n": 19,
+     "k": 19,
+     "txt": "First, I shall lay down the general laws, according to which the sensations and motions are performed, and our ideas generated."
+    },
+    {
+     "n": 20,
+     "k": 20,
+     "txt": "Secondly, I shall consider each of the sensations and motions in particular, and inquire how far the phaenomena of each illustrate, and are illustrated by, the foregoing general laws."
+    },
+    {
+     "n": 21,
+     "k": 21,
+     "txt": "Thirdly, I shall proceed in like manner to the particular phaenomena of ideas, or of understanding, affection, memory, and imagination; applying to them what has been before delivered."
+    },
+    {
+     "n": 22,
+     "k": 22,
+     "txt": "Lastly, I shall endeavour to give a particular history and analysis of the six classes of intellectual pleasures and pains; viz. those of imagination, ambition, self-interest, sympathy, theopathy, and the moral sense."
+    },
+    {
+     "n": 23,
+     "k": 23,
+     "txt": "My chief design in the following chapter is briefly to explain, establish, and apply the doctrines of vibrations and association. The first of these doctrines is taken from the hints concerning the performance of sensation and motion, which Sir Isaac Newton has given at the end of his Principia, and in the Questions annexed to his Optics; the last, from what Mr. Locke, and other ingenious persons since his time, have delivered concerning the influence of association over our opinions and affections, and its use in explaining those things in an accurate and precise way, which are commonly referred to the power of habit and custom, in a general and indeterminate one.",
+     "label": "Newton's vibrations, Locke's association"
+    },
+    {
+     "n": 24,
+     "k": 24,
+     "txt": "The doctrine of vibrations may appear at first sight to have no connexion with that of association; however, if these doctrines be found in fact to contain the laws of the bodily and mental powers respectively, they must be related to each other, since the body and mind are. One may expect, that vibrations should infer association as their effect, and association point to vibrations as its cause. I will endeavour, in the present chapter, to trace out this mutual relation."
+    },
+    {
+     "n": 25,
+     "k": 25,
+     "txt": "The proper method of philosophizing seems to be, to discover and establish the general laws of action, affecting the subject under consideration, from certain select, well-defined, and well-attested phaenomena, and then to explain and predict the other phaenomena by these laws. This is the method of analysis and synthesis recommended and followed by Sir Isaac Newton."
+    },
+    {
+     "n": 26,
+     "k": 26,
+     "txt": "I shall not be able to execute, with any accuracy, what the reader might expect of this kind, in respect of the doctrines of vibrations and association, and their general laws, on account of the great intricacy, extensiveness, and novelty of the subject. However, I will attempt a sketch in the best manner I can, for the service of future inquirers."
+    }
+   ]
+  },
+  {
+   "id": "schwingungen",
+   "titel": "Props. IV, VIII and IX — vibrations, ideas, vibratiuncles (pp. 8, 36–37)",
+   "units": [
+    {
+     "n": 1,
+     "k": 27,
+     "txt": "Prop. IV. — External Objects impressed upon the Senses occasion, first in the Nerves on which they are impressed, and then in the Brain, Vibrations of the small, and as one may say, infinitesimal, medullary Particles.",
+     "label": "The doctrine of vibrations"
+    },
+    {
+     "n": 2,
+     "k": 28,
+     "txt": "These vibrations are motions backwards and forwards of the small particles; of the same kind with the oscillations of pendulums, and the tremblings of the particles of sounding bodies. They must be conceived to be exceedingly short and small, so as not to have the least efficacy to disturb or move the whole bodies of the nerves or brain. For that the nerves themselves should vibrate like musical strings, is highly absurd; nor was it ever asserted by Sir Isaac Newton, or any of those who have embraced his notion of the performance of sensation and motion, by means of vibrations."
+    },
+    {
+     "n": 3,
+     "k": 29,
+     "txt": "In like manner we are to suppose the particles which vibrate, to be of the inferior orders, and not those biggest particles, on which the operations in chemistry, and the colours of natural bodies, depend, according to the opinion of Sir Isaac Newton. Hence, in the proposition, I term the medullary particles, which vibrate, infinitesimal."
+    },
+    {
+     "n": 4,
+     "k": 30,
+     "txt": "Now that external objects impress vibratory motions upon the medullary substance of the nerves and brain (which is the immediate instrument of sensation, according to the first proposition) appears from the continuance of the sensations mentioned in the third; since no motion, besides a vibratory one, can reside in any part for the least moment of time. External objects, being corporeal, can act upon the nerves and brain, which are also corporeal, by nothing but impressing motion on them. A vibrating motion may continue for a short time in the small medullary particles of the nerves and brain, without disturbing them, and after a short time would cease; and so would correspond to the above-mentioned short continuance of the sensations; and there seems to be no other species of motion that can correspond thereto."
+    },
+    {
+     "n": 5,
+     "k": 31,
+     "txt": "Cor. As this proposition is deduced from the foregoing, so if it could be established upon independent principles, (of which I shall treat under the next,) the foregoing might be deduced from it. And on this supposition there would be an argument for the continuance of the sensations, after the removal of their objects; which would extend to the senses of feeling, taste, and smell, in the same manner as to those of sight and hearing."
+    },
+    {
+     "n": 6,
+     "k": 32,
+     "txt": "Prop. VIII. — Sensations, by being often repeated, leave certain Vestiges, Types, or Images, of themselves, which may be called Simple Ideas of Sensation.",
+     "label": "Ideas as vestiges of sensations"
+    },
+    {
+     "n": 7,
+     "k": 33,
+     "txt": "I took notice in the Introduction, that those ideas which resemble sensations were called ideas of sensation; and also that they might be called simple ideas, in respect of the intellectual ones which are formed from them, and of whose very essence it is to be complex. But the ideas of sensation are not entirely simple, since they must consist of parts both co-existent and successive, as the generating sensations themselves do."
+    },
+    {
+     "n": 8,
+     "k": 34,
+     "txt": "Now, that the simple ideas of sensation are thus generated, agreeably to the proposition, appears, because the most vivid of these ideas are those where the corresponding sensations are most vigorously impressed, or most frequently renewed; whereas, if the sensation be faint, or uncommon, the generated idea is also faint in proportion, and, in extreme cases, evanescent and imperceptible. The exact observance of the order of place in visible ideas, and of the order of time in audible ones, may likewise serve to shew, that these ideas are copies and offsprings of the impressions made on the eye and ear, in which the same orders were observed respectively. And though it happens, that trains of visible and audible ideas are presented in sallies of the fancy, and in dreams, in which the order of time and place is different from that of any former impressions, yet the small component parts of these trains are copies of former impressions; and reasons may be given for the varieties of their compositions."
+    },
+    {
+     "n": 9,
+     "k": 35,
+     "txt": "It is also to be observed, that this proposition bears a great resemblance to the third; and that, by this resemblance, they somewhat confirm and illustrate one another. According to the third proposition, sensations remain for a short time after the impression is removed; and these remaining sensations grow feebler and feebler, till they vanish. They are therefore, in some part of their declension, of about the same strength with ideas, and in their first state, are intermediate between sensations and ideas. And it seems reasonable to expect, that, if a single sensation can leave a perceptible effect, trace, or vestige, for a short time, a sufficient repetition of a sensation may leave a perceptible effect of the same kind, but of a more permanent nature, i. e. an idea, which shall recur occasionally, at long distances of time, from the impression of the corresponding sensation, and vice versa. As to the occasions and causes, which make ideas recur, they will be considered in the next proposition but one."
+    },
+    {
+     "n": 10,
+     "k": 36,
+     "txt": "The method of reasoning used in the last paragraph is farther confirmed by the following circumstance; viz. that both the diminutive declining sensations, which remain for a short space after the impressions of the objects cease, and the ideas, which are the copies of such impressions, are far more distinct and vivid, in respect of visible and audible impressions, than of any others. To which it may be added, that, after travelling, hearing music, &c. trains of vivid ideas are very apt to recur, which correspond very exactly to the late impressions, and which are of an intermediate nature between the remaining sensations of the third proposition, in their greatest vigour, and the ideas mentioned in this."
+    },
+    {
+     "n": 11,
+     "k": 37,
+     "txt": "The sensations of feeling, taste and smell, can scarce be said to leave ideas, unless very indistinct and obscure ones. However, as analogy leads one to suppose that these sensations may leave traces of the same kind, though not in the same degree, as those of sight and hearing; so the readiness with which we reconnoitre sensations of feeling, taste, and smell, that have been often impressed, is an evidence that they do so; and these generated traces or dispositions of mind may be called the ideas of feeling, taste, and smell. In sleep, when all our ideas are magnified, those of feeling, taste, and smell, are often sufficiently vivid and distinct; and the same thing happens in some few cases of vigilance."
+    },
+    {
+     "n": 12,
+     "k": 38,
+     "txt": "Prop. IX. — Sensory Vibrations, by being often repeated, beget, in the medullary Substance of the Brain, a Disposition to diminutive Vibrations, which may also be called Vibratiuncles, and Miniatures, corresponding to themselves respectively.",
+     "label": "Vibratiuncles"
+    },
+    {
+     "n": 13,
+     "k": 39,
+     "txt": "This correspondence of the diminutive vibrations to the original sensory ones, consists in this, that they agree in kind, place, and line of direction; and differ only in being more feeble, i. e. in degree."
+    },
+    {
+     "n": 14,
+     "k": 40,
+     "txt": "This proposition follows from the foregoing. For since sensations, by being often repeated, beget ideas, it cannot but be that those vibrations, which accompany sensations, should beget something which may accompany ideas in like manner; and this can be nothing but feebler vibrations, agreeing with the sensory generating vibrations in kind, place, and line of direction.",
+     "note": "Prop. IX continues with the demonstration from the kind, place and line of direction of the vibrations, the natural vibrations N, and the effect of repetition (pp. 37–41); not carried here."
+    }
+   ]
+  },
+  {
+   "id": "assoziation",
+   "titel": "Props. X and XI — the law of association (pp. 41–46)",
+   "units": [
+    {
+     "n": 1,
+     "k": 41,
+     "txt": "Prop. X. — Any Sensations A, B, C, &c. by being associated with one another a sufficient Number of Times, get such a Power over the corresponding Ideas a, b, c, &c. that any one of the Sensations A, when impressed alone, shall be able to excite in the Mind, b, c, &c. the Ideas of the rest.",
+     "label": "The law of association"
+    },
+    {
+     "n": 2,
+     "k": 42,
+     "txt": "Sensations may be said to be associated together, when their impressions are either made precisely at the same instant of time, or in the contiguous successive instants. We may therefore distinguish association into two sorts, the synchronous, and the successive."
+    },
+    {
+     "n": 3,
+     "k": 43,
+     "txt": "The influence of association over our ideas, opinions, and affections, is so great and obvious, as scarcely to have escaped the notice of any writer who has treated of these, though the word association, in the particular sense here affixed to it, was first brought into use by Mr. Locke. But all that has been delivered by the ancients and moderns, concerning the power of habit, custom, example, education, authority, party-prejudice, the manner of learning the manual and liberal arts, &c. goes upon this doctrine as its foundation, and may be considered as the detail of it, in various circumstances. I here begin with the simplest case, and shall proceed to more and more complex ones continually, till I have exhausted what has occurred to me upon this subject."
+    },
+    {
+     "n": 4,
+     "k": 44,
+     "txt": "This proposition, or first and simplest case of association, is manifest from innumerable common observations. Thus, the names, smells, tastes, and tangible qualities of natural bodies, suggest their visible appearances to the fancy, i. e. excite their visible ideas; and, vice versa, their visible appearances impressed on the eye raise up those powers of reconnoitring their names, smells, tastes, and tangible qualities, which may not improperly be called their ideas, as above noted; and in some cases raise up ideas, which may be compared with visible ones, in respect of vividness. All which is plainly owing to the association of the several sensible qualities of bodies with their names, and with each other. It is remarkable, however, as being agreeable to the superior vividness of visible and audible ideas, before taken notice of, that the suggestion of the visible appearance from the name is the most ready of any other; and, next to this, that of the name from the visible appearance; in which last case, the reality of the audible idea, when not evident to the fancy, may be inferred from the ready pronunciation of the name. For it will be shewn hereafter, that the audible idea is most commonly a previous requisite to pronunciation. Other instances of the power of association may be taken from compound visible and audible impressions. Thus the sight of part of a large building suggests the idea of the rest instantaneously; and the sound of the words which begin a familiar sentence, brings the remaining part to our memories in order, the association of the parts being synchronous in the first case, and successive in the last."
+    },
+    {
+     "n": 5,
+     "k": 45,
+     "txt": "It is to be observed, that, in successive associations, the power of raising the ideas is only exerted according to the order in which the association is made. Thus, if the impressions A, B, C, be always made in the order of the alphabet, B impressed alone will not raise a, but c only. Agreeably to which it is easy to repeat familiar sentences in the order in which they always occur, but impossible to do it readily in an inverted one. The reason of this is, that the compound idea, c, b, a, corresponds to the compound sensation C, B, A; and therefore requires the impression of C, B, A, in the same manner as a, b, c, does that of A, B, C. This will, however, be more evident, when we come to consider the associations of vibratory motions, in the next proposition."
+    },
+    {
+     "n": 6,
+     "k": 46,
+     "txt": "It is also to be observed, that the power of association grows feebler, as the number either of synchronous or successive impressions is increased, and does not extend, with due force, to more than a small one, in the first and simplest cases. But, in complex cases, or the associations of associations, of which the memory, in its full extent, consists, the powers of the mind, deducible from this source, will be found much greater than any person, upon his first entrance on these inquiries, could well imagine."
+    },
+    {
+     "n": 7,
+     "k": 47,
+     "txt": "Prop. XI. — Any Vibrations, A, B, C, &c. by being associated together a sufficient Number of Times, get such a Power over a, b, c, &c. the corresponding Miniature Vibrations, that any of the Vibrations A, when impressed alone, shall be able to excite b, c, &c. the Miniatures of the rest.",
+     "label": "Association in the medullary substance"
+    },
+    {
+     "n": 8,
+     "k": 48,
+     "txt": "This proposition may be deduced from the foregoing, in the same manner as the ninth has been from the eighth."
+    },
+    {
+     "n": 9,
+     "k": 49,
+     "txt": "But it seems also deducible from the nature of vibrations, and of an animal body. Let A and B be two vibrations, associated synchronically. Now, it is evident, that the vibration A (for I will, in this proposition, speak of A and B in the singular number, for the sake of greater clearness) will, by endeavouring to diffuse itself into those parts of the medullary substance which are affected primarily by the vibration B, in some measure modify and change B, so as to make B a little different from what it would be, if impressed alone. For the same reasons the vibration A will be a little affected, even in its primary seat, by the endeavour of B to diffuse itself all over the medullary substance. Suppose now the vibrations A and B to be impressed at the same instant, for a thousand times; it follows, from the ninth proposition, that they will first overcome the disposition to the natural vibrations N, and then leave a tendency to themselves, which will now occupy the place of the original natural tendency to vibrations. When therefore the vibration A is impressed alone, it cannot be entirely such as the object would excite of itself, but must lean, even in its primary seat, to the modifications and changes induced by B, during their thousand joint impressions; and therefore much more, in receding from this primary seat, will it lean that way; and when it comes to the seat of B, it will excite B's miniature a little modified and changed by itself."
+    },
+    {
+     "n": 10,
+     "k": 50,
+     "txt": "Or thus: When A is impressed alone, some vibration must take place in the primary seat of B, both on account of the heat and pulsation of the arteries, and because A will endeavour to diffuse itself over the whole medullary substance. This cannot be that part of the natural vibrations N, which belongs to this region, because it is supposed to be overruled already. It cannot be that which A impressed alone would have propagated into this region, because that has always hitherto been overruled, and converted into B; and therefore cannot have begotten a tendency to itself. It cannot be any full vivid vibration, such as B, C, D, &c. belonging to this region, because all full vibrations require the actual impression of an object upon the corresponding external organ. And of miniature vibrations belonging to this region, such as b, c, d, &c. it is evident, that b has the preference, since A leans to it a little, even in its own primary seat, more and more, in receding from this, and almost entirely, when it comes to the primary seat of B. For the same reasons B impressed alone will excite a; and, in general, if A, B, C, &c.be vibrations synchronically impressed on different regions of the medullary substance, A impressed alone will at last excite b, c, &c. according to the proposition."
+    },
+    {
+     "n": 11,
+     "k": 51,
+     "txt": "If A and B be vibrations impressed successively, then will the latter part of A, viz. that part which, according to the third and fourth propositions, remains, after the impression of the object ceases, be modified and altered by B, at the same time that it will a little modify and alter it, till at last it be quite overpowered by it, and end in it. It follows therefore, by a like method of reasoning, that the successive impression of A and B, sufficiently repeated, will so alter the medullary substance, as that when A is impressed alone, its latter part shall not be such as the sole impression of A requires, but lean towards B, and end in b at last. But B will not excite a in a retrograde order; since, by supposition, the latter part of B was not modified and altered by A, but by some other vibration, such as C or D. And as B, by being followed by C, may at last raise c; so b, when raised by A, in the method here proposed, may be also sufficient to raise c; inasmuch as the miniature c being a feeble motion, not stronger, perhaps, than the natural vibrations N, requires only to have its kind, place, and line of direction, determined by association, the heat and arterial pulsation conveying to it the requisite degree of strength. And thus A impressed alone will raise b, c, &c. in successive associations, as well as in synchronous ones, according to the proposition."
+    },
+    {
+     "n": 12,
+     "k": 52,
+     "txt": "It seems also, that the influence of A may, in some degree, reach through B to C; so that A of itself may have some effect to raise c, as well as by means of b. However, it is evident, that this chain must break off, at last, in long successions; and that sooner or later, according to the number and vigour of the repeated impressions. The power of miniature vibrations to raise other miniatures may, perhaps, be made clearer to mathematicians, by hinting, that the efficacy of any vibration to raise any other, is not in the simple ratio of its vividness, but as some power thereof less than unity; for thus b may raise c, a weaker vibration than b, c may raise d, &c. with more facility than if the efficacy was in the simple ratio of the vividness, and yet so that the series shall break off at last."
+    },
+    {
+     "n": 13,
+     "k": 53,
+     "txt": "If the ninth proposition be allowed, we may prove this in somewhat a shorter and easier manner, as follows. Since the vibrations A and B are impressed together, they must, from the diffusion necessary to vibratory motions, run into one vibration; and consequently, after a number of impressions sufficiently repeated, will leave a trace, or miniature, of themselves, as one vibration, which will recur every now and then, from slight causes. Much rather, therefore, may the part b of the compound miniature a + b recur, when the part A of the compound original vibration A + B is impressed."
+    },
+    {
+     "n": 14,
+     "k": 54,
+     "txt": "And as the ninth proposition may be thus made to prove the present, so it ought to be acknowledged and remarked here, that unless the ninth be allowed, the present cannot be proved, or that the power of association is founded upon, and necessarily requires, the previous power of forming ideas, and miniature vibrations. For ideas, and miniature vibrations, must first be generated, according to the eighth and ninth propositions, before they can be associated, according to the tenth and this eleventh. But then (which is very remarkable) this power of forming ideas, and their corresponding miniature vibrations, does equally presuppose the power of association. For since all sensations and vibrations are infinitely divisible, in respect of time and place, they could not leave any traces or images of themselves, i. e. any ideas, or miniature vibrations, unless their infinitesimal parts did cohere together through joint impression, i. e. association. Thus, to mention a gross instance, we could have no proper idea of a horse, unless the particular ideas of the head, neck, body, legs, and tail, peculiar to this animal, stuck to each other in the fancy, from frequent joint impression. And, therefore, in dreams, where complex associations are much weakened, and various parcels of visible ideas, not joined in nature, start up together in the fancy, contiguous to each other, we often see monsters, chimeras, and combinations, which have never been actually presented."
+    },
+    {
+     "n": 15,
+     "k": 55,
+     "txt": "Association seems also necessary to dispose the medullary substance to this or that miniature vibration, in succession, after the miniatures of a large number of original vibrations have been generated."
+    },
+    {
+     "n": 16,
+     "k": 56,
+     "txt": "Nor does there seem to be any precise limit which can be set to this mutual dependence of the powers of generating miniatures, and of association upon each other: however they may both take place together, as the heart and brain are supposed to do, or both depend upon one simple principle; for it seems impossible, that they should imply one another ad infinitum. There is no greater difficulty here than in many other cases of mutual indefinite implication, known and allowed by all. Nay, one may almost deduce some presumption in favour of the hypothesis here produced, from this mutual indefinite implication of its parts so agreeable to the tenor of nature in other things. And it is certainly a presumption in its favour, that a less power of generating miniatures will be a foundation for a larger of association, and vice versa, till, at last, the whole superstructure of ideas and associations observable in human life may, by proceeding upwards according to analysis, and downwards according to synthesis, be built upon as small a foundation as we please. Thus we may observe, that neither does this eleventh proposition necessarily require the ninth, in its full extent, nor vice versa, for their demonstration. The least miniatures, with the feeblest cohesions of their parts, will, by degrees, run into larger, with stronger cohesions, from the same principles; nor are there any visible limits to the influence and extent of these powers, supposing the natural faculties of the being under consideration sufficiently extended.",
+     "note": "'nor vice versa' with the first edition (p. 72); the 1834 printing, as read here, has 'not'."
+    },
+    {
+     "n": 17,
+     "k": 57,
+     "txt": "Let me add, that the generation of sensible ideas from sensations, and the power of raising them from association, when considered as faculties of the mind, are evident and unquestionable. Since therefore sensations are conveyed to the mind, by the efficiency of corporeal causes of the medullary substance, as is acknowledged by all physiologists and physicians, it seems to me, that the powers of generating ideas, and raising them by association, must also arise from corporeal causes, and consequently admit of an explication from the subtle influences of the small parts of matter upon each other, as soon as these are sufficiently understood; which is farther evinced from the manifest influences of material causes upon our ideas and associations, taken notice of under the second proposition. And as a vibratory motion is more suitable to the nature of sensation than any other species of motion, so does it seem also more suitable to the powers of generating ideas, and raising them by association. However, these powers are evident independently, as just now observed; so that the doctrine of association may be laid down as a certain foundation, and a clew to direct our future inquiries, whatever becomes of that of vibrations.",
+     "label": "Association, whatever becomes of vibrations"
+    }
+   ]
+  },
+  {
+   "id": "bewegung",
+   "titel": "Props. XXI and XXII — voluntary motion, the secondarily automatic, and pleasure (pp. 65–73)",
+   "units": [
+    {
+     "n": 1,
+     "k": 58,
+     "txt": "Prop. XXI. The voluntary and semi-voluntary Motions are deducible from Association, in the Manner laid down in the last Proposition.",
+     "note": "Props. XII–XX, between the association of ideas and this proposition — complex ideas, muscular motion, the automatic motions, and the corollaries of Prop. XX to which Hartley refers — (pp. 46–65) are not carried here."
+    },
+    {
+     "n": 2,
+     "k": 59,
+     "txt": "In order to verify this proposition, it is necessary to inquire, what connexions each automatic motion has gained by association with other motions, with ideas, or with foreign sensations, according to the third, fourth, and sixth corollaries of the last proposition, so as to depend upon them, i. e. so as to be excited no longer, in the automatic manner described in the nineteenth proposition, but merely by the previous introduction of the associated motion, idea, or sensation. If it follow that idea, or state of mind (i. e. set of compound vibratiuncles), which we term the will, directly, and without our perceiving the intervention of any other idea, or of any sensation or motion, it may be called voluntary, in the highest sense of this word. If the intervention of other ideas, or of sensations and motions (all which we are to suppose to follow the will directly), be necessary, it is imperfectly voluntary; yet still it will be called voluntary, in the language of mankind, if it follow certainly and readily upon the intervention of a single sensation, idea, or motion, excited by the power of the will: but if more than one of these be required, or if the motion do not follow with certainty and facility, it is to be esteemed less and less voluntary, semi-voluntary, or scarce voluntary at all, agreeably to the circumstances. Now, if it be found, upon a careful and impartial inquiry, that the motions which occur every day in common life, and which follow the idea called the will, immediately or mediately, perfectly or imperfectly, do this, in proportion to the number and degree of strength in the associations, this will be sufficient authority for ascribing all which we call voluntary in actions to association, agreeably to the purport of this proposition. And this, I think, may be verified from facts, as far as it is reasonable to expect, in a subject of inquiry so novel and intricate."
+    },
+    {
+     "n": 3,
+     "k": 60,
+     "txt": "In the same manner as any action may be rendered voluntary, the cessation from any, or a forcible restraint upon any, may be also, viz. by proper associations with the feeble vibrations in which inactivity consists, or with the strong action of the antagonist muscles."
+    },
+    {
+     "n": 4,
+     "k": 61,
+     "txt": "After the actions, which are most perfectly voluntary, have been rendered so by one set of associations, they may, by another, be made to depend upon the most diminutive sensations, ideas, and motions, such as the mind scarce regards, or is conscious of; and which therefore it can scarce recollect the moment after the action is over. Hence it follows, that association not only converts automatic actions into voluntary, but voluntary ones into automatic. For these actions, of which the mind is scarce conscious, and which follow mechanically, as it were, some precedent diminutive sensation, idea or motion, and without any effort of the mind, are rather to be ascribed to the body than the mind, i. e. are to be referred to the head of automatic motions. I shall call them automatic motions of the secondary kind, to distinguish them both from those which are originally automatic, and from the voluntary ones; and shall now give a few instances of this double transmutation of motions, viz. of automatic into voluntary, and of voluntary into automatic.",
+     "label": "Secondarily automatic"
+    },
+    {
+     "n": 5,
+     "k": 62,
+     "txt": "The fingers of young children bend upon almost every impression which is made upon the palm of the hand, thus performing the action of grasping in the original automatic manner. After a sufficient repetition of the motory vibrations which concur in this action, their vibratiuncles are generated, and associated strongly with other vibrations or vibratiuncles, the most common of which, I suppose, are those excited by the sight of a favourite plaything which the child uses to grasp, and hold in his hand. He ought, therefore, according to the doctrine of association, to perform and repeat the action of grasping, upon having such a plaything presented to his sight. But it is a known fact, that children do this. By pursuing the same method of reasoning, we may see how, after a sufficient repetition of the proper associations, the sound of the words grasp, take hold, &c. the sight of the nurse's hand in a state of contraction, the idea of a hand, and particularly of the child's own hand, in that state, and innumerable other associated circumstances, i. e. sensations, ideas, and motions, will put the child upon grasping, till, at last, that idea, or state of mind which we may call the will to grasp, is generated and sufficiently associated with the action to produce it instantaneously. It is therefore perfectly voluntary in this case; and by the innumerable repetitions of it in this perfectly voluntary state, it comes, at last, to obtain a sufficient connexion with so many diminutive sensations, ideas, and motions, as to follow them in the same manner, as originally automatic actions do the corresponding sensations, and consequently to be automatic secondarily. And in the same manner, may all the actions performed with the hands be explained, all those that are very familiar in life passing from the original automatic state through the several degrees of voluntariness till they become perfectly voluntary, and then repassing through the same degrees in an inverted order, till they become secondarily automatic on many occasions, though still perfectly voluntary on some, viz. whensoever an express act of the will is exerted."
+    },
+    {
+     "n": 6,
+     "k": 63,
+     "txt": "I will, in the next place, give a short account of the manner in which we learn to speak, as it may be deduced from the foregoing proposition. The new-born child is not able to produce a sound at all, unless the muscles of the trunk and larynx be stimulated thereto by the impression of pain on some part of the body. As the child advances in age, the frequent returns of this action facilitate it; so that it recurs from less and less pains, from pleasures, from mere sensations, and lastly from slight associated circumstances, in the manner already explained. About the same time that this process is thus far advanced, the muscles of speech act occasionally, in various combinations, according to the associations of the motory vibratiuncles with each other. Suppose now the muscles of speech to act in these combinations at the same time that sound is produced from some agreeable impression, a mere sensation, or a slight associated cause, which must be supposed to be often the case, since it is so observable, that young children, when in a state of health and pleasure, exert a variety of actions at the same time. It is evident, that an articulate sound, or one approaching thereto, will sometimes be produced by this conjoint action of the muscles of the trunk, larynx, tongue, and lips; and that both these articulate sounds, and inarticulate ones, will often recur, from the recurrence of the same accidental causes. After they have recurred a sufficient number of times, the impression, which these sounds, articulate and inarticulate, make upon the ear, will become an associated circumstance (for the child always hears himself speak, at the same time that he exerts the action) sufficient to produce a repetition of them. And thus it is, that children repeat the same sounds over and over again, for many successions, the impression of the last sound upon the ear exciting a fresh one, and so on, till the organs be tired. It follows, therefore, that if any of the attendants make any of the sounds familiar to the child, he will be excited from this impression, considered as an associated circumstance, to return it. But the attendants make articulate sounds chiefly; there will therefore be a considerable balance in favour of such, and that of a growing nature: so that the child's articulate sounds will be more and more frequent every day — his inarticulate ones grow into disuse. Suppose now, that he compounds these simple articulate sounds, making complex ones, which approach to familiar words at some times, at others such as are quite foreign to the words of his native language, and that the first get an ever-growing balance in their favour, from the cause just now taken notice of: also, that they are associated with visible objects, actions, &c. and it will be easily seen, that the young child ought, from the nature of association, to learn to speak much in the same manner as he is found in fact to do. Speech will also become a perfectly voluntary action, i. e. the child will be able to utter any word or sentence proposed to him by others, or by himself, from a mere exertion of the will, as much as to grasp: only here the introductory circumstance, viz. the impression of the sound on the ear, the idea of this sound, or the preceding motion in pronouncing the preceding word is evident; and therefore makes it probable, that the same thing takes place in other cases. In like manner, speech, after it has been voluntary for a due time, will become secondarily automatic, i. e. will follow associated circumstances, without any express exertion of the will.",
+     "label": "How a child learns to speak"
+    },
+    {
+     "n": 7,
+     "k": 64,
+     "txt": "From the account here given of the actions of handling and speaking, we may understand in what manner the first rudiments are laid of that faculty of imitation, which is so observable in young children. They see the actions of their own hands, and hear themselves pronounce. Hence the impressions made by themselves on their own eyes and ears become associated circumstances, and consequently must, in due time, excite to the repetition of the actions. Hence like impressions made on their eyes and ears by others will have the same effect; or, in other words, they will learn to imitate the actions which they see, and the sounds which they hear."
+    },
+    {
+     "n": 8,
+     "k": 65,
+     "txt": "In the same manner may be explained the evident powers which the will has over the actions of swallowing, breathing, coughing, and expelling the urine and faeces, as well as the feeble and imperfect ones over sneezing, hiccoughing, and vomiting. As to the motion of the heart, and peristaltic motion of the bowels, since they are constant, they must be equally associated with every thing, i. e. peculiarly so with nothing, a few extraordinary cases excepted. They will therefore continue to move solely in the original automatic manner, during the whole course of our lives. However, association may, perhaps, have some share in keeping these motions, and that of respiration, up for a time, when the usual automatic causes are deficient in any measure; and may thus contribute to their equability and constancy. It seems certain, at least, that where unequable and irregular motions of the heart and bowels are generated, and made to recur for a sufficient number of times, from their peculiar causes, in full quantity, a less degree of the same causes, or even an associated circumstance, will suffice to introduce them afterwards. And the same thing may be observed of hysteric and epileptic fits. These recur from less and less causes perpetually, in the same manner, and for the same reasons, as original automatic motions are converted into voluntary ones."
+    },
+    {
+     "n": 9,
+     "k": 66,
+     "txt": "I will add one instance more of the transition of voluntary actions into automatic ones of the secondary kind, in order to make that process clearer, by having it singly in view. Suppose a person who has a perfectly voluntary command over his fingers, to begin to learn to play upon the harpsichord; the first step is to move his fingers from key to key, with a slow motion, looking at the notes, and exerting an express act of volition in every motion. By degrees the motions cling to one another, and to the impressions of the notes, in the way of association so often mentioned, the acts of volition growing less and less express all the time, till at last they become evanescent and imperceptible. For an expert performer will play from notes, or ideas laid up in the memory, or from the connexion of the several complex parts of the decomplex motions, some or all; and, at the same time, carry on a quite different train of thoughts in his mind, or even hold a conversation with another. Whence we may conclude, that the passage from the sensory, ideal, or motory vibrations which precede, to those motory ones which follow, is as ready and direct, as from the sensory vibrations to the original automatic motions corresponding to them; and consequently, that there is no intervention of the idea, or state of mind, called will. At least, the doctrine of association favours this, and the fact shews, that there is no perceptible intervention, none of which we are conscious.",
+     "label": "The harpsichord"
+    },
+    {
+     "n": 10,
+     "k": 67,
+     "txt": "And thus, from the present proposition, and the nineteenth taken together, we are enabled to account for all the motions of the human body, upon principles which, though they may be fictitious, are, at least, clear and intelligible. The doctrine of vibrations explains all the original automatic motions, that of association the voluntary and secondarily automatic ones. And if the doctrine of association be founded in, and deducible from, that of vibrations, in the manner delivered above, then all the sensations, ideas, and motions, of all animals, will be conducted according to the vibrations of the small medullary particles. Let the reader examine this hypothesis by the facts, and judge for himself. There are innumerable things, which, when properly discussed, will be sufficient tests of it. It will be necessary, in examining the motions, carefully to distinguish the automatic state from the voluntary one, and to remember, that the first is not to be found pure, except in the motions of the new-born infant, or such as are excited by some violent irritation or pain."
+    },
+    {
+     "n": 11,
+     "k": 68,
+     "txt": "Cor. I. The brain, not the spinal marrow, or nerves, is the seat of the soul, as far as it presides over the voluntary motions. For, by Cor. II. of the last proposition, the efficacy of the motory vibratiuncles depends chiefly on that part of them which is excited within the brain."
+    },
+    {
+     "n": 12,
+     "k": 69,
+     "txt": "Cor. II. The hypothesis here proposed is diametrically opposite to that of Stahl, and his followers. They suppose all animal motions to be voluntary in their original state, whereas this hypothesis supposes them all to be automatic at first, i. e. involuntary, and to become voluntary afterwards by degrees. However, the Stahlians agree with me concerning the near relation of these two sorts of motion to each other, as also concerning the transition (or rather return, according to my hypothesis) of voluntary motions into involuntary ones, or into those which I call secondarily automatic. As to final causes, which are the chief subject of inquiry amongst the Stahlians, they are, without doubt, every where consulted, in the structure and functions of the parts; they are also of great use for discovering the efficient ones. But then they ought not to be put in the place of the efficient ones; nor should the search after the efficient be banished from the study of physic, since the power of the physician, such as it is, extends to these alone. Not to mention, that the knowledge of the efficient causes is equally useful for discovering the final, as may appear from many parts of these observations."
+    },
+    {
+     "n": 13,
+     "k": 70,
+     "txt": "Cor. III. It may afford the reader some entertainment, to compare my hypothesis with what Des Cartes and Leibnitz have advanced, concerning animal motion, and the connexion between the soul and body. My general plan bears a near relation to theirs. And it seems not improbable to me, that Des Cartes might have had success in the execution of his, as proposed in the beginning of his Treatise on Man, had he been furnished with a proper assemblage of facts from anatomy, physiology, pathology, and philosophy, in general. Both Leibnitz's pre-established harmony, and Malebranche's system of occasional causes, are free from that great difficulty of supposing, according to the scholastic system, that the soul, an immaterial substance, exerts and receives a real physical influence upon and from the body, a material substance. And the reader may observe, that the hypothesis here proposed stands clear also of this difficulty. If he admit the simple case of the connexion between the soul and body, in respect of sensation, as it is laid down in the first proposition, and only suppose, that there is a change made in the medullary substance, proportional and correspondent to every change in the sensations, the doctrine of vibrations, as here delivered, undertakes to account for all the rest, the origin of our ideas and motions, and the manner in which both the sensations and these are performed."
+    },
+    {
+     "n": 14,
+     "k": 71,
+     "txt": "Cor. IV. I will here add Sir Isaac Newton's words, concerning sensation and voluntary motion, as they occur at the end of his Principia, both because they first led me into this hypothesis, and because they flow from it as a corollary. He affirms then, \"both that all sensation is performed, and also the limbs of animals moved in a voluntary manner, by the power and actions of a certain very subtle spirit, i. e. by the vibrations of this spirit, propagated through the solid capillaments of the nerves from the external organs of the senses to the brain, and from the brain into the muscles.\""
+    },
+    {
+     "n": 15,
+     "k": 72,
+     "txt": "Cor. V. It follows, from the account here given of the voluntary and semi-voluntary motions, that we must get every day voluntary and semi-voluntary powers, in respect of our ideas and affections. Now this consequence of the doctrine of association is also agreeable to the fact. Thus we have a voluntary power of attending to an idea for a short time, of recalling one, of recollecting a name, a fact, &c. a semi-voluntary one of quickening or restraining affections already in motion, and a most perfectly voluntary one of exciting moral motives, by reading, reflection, &c."
+    },
+    {
+     "n": 16,
+     "k": 73,
+     "txt": "Prop. XXII. — It follows, from the Hypothesis here proposed, concerning the voluntary Motions, that a Power of obtaining Pleasure, and removing Pain, will be generated early in Children, and increase afterwards every Day.",
+     "label": "The power of obtaining pleasure"
+    },
+    {
+     "n": 17,
+     "k": 74,
+     "txt": "For the motions which are previous and subservient to the obtaining of pleasure, and the removal of pain, will be much more frequent, from the very instant of birth, than those which occasion pain. The number also of the first will be perpetually increasing, of the last decreasing. Both which positions may be evinced by the following arguments:"
+    },
+    {
+     "n": 18,
+     "k": 75,
+     "txt": "First, The pleasures are much more numerous than the pains. Hence the motions which are subservient to them are much more numerous also."
+    },
+    {
+     "n": 19,
+     "k": 76,
+     "txt": "Secondly, The associated circumstances of the pleasures are many more in number than the pleasures themselves. But these circumstances, after a sufficient association, will be able to excite the motions subservient to the pleasures, as well as these themselves. And this will greatly augment the methods of obtaining pleasure."
+    },
+    {
+     "n": 20,
+     "k": 77,
+     "txt": "Thirdly, It favours the position here advanced, that the motions subservient to pleasure are of a moderate nature; and therefore, that they can be excited with the more ease, both in an automatic and voluntary manner."
+    },
+    {
+     "n": 21,
+     "k": 78,
+     "txt": "Fourthly, The pains, and consequently the motions subservient to them, are few, and of a violent nature. These motions are also various, and therefore cannot be united to objects and ideas with constancy and steadiness; and, which is most to be regarded, they end, at last, from the very make of the body, in that species of motion which contributes most to remove or assuage the pain. This species therefore, since it recurs the most frequently, and continues longest, must be confirmed by association, to the exclusion of the rest.",
+     "label": "What relieves pain is confirmed by association"
+    },
+    {
+     "n": 22,
+     "k": 79,
+     "txt": "Cor. I. Many changes in the actions of young children, very difficult to be explained, according to the usual methods of considering human actions, appear to admit of a solution from this proposition. These changes are such as tend to the ease, convenience, pleasure, of the young child; and they are sufficiently observable in the transition of the originally automatic actions into voluntary ones, as matters of fact, whatever be determined concerning their cause. I shall therefore refer to them occasionally, in the course of these papers, as allowed matters of fact."
+    },
+    {
+     "n": 23,
+     "k": 80,
+     "txt": "Cor. II. It seems also, that many very complex propensities and pursuits in adults, by which they seek their own pleasure and happiness, both explicitly and implicitly, may be accounted for, upon the same, or such-like principles."
+    },
+    {
+     "n": 24,
+     "k": 81,
+     "txt": "Cor. III. To similar causes we must also refer that propensity to excite and cherish grateful ideas and affections, and trains of these, which is so observable in all mankind. However, this does not hold in so strict a manner, but that ungrateful trains will present themselves, and recur on many occasions, and particularly whenever there is a morbid, and somewhat painful, state of the medullary substance."
+    },
+    {
+     "n": 25,
+     "k": 82,
+     "txt": "Cor. IV. Since God is the source of all good, and consequently must at last appear to be so, i. e. be associated with all our pleasures, it seems to follow, even from this proposition, that the idea of God, and of the ways by which his goodness and happiness are made manifest, must, at last, take place of, and absorb all other ideas, and he himself become, according to the language of the Scriptures, All in all."
+    },
+    {
+     "n": 26,
+     "k": 83,
+     "txt": "Cor. V. This proposition, and its corollaries, afford some very general, and perhaps new, instances of the coincidence of efficient and final causes."
+    },
+    {
+     "n": 27,
+     "k": 84,
+     "txt": "Cor. VI. The agreement of the doctrines of vibrations and association, both with each other, and with so great a variety of the phaenomena of the body and mind, may be reckoned a strong argument for their truth."
+    }
+   ]
+  }
+ ]
+}
