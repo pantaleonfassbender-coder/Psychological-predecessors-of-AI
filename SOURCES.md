@@ -1,14 +1,12 @@
 # Sources — the pinned digitisations
 
-Every planned module of *Psychological Predecessors of AI*, with the digitisation its
-edition will be made from, pinned before a line of it is carried so that the plan itself is
-checkable. All are United States public domain (published through 1930). Entries move from
-"planned" to a full edition statement as they ship; licensing detail is in
-[LICENSES.md](LICENSES.md).
+Every module of *Psychological Predecessors of AI*, with the digitisation its edition was
+made from and a statement of what it carries, omits and restored. All are United States
+public domain (published through 1930); licensing detail is in [LICENSES.md](LICENSES.md).
 
 ## The measured mind
 
-- **Fechner, Elemente der Psychophysik — SHIPPED** (`data/fechner.json`, built by
+- **Fechner, Elemente der Psychophysik** (`data/fechner.json`, built by
   `tools/build-fechner.py` with the working translations in `tools/fechner_en.py`):
   selections from the 1860 printing — the Vorwort and vol. I ch. II (Begriff und Aufgabe
   der Psychophysik) complete, and the Fundamentalformel–Massformel passage of vol. II
@@ -20,7 +18,7 @@ checkable. All are United States public domain (published through 1930). Entries
   (notes mark both places). German with an unofficial working translation made for this
   site (CC0); the translation of 1966 is in copyright and was not consulted. Cited as
   `EP [k]`, k unique across the module.
-- **Ebbinghaus, Memory — SHIPPED** (`data/ebbinghaus.json`, built by
+- **Ebbinghaus, Memory** (`data/ebbinghaus.json`, built by
   `tools/build-ebbinghaus.py`): selections from the Ruger/Bussenius translation (New
   York: Teachers College, 1913; public domain) —
   <https://archive.org/details/memorycontributi00ebbiuoft> — OCR emended against the
@@ -29,7 +27,7 @@ checkable. All are United States public domain (published through 1930). Entries
   themselves, is omitted and named as the module's next step; tables and formula
   displays are not reproduced, a note marking each place. Cited as `Mem. [k]`, k unique
   across the module. The German original of 1885 is named, not carried.
-- **Galton, Inquiries into Human Faculty — SHIPPED** (`data/galton.json`, built by
+- **Galton, Inquiries into Human Faculty** (`data/galton.json`, built by
   `tools/build-galton.py`): selections from the first edition (London: Macmillan, 1883) —
   <https://archive.org/details/inquiriesintohu00galtgoog> — OCR emended by hand against the
   sense, the worst passages verified against the page images (leaf = printed page + 19).
@@ -41,7 +39,7 @@ checkable. All are United States public domain (published through 1930). Entries
   place marked). The numbered survey returns and the octile scale are carried grouped, one
   unit per printed group. Cited as `IHF [k]`, k unique across the module. Galton's eugenics
   program is carried in his own words, stated, not passed over.
-- **Spearman, "General Intelligence" — SHIPPED** (`data/spearman.json`, built by
+- **Spearman, "General Intelligence"** (`data/spearman.json`, built by
   `tools/build-spearman.py`): selections from the American Journal of Psychology 15
   (1904), pp. 201–292, in the original printing via JSTOR Early Journal Content —
   <https://archive.org/details/jstor-1412107> — OCR emended against the sense. Carried
@@ -49,7 +47,7 @@ checkable. All are United States public domain (published through 1930). Entries
   correlation tables not reproduced, each omission marked), and ch. V § 8, the Summary of
   Conclusions. Cited as `GI [k]`, k unique across the selections; the paper's section
   headings carried as labels; page-bottom footnotes not carried.
-- **Binet & Simon, The Development of Intelligence in Children — SHIPPED**
+- **Binet & Simon, The Development of Intelligence in Children**
   (`data/binet.json`, built by `tools/build-binet.py`): selections from Elizabeth S. Kite's
   translation (Vineland, N.J.: The Training School, 1916; public domain) —
   <https://archive.org/details/developmentofint00binerich> — OCR emended against the sense,
@@ -68,7 +66,7 @@ checkable. All are United States public domain (published through 1930). Entries
 
 ## The learning animal
 
-- **Hartley, Observations on Man — SHIPPED** (`data/hartley.json`, built by
+- **Hartley, Observations on Man** (`data/hartley.json`, built by
   `tools/build-hartley.py`): Part I, ch. I, from the sixth edition, "corrected and revised"
   (London: Thomas Tegg and Son, 1834) — <https://archive.org/details/observationsonma00hartuoft>
   (University of Toronto copy; a Cornell copy of the same edition is marred by pencil
@@ -81,7 +79,7 @@ checkable. All are United States public domain (published through 1930). Entries
   and VIII complete, Prop. IX's statement and first demonstration; Props. X and XI
   complete; Props. XXI and XXII complete with their corollaries. Cited as `OM [k]`, k
   unique across the four selections.
-- **Bain, The Senses and the Intellect — SHIPPED** (`data/bain.json`, built by
+- **Bain, The Senses and the Intellect** (`data/bain.json`, built by
   `tools/build-bain.py`): selections from the first edition (London: John W. Parker and
   Son, 1855) — <https://archive.org/details/sensesintellectb00bain> (Library of Congress
   copy) — OCR emended against the sense, one doubtful stop read from the page image
@@ -91,7 +89,7 @@ checkable. All are United States public domain (published through 1930). Entries
   ch. I, 'Law of Contiguity', §§1–2 (pp. 318–321) and §4 (pp. 324–326), the omitted §3
   named where it falls. Bain's own section numbers are kept in the text; cited as
   `SI [k]`, k unique across the three selections.
-- **Lloyd Morgan, An Introduction to Comparative Psychology — SHIPPED**
+- **Lloyd Morgan, An Introduction to Comparative Psychology**
   (`data/morgan.json`, built by `tools/build-morgan.py`): Chapter III, Other Minds than
   Ours, carried complete from the first edition (London: Walter Scott, 1894) —
   <https://archive.org/details/anintroductiont01morggoog> — OCR emended against the sense,
@@ -100,7 +98,7 @@ checkable. All are United States public domain (published through 1930). Entries
   unique across the module; the canon carries a label. The chapters that apply the canon
   are named as the module's next step; the chapter's period frame ('civilised',
   'primitive') is carried as printed, stated, not passed over.
-- **Loeb, Comparative Physiology of the Brain — SHIPPED** (`data/loeb.json`, built by
+- **Loeb, Comparative Physiology of the Brain** (`data/loeb.json`, built by
   `tools/build-loeb.py`): selections from the 1900 printing (New York: G. P. Putnam's Sons;
   trans. Anne Leonard Loeb, revised by the author) —
   <https://archive.org/details/comparativephysi00loeb> — OCR emended against the sense.
@@ -110,7 +108,7 @@ checkable. All are United States public domain (published through 1930). Entries
   phonograph comparison, the criterion — if an animal can learn it has associative memory —
   and the Bethe ant experiments). Chapter bibliographies not carried; the omitted
   continuations named in notes. Cited as `CPB [k]`, k unique across the module.
-- **Thorndike, Animal Intelligence — SHIPPED** (`data/thorndike.json`, built by
+- **Thorndike, Animal Intelligence** (`data/thorndike.json`, built by
   `tools/build-thorndike.py`): selections from the 1911 collected volume (New York:
   Macmillan) — <https://archive.org/details/animalintellige00thorgoog> — OCR emended by
   hand against the sense. Carried: the standpoint of the 1898 monograph (ch. II opening),
@@ -120,7 +118,7 @@ checkable. All are United States public domain (published through 1930). Entries
   chapter's defence of the laws' adequacy. Cited as `AI, ch. II/VI [k]`; k runs across
   the two chapter-II sections. The 1898 monograph printing
   (<https://archive.org/details/animalintelligen00thoruoft>) is named beside it.
-- **Watson, Psychology as the Behaviorist Views It — SHIPPED** (`data/watson.json`, built
+- **Watson, Psychology as the Behaviorist Views It** (`data/watson.json`, built
   by `tools/build-watson.py`): the paper of 1913 complete, Psychological Review 20,
   pp. 158–177, in the journal's public-domain printing —
   <https://archive.org/details/sim_psychological-review_1913-03_20_2> (the March issue;
@@ -130,7 +128,7 @@ checkable. All are United States public domain (published through 1930). Entries
   paragraphs they close (among them the long larynx footnote of pp. 174–176 in full).
   Cited as `PBV [n]`. Titchener's reply of 1914 (`jstor-984126` — often mistaken for the
   paper itself) and Angell's protest in the same issue are named, not carried.
-- **Pavlov, Conditioned Reflexes — SHIPPED** (`data/pavlov.json`, built by
+- **Pavlov, Conditioned Reflexes** (`data/pavlov.json`, built by
   `tools/build-pavlov.py`): Lectures I and II complete, from G. V. Anrep's translation
   (London: Oxford University Press, 1927; US public domain). Two copies of the same
   printing are used: the base text is <https://archive.org/details/conditionedrefle0000ippa>
@@ -143,7 +141,7 @@ checkable. All are United States public domain (published through 1930). Entries
   text); the drop-counting footnote and Mendeleeff's cement carried as notes; Fig. 1 and
   Dr. Eroféeva's record table noted, not reproduced. Cited as `CR [k]`, k unique across the
   two lectures. The translation's spelling 'Thorndyke' is kept and flagged.
-- **Köhler, The Mentality of Apes — SHIPPED** (`data/koehler.json`, built by
+- **Köhler, The Mentality of Apes** (`data/koehler.json`, built by
   `tools/build-koehler.py`): Ella Winter's translation of the second revised German edition
   (London: Kegan Paul; New York: Harcourt, Brace, 1927 — "revised and reset"; first English
   edition 1925), in the unaltered reprint of 1931 —
@@ -159,17 +157,17 @@ checkable. All are United States public domain (published through 1930). Entries
 
 ## The automaton debate
 
-- **Huxley, On the Hypothesis that Animals are Automata — SHIPPED**
+- **Huxley, On the Hypothesis that Animals are Automata**
   (`data/huxley.json`, built by `tools/build-huxley.py`): the address of 1874 complete,
   from Collected Essays, vol. I: Method and Results (printed pp. 199–250) —
   <https://archive.org/details/methodandresult01huxlgoog> — OCR emended by hand against
   the sense; running heads and signature marks dropped, the footnotes not carried (the
   reference for the long Bonnet quotation kept as a note), quotation marks normalised.
   Cited as `Aut. [n]`.
-- **James, Anthology — SHIPPED** (`data/james.json`, built by `tools/build-james.py`):
+- **James, Anthology** (`data/james.json`, built by `tools/build-james.py`):
   "Are We Automata?" complete, from Mind IV, no. 13 (January 1879), pp. 1–22, in the
   journal's public-domain printing — <https://archive.org/details/sim_mind_1879-01_4_13>
-  (pinned at ship time); and from The Principles of Psychology (New York: Holt, 1890;
+  and from The Principles of Psychology (New York: Holt, 1890;
   Toronto copy of the unaltered 1891 printing) —
   <https://archive.org/details/principlesofpsyc01jameuoft> — two passages of ch. IV, Habit
   (pp. 104–106, 120–121), and the section of ch. IX in which thought is shown sensibly
@@ -179,7 +177,7 @@ checkable. All are United States public domain (published through 1930). Entries
   squint footnote, pp. 9–10: "what happens", "rather cheap—'all may raise the flowers now,
   for all have got the seed'") restored against the page images (leaf = page − 1). Cited as
   `AWA [k]` (Mind) and `PP [k]` (Principles), k unique across the module.
-- **McDougall, Body and Mind — SHIPPED** (`data/mcdougall.json`, built by
+- **McDougall, Body and Mind** (`data/mcdougall.json`, built by
   `tools/build-mcdougall.py`): selections from the 1918 printing of the 1911 text (London:
   Methuen) — <https://archive.org/details/cu31924029080880> (Cornell copy) — OCR emended
   against the sense. Carried: Chapter XIX complete (pp. 258–271, the inadequacy of
@@ -191,7 +189,7 @@ checkable. All are United States public domain (published through 1930). Entries
 
 ## The machine in the laboratory
 
-- **Hull, Aptitude Testing — SHIPPED** (`data/hull_aptitude.json`, built by
+- **Hull, Aptitude Testing** (`data/hull_aptitude.json`, built by
   `tools/build-hull-aptitude.py`): selections from the first printing (Yonkers-on-Hudson: World
   Book Company, 1928; Measurement and Adjustment Series, ed. Terman) —
   <https://archive.org/details/aptitudetesting00hull> (Harold B. Lee Library copy) — US
@@ -201,15 +199,22 @@ checkable. All are United States public domain (published through 1930). Entries
   pp. 1–5; ch. VIII, pp. 273–278 (Table 60 and Figure 36 not reproduced); ch. XI,
   pp. 355–356 (machines for scoring tests); ch. XIV, pp. 487–490 (the forecasting machine).
   Cited as `AT [k]`, k unique across the three selections.
-- **Hull & Baernstein, A Mechanical Parallel to the Conditioned Reflex** — Science 70 (1929);
-  **Hull, Knowledge and Purpose as Habit Mechanisms** — Psychological Review 37 (1930, US
-  public domain since 1 January 2026); journal printings, exact items to be pinned at ship
-  time. The 1931 sequel (Baernstein & Hull, Journal of General Psychology) joins on
+- **Hull & Baernstein; Hull — the conditioning machines** (`data/hull_machines.json`,
+  built by `tools/build-hull-machines.py`): both papers complete from the journals' printings —
+  Hull and Baernstein, "A Mechanical Parallel to the Conditioned Reflex", Science 70, no. 1801
+  (5 July 1929), pp. 14–15, <https://archive.org/details/sim_science_1929-07-05_70_1801>;
+  Hull, "Knowledge and Purpose as Habit Mechanisms", Psychological Review 37, no. 6
+  (November 1930), pp. 511–525, <https://archive.org/details/sim_psychological-review_1930-11_37_6>
+  (leaf = page − 455), US public domain since 1 January 2026. OCR emended against the
+  sense; the 1930 paper's subscripts (S₁, R₅, s₄, Sₚ …) and its footnotes read from the page
+  images and set by hand; its nine diagrams not reproduced, each described where it stands.
+  Cited as `MPC [k]` (Science) and `KP [k]` (Psychological Review), k unique across the
+  module. The 1931 sequel (Baernstein & Hull, Journal of General Psychology) joins on
   1 January 2027.
 
 ## The plates
 
-One plate per shipped module (`assets/plates/`, registered in `data/plates.json`, built
+One plate per module (`assets/plates/`, registered in `data/plates.json`, built
 by `tools/build-plates.py`): a single page each, fetched over IIIF from the same
 digitisations the editions cite — no full scans are downloaded or carried. All are
 faithful reproductions of public-domain two-dimensional pages; each plate's caption and
@@ -239,6 +244,9 @@ credit name the source, digitisation and leaf.
   trimmed by IIIF region.
 - **Bain** — title page of the first edition (London: Parker, 1855);
   `sensesintellectb00bain`, leaf 7.
+- **Hull & Baernstein; Hull** — Psychological Review 37 (1930), p. 513, with the diagrams of
+  "The World" and "The Organism" (Figs. 3–5); `sim_psychological-review_1930-11_37_6`, page
+  n58, film borders trimmed.
 - **Hull, Aptitude Testing** — Fig. 60, the perforated score tape of the forecasting
   machine, p. 488; `aptitudetesting00hull`, page n507, cropped.
 - **Hartley** — title page of the first edition (London: S. Richardson, 1749), from an
@@ -260,6 +268,6 @@ credit name the source, digitisation and leaf.
 
 ---
 
-Scans and transcriptions are linked as documentation of the editions to be used; the
-paragraph grids, emendations and any working translations will be this site's own (see
+Scans and transcriptions are linked as documentation of the editions used; the
+paragraph grids, emendations and working translations are this site's own (see
 [LICENSES.md](LICENSES.md)). No full scans are redistributed here.

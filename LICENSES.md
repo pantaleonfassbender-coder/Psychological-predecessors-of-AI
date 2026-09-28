@@ -2,7 +2,7 @@
 
 | What | Files | Licence |
 |---|---|---|
-| **Source code** | `index.html`, `app.js`, `style.css`, `robots.txt`, `netlify.toml`, future `tools/*.py` | [MIT](LICENSE) |
+| **Source code** | `index.html`, `app.js`, `style.css`, `robots.txt`, `netlify.toml`, `tools/*.py` | [MIT](LICENSE) |
 | **Editorial matter** | the claims and plans in `data/works.json`, the overview, method and coda texts in `app.js`, `README.md`, `SOURCES.md` | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 | **Thorndike, Animal Intelligence (selections)** | `data/thorndike.json` | English: public domain (1911 publication); selection, emendation and paragraph numbering: CC0 1.0 |
 | **Huxley, Animal Automatism (1874), complete** | `data/huxley.json` | English: public domain (1874 address, 1893 collected printing); emendation and paragraph numbering: CC0 1.0 |
@@ -21,11 +21,11 @@
 | **McDougall, Body and Mind (1911; 1918 printing), selections** | `data/mcdougall.json` | English: public domain (1918 printing); selection, emendation and numbering: CC0 1.0 |
 | **James, Anthology (Are We Automata?, 1879; Principles, 1890)** | `data/james.json` | English: public domain (1879 journal printing; 1890/91 printing); selection, restoration, emendation and numbering: CC0 1.0 |
 | **Hull, Aptitude Testing (1928), selections** | `data/hull_aptitude.json` | English: public domain in the United States (1928 publication); restoration, selection, emendation and numbering: CC0 1.0 |
+| **Hull & Baernstein (1929); Hull (1930), complete** | `data/hull_machines.json` | English: public domain in the United States (1929 and 1930 journal printings); restoration, emendation and numbering: CC0 1.0 |
 | **Plates** | `assets/plates/*.jpg`, `data/plates.json` | images: public domain (faithful reproductions of public-domain 2-D works; sources leaf by leaf in [SOURCES.md](SOURCES.md)); captions and credits: CC0 1.0 |
-| **Editions and derived data** | every future `data/<work>.json`: segmentation, editorial paragraph numbering, OCR emendations, and any working translations | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) — public-domain dedication |
+| **Editions and derived data** | every `data/<work>.json`: segmentation, editorial paragraph numbering, OCR emendations, and any working translations | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) — public-domain dedication |
 
 The texts themselves are, and will remain, United States public domain (published through
 1930); faithful transcription of a public-domain text adds nothing licensable. Working
 translations made for this site carry no ecclesiastical, scholarly or any other authority —
-cite the original. Per-module licence rows are added here as modules ship, following the
-practice of the sibling repositories.
+cite the original. Per-module licence rows follow the practice of the sibling repositories.

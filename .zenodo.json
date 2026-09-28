@@ -5,6 +5,7 @@
     {"name": "Fassbender, Pantaleon"}
   ],
   "description": "<p>A digital research apparatus for the psychological prehistory of artificial intelligence: the public-domain sources, 1749&ndash;1930, in which the mind became mechanism, measure, and law of learning. Four lines &mdash; the measured mind (Fechner, Ebbinghaus, Galton, Spearman, Binet), the learning animal (Hartley, Bain, Morgan, Loeb, Thorndike, Watson, Pavlov, K&ouml;hler), the automaton debate (Huxley, James, McDougall) and the machine in the laboratory (Hull) &mdash; in paragraph-exact citable editions, with a cross-corpus concordance, a concept atlas, a chronological timeline, plates from the cited digitisations, and an introductory essay. The corpus ends, deliberately, in 1930 &mdash; where the machines begin to learn. Sister apparatus to Calculemus: Philosophical Predecessors of AI (doi:10.5281/zenodo.22677079).</p><p>Licensing: source code MIT; editorial matter CC BY 4.0; editions, emendations, working translations and derived data CC0 1.0 &mdash; see LICENSES.md. Live site: https://psychological-predecessors-of-ai.netlify.app</p>",
+  "version": "1.1.0",
   "license": "MIT",
   "keywords": [
     "history of psychology",

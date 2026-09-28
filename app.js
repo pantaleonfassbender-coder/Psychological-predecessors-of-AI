@@ -55,6 +55,7 @@ const CITE = {
   koehler: (sec, u) => `MA [${u.k}]`,
   hartley: (sec, u) => `OM [${u.k}]`,
   hull_aptitude: (sec, u) => `AT [${u.k}]`,
+  hull_machines: (sec, u) => sec.id === 'science' ? `MPC [${u.k}]` : `KP [${u.k}]`,
   james: (sec, u) => sec.id === 'automata' ? `AWA [${u.k}]` : `PP [${u.k}]`,
 };
 const citeOf = (workId, sec, u) => (CITE[workId] || ((s, x) => `[${x.n}]`))(sec, u);
@@ -592,8 +593,10 @@ const TL_CROSS = [
     titel: "James's reply opens by naming Huxley's Belfast address (AWA [1]) — “Are We Automata?” (1879) answers the automaton hypothesis of 1874" },
   { from: "thorndike", to: "koehler", anchor: "#/works/koehler/thorndike@2",
     titel: "Köhler turns on Thorndike's puzzle boxes — mechanisms the animals could not survey (MA [8]) — insight against trial and error inside the learning line" },
-  { from: "pavlov", to: "hull_machines",
-    titel: "Hull & Baernstein build “a mechanical parallel to the conditioned reflex” (1929) — the closing arc" },
+  { from: "pavlov", to: "hull_machines", anchor: "#/works/hull_machines/science@2",
+    titel: "Hull & Baernstein build “a mechanical parallel to the conditioned reflex”, citing Pavlov's Conditioned Reflexes as their source (MPC [2], note) — the closing arc" },
+  { from: "thorndike", to: "hull_machines", anchor: "#/works/hull_machines/wissen@17",
+    titel: "Hull reads Thorndike's vanishing lick and scratch as a pure stimulus act (KP [26]) — the passage Köhler had turned against Thorndike" },
 ];
 
 function viewTimeline() {
@@ -697,9 +700,14 @@ function viewTimeline() {
           even seemed due to reasoning” (MA [4]) and then turns on the method itself — cages whose
           mechanisms the animals could never survey, so that insight could not have shown had it been
           there (MA [8]). The learning line argues with itself.</li>
-        <li><a href="#/works">Pavlov → Hull &amp; Baernstein</a> — the closing arc: a “mechanical
-          parallel to the conditioned reflex” (Science, 1929) — psychologists building the machine
-          that learns.</li>
+        <li style="margin-bottom:.5rem"><a href="#/works/hull_machines/science@2">Pavlov → Hull &amp; Baernstein</a>
+          — the closing arc: the Science note of 1929 names Anrep's translation of Pavlov's
+          <em>Conditioned Reflexes</em> as its source (MPC [2], note) and reports a machine that
+          duplicates twelve of the phenomena Pavlov's lectures describe (MPC [6]).</li>
+        <li><a href="#/works/hull_machines/wissen@17">Thorndike → Hull</a> — the carried passage:
+          Hull quotes Thorndike's cats, whose lick and scratch dwindle to “a mere vestige”, and reads
+          them as pure stimulus acts (KP [26]) — the same page of <em>Animal Intelligence</em>
+          (1911, p. 48) that Köhler had quoted against Thorndike (MA [10]).</li>
       </ul>
       <p class="fine" style="margin:.8rem 0 0">Dates are editorial anchors — the year of the work,
       not of the author. Translated modules sit at their originals (Ebbinghaus 1885, carried in the
@@ -840,9 +848,14 @@ function viewEssay() {
       bell ${C('hull_aptitude','maschine',5,'AT [27]')}, designed by the same author who had
       measured how little such forecasts can know ${C('hull_aptitude','grenze',11,'AT [22]')} —
       and then, in 1929 and 1930, Hull and Baernstein building
-      an electro-chemical "mechanical parallel to the conditioned reflex" — psychologists
-      constructing a device that learns, and arguing that knowledge and purpose are habit
-      mechanisms a machine could have. There the corpus stops, deliberately. The boundary is a
+      an electro-chemical "mechanical parallel to the conditioned reflex" out of polarizable
+      cells, switches and a flashlight bulb ${C('hull_machines','science',5,'MPC [5]')}, on the
+      stated premise that "learning and thought are here conceived as by no means necessarily a
+      function of living protoplasm any more than is aerial locomotion"
+      ${C('hull_machines','science',3,'MPC [3]')}; and Hull arguing that knowledge and purpose
+      are habit mechanisms, and that "a 'psychic' machine" could attain "a degree of freedom,
+      spontaneity, and power to dominate its environment" beyond the imagination of the
+      designers of rigid machines ${C('hull_machines','wissen',14,'KP [23]')}. There the corpus stops, deliberately. The boundary is a
       rights fact — works published through 1930 are in the United States public domain, while
       Craik, McCulloch &amp; Pitts, Wiener and Turing remain in copyright and are named in the
       <a href="#/coda">coda</a> — but the rights fact coincides with the intellectual

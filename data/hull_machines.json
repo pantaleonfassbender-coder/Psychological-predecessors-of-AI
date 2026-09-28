@@ -1,0 +1,285 @@
+{
+ "id": "hull_machines",
+ "autor": "Clark L. Hull · H. D. Baernstein",
+ "titel": "A Mechanical Parallel to the Conditioned Reflex (1929) · Knowledge and Purpose as Habit Mechanisms (1930) — complete",
+ "jahr": 1929,
+ "zitierweise": "MPC [k] · KP [k]",
+ "quelle": "Both papers complete, from the journals' printings: Hull and Baernstein, 'A Mechanical Parallel to the Conditioned Reflex', Science 70, no. 1801 (5 July 1929), pp. 14–15, Internet Archive sim_science_1929-07-05_70_1801; Hull, 'Knowledge and Purpose as Habit Mechanisms', Psychological Review 37, no. 6 (November 1930), pp. 511–525, Internet Archive sim_psychological-review_1930-11_37_6. Both are in the United States public domain (the 1930 paper since 1 January 2026). OCR emended against the sense; the 1930 paper's subscripts and footnotes were read from the page images and are set by hand, and its nine diagrams, not reproduced, are described where they stand. Cited as 'MPC [k]' (Science) and 'KP [k]' (Psychological Review), k unique across the module. The 1931 sequel, Baernstein and Hull's 'A Mechanical Model of the Conditioned Reflex' (Journal of General Psychology), joins on 1 January 2027.",
+ "hinweis": "The corpus ends where the machines begin to learn. In 1929 Hull and Baernstein report a device of polarizable cells and mercury-toluene regulators, switches for receptors and a flashlight bulb for a salivary gland, that duplicates twelve phenomena of Pavlov's conditioned reflex — and draw the conclusion outright: 'Learning and thought are here conceived as by no means necessarily a function of living protoplasm any more than is aerial locomotion.' A year later Hull derives knowledge, foresight, symbolic thought and purpose from habit alone, and predicts that 'a \"psychic\" machine' could attain 'a degree of freedom, spontaneity, and power to dominate its environment' inconceivable to the designers of rigid machines. From here the line runs, beyond the threshold of this collection, to Hull's Principles of Behavior (1943) and the learning machines that followed.",
+ "sections": [
+  {
+   "id": "science",
+   "titel": "Hull & Baernstein, A Mechanical Parallel to the Conditioned Reflex — Science, 5 July 1929 (complete)",
+   "units": [
+    {
+     "n": 1,
+     "k": 1,
+     "txt": "It is common knowledge that when a person eats, his \"mouth waters.\" It is well known that this mouth watering is apt to occur also when one merely catches sight of delicious food. The first reaction is an unconditioned (native, unlearned) reflex; the second is a conditioned (acquired) reflex. In the first reaction the food substance stimulates the sense organs in the mouth which, in turn, evokes a salivary reflex established before birth; in the second reaction the sight of food has been substituted for the contact of the food with the mouth. Nevertheless, in both cases substantially the same reaction follows.",
+     "label": "The mouth that waters"
+    },
+    {
+     "n": 2,
+     "k": 2,
+     "txt": "It is believed by increasing numbers of students of human and other mammalian behavior that the conditioned reflex, with its power of substituting one stimulus for another, is the basic mechanism not only of ordinary habits but of the entire mental life. For some years this view has been vigorously advanced in this country by the behavioristic psychologists. In Russia, where the movement originated, its activity has been characteristically experimental in nature. Thanks largely to the labor of the Russian reflexologists during the last quarter century there now exists a very substantial body of knowledge tending strongly to support this view. As a result, psychologists more and more are looking to the conditioned reflex as an explanatory principle by means of which to understand the more complex forms of behavior and as a practical means of more effectively molding human nature in the education process. Physiologists, facing in the opposite direction, are stimulated to explore the still more basic physical and chemical processes upon which the conditioned reflex itself depends.",
+     "note": "Footnote: \"The most significant summary of the Russian experimental results now available to English readers is the recent translation of I. P. Pavlov's great work, \"Conditioned Reflexes.\" Oxford University Press, 1927.\""
+    },
+    {
+     "n": 3,
+     "k": 3,
+     "txt": "The belief of the reflexologists and the behaviorists that the mental life is essentially a function of various complex organizations of conditioned reflexes offers a challenge to the attempt at a synthetic verification. Logically, if it were possible to construct non-living devices—perhaps even of inorganic materials—which would perform the essential functions of the conditioned reflex, we should be able to organize these units into systems which would show true trial-and-error learning with intelligent selection and the elimination of errors, as well as other behavior ordinarily classed as psychic. Thus emerges in a perfectly natural manner a direct implication of the mechanistic tendency of modern psychology. Learning and thought are here conceived as by no means necessarily a function of living protoplasm any more than is aerial locomotion.",
+     "label": "Synthetic verification"
+    },
+    {
+     "n": 4,
+     "k": 4,
+     "txt": "In casting about for principles upon which to base the construction of a mechanism which would parallel the essential behavior of the conditioned reflex, the principle of endosmosis was at first considered. This was rejected both because its effects were too slow in taking place and because they were too slight in amount. An early model was constructed on the principle of potential changes. This gave some promise but was found to yield only two or three of the characteristic types of reaction required."
+    },
+    {
+     "n": 5,
+     "k": 5,
+     "txt": "The mechanism which has given the best results is a combination of polarizable cells and mercury-toluene regulators, which are sensitive to temperature changes. Ordinary electric switches serve as \"receptors\"; a flashlight bulb is the responding \"organ,\" analogous to the salivary gland of the experimental animal. By a manipulation of the switches in a manner strictly analogous to the presentation of stimuli in Pavlov's conditioned reflex experiments, phenomena, paralleling fairly accurately a considerable number of the properties of the conditioned reflex, are obtained. Thus far the following conditioned-reflex phenomena have been duplicated:",
+     "label": "The machine"
+    },
+    {
+     "n": 6,
+     "k": 6,
+     "txt": "(1) The simple substitution of a stimulus. (2) Complex redintegration. (3) Irradiation of excitation. (4) Weakening through lapse of time (forgetting). (5) External inhibition. (6) Experimental extinction. (7) Reinforcement. (8) Spontaneous recovery after experimental extinction. (9) Differentiation. (10) Differential extinction. (11) Conditioned inhibition. (12) The acquisition of conditioned reflexes only when the conditioned stimulus precedes the unconditioned stimulus.",
+     "label": "Twelve phenomena duplicated"
+    },
+    {
+     "n": 7,
+     "k": 7,
+     "txt": "It is hoped that further research will result in a model which will also show the phenomena of delayed reflexes, trace reflexes, responsiveness to temporal stimulus patterns and the various other complex behavior patterns characteristic of the conditioned reflexes as observed in mammals. A complete technical description of the apparatus is being prepared for publication."
+    },
+    {
+     "n": 8,
+     "k": 8,
+     "txt": "The germinal idea of the present project originated with the first author; the design and construction of the mechanism is due entirely to the second."
+    },
+    {
+     "n": 9,
+     "k": 9,
+     "txt": "Clark L. Hull · H. D. Baernstein · University of Wisconsin"
+    }
+   ]
+  },
+  {
+   "id": "wissen",
+   "titel": "Hull, Knowledge and Purpose as Habit Mechanisms — Psychological Review, November 1930 (complete)",
+   "units": [
+    {
+     "n": 1,
+     "k": 10,
+     "txt": "It is only with the greatest difficulty that scientists are able to maintain a thoroughly naturalistic attitude toward the more complex forms of human behavior. Our intellectual atmosphere is still permeated in a thousand subtle ways with the belief in disembodied behavior functions or spirits. The situation is aggravated by the fact that the details of the more complex action patterns are so concealed as to be almost impossible of observation. Even so, the outlook is hopeful. The work of many ingenious investigators is bringing to light important details of the hidden processes, and enough evidence has already accumulated to enable us in a number of cases to discern with tolerable clearness the broad naturalistic outlines of their operation.",
+     "label": "A naturalistic attitude"
+    },
+    {
+     "n": 2,
+     "k": 11,
+     "txt": "One of the oldest problems with which thoughtful persons have occupied themselves concerns the nature and origin of knowledge. How can one physical object become acquainted with the ways of another physical object and of the world in general? In approaching this problem from the point of view of habit, it is important to recognize that knowledge is mediated by several fairly distinct habit mechanisms. In the present study but one of these will be elaborated.",
+     "label": "I. How can one physical object know another?"
+    },
+    {
+     "n": 3,
+     "k": 12,
+     "txt": "Let us assume a relatively isolated inorganic world sequence taking place as shown in Fig. 1. Here S₁, S₂, etc., represent typical phases of a sequential flux, the time intervals between successive S's being uniform and no more than a few seconds each. Let us suppose, further, that in the neighborhood of this world sequence is a sensitive redintegrative organism. The latter is provided with distance receptors and is so conditioned at the outset as to respond characteristically to the several phases of the world sequence. Each S accordingly becomes a stimulus complex impinging simultaneously on numerous end organs. As a result, each phase of the world sequence now becomes a cause, not only of the succeeding phase in its own proper series, but also of a functionally parallel event (reaction) within the neighboring organism. The organismic responses of the series thus formed have no direct causal relationship among themselves. R₁ in itself has no power of causing (evoking) R₂. The causal relationship essential in the placing of R₂ after R₁ is that of the physical world obtaining in the S-sequence; R₂ follows R₁ because S₂ follows S₁. The situation is represented diagrammatically in Fig. 2.",
+     "note": "Footnote: \"This neglects the original dynamic influence of the ever-present internal component of the organismic stimulus complex into which each phase of the world sequence enters to evoke the corresponding organismic reaction. The excitatory potency of this internal component is here supposed to be minimal. Its influence is neglected in the interest of simplicity of exposition. Its undeniable presence clearly introduces an element of subjectivity into reactions which appear superficially to be evoked purely by the external world.\" — Diagram not reproduced — Fig. 1 (p. 511): the world sequence S₁ → S₂ → S₃ → S₄ → S₅. — Diagram not reproduced — Fig. 2 (p. 512): each Sₙ of the world sequence evokes a reaction Rₙ in the organism."
+    },
+    {
+     "n": 4,
+     "k": 13,
+     "txt": "Now a high-grade organism possesses internal receptors which are stimulated by its own movements. Accordingly each response (R) produces at once a characteristic stimulus complex and stimuli thus originated make up to a large extent the internal component of the organism's stimuli complexes. Let these internal stimulus components be represented by s's. If we assume, in the interest of simplicity of exposition, that the time intervals between the phases of the world flux selected for representation are exactly equal to those consumed by the S → R → s sequences, the situation will be as shown in Fig. 3, S₂ coinciding in time with s₁, S₃ with s₂ and so on.",
+     "note": "Diagram not reproduced — Fig. 3 (p. 513): each Rₙ now also produces an internal stimulus sₙ."
+    },
+    {
+     "n": 5,
+     "k": 14,
+     "txt": "Now, by the principle of redintegration, all the components of a stimulus complex impinging upon the sensorium at or near the time that a response is evoked, tend themselves independently to acquire the capacity to evoke substantially the same response. We will let a dotted rectangle indicate that what is enclosed within it constitutes a redintegrative stimulus complex; and a dotted arrow, a newly acquired excitatory tendency. After one or more repetitions of the world sequence, the situation will be as shown in Fig. 4.",
+     "note": "Diagram not reproduced — Fig. 4 (p. 513): dotted rectangles enclose each redintegrative stimulus complex (Sₙ₊₁ with sₙ); dotted arrows mark the newly acquired excitatory tendencies from sₙ to Rₙ₊₁."
+    },
+    {
+     "n": 6,
+     "k": 15,
+     "txt": "As a result of the joint operation of the several factors summarized in Fig. 4, the organismic reactions (R's) which at the outset were joined only by virtue of the energies operating in the outer world sequence of S's, are now possessed of a genuine dynamic relationship lying within the organism itself. To make this clear, let it be assumed that the world sequence begins in the presence of the organism, but is at once interrupted. The resulting situation is shown diagrammatically in Fig. 5. The newly acquired excitatory tendencies, unless interrupted by some more potent influence, should continue the organismic sequence of responses very much as when they were first called forth as the result of the stimulation by the world sequence.",
+     "note": "Diagram not reproduced — Fig. 5 (p. 513): the world sequence interrupted after S₁; the organism runs on R₁ → s₁ → R₂ → s₂ → … by itself."
+    },
+    {
+     "n": 7,
+     "k": 16,
+     "txt": "In summary it may be said that through the operation of a variety of principles and circumstances, the world in a very important sense has stamped the pattern of its action upon a physical object. The imprint has been made in such a way that a functional parallel of this action segment of the physical world has become a part of the organism. Henceforth the organism will carry about continuously a kind of replica of this world segment. In this very intimate and biologically significant sense the organism may be said to know the world. No spiritual or supernatural forces need be assumed to understand the acquisition of this knowledge. The process is entirely a naturalistic one throughout.",
+     "label": "The world stamped upon the organism"
+    },
+    {
+     "n": 8,
+     "k": 17,
+     "txt": "Once the organism has acquired within its body this subjective parallel to the ways of the physical world, certain other activity patterns or habit mechanisms at once become operative. One of the more important of these is the power of foresight or fore-knowledge. A great deal of mystery has surrounded this problem. Foresight may be defined for our present purpose as the reaction to an event which may be impending, but which has not as yet taken place. The difficulty seems largely to have been concerned with the problem of how an organism can react to an event not yet in existence. The reasoning runs: An event not yet in existence cannot be a stimulus; and how can an organism react to a stimulus which does not exist? In terms of our diagram, how can R₅, which is a reaction to the stimulating event S₅, take place before S₅ itself has occurred?",
+     "label": "II. Foresight"
+    },
+    {
+     "n": 9,
+     "k": 18,
+     "txt": "An important circumstance connected with foresight is the fact that the tempo of the acquired subjective parallel to the outer world sequence is not limited to that of the latter. Indeed, there is evidence indicating a tendency for a primary conditioned reaction to run off at a higher speed than that of the master world sequence which it parallels. Thus it comes about that, even when both series begin at the same instant, the end-reaction of the subjective series may actually antedate the stimulus in the world sequence which exclusively evoked it previous to the conditioning shown in Fig. 4. It is evident that this possibility of the heightened tempo on the part of the organismic act sequence is intimately connected with the possession by the organism of knowledge of events before they actually take place.",
+     "note": "Footnote: \"C. L. Hull, A functional interpretation of the conditioned reflex, Psychol. Rev., 1929, 36, p. 507 ff. A quite distinct mechanism serving much the same function as that here emphasized has its basis in the peculiar advantage afforded by distance receptors. The stimulus of a distant object through a distance receptor is often sufficiently like that when the object is near and nocuous to evoke a successful defense reaction before the source of danger can get near enough to produce injury. This has been discussed in detail by Howard C. Warren, J. Phil., Psychol. & Scient. Meth., 1916, 13, p. 35 ff.\""
+    },
+    {
+     "n": 10,
+     "k": 19,
+     "txt": "The biological advantage of antecedent knowledge of impending events is great. This is particularly clear in the case of defense reactions. These latter fall into two main types— flight and attack. Let us suppose that in the example elaborated above, S₅ is a seriously nocuous stimulus and R₅ is a successful flight reaction. Foresight will result from the reeling off of the R-series faster than the S-series so that s₄ will evoke R₅ before S₅ has occurred. In this event S₅, when it does occur, will not impinge on the organism for the reason that the latter will have withdrawn from the zone of danger as the result of the act R₅. In case R₅ is an act of attack rather than flight it must, to be successful, bring the organismic series into contact with the world sequence in such a manner as to interrupt the latter before S₅ is reached. In this case also, the organism clearly escapes the injury. Thus the supposed impossibility of an organismic reaction to a situation before it exists as a stimulus is accomplished quite naturally through the medium of an internal substitute stimulus."
+    },
+    {
+     "n": 11,
+     "k": 20,
+     "txt": "A reflective consideration of the habit mechanisms involved in anticipatory defense reactions reveals a phenomenon of the greatest significance. This is the existence of acts whose sole function is to serve as stimuli for other acts. We shall accordingly call them pure stimulus acts. Under normal conditions practically all acts become stimuli, but ordinarily the stimulus function is an incidental one. The consideration of the approach of an organism to food may clarify the concept. Each step taken in approaching the food serves in part as the stimulus for the next step, but its main function is to bring the body nearer the food. Such acts are, therefore, primarily instrumental. By way of contrast may be considered the anticipatory defense sequence presented above. R₅, the actual defense reaction, obviously has instrumental value in high degree. R₄, on the other hand, has no instrumental value. This does not mean that it has no significance. Without R₄ there would be no s₄, and without s₄ there would be no R₅ i.e. no defense. In short, R₄ is a pure stimulus act. In the same way R₃ and R₂ serve no instrumental function but, nevertheless, are indispensible as stimulus acts in bringing about the successful defense response.",
+     "label": "III. Pure stimulus acts"
+    },
+    {
+     "n": 12,
+     "k": 21,
+     "txt": "A simple experiment which can be performed by anyone in a few moments may still further clarify the concept of the pure stimulus act. Ask almost any psychologically naive person how he buttons his coat with one hand—which finger, if any, he puts through the buttonhole, what the last act of the sequence is—and so on. The average person can tell little about it at first. If wearing a coat, he will usually perform the act forthwith. If warned against this, the hand may quite generally be observed to steal close to the position at which the buttoning is usually performed and to go through the buttoning behavior sequence by itself. After this the nature of the final buttoning act may be stated with some assurance. Clearly, the earlier acts of this pseudo-buttoning sequence are pure stimulus acts since they serve no function whatever, except as stimuli to evoke succeeding movements and ultimately, the critical final movement which is sought.",
+     "label": "The buttoning experiment"
+    },
+    {
+     "n": 13,
+     "k": 22,
+     "txt": "It is evident upon a little reflection that the advent of the pure stimulus act into biological economy marks a great advance. It makes available at once a new and enlarged range of behavior possibilities. The organism is no longer a passive reactor to stimuli from without, but becomes relatively free and dynamic. There is a transcendence of the limitations of habit as ordinarily understood, in that the organism can react to the not-here as well as the not-now. In the terminology of the Gestalt psychologists, the appearance of the pure stimulus act among habit phenomena marks a great increase in the organism's 'degrees of freedom.' The pure stimulus act thus emerges as an organic, physiological—strictly internal and individual—symbolism. Quite commonplace instrumental acts, by a natural reduction process, appear transformed into a kind of thought—rudimentary it is true, but of the most profound biological significance.",
+     "note": "Footnote: \"This peculiarly individual form of symbolism is not to be confused with the purely stimulus acts of social communication. Neither is it to be confused with what appears to be a derivative of the latter by a reduction process, the subvocal speech emphasized by Watson. The special stimulus-response mechanisms by which the evolution of these latter forms of symbolism take place, together with their peculiar potentialities for mediating biological adjustment and survival, are so complex as to preclude consideration here.\""
+    },
+    {
+     "n": 14,
+     "k": 23,
+     "txt": "Thus the transformation of mere action into thought, which has seemed to some as conceivable only through a kind of miracle, appears to be a wholly naturalistic process and one of no great subtlety. Indeed, its obviousness is such as to challenge the attempt at synthetic verification from inorganic materials. It is altogether probable that a 'psychic' machine, with ample provision in its design for the evolution of pure stimulus acts, could attain a degree of freedom, spontaneity, and power to dominate its environment, inconceivable alike to individuals unfamiliar with the possibilities of automatic mechanisms and to the professional designers of the ordinary rigid-type machines.",
+     "label": "A 'psychic' machine"
+    },
+    {
+     "n": 15,
+     "k": 24,
+     "txt": "Pure stimulus-act sequences present certain unique opportunities for biological economy not possessed by ordinary instrumental-act sequences. In the first place, there is the ever present need of reducing the energy expenditure to a minimum while accomplishing the ordinary biological functions in a normal manner. It is clear that pure stimulus-act sequences, since they no longer have any instrumental function, may be reduced in magnitude to almost any degree consistent with the delivery of a stimulus adequate to evoke the final instrumental or goal act. Observation seems to indicate that this economy is operative on a very wide scale. It may even be observed in the buttoning experiment previously cited. The hand while going through the buttoning sequence by itself will ordinarily make movements of much smaller amplitude than when performing the instrumental act sequence with a real button.",
+     "note": "Footnote: \"Movements greatly reduced in magnitude tend to become vestigial. This suggests a possible explanation of the extreme subjectivity of imagery. Just how far the weakening of pure stimulus acts may go and still serve their stimulus function is a question which may yield to experimental approach. That they should diminish to an actual zero, with nothing but a neural vestige remaining to perform the stimulus function, is conceivable though hardly probable. It is believed that the present hypothesis is general enough to fit either alternative.\"",
+     "label": "IV. Economy of energy and time"
+    },
+    {
+     "n": 16,
+     "k": 25,
+     "txt": "A significant observation made by Thorndike in the early days of animal experimentation illustrates the same tendency, though in a very different setting. He placed cats in a confining box from which they sought to escape. Some he would release only when they licked themselves, others only when they scratched themselves. After an unusually long training period the cats finally learned to perform the required acts and thus to escape fairly promptly. In this connection, Thorndike remarks:"
+    },
+    {
+     "n": 17,
+     "k": 26,
+     "txt": "\"There is in all these cases a noticeable tendency, of the cause of which I am ignorant, to diminish the act until it becomes a mere vestige of a lick or a scratch. After the cat gets so it performs the act soon after it is put in, it begins to do it less and less vigorously. The licking degenerates into a mere quick turn of the head with one or two motions up and down with tongue extended. Instead of a hearty scratch the cat waves its paw up and down rapidly for an instant.\"",
+     "note": "Footnote: \"E. L. Thorndike, Animal intelligence, MacMillan, 1911, p. 48.\"",
+     "label": "Thorndike's cats, again"
+    },
+    {
+     "n": 18,
+     "k": 27,
+     "txt": "The ordinary scratch of a cat is an instrumental act. It must have a certain duration and intensity to serve its function. In the present instance the scratch served only as a visual stimulus to Dr. Thorndike. As such, a small movement was presumably quite as effective as a large one."
+    },
+    {
+     "n": 19,
+     "k": 28,
+     "txt": "In the second place there is, particularly in the case of primitive defense acts, the need to economize time so as to increase the promptness of the defense reaction. This desideratum appears to be accomplished by the same means as the first—the reduction in the magnitude of the acts. A movement of small amplitude should be more quickly performed than one of large amplitude."
+    },
+    {
+     "n": 20,
+     "k": 29,
+     "txt": "But the maximum of economy, both as to energy and as to time, demands not only that the units of the stimulus-act sequence shall be small in amplitude, but that they shall also be as few as possible. If a single stimulus-act is sufficient to furnish the necessary stimulus for the defense reaction, the existence of all the other stimulus acts in the series is a sheer waste, both of time and energy. This means that biological efficiency demand on two separate counts the dropping out of large sections of purely stimulus-act sequences."
+    },
+    {
+     "n": 21,
+     "k": 30,
+     "txt": "The importance of the serial-segment elimination tendency in pure stimulus-act and other complex learning sequences raises very insistently the question as to what stimulus-response mechanisms may bring it about. Observation suggests that one condition favorable for 'short circuiting' is that the process shall be strongly 'purposive.' In the present study the purpose mechanism shall be understood as a persisting core of sameness in the stimulus complexes throughout the successive phases of the reaction sequence. We will symbolize this persisting stimulus by Sₚ. This may be thought of concretely as a continuous strong red light, or a continuous gripping of a dynamometer, or the continuous knitting of the brows, or (more typically) the continuously recurring crampings of the digestive tract as in hunger.",
+     "label": "V. Purpose as a persisting stimulus"
+    },
+    {
+     "n": 22,
+     "k": 31,
+     "txt": "When the principle of the persisting stimulus is joined to the set of principles represented as operating in Fig. 5, a number of novel consequences at once appear. The situation is represented in Fig. 6. An examination of this diagram shows that Sₚ has a unique advantage over all the other components in the several stimulus complexes. Thus, S₁, S₂, etc. and s₁, s₂, etc. can get conditioned, except for remote associative tendencies, only to the response in each case which immediately follows, i.e. to but a single response each. But Sₚ, since it is present in all the stimulus complexes of the series, gets conditioned to all the reactions taking place in it.",
+     "note": "Footnote: \"These are here neglected in order to simplify the exposition. Ultimately they must, of course, be taken fully into account.\" — Diagram not reproduced — Fig. 6 (p. 520): the persisting stimulus Sₚ present in every stimulus complex of the series."
+    },
+    {
+     "n": 23,
+     "k": 32,
+     "txt": "This multiplicity of excitatory tendencies resulting from the situation shown in Fig. 6, is represented diagrammatically in Fig. 7.",
+     "note": "Diagram not reproduced — Fig. 7 (p. 520): Sₚ with excitatory tendencies to R₁, R₂, R₃, R₄, R₅."
+    },
+    {
+     "n": 24,
+     "k": 33,
+     "txt": "It is evident that in a situation such as is presented in Fig. 7, a competition of the several excitatory tendencies will follow. Since this competition must be between the several parts of the series, it will be called intraserial competition. We may safely assume that the several excitatory tendencies radiating from Sₚ will have varying strengths. There also enter into this competition, of course, the stimulus elements which may be present in the stimulus complex from other sources at any particular moment. We will simplify the stimulus situation somewhat by assuming that the world sequence is interrupted at once after its first phase, S₁. What, then, will be the state of this intraserial competition at the second stimulus complex of the diagram?",
+     "label": "VI. Intraserial competition"
+    },
+    {
+     "n": 25,
+     "k": 34,
+     "txt": "If we assume that s₁ has an excitatory tendency toward R₂ of 2 units, that Sₚ also has an excitatory tendency toward R₂ of 2 units, toward R₃ of 3 units, towards R₄ of 4 units and towards R₅ of 5 units, the competition among the several segments of the series will be that shown in Fig. 8. From this diagram it may be seen that the immediately following reaction (R₂) in the original action sequence has the advantage of a double excitatory tendency, whereas the more distant reactions such as R₃, R₄, and R₅, have but a single excitatory tendency each, that arising only from Sₚ. But if at any time one of the single (Sₚ) excitatory tendencies should chance to be stronger than the combination of the two tendencies leading to the immediately following act of the original sequence, the elimination of a segment of the pure stimulus-act sequence will take place.",
+     "note": "Diagram not reproduced — Fig. 8 (p. 521): from the second stimulus complex, s₁ → R₂ with 2 units; Sₚ → R₂, R₃, R₄, R₅ with 2, 3, 4, 5 units."
+    },
+    {
+     "n": 26,
+     "k": 35,
+     "txt": "In order to understand how the purposive mechanism, through intraserial competition, may bring about serial segment elimination, let us observe the sequel to the following hypothetical situation. It may very well prove to be the case that Sₚ gets conditioned more strongly as the final or critical response in a behavior cycle is approached. Accordingly a rough approximation to such a system of excitatory tendencies has been assigned to the bonds presented in Fig. 8. We may summarize the several competing excitatory tendencies radiating from the second stimulus complex as follows: R₂ = 4, R₃ = 3, R₄ = 4, R₅ = 5.",
+     "note": "Footnote: \"It would not appear to be an over difficult task to test this hypothesis experimentally. If it should prove true it would have extensive theoretical implications and would clear up a number of questions in the theory of learning. However, almost any other hypothesis which provides considerable variation in the strength of the excitatory tendencies radiating from Sₚ will produce substantially similar results. It may be added that an irregular distribution of intensities of excitatory tendencies from Sₚ offers special opportunities for backward serial segment elimination as contrasted with the more usual forward variety here emphasized.\" — The four values are set as a column at the head of p. 522."
+    },
+    {
+     "n": 27,
+     "k": 36,
+     "txt": "This shows that the reaction following the second stimulus complex must be, not R₂ as in the original act sequence, but R₅. But if R₅ follows immediately after R₁, the behavior segment shown in Fig. 9 drops completely out of the series. This is inevitable because no stimulus now remains in the series adequate to evoke it.",
+     "note": "Diagram not reproduced — Fig. 9 (p. 522): the segment R₂ → s₂ → R₃ → s₃ → R₄ → s₄ that drops out."
+    },
+    {
+     "n": 28,
+     "k": 37,
+     "txt": "One of the most baffling theoretical problems related to experimental psychology has been that of explaining how errors or unnecessary acts in behavior sequences get eliminated. Nevertheless, few psychological phenomena are more common. One is asked the product of 49 × 67. He writes the numbers down on paper, certain multiplication-table and addition-table habits of childhood are evoked in an orderly succession, and at length there is written down by successive stages the number, 3283. If, not too long afterwards, the individual is again asked the product of 49 × 67, he may respond by saying 3283 at once. In thus passing directly from the question to the answer, the behavior sequence of pure stimulus acts which constituted the detailed multiplication of 49 × 67 has completely dropped out of the sequence.",
+     "label": "49 × 67"
+    },
+    {
+     "n": 29,
+     "k": 38,
+     "txt": "The difficulty of accounting for this phenomenon has been due to a considerable extent to the fact that the serial segment elimination must take place in the face of the so-called law of use or frequency. According to this principle (alone) practice or repetition might be expected blindly to fix the undesirable behavior segment in its place more firmly than ever. Perhaps such inadequacies as these have contributed much to bringing the simple chain reaction theory into its deserved ill repute as a universal explanatory principle. As a matter of plain fact, the principle of redintegration from which may be derived the simple chaining of reactions, implies with equal cogency the evolution of a stimulus-response mechanism which appears to be capable on occasion of completely transcending the chaining tendency. According to this principle any stimulus such as an organic craving which persists as a relatively constant component throughout the otherwise largely changing stimulus complexes of a behavior sequence, must become conditioned to every act of the series. The implications of this for complex adaptive behavior are far reaching. It is our present concern only to point out that the persisting stimulus, through the sheaf of excitatory tendencies emanating from it to every act of the series, provides a unique dynamic relationship between each part of the series and every other part. This, as we have seen above, gives rise to a significant competition among the several potential action tendencies within the series. While final decision must be reserved until the facts are determined by experiment, the probability seems to be that this intraserial competition may easily become sufficiently potent to over-ride the simple chain-reaction tendency and produce a leap in the behavior sequence from the beginning of a series at once to the final or goal reaction, thus eliminating the intervening unnecessary action segment.",
+     "note": "Footnote: \"See E. L. Thorndike, The original nature of man, New York, 1913, 186-187.\""
+    },
+    {
+     "n": 30,
+     "k": 39,
+     "txt": "The results of the present inquiry may be briefly summarized.",
+     "label": "VII. Summary"
+    },
+    {
+     "n": 31,
+     "k": 40,
+     "txt": "Sequences in the outer world evoke parallel reaction sequences in sensitive organisms. By the principle of redintegration the organismic sequences acquire a tendency to run off by themselves, independently of the original world sequences. The organism has thus acquired an intimate functional copy of the world sequence, which is a kind of knowledge."
+    },
+    {
+     "n": 32,
+     "k": 41,
+     "txt": "In case the two sequences begin at the same time but the organismic or behavior sequence runs off at a faster rate, the knowledge becomes fore-knowledge or foresight. This has great significance in terms of biological survival."
+    },
+    {
+     "n": 33,
+     "k": 42,
+     "txt": "The possibility of more or less extended functional habit sequences being executed by the organism with an instrumental act only at the end, gives rise to the concept of the pure stimulus act. Such behavior sequences have great biological survival significance because they enable the organism to react both to the not-here and the not-now. Incidentally it accounts for a great deal of the spontaneity manifested by organisms."
+    },
+    {
+     "n": 34,
+     "k": 43,
+     "txt": "The concept of the pure stimulus act appears to be the organic basis of symbolism but is believed to be a more fundamental one than that of symbolism as ordinarily conceived."
+    },
+    {
+     "n": 35,
+     "k": 44,
+     "txt": "Pure stimulus-act sequences offer possibilities of biological economy, both of energy and of speed, through the reduction in the amplitude of the acts in the sequence. Further analysis reveals the fact that both energy and time would be economized with no incidental sacrifice if the acts between the beginning of an action cycle and its goal act should drop out of the sequence. Observation seems to show that the dropping out of such intervening pure stimulus acts occurs very extensively."
+    },
+    {
+     "n": 36,
+     "k": 45,
+     "txt": "The problem arises as to how this dropping out of undesirable behavior segments may come about, since it appears to be a violation of the 'law of use.' A plausible explanation is found in the peculiar potentialities of stimuli which persist relatively unchanged throughout a behavior sequence. A persisting stimulus component is regarded as one of the characteristic mechanisms of purposive behavior. We should expect such a stimulus to get conditioned to every act of the sequence, presumably most strongly to the goal act and those acts immediately preceding the goal act. The resulting multiplicity of excitatory tendencies emanating from the persisting stimulus is found to generate an important phenomenon—the competition among the several potential segments of the behavior series. This intraserial competition, if sufficiently strong, could easily over-ride the simple chaining of contiguous acts produced by the 'law of use' and enable the final act of the original series to be evoked at once after the first act of the series, thus producing what is rather inappropriately called 'short-circuiting.' Thus may a persistent problem in the theory of mammalian adaptive behavior be on its way to solution."
+    },
+    {
+     "n": 37,
+     "k": 46,
+     "txt": "The general plausibility of the foregoing theoretical deductions as well as the probable biological significance of several of the deduced mechanisms, suggests strongly the desirability of an intensive program of experimental research designed to test their actuality. In that way the true function of theoretical analysis may be realized."
+    }
+   ]
+  }
+ ]
+}

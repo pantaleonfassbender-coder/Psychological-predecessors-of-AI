@@ -9,55 +9,54 @@ AI](https://philosophical-predecessors-of-ai.netlify.app), built to the same dis
 everything United States public domain, every paragraph citable, working translations marked
 as unofficial, no tracking.
 
-**Status: seventeen modules shipped, the apparatus growing.** Thorndike's *Animal
-Intelligence* (the puzzle boxes and the laws of effect and exercise), Huxley's *Animal
-Automatism* (1874, complete), Spearman's *"General Intelligence"* (1904: the programme,
-the universal unity, the hierarchy, the summary of conclusions), Ebbinghaus's *Memory*
-(1913 translation: the nonsense syllables, the savings method, the forgetting curve),
-Galton's *Inquiries into Human Faculty* (1883: composite portraiture, the imagery
-questionnaire, the psychometric experiments — and the page where "eugenics" is coined,
-stated, not passed over), Binet & Simon's *Development of Intelligence in Children*
-(1905/1908 in Kite's English of 1916: the definition of intelligence as judgment, the
-thirty tests, the scale age by age, and the rule of the mental level — the ancestral
-form of the benchmark) Lloyd Morgan's *Introduction to Comparative Psychology*
-(1894: ch. III complete — the chronometer analogy, the doubly inductive method, and the
-canon itself, the founding rule against anthropomorphism) Loeb's *Comparative
-Physiology of the Brain* (1900: the tropism-machine — the moth and the flame demystified,
-and associative memory as the criterion of consciousness: mind begins where learning
-begins) Watson's *Psychology as the Behaviorist Views It* (1913, complete: the
-manifesto — prediction and control, no dividing line between man and brute, with the
-long larynx footnote disentangled from the microfilm and carried in full) and Pavlov's
-*Conditioned Reflexes* (Anrep's English of 1927: Lectures I–II complete — the reflex
-carried into the cortex, signalization, the salivary fistula and the sound-proof double
-chamber, and the conditions under which a new reflex is "infallibly obtained") and
-McDougall's *Body and Mind* (1911: the chapter answering the tropism doctrine — the
-total reaction, persistence with varied effort, and the telegram-argument for meaning —
-and the conclusion's verdict for Animism) and a James anthology ("Are We Automata?", 1879,
-complete — the reply to Huxley — with the Principles on habit as plasticity, the
-fly-wheel of society, and the naming of the stream of thought) and Bain's *The Senses
-and the Intellect* (1855: the instinctive germ of volition — random spontaneity, and the
-movement that relieves a pain "clutched in the embrace of the feeling" — with the Law of
-Contiguity and its hypothesis of currents that fuse by flowing together) and Köhler's *The
-Mentality of Apes* (Winter's English, 1927 setting: intelligence as the roundabout way, the
-critique of Thorndike's hidden mechanisms, Sultan's double stick, the chance theory refused
-and the criterion of insight, and the Conclusion's rule that every intelligence test also
-tests the experimenter) and Hartley's *Observations on Man* (1749, Part I: vibrations and
-vibratiuncles, the law of association, and voluntary motion that practice turns
-"secondarily automatic") and Hull's *Aptitude Testing* (1928: the test as a sample of behavior,
-the limits of forecasting efficiency, and the machine that punches, weighs and stamps aptitude
-forecasts) are readable on stable
-citation grids (`AI, ch. II/VI [k]` · `Aut. [n]` · `GI [k]` · `Mem. [k]` · `IHF [k]` ·
-`DIC [k]` · `CP [k]` · `CPB [k]` · `PBV [n]` · `CR [k]` · `BM [k]` · `AWA [k]` ·
-`PP [k]` · `SI [k]` · `MA [k]` · `OM [k]` · `AT [k]`), and Fechner's *Elemente der Psychophysik* (1860) opens the
-corpus's bilingual layer: German with this site's working translation (`EP [k]`), the
-Vorwort and the definition chapter complete and the Massformel passage restored formula
-by formula. An introductory **essay** reads the corpus as a whole — and reads the
-apparatus's own machine-assisted making against it. A cross-corpus **concordance**
-searches every module (originals included), a concept **atlas** maps their shared
-vocabulary, a **timeline** charts all eighteen stations, **plates** from the cited
-digitisations open the readers, and a checker (`tools/check-corpus.py`) runs in CI. One
-further module is registered in `data/works.json` with its source digitisations
-pinned. Still to come from the sibling machinery: the citation-bound dialogue.
+## Contents
+
+Eighteen works in four lines, every one in a reader with a stable citation grid:
+
+- **Fechner**, *Elemente der Psychophysik* (1860) — the Vorwort, the definition chapter and
+  the Massformel restored formula by formula; German with this site's working translation
+  (`EP [k]`).
+- **Ebbinghaus**, *Memory* (1913 translation) — nonsense syllables, the savings method, the
+  forgetting curve (`Mem. [k]`).
+- **Galton**, *Inquiries into Human Faculty* (1883) — composite portraiture, the imagery
+  questionnaire, the psychometric experiments, and the page where "eugenics" is coined,
+  stated, not passed over (`IHF [k]`).
+- **Spearman**, *"General Intelligence"* (1904) — the programme, the universal unity, the
+  hierarchy (`GI [k]`).
+- **Binet & Simon**, *The Development of Intelligence in Children* (Kite's English, 1916) —
+  intelligence as judgment, the thirty tests, the scale age by age, the mental level: the
+  ancestral form of the benchmark (`DIC [k]`).
+- **Hartley**, *Observations on Man* (1749) — vibrations and vibratiuncles, the law of
+  association, voluntary motion turned "secondarily automatic" (`OM [k]`).
+- **Bain**, *The Senses and the Intellect* (1855) — random spontaneity and the movement
+  "clutched in the embrace of the feeling"; the Law of Contiguity (`SI [k]`).
+- **Lloyd Morgan**, *An Introduction to Comparative Psychology* (1894) — ch. III complete, the
+  canon against anthropomorphism (`CP [k]`).
+- **Loeb**, *Comparative Physiology of the Brain* (1900) — the tropism-machine, and
+  associative memory as the criterion of mind (`CPB [k]`).
+- **Thorndike**, *Animal Intelligence* (1898/1911) — the puzzle boxes and the laws of effect
+  and exercise (`AI, ch. II/VI [k]`).
+- **Watson**, *Psychology as the Behaviorist Views It* (1913), complete (`PBV [n]`).
+- **Pavlov**, *Conditioned Reflexes* (Anrep's English, 1927) — Lectures I–II complete
+  (`CR [k]`).
+- **Köhler**, *The Mentality of Apes* (Winter's English, 1927 setting) — the roundabout way,
+  the critique of Thorndike, Sultan's double stick, the criterion of insight (`MA [k]`).
+- **Huxley**, *On the Hypothesis that Animals are Automata* (1874), complete (`Aut. [n]`).
+- **James** — "Are We Automata?" (1879) complete, with the *Principles* on habit and the
+  stream of thought (`AWA [k]` · `PP [k]`).
+- **McDougall**, *Body and Mind* (1911) — the answer to the tropism doctrine and the verdict
+  for Animism (`BM [k]`).
+- **Hull**, *Aptitude Testing* (1928) — the test as a sample of behavior, the limits of
+  forecasting, and the machine that stamps aptitude forecasts (`AT [k]`).
+- **Hull & Baernstein**, "A Mechanical Parallel to the Conditioned Reflex" (1929), and
+  **Hull**, "Knowledge and Purpose as Habit Mechanisms" (1930), both complete — the machine
+  that learns, and the "psychic" machine foreseen (`MPC [k]` · `KP [k]`).
+
+Around the editions: an introductory **essay** that reads the corpus as a whole — and
+reads the apparatus's own machine-assisted making against it; a cross-corpus
+**concordance** (originals included); a concept **atlas**; a **timeline** of all eighteen
+stations with the crossings the texts themselves document; **plates** from the cited
+digitisations; and a checker (`tools/check-corpus.py`) that runs in CI.
 
 ## The four lines
 
@@ -100,7 +99,7 @@ module), name the site as its source.
 ## Licensing
 
 Source code MIT ([LICENSE](LICENSE)); editorial matter CC BY 4.0; editions, working
-translations and derived data CC0 as they ship — see [LICENSES.md](LICENSES.md). Sources,
+translations and derived data CC0 — see [LICENSES.md](LICENSES.md). Sources,
 digitisation by digitisation, in [SOURCES.md](SOURCES.md).
 
 ## The making, on record

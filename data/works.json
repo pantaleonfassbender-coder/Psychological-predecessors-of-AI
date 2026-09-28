@@ -223,13 +223,14 @@
  {
   "id": "hull_machines",
   "linie": "labor",
-  "status": "planned",
+  "status": "shipped",
   "autor": "Clark L. Hull · H. D. Baernstein",
   "leben": "1884–1952 · fl. 1929",
   "kurz": "Hull (1929/30)",
-  "titel": "The conditioning machines: A Mechanical Parallel to the Conditioned Reflex (1929) · Knowledge and Purpose as Habit Mechanisms (1930)",
+  "titel": "A Mechanical Parallel to the Conditioned Reflex (1929) · Knowledge and Purpose as Habit Mechanisms (1930) — complete",
   "sprachen": "English",
   "claim": "Psychologists build a machine that learns: Hull and Baernstein's electro-chemical model of the conditioned reflex, and Hull's argument that knowledge and purpose are habit mechanisms a machine could have. The corpus ends where the machines begin to learn.",
-  "geplant": "The Science paper of 1929 and the Psychological Review paper of 1930 — the latter in the United States public domain since 1 January 2026 — from the journals' printings (items at ship time). The 1931 sequel (Baernstein & Hull, Journal of General Psychology) joins when its US term lapses in 2027."
+  "geplant": "Both papers complete from the journals' printings: Science 70 (1929), Internet Archive sim_science_1929-07-05_70_1801; Psychological Review 37 (1930), sim_psychological-review_1930-11_37_6. The 1931 sequel (Baernstein & Hull, Journal of General Psychology) joins when its US term lapses in 2027.",
+  "datei": "hull_machines"
  }
 ]

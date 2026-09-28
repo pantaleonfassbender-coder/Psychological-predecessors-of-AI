@@ -133,6 +133,18 @@ PLATES = [
    'credit': "William McDougall, Body and Mind (London: Methuen, 1918; "
              "first published 1911). Internet Archive cu31924029080880 "
              "(Cornell copy), leaf 6. Public domain." },
+ { 'id': 'hull_machines',
+   'url': ('https://archive.org/download/sim_psychological-review_1930-11_37_6/'
+           'page/n58_w1100.jpg'),
+   'crop': (0.14, 0.12, 0.80, 0.84),
+   'caption': "Psychological Review, November 1930, p. 513: Hull's diagrams of "
+              "'The World' and 'The Organism' — the world sequence stamping a "
+              "parallel sequence of reactions upon the organism, which then runs "
+              "on by itself (Figs. 3–5).",
+   'credit': "Clark L. Hull, 'Knowledge and Purpose as Habit Mechanisms', "
+             "Psychological Review 37 (1930), p. 513. Internet Archive "
+             "sim_psychological-review_1930-11_37_6, page n58, film borders "
+             "trimmed. Public domain in the United States since 1 January 2026." },
  { 'id': 'hull_aptitude',
    'url': 'https://archive.org/download/aptitudetesting00hull/page/n507_w1000.jpg',
    'crop': (0.08, 0.08, 0.95, 0.87),
