@@ -132,8 +132,19 @@ checkable. All are United States public domain (published through 1930). Entries
   text); the drop-counting footnote and Mendeleeff's cement carried as notes; Fig. 1 and
   Dr. Eroféeva's record table noted, not reproduced. Cited as `CR [k]`, k unique across the
   two lectures. The translation's spelling 'Thorndyke' is kept and flagged.
-- **Köhler, The Mentality of Apes** — trans. Ella Winter (1925), US public domain —
-  <https://archive.org/details/in.ernet.dli.2015.187610>.
+- **Köhler, The Mentality of Apes — SHIPPED** (`data/koehler.json`, built by
+  `tools/build-koehler.py`): Ella Winter's translation of the second revised German edition
+  (London: Kegan Paul; New York: Harcourt, Brace, 1927 — "revised and reset"; first English
+  edition 1925), in the unaltered reprint of 1931 —
+  <https://archive.org/details/in.ernet.dli.2015.187610> (Digital Library of India) — OCR
+  emended against the sense, doubtful points read from the page images (leaf = page + 5
+  early in the book, + 3 from ch. IV on). US public domain (published 1927). Carried: the
+  Introduction §1 (pp. 1–4); ch. I, the bracketed critique of Thorndike's experiments
+  (pp. 22–24); ch. IV, pp. 125–130 (Rana's optical "solution" named, Sultan's double stick
+  with the keeper's report); ch. VII, "Chance", pp. 185–194; the Conclusion complete
+  (pp. 265–269). Winter's square brackets (the original's small type) are kept; the
+  footnotes are carried as notes, those read as one or hung on the wrong paragraph set by
+  hand. Cited as `MA [k]`, k unique across the five selections.
 
 ## The automaton debate
 
@@ -209,6 +220,10 @@ credit name the source, digitisation and leaf.
   trimmed by IIIF region.
 - **Bain** — title page of the first edition (London: Parker, 1855);
   `sensesintellectb00bain`, leaf 7.
+- **Köhler** — Plate III, "Sultan making a double-stick", facing p. 128; the DLI scan the
+  edition cites carries no plates, so this one page comes from a later Routledge reprint of
+  the 1927 setting, `mentalityofapes0000kohl_p5t8`, page n144, cropped to photograph and
+  legend.
 - **McDougall** — title page of the Methuen printing of 1918; `cu31924029080880`, leaf 6.
 - **James** — Mind, January 1879, p. 1: the masthead and the opening of "Are We
   Automata?"; `sim_mind_1879-01_4_13`, leaf 0, margins trimmed by IIIF region.

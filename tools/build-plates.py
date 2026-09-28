@@ -133,6 +133,21 @@ PLATES = [
    'credit': "William McDougall, Body and Mind (London: Methuen, 1918; "
              "first published 1911). Internet Archive cu31924029080880 "
              "(Cornell copy), leaf 6. Public domain." },
+ { 'id': 'koehler',
+   # the DLI scan the edition cites carries no plates, and this copy's IIIF
+   # endpoint times out: the page image, cropped to photograph and legend
+   'url': 'https://archive.org/download/mentalityofapes0000kohl_p5t8/page/n144_w800.jpg',
+   'crop': (0.07, 0.15, 0.94, 0.73),
+   'caption': "Plate III: Sultan making a double-stick — a still from a "
+              "film taken a month after the first joining, which the "
+              "chapter on chance calls the accident that 'led at once to "
+              "insight'.",
+   'credit': "Wolfgang Köhler, The Mentality of Apes, trans. Ella Winter "
+             "(London: Kegan Paul, 1927), Plate III, facing p. 128. "
+             "Internet Archive "
+             "mentalityofapes0000kohl_p5t8 (a later Routledge reprint of "
+             "the 1927 setting), page n144, margins trimmed. Public domain "
+             "in the United States." },
  { 'id': 'bain',
    'url': ia('sensesintellectb00bain', 7, w=800),
    'caption': "Title page of The Senses and the Intellect, London 1855 — "
@@ -181,6 +196,10 @@ for p in PLATES:
     dest = os.path.join(OUT, p['id'] + '.jpg')
     if force or not os.path.exists(dest):
         im = Image.open(io.BytesIO(fetch(p['url']))).convert('RGB')
+        if p.get('crop'):   # for page images served without IIIF regions
+            l, t, r, b = p['crop']
+            im = im.crop((round(l * im.width), round(t * im.height),
+                          round(r * im.width), round(b * im.height)))
         if im.width > 1400:
             im = im.resize((1400, round(im.height * 1400 / im.width)), Image.LANCZOS)
         im.save(dest, quality=82, optimize=True)

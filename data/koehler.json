@@ -1,0 +1,278 @@
+{
+ "id": "koehler",
+ "autor": "Wolfgang Köhler",
+ "titel": "The Mentality of Apes (1917; English 1925, revised 1927) — selections",
+ "jahr": 1917,
+ "zitierweise": "MA [k]",
+ "quelle": "Selections from Ella Winter's translation of the second revised German edition (London: Kegan Paul, Trench, Trubner; New York: Harcourt, Brace, 1927 — 'revised and reset'), in the unaltered reprint of 1931: Internet Archive in.ernet.dli.2015.187610 (Digital Library of India), OCR emended against the sense, doubtful points read from the page images. The German original appeared in 1917 (Intelligenzprüfungen an Anthropoiden), the first English edition in 1925. Carried: the Introduction §1 (pp. 1–4); from ch. I the bracketed critique of Thorndike's experiments (pp. 22–24); ch. IV pp. 125–130 (Sultan's double stick); ch. VII, 'Chance', pp. 185–194; the Conclusion complete (pp. 265–269). Square brackets are Winter's, marking the original's small type. Page-bottom footnotes are carried as notes on the paragraphs that hold their markers. Cited as 'MA [k]', k unique across the five selections.",
+ "hinweis": "The counter-evidence inside the learning line. Köhler's apes do not assemble solutions out of chance movements stamped in by success — the scheme Thorndike's cats were built to show — but survey the field, pause, and produce the roundabout way whole: 'the appearance of a complete solution with reference to the whole lay-out of the field' is his criterion of insight. He turns the method back on its author as well: Thorndike's puzzle boxes hid their mechanisms, so they could not have shown insight had it been there — and 'every intelligence test is a test, not only of the creature examined, but also of the experimenter himself.' Every later argument over whether a system 'really understands', and every benchmark built so that only pattern-matching could pass it, stands on this ground.",
+ "sections": [
+  {
+   "id": "einleitung",
+   "titel": "Introduction §1 — the two interests, and intelligence as the roundabout way (pp. 1–4)",
+   "units": [
+    {
+     "n": 1,
+     "k": 1,
+     "txt": "I. Two sets of interests lead us to test the intelligence of the higher apes. We are aware that it is a question of beings which in many ways are nearer to man than to the other ape species; in particular it has been shown that the chemistry of their bodies, in so far as it may be perceived in the quality of the blood, and the structure of their most highly-developed organ, the brain, are more closely related to the chemistry of the human body and human brain-structure than to the chemical nature of the lower apes and their brain development. These beings show so many human traits in their \"everyday\" behaviour that the question naturally arises whether they do not behave with intelligence and insight under conditions which require such behaviour. This question expresses the first, one may say, naive, interest in the intellectual capacity of animals. We wished to ascertain the degree of relationship between anthropoid apes and man in a field which seems to us particularly important, but on which we have as yet little information."
+    },
+    {
+     "n": 2,
+     "k": 2,
+     "txt": "The second aim is theoretical. Even assuming that the anthropoid ape behaves intelligently in the sense in which the word is applied to man, there is yet from the very start no doubt that he remains in this respect far behind man, becoming perplexed and making mistakes in relatively simple situations; but it is precisely for this reason that we may, under the simplest conditions, gain knowledge of the nature of intelligent acts. The human adult seldom performs for the first time in his life tasks involving intelligence of so simple a nature that they can be easily investigated; and when in more complicated tasks adult men really find a solution, they can only with difficulty observe their own procedure. So one may be allowed the expectation that in the intelligent performances of anthropoid apes we may see once more in their plastic state processes with which we have become so familiar that we can no longer immediately recognize their original form: but which, because of their very simplicity, we should treat as the logical starting-point of theoretical speculation."
+    },
+    {
+     "n": 3,
+     "k": 3,
+     "txt": "As all the emphasis in the following investigations is laid on the first question, the doubt may be expressed whether it does not take for granted a particular solution of the problems treated under the second. One might say that the question whether intelligent behaviour exists among anthropoid apes can be discussed only after recognizing the theoretical necessity of distinguishing between intelligent behaviour and behaviour of any other kind; and that, since association psychology, in particular, claims to derive from one single principle all behaviour which would come under consideration here, up to the highest level, even that attained by human beings, a theoretical point of view is already assumed by the formulation of problem 1; and one which is antagonistic to association psychology."
+    },
+    {
+     "n": 4,
+     "k": 4,
+     "txt": "This is a misconception. There is probably no association psychologist who does not, in his own unprejudiced observations, distinguish, and, to a certain extent, contrast, unintelligent and intelligent behaviour. For what is association psychology but the theory that one can trace back to the phenomena of a generally-known simple association type even those occurrences which, to unbiassed observation, do not at first seem corresponding to that type, most of all the so-called intelligent performances? In short, it is just these differences which are the starting-point of a strict association psychology; it is they which need to be theoretically accounted for; they are well known to the association psychologist. Thus, for instance, we find a radical representative of this school (Thorndike) stating the conclusion, drawn from experiments on dogs and cats: \"I failed to find any act that even seemed due to reasoning.\" To anyone who can formulate his results thus, other behaviour must have seemed to be intelligent; he is already acquainted with the contrast in his observations, say of human beings, even if he discards it afterwards in theory.",
+     "label": "Thorndike as the foil"
+    },
+    {
+     "n": 5,
+     "k": 5,
+     "txt": "Accordingly, if we are to inquire whether the anthropoid ape behaves intelligently, this problem can for the present be treated quite independently of theoretical assumptions, particularly those for or against the association theory. It is true that it then becomes somewhat indefinite; we are not to inquire whether anthropoid apes show something well defined, but whether their behaviour approximates to a type rather superficially known by experience, and which we call \"intelligent\" in contrast to other behaviour — especially in animals. But in proceeding thus, we are only dealing according to the nature of the subject; for clear definitions have no place at the beginning of sciences founded on experience; it is only as we advance towards results that we can mark our progress by the formulation of definitions.",
+     "note": "Page-bottom footnote: \"See foot-note, p. 219.\" [There, the translator's note: \"The German word Einsicht is rendered by both 'intelligence' and 'insight' throughout this book.\"]"
+    },
+    {
+     "n": 6,
+     "k": 6,
+     "txt": "Moreover, the type of human and, perhaps, animal behaviour to which the first question animadverts is not quite indefinite, even without a theory. As experience shows, we do not speak of behaviour as being intelligent, when human beings or animals attain their objective by a direct unquestionable route which clearly arises naturally out of their organization. But we tend to speak of \"intelligence\" when, circumstances having blocked the obvious course, the human being or animal takes a roundabout path, so meeting the situation. In unexpressed agreement with this, nearly all those observers who heretofore have sought to solve the problem of animal intelligence, have done so by watching animals in just such predicaments. Since animals below the stage of development of anthropoid apes give, in general, negative results, there has arisen out of these experiments the view widely held at present, i.e., that there is very little intelligent behaviour in animals. Only a small number of such experiments have been carried out on anthropoid apes, and they have not yet produced any very definite results. All the experiments described in the following pages are of one and the same kind: the experimenter sets up a situation in which the direct path to the objective is blocked, but a roundabout way left open. The animal is introduced into this situation, which can, potentially, be wholly surveyed. So we can see of what levels of behaviour it is capable, and, particularly, whether it can solve the problem in the possible \"roundabout\" way.",
+     "label": "Intelligence as the roundabout way",
+     "note": "The Introduction continues with §2, the nine chimpanzees of the Tenerife station (Tschego, Grande, Sultan, Konsul, Tercera, Rana, Chica; Nueva and Koko), and §3, the preliminary basket-and-string test with Sultan (pp. 4–9); not carried here."
+    }
+   ]
+  },
+  {
+   "id": "thorndike",
+   "titel": "Ch. I — against Thorndike's experiments (pp. 22–24)",
+   "units": [
+    {
+     "n": 1,
+     "k": 7,
+     "txt": "[Thorndike tested large numbers of dogs and cats in order to see what there is in the wonder-stories that are told about these domestic pets. The result was very unfavourable to the animals, and Thorndike came to the conclusion that, so far from \"reasoning\", they do not even associate images with perception, as humans do, but remain limited chiefly to the experiential linking of mere \"impulses\" with perceptions. This investigation did what was necessary in a negative way at the time, but, as is now being shown (also in America), it went a little too far. The tests were based upon those animal stories, and consequently were made so difficult that the result was bound to fall out badly, under the influence of the animals' failures in these tests, Thorndike then drew generalizations about their capacities, which do not follow from those difficult experiments. However stupid a dog may seem compared to a chimpanzee, we suggest that in such simple cases as have just been described, a closer investigation would be desirable."
+    },
+    {
+     "n": 2,
+     "k": 8,
+     "txt": "Regarding their principle, I must make a further objection to Thorndike's experiments. They were designed as intelligence tests of the same type as our own (insight or not?), and ought, therefore, to have conformed to the same general conditions, and, above all, to have been arranged so as to be completely visible to the animals. For if essential portions of the experimental apparatus cannot be seen by the animals, how can they use their intelligence faculties in tackling the situation? It is somewhat astonishing to find that (in Thorndike's experiments) cats and dogs were frequently placed in cages containing the extreme end only of one or the other mechanism, or allowing a view of ropes or other parts of the mechanism, but from which a survey over the whole arrangement was not possible. The task for the animal was to let itself out of the cage by pulling or pressing the accessible part of the mechanism; then — the cage door would open of itself. Thorndike also gives an account of experiments in which the animals were let out of their cages if they scratched or licked themselves. He contrasts these experiments with those involving the employment of any mechanical contrivance, as the former apparently imply no direct connexion between cause and effect; but the causation is far from apparent even in the mechanistic experiments.",
+     "note": "Page-bottom footnote: \"See foot-note, p. 219.\" [There, the translator's note: \"The German word Einsicht is rendered by both 'intelligence' and 'insight' throughout this book.\"]",
+     "label": "Against the puzzle box: the hidden mechanism"
+    },
+    {
+     "n": 3,
+     "k": 9,
+     "txt": "In the case of the latter, there are at least various component parts which can be treated with some amount of insight, and it is of the highest significance to know whether animals react differently to experimental situations which involve a partial possibility of intelligent behaviour than they do to such as involve none — for the difference, if any, is obviously crucial."
+    },
+    {
+     "n": 4,
+     "k": 10,
+     "txt": "The result of these experiments tends to show that prolonged \"learning\" is necessary before the right action develops, in both sets — as the \"experiments with a mechanism\" were far too difficult, and, in many cases, could not be wholly surveyed either. But when once the animals have mastered both procedures, a noticeable difference is shown: \"In all these cases\" — of the meaningless type — \"there is a noticeable tendency... to diminish the required action, till it becomes a mere vestige of a lick or scratch\" — and more especially — \"if sometimes you do not let the cat out after this feeble reaction, it does not at once repeat the movement, as it would do if it depressed a thumb-piece, for instance, without success in getting the door open.\"",
+     "note": "Page-bottom footnote: \"Animal Intelligence, New York, 1911, p. 48.\""
+    },
+    {
+     "n": 5,
+     "k": 11,
+     "txt": "Thorndike merely states that he cannot give a reason for the difference of result in the two types of experiment. As these results are among the most interesting which he has obtained — though scarcely what we might expect from his theory — we can only regret that he has not probed further.]"
+    }
+   ]
+  },
+  {
+   "id": "doppelstock",
+   "titel": "Ch. IV — Sultan's double stick (pp. 125–130)",
+   "units": [
+    {
+     "n": 1,
+     "k": 12,
+     "txt": "Are the two sticks ever combined so as to become technically useful? This time Sultan is the subject of experiment (20.4). His sticks are two hollow, but firm, bamboo rods, such as the animals often use for pulling along fruit. The one is so much smaller than the other, that it can be pushed in at either end of the other quite easily. Beyond the bars lies the objective, just so far away that the animal cannot reach it with either rod. They are about the same length. Nevertheless, he takes great pains to try to reach it with one stick or the other, even pushing his right shoulder through the bars. When everything proves futile, Sultan commits a \"bad error\" or, more clearly, a great stupidity, such as he made sometimes on other occasions. He pulls a box from the back of the room towards the bars; true, he pushes it away again at once as it is useless, or rather, actually in the way. Immediately afterwards, he does something which, although practically useless, must be counted among the \"good errors\": he pushes one of the sticks out as far as it will go, then takes the second, and with it pokes the first one cautiously towards the objective, pushing it carefully from the nearer end and thus slowly urging it towards the fruit. This does not always succeed but if he has got pretty close in this way, he takes even greater precaution; he pushes very gently, watches the movements of the stick that is lying on the ground, and actually touches the objective with its tip. Thus, all of a sudden, for the first time, the contact \"animal-objective\" has been established, and Sultan visibly feels (we humans can sympathize) a certain satisfaction in having even so much power over the fruit that he can touch and slightly move it by pushing the stick. The proceeding is repeated; when the animal has pushed the stick on the ground so far out that he cannot possibly get it back by himself, it is given back to him. But although, in trying to steer it cautiously, he puts the stick in his hand exactly to the cut (i.e. the opening) of the stick on the ground, and although one might think that doing so would suggest the possibility of pushing one stick into the other, there is no indication whatever of such a practically valuable solution. Finally, the observer gives the animal some help by putting one finger into the opening of the stick under the animal's nose (without pointing to the other stick at all). This has no effect; Sultan, as before, pushes one stick with the other towards the objective, and as this pseudo-solution does not satisfy him any longer; he abandons his efforts altogether, and does not even pick up the sticks when they are both again thrown through the bars to him. The experiment has lasted over an hour, and is stopped for the present, as it seems hopeless, carried out like this. As we intend to take it up again after a while, Sultan is left in possession of his sticks; the keeper is left there to watch him.",
+     "note": "Page-bottom footnote: \"This is not in contradiction to the statement made above; in order not to discourage the animal from the very beginning, I put the objective only just out of reach of the single stick.\" — Page-bottom footnote: \"The way in which he does that is reported on p. 174.\" — The selection opens after Rana's attempt, on the same page, to set two short sticks end to end as a jumping-pole — a solution for the eye only (p. 125)."
+    },
+    {
+     "n": 2,
+     "k": 13,
+     "txt": "Keeper's report: \"Sultan first of all squats indifferently on the box, which has been left standing a little back from the railings; then he gets up, picks up the two sticks, sits down again on the box and plays carelessly with them. While doing this, it happens that he finds himself holding one rod in either hand in such a way that they lie in a straight line; he pushes the thinner one a little way into the opening of the thicker, jumps up and is already on the run towards the railings, to which he has up to now half turned his back, and begins to draw a banana towards him with the double stick.",
+     "label": "Sultan's double stick: the keeper's report"
+    },
+    {
+     "n": 3,
+     "k": 14,
+     "txt": "I call the master: meanwhile, one of the animal's rods has fallen out of the other, as he has pushed one of them only a little way into the other; whereupon he connects them again.\""
+    },
+    {
+     "n": 4,
+     "k": 15,
+     "txt": "The keeper's report covers a period of scarcely five minutes, which had elapsed since stopping the experiment. Called by the man, I continued observation myself: Sultan is squatting at the bars, holding out one stick, and, at its end, a second bigger one, which is on the point of falling off. It does fall. Sultan pulls it to him and forthwith, with the greatest assurance, pushes the thinner one in again, so that it is firmly wedged, and fetches a fruit with the lengthened implement. But the bigger tube selected is a little too big, and so it slips from the end of the thinner one several times; each time Sultan rejoins the tubes immediately by holding the bigger one towards himself in the left and the thinner one in his right hand and a little backwards, and then sliding one into the other. (Plate III.) The proceeding seems to please him immensely; he is very lively, pulls all the fruit, one after the other, towards the railings, without taking time to eat it, and when I disconnect the double-stick he puts it together again at once, and draws any distant objects whatever to the bars.",
+     "note": "Page-bottom footnote: \"The keeper's tale seems acceptable to me, especially as, upon inquiries, he emphasized the fact that Sultan had first of all connected the sticks in play and without considering the objective (his task). The animals are constantly poking about with straws and small sticks in holes and cracks in their play, so that it would be more astonishing if Sultan had never done this, while playing about with the two sticks. There need be no suspicion that the keeper quickly \"trained the animal\"; the man would never dare it. If anybody continues to doubt, even that does not matter, for Sultan continually not only performs this act but shows that he realizes its meaning.\" — Page-bottom footnote: \"The illustration is culled from a cinematograph film that was taken a month later in other surroundings, more suitable for photographs.\""
+    },
+    {
+     "n": 5,
+     "k": 16,
+     "txt": "The next day the test is repeated; Sultan begins with the proceeding which is in practice useless, but after he has pushed one of the tubes forward with the other for a few seconds, he again takes up both, quickly puts one into the other, and attains his objective with the double stick."
+    },
+    {
+     "n": 6,
+     "k": 17,
+     "txt": "(1.5) The objective lies in front of the railings, still farther away; Sultan has three tubes to resort to, the two bigger ones fitting over either end of the third. He tries to reach his objective with two tubes, as before; as the outer one keeps falling off, he takes distinct pains to push the thinner stick farther into the bigger one. Contrary to expectations, he actually attains his objective with the double tube, and pulls it to him. The long tool sometimes gets into his way when doing this, by its farther end getting caught between the railings, when being moved obliquely, so the animal quickly separates it into its parts, and finishes the task with one tube only. From now on, he does this every time when the objective is so close that one stick is sufficient, and the double-stick awkward. The new objective is placed still farther away. In consequence, Sultan tries which of the bigger tubes is more useful when joined to the thin one; for they do not differ very much in length (64 and 70 cms.), and, of course, the animal does not lay them together in order to compare their lengths. Sultan never tries to join the two bigger tubes; once he puts them opposite to each other for a moment, not touching, and looks at the two openings, but puts one aside directly (without trying it) and picks up the third thinner one; the two wide tubes have openings of the same size. The solution follows quite suddenly: Sultan fishes with a double-stick, consisting of the thinner one and one of the bigger ones, holding, as usual, the end of the smaller one in his hand. All of a sudden he pulls the double-stick in, turns it round, so that the thin end is before his eyes and the other towering up in the air behind him, seizes the third tube with his left hand, and introduces the tip of the double-stick into its opening. With the triple pole he reaches the objective easily; and when the long implement proves a hindrance in pulling the objective to him, it is disconnected as before.",
+     "note": "Page-bottom footnote: \"It can be shown that when the chimpanzee connects the double-stick he is guided by the relation between the two thicknesses of the tubes (compare Nachweis einfacher Strukturfunktionen, etc., Abh. d. Preuss. Akad. d. Wiss. 1918, Phys.-Math. Kl., No. 2, p. 56 seqq.).\"",
+     "label": "The triple pole"
+    },
+    {
+     "n": 7,
+     "k": 18,
+     "txt": "According to observations in this experiment, Sultan never attempted to join tubes which would not have fitted together. Once, when an experiment was to be shown to visitors, I put down the objective outside, and at the same time threw two different-sized tubes, which happened to be at hand, through the bars to Sultan. He took hold of them at once, the bigger one, as usual, in his left hand, the thinner in his right, and was already lifting his right hand to connect the tubes, when he suddenly stopped, without carrying out his intention, turned the thick tube round, looked at its other end, and immediately dropped both tubes to the ground. I let him pass them out to me and discovered that both ends of the wider one happened to have a nodule, thus closing the opening; in these circumstances Sultan did not even attempt to connect the tubes. When I cut away this closed part, he made the trial at once.",
+     "note": "Page-bottom footnote: \"In those cases in which mere observation does not lead to a definite conclusion, a trial is, of course, made. Compare experiment of 6.8.\""
+    }
+   ]
+  },
+  {
+   "id": "zufall",
+   "titel": "Ch. VII — 'Chance': the chance theory and the criterion of insight (pp. 185–194)",
+   "units": [
+    {
+     "n": 1,
+     "k": 19,
+     "txt": "The experiments described heretofore proceed in general very simply and somewhat in the same manner. As those in the next chapter are of a rather different nature, it seems to the point to mention beforehand certain considerations which will ward off some facile objections against the real meaning and value of the facts. This would not be necessary in the case of results of a highly-developed experimental science like physics, in which the meaning of groups of observations cannot long remain altogether a matter of controversy. A system of knowledge which cannot be destroyed stands there firm and clear; and new discoveries must connect up with it in one way or another. No one can deny that we are far from such a happy state of affairs in the higher psychology. Instead of sure and fruitful knowledge, we have, so far, developed for the most part nothing but theories of a very general form, but so indefinite that even their supporters would not find it easy to apply them strictly and in detail to any specific case. The more energetic does the claim become that any one or other of these opinions contains the principle that will explain a great number and variety of phenomena; and their loose connexion with actual experience, together with the indefiniteness of the assertions, make it the more difficult to decide a conflict by observation and experiments, which is still almost in the region of a battle of faith. At the same time, it is inevitable that such actual observations shall lose in value. They are all too peculiar, too individual to attract the attention already give to any general principles. And the indefinite nature of these principles on the one hand, added to the difficulty of really reliable observation on the other, make it possible for nearly anyone to explain anything. Thus, if, at the outset, there is greater interest in general principles than in facts, the facts must finally seem valueless; they can be explained as one wills.",
+     "note": "'already give to any general principles' stands so in the printing (p. 186, checked against the page image); a word may have dropped in the setting."
+    },
+    {
+     "n": 2,
+     "k": 20,
+     "txt": "In this book, no theory of intelligent behaviour is to be developed. Since, however, we have to decide whether chimpanzees ever behave with insight, we must at least discuss certain interpretations which cannot be accepted without the observations at the same time losing all their value in regard to this question. This will at least prevent any quite arbitrary treatment of the facts, and the direct meaning of the experiments will appear with more force and certainty. Perhaps finally it will be possible to make this meaning rest on its own merits, instead of allowing it to disappear in the solvent of general and indefinite principles."
+    },
+    {
+     "n": 3,
+     "k": 21,
+     "txt": "An interpretation mentioned above runs: The animal solves its task in the general form of \"roundabout behaviour,\" and since it is not born with a ready reaction for each case, it must develop a new complex attitude for these cases. The only possible origin for complex action is a great many fractions or parts of the whole achievement, which separately are quite natural to the animal; such \"natural\" impulses occur in great variety, and a certain number of them, which in the play of chance, may happen to follow each other, form, when put in a series, the whole actual course of the experiment. As the actual success or the corresponding pleasant feeling has the effect, in a manner not yet known, of making the preceding movements reproducible in later cases of a similar nature, with the origin of such achievements, their repeatability is also explicable. Like most of these general theories, this one has a certain value for some of the cases arising in animal psychology. Where experience might teach one to doubt, two supplementary principles are usually called in to help. According to the first, the application of a theory up till now so well confirmed must be preferred to the recognition of conflicting facts and the development of corresponding new ideas, and this for the sake of scientific economy. According to the second principle, such behaviour directly arising out of the situation as a whole would be a miracle, which must be excluded a limine as contradictory to the foundations of scientific knowledge."
+    },
+    {
+     "n": 4,
+     "k": 22,
+     "txt": "Further discussion of these auxiliary principles must be omitted here. The second declares the insolubility of a scientific problem, whose solution no one has yet properly attempted: why this lack of courage? The first expresses a misconception (at present widely current) of a correct epistemological proposition, according to which a scientific system, which is near to completion (i.e. half-ideal), tends to acquire the most precise form and strictest simplicity. Neither principle has the right of control over experience, and, where there arises a conflict between these principles and observations, the former must give way, not the latter. Evidently the epistemological proposition neither states nor implies that a science which has existed for only a few decades should at any price get along with the minimum of points of view that it has discovered in this early youth; and one does not get nearer to the ideal state any faster by trying to force the shortest cut to the goal of strictest unity, by proclaiming meagre beginnings as final principles, and by economizing on facts what one does not wish to spend on theories.",
+     "note": "Page-bottom footnote: \"Cf. Nachweis einfacher Strukturfunktionen usw., Abh. d. Preuss. Akad. d. Wiss. 1918, No. 2, p. 40 seqq.\""
+    },
+    {
+     "n": 5,
+     "k": 23,
+     "txt": "The chief thing to be done now is to present the theory of which we have been speaking in such a way that its relation to the intelligence tests described will be easily seen. Let those parts of the \"solution\" which the animal in theory achieves \"naturally\" and by chance be: a, b, c, d, e; generally besides these, and amongst them (without them, too), any others: F, Y, K, R, D, etc., may appear in any order."
+    },
+    {
+     "n": 6,
+     "k": 24,
+     "txt": "The first question is whether a is accomplished with any reference to the fact that b, c, d or e should follow so that they all together produce a curve of behaviour which is adequate to the objective structure of the situation. Not at all; for when a occurs, it has as little to do with b, c, d, and e as with F, Y, K, etc., which might follow on a, just as well, and generally will, in whatever permutation; the succession is, after all, as accidental as the winning numbers in roulette. What is true of a is equally true of all the other \"natural\" fractions; to use a phrase which is beyond a simple analogy and which brings the whole question into connexion with the second principle of thermo-dynamics — they are all completely incoherent, representing in a somewhat magnified form a case of \"molecular disorder.\" If the least thing is altered about this, the whole meaning of the theory is destroyed.",
+     "label": "The chance theory, taken at its word"
+    },
+    {
+     "n": 7,
+     "k": 25,
+     "txt": "The second question is whether, after the animal has developed the sequence a, b, c, d, e, it begins with a, goes on with b after a, and so on, because these fractions in this order correspond, as a whole, to the objective structure of the situation? Doubtlessly not. It proceeds from a to b, and so on, only because the after effects of its former life force it to make b follow a, c follow b, and so on."
+    },
+    {
+     "n": 8,
+     "k": 26,
+     "txt": "Thus the only way in which, according to this theory, the objective conditions of the situation, its structure, can have any effect in the development of the new behaviour, is by a completely external meeting of the objective circumstances and the chance movements of the animal's body; the situation works, roughly speaking, like a sieve, which lets through only part of the things which are thrown into it. Apart from this result of the objective situation, which is not of great interest for our investigation, we find that nothing in the behaviour of the animal arises directly out of the relation of the several constituent parts of the situation to each other; the structure of the situation in itself has no power whatever directly to determine conduct appropriate to it."
+    },
+    {
+     "n": 9,
+     "k": 27,
+     "txt": "[According to the theory one has to recognize one limitation of the natural reactions caused directly by the situation; a tendency to keep approximately in the direction of the objective. Round this fundamental motive, generally characterized as a manifestation of instinct, play the actual separate movements, whose spatial range thereby becomes narrower but which in this narrower range remain accidental as before. Since taking the straight direction towards the objective does not achieve much, in the experiments here performed, and is often even inadequate to the situation, I need not dwell longer upon this point, while there is no question of the formulation of a positive theory. The tendency is important enough, however, because it indicates something quite foreign to the principle of chance, but hidden under the harmless phrase \"instinctive impulse\". (Cf. remarks on this primary direction of action, p. 88 seqq.)]",
+     "note": "Page-bottom footnote: \"In the case of animals directed by their sense of smell: in the direction of the strongest intensification of the smell.\""
+    },
+    {
+     "n": 10,
+     "k": 28,
+     "txt": "Now I mention from the very beginning, how in the case of a roundabout-way experiment a practical \"result\" consisting of single and separate fractions, put together by chance, is sharply distinguishable from \"genuine solutions\". In these, the smooth, continuous course, sharply divided by an abrupt break from the preceding behaviour, is usually extremely characteristic. At the same time this process as a whole corresponds to the structure of the situation, to the relation of its parts to one another. Thus, for example: the objective is visible behind an obstacle of a certain form, on free ground — and suddenly the smooth and unchecked movement occurs along the corresponding curve of solution. We are forced to the impression that this curve appears as an adequate whole from the beginning, the product of a complete survey of the whole situation. (Chimpanzees, whose behaviour is incomparably more expressive than that of hens, show by their careful looking around that they really begin with something very like an inventory of the situation. And this survey then gives rise to the behaviour required for the solution.)"
+    },
+    {
+     "n": 11,
+     "k": 29,
+     "txt": "We can, in our own experience, distinguish sharply between the kind of behaviour which from the very beginning arises out of a consideration of the structure of a situation, and one that does not. Only in the former case do we speak of insight, and only that behaviour of animals definitely appears to us intelligent which takes account from the beginning of the lay of the land, and proceeds to deal with it in a single, continuous, and definite course. Hence follows this criterion of insight: the appearance of a complete solution with reference to the whole lay-out of the field. The contrast to the above theory (parts put together by chance) is absolute: if there the \"natural fractions\" were neither coherent with the structure of the situation, nor among themselves, then here a coherence of the \"curve of solution\" in itself, and with the optical situation, is absolutely required.",
+     "note": "Page-bottom footnote: \"The physicists have no word that fits exactly. We use the term \"Coherence\" from the theory of radiation, as being the least inappropriate.\"",
+     "label": "The criterion of insight"
+    },
+    {
+     "n": 12,
+     "k": 30,
+     "txt": "[To anyone who is inclined to regard the above explanations as detailed trivialities, I would suggest a glance through the psychological literature of man and animal. These trivialities should be thoroughly emphasized; in the first place, they are not always clearly understood, but are seen only through a veil of general principles, and secondly, the last part, about insight, appears to some students not at all obvious, but rather as a sort of belief in miracles. No such superstition is meant or prepared here, and nothing that has been said involves it in the slightest.]",
+     "note": "Page-bottom footnote: \"E. Wasmann, e.g. Die psychischen Fähigkeiten der Ameisen, 2nd ed., 1909, p. 108 seqq., has sharply defined this contrast. But he absolutely denies intelligence in animals, and further points to a logical theory of intelligent conduct (intelligence) in the case of man, which I cannot accept. O. Selz, Die Gesetze des geordneten Denkverlaufs, I., 1913, treats of reproductive thought in man from a point of view somewhat related to mine.\""
+    },
+    {
+     "n": 13,
+     "k": 31,
+     "txt": "How one is to explain that the field as a whole, the relations of the parts of the situation to one another, etc., determine the solution, belong to the theory. Here we have only to exclude the idea that the behaviour of the animals is to be explained by the assumption according to which the solution will be accomplished without regard to the structure of the situation, as a sequence of chance parts, that is to say, without intelligence."
+    },
+    {
+     "n": 14,
+     "k": 32,
+     "txt": "In the description of these experiments it should have been apparent enough that what is lacking for this explanation is that most necessary thing, a composition of the solutions out of chance parts. It is certainly not a characteristic of the chimpanzee, when he is brought into an experimental situation, to make any chance movements, out of which, among other things, a non-genuine solution could arise. He is very seldom seen to attempt anything which would have to be considered accidental in relation to the situation (excepting, of course, if his interest is turned away from the objective to other things). As long as his efforts are directed to the objective, all distinguishable stages of his behaviour (as with human beings in similar situations), tend to appear as complete attempts at solutions, none of which appears as the product of accidentally arrayed parts. This is true, most of all, of the solution which is finally successful. Certainly, it often follows upon a period of perplexity or quiet (often a period of survey), but in real and convincing cases, the solution never appears in a disorder of blind impulses. It is one continuous smooth action, which can be resolved into parts only by abstract thinking by the onlooker; in reality they do not appear independently. But that in so many \"genuine\" cases as have been described, these solutions as wholes should have arisen from mere chance, is an entirely inadmissible supposition, which the theory cannot allow without renouncing what is considered its chief merit."
+    },
+    {
+     "n": 15,
+     "k": 33,
+     "txt": "[I have noticed from myself and others, that what is particularly enlightening as to the ape's behaviour are the pauses mentioned above. A local colleague convinced, like most students, of the general value of the chance theory for animal psychology, came to see the anthropoids. I chose Sultan for the demonstration. He made one attempt at solution, then a second, and a third; but nothing made so great an impression on the visitor as the pause after that, during which Sultan slowly scratched his head and moved nothing but his eyes and his head gently, while he most carefully eyed the whole situation.]",
+     "label": "The pause"
+    },
+    {
+     "n": 16,
+     "k": 34,
+     "txt": "This sort of question can best be answered by actually observing the facts with which this theory asserts it can explain all our experiments, thus making oneself, by observation, more capable of judgment. Behaviour fit for such an examination occurred in the building-with-boxes tests. Here, in the solution which, taken en bloc, \"higher box up,\" was quite clear, the final result was achieved only by chance, and after an almost entirely unintelligent muddling around. This happened so often, and so uniformly with all the animals experimented on, that I can claim to know exactly the procedure asserted by that theory to be general. It should, therefore, be the more emphasized that the most striking difference exists between this conduct, obviously ruled by chance, and the behaviour described as \"genuine\" in clear solutions. In addition, the descriptions of these experiments have shown how unwillingly the chimpanzee embarks on procedure, of which the general outline will come to him as a genuine solution, but whose more detailed execution he must attempt as mere trying, that is, leaving it to chance. The animals would never have hit on this kind of trying, if an attempt genuine in outline had not put them in a position, with the special conditions of which they were not able to deal. The fact that the animals on such an occasion do make blind movements does not in any way contradict the assertion that, as a rule, and in reasonable testing conditions, disorder of impulses is not observed."
+    },
+    {
+     "n": 17,
+     "k": 35,
+     "txt": "In these experiments, whenever chance may have effected or favoured a solution, the fact is always mentioned. In complicated experimental conditions (see the next chapter), such cases are more frequent, but it must be said from the beginning that even then the course of the experiment does not entirely agree with that theoretical interpretation. In the first place, it may happen that the animal will attempt a solution which, while it may not result in success, yet has some meaning in regard to the situation. \"Trying around\" then consists in attempts at solution in the half-understood situation; and the real solution may easily arise by some chance outcome of it, i.e. it will not arise from chance impulses, but from actions, which, because they are au fond sensible, are great aids to chance. Secondly, a lucky accident may occur in some action, which has nothing to do with the objective. Here again, there is no question of a meaningless impulse — the chimpanzee only gives way to these, as already remarked, when driven to it — but of some kind of intelligent activity, even if with no reference to the objective. This is what probably occurs, when Sultan discovers the way to combine two sticks; only a Philistine would call his playing with these sticks \"meaningless impulses,\" because it follows no practical purpose. That an accident helped him is not the most important fact in either case; the important thing is how the experiment then proceeds. For we know from Man that even an accident may lead to intelligent further work (or intelligent repetition), especially in scientific discoveries (compare Oerstedt: Current and Magnet). Thus Sultan's behaviour, when he has once carried out his usual play, \"put stick in hole,\" with both the bamboo rods, is exactly the same as if he had discovered the new procedure in a genuine solution. After this there is no doubt that he makes use of the double-stick technique intelligently, and the accident seems merely to have acted as an aid — fairly strong it is true — which led at once to \"insight.\"",
+     "note": "Page-bottom footnote: \"Arrangements are usually made — in accordance with the requirements of the problem — so that it is not easy for accidental solutions to take place.\"",
+     "label": "The accident that led to insight"
+    }
+   ]
+  },
+  {
+   "id": "schluss",
+   "titel": "Conclusion, complete (pp. 265–269)",
+   "units": [
+    {
+     "n": 1,
+     "k": 36,
+     "txt": "The chimpanzees manifest intelligent behaviour of the general kind familiar in human beings. Not all their intelligent acts are externally similar to human acts, but under well-chosen experimental conditions, the type of intelligent conduct can always be traced. This applies, in spite of very important differences between one animal and another, even to the least gifted specimens of the species that have been observed here, and, therefore, must hold good for every member of the species, as long as it is not mentally deficient, in the pathological sense of the word. With this exception, which is presumably rare, the success of the intelligence tests in general will be more likely endangered by the person making the experiment than by the animal. One must learn and, if necessary, establish by preliminary observation, within what limits of difficulty and in what functions the chimpanzee can possibly show insight; negative or confused results from complicated and accidentally-chosen test-material, have obviously no bearing upon the fundamental question, and, in general, the experimenter should recognize that every intelligence test is a test, not only of the creature examined, but also of the experimenter himself. I have said that to myself quite often, and yet I have remained uncertain whether the experiments I performed may be considered \"satisfactory\" in this respect; without theoretical foundations, and in unknown territory, methodological mistakes may quite well have occurred; anyone who continues this work will be able to prevent them more easily.",
+     "label": "Every test tests the experimenter"
+    },
+    {
+     "n": 2,
+     "k": 37,
+     "txt": "At any rate, this remains true: Chimpanzees not only stand out against the rest of the animal world by several morphological and, in the narrower sense, physiological, characteristics, but they also show a type of behaviour which counts as specifically human. As yet we know little of their neighbours on the other side, but according to the little we do know, with the results of this report, it is not impossible that, in this region of experimental tasks, the anthropoid is nearer to man in intelligence too, than to many of the lower monkey-species. So far, observations agree well with the theories of evolution; in particular, the correlation between intelligence, and the development of the brain, is confirmed.",
+     "note": "Page-bottom footnote: \"For reasons to be dealt with later, of course not in applications of intelligence. In this respect, no doubt on account of a general weakness in his whole organization, the chimpanzee is more nearly related to the lower monkeys than to man.\""
+    },
+    {
+     "n": 3,
+     "k": 38,
+     "txt": "The positive result of the investigation needs a limiting determination. It is, indeed, confirmed by experiments of a somewhat different nature, which will be recounted later; but a more complete picture will be formed when they are added, and, in so far, our judgment of the intelligence of apes is left some scope. Of much greater importance is the fact that the experiments in which we tested these animals brought them into situations in which all essential conditions were actually visible, and the solution could be achieved immediately. This method of experimentation is as well adapted to the chief problem of insight as are any which can bring about the decision \"yes\" or \"no\"; in fact, it may be the very best method possible at present, as it yields very many, and very clear, results. But we must not forget that it is just in these experimental circumstances that certain factors hardly appear, or appear not at all, which are rightly considered to be of the greatest importance for human intelligence. We do not test at all, or rather only once in passing, how far the chimpanzee is influenced by factors not present, whether things \"merely thought about\" occupy him noticeably at all. And most closely connected with this, is the following problem."
+    },
+    {
+     "n": 4,
+     "k": 39,
+     "txt": "In the method adopted so far we have not been able to tell how far back and forward stretches the time \"in which the chimpanzee lives\"; for we know that, though one can prove some effects of recognition and reproduction after considerable lapses of time — as is actually the case in anthropoids — this is not the same as \"life for a longer space of time\". A great many years spent with chimpanzees lead me to venture the opinion that, besides in the lack of speech, it is in the extremely narrow limits in this direction that the chief difference is to be found between anthropoids and even the most primitive human beings. The lack of an invaluable technical aid (speech) and a great limitation of those very important components of thought, so-called \"images\", would thus constitute the causes that prevent the chimpanzee from attaining even the smallest beginnings of cultural development. With special reference to the second fact, the chimpanzee, who is easily puzzled by the simplest optical complications, will indeed fare badly in \"image-life\", where even man has continually to be fighting against the running into one another, and melting together, of certain processes.",
+     "note": "Page-bottom footnote: \"Cf. Appendix, p. 271 seqq.\"",
+     "label": "Speech, images, and time"
+    },
+    {
+     "n": 5,
+     "k": 40,
+     "txt": "In the field of the experiments carried out here the insight of the chimpanzee shows itself to be principally determined by his optical apprehension of the situation; at times he even starts solving problems from a too visual point of view, and in many cases in which the chimpanzee stops acting with insight, it may have been simply that the structure of the situation was too much for his visual grasp (relative \"weakness of form perception\"). It is therefore difficult to give a satisfactory explanation of all his performances, so long as no detailed theory of form (Gestalt) has been laid as a foundation. The need for such a theory will be felt the more, when one remembers that, in this field of intelligence, solutions showing insight necessarily are of the same nature as the structure of the situations, in so far as they arise in dynamic processes co-ordinated with the situation."
+    },
+    {
+     "n": 6,
+     "k": 41,
+     "txt": "One would like to have a standard for the achievements of intelligence described here by comparing with our experiments the performances of human beings (sick and well) and, above all, human children of different ages. As the results in this book have special reference to a particular method of testing and the special test-material of optically-given situations, the psychological facts established in human beings (especially children), under the same conditions, would have to be used. But such comparisons cannot be instituted, as, very much to the disadvantage of psychology, not even the most necessary facts of this sort have been ascertained. Preliminary experiments — some have been mentioned — have given me the impression that we are inclined to over-estimate the capabilities of children of all ages up to maturity, and even adults, who have had no special technical training in this type of performance. We are in a region of terra incognita. Educational psychology, engaged on the well-known quantitative tests for some time, has not yet been able to test how far normal, and how far mentally-deficient, children can go in certain situations. As experiments of this kind can be performed at the very tenderest age, and are certainly as scientifically valuable as the intelligence tests usually employed, it does not matter so much if they do not become immediately practicable for school and other uses. M. Wertheimer has been expressing this view for some years in his lectures; in this place, where the lack of human standards makes itself so much felt, I should like to emphasize particularly the importance and — if the anthropoids do not deceive us — the fruitfulness of further work in this direction."
+    },
+    {
+     "n": 7,
+     "k": 42,
+     "txt": "Postscript. — When I finished this book, I received from Mr. R. M. Yerkes (of Harvard University) his work entitled The Mental Life of Monkeys and Apes: a Study in Ideational Behaviour (Behaviour Monographs, III, 1, 1916). In this book some experiments of the type I have described are recorded. The anthropoid tested is an orang-utan, not a chimpanzee, but, as far as one can judge from the material given, the results agree with mine. Mr. Yerkes himself also thinks that insight must be attributed to the animal he tested."
+    }
+   ]
+  }
+ ]
+}

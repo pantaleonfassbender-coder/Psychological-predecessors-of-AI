@@ -53,6 +53,7 @@ const CITE = {
   pavlov: (sec, u) => `CR [${u.k}]`,
   mcdougall: (sec, u) => `BM [${u.k}]`,
   bain: (sec, u) => `SI [${u.k}]`,
+  koehler: (sec, u) => `MA [${u.k}]`,
   james: (sec, u) => sec.id === 'automata' ? `AWA [${u.k}]` : `PP [${u.k}]`,
 };
 const citeOf = (workId, sec, u) => (CITE[workId] || ((s, x) => `[${x.n}]`))(sec, u);
@@ -588,6 +589,8 @@ const TL_CROSS = [
     titel: "McDougall answers the tropism doctrine, citing Loeb's Die Bedeutung der Tropismen (BM [4], note) — the learning line meets the automaton debate" },
   { from: "huxley", to: "james", anchor: "#/works/james/automata@1",
     titel: "James's reply opens by naming Huxley's Belfast address (AWA [1]) — “Are We Automata?” (1879) answers the automaton hypothesis of 1874" },
+  { from: "thorndike", to: "koehler", anchor: "#/works/koehler/thorndike@2",
+    titel: "Köhler turns on Thorndike's puzzle boxes — mechanisms the animals could not survey (MA [8]) — insight against trial and error inside the learning line" },
   { from: "pavlov", to: "hull_machines",
     titel: "Hull & Baernstein build “a mechanical parallel to the conditioned reflex” (1929) — the closing arc; the passage joins when the module ships" },
 ];
@@ -684,13 +687,18 @@ function viewTimeline() {
           by hailing Huxley and Clifford as true prophets only on a condition no philosophy has
           met. James's Principles, in turn, quote Huxley's drilled veteran as the very image of
           habit (PP [55]).</li>
+        <li style="margin-bottom:.5rem"><a href="#/works/koehler/thorndike@2">Thorndike → Köhler</a> —
+          the carried passage: Köhler opens his case with Thorndike's “I failed to find any act that
+          even seemed due to reasoning” (MA [4]) and then turns on the method itself — cages whose
+          mechanisms the animals could never survey, so that insight could not have shown had it been
+          there (MA [8]). The learning line argues with itself.</li>
         <li><a href="#/works">Pavlov → Hull &amp; Baernstein</a> — the closing arc: a “mechanical
           parallel to the conditioned reflex” (Science, 1929) — psychologists building the machine
           that learns. The passage joins when the module ships.</li>
       </ul>
       <p class="fine" style="margin:.8rem 0 0">Dates are editorial anchors — the year of the work,
       not of the author. Translated modules sit at their originals (Ebbinghaus 1885, carried in the
-      English of 1913; Köhler 1917, in Winter's English of 1925; Binet–Simon 1905–11, in Kite's
+      English of 1913; Köhler 1917, in Winter's English of 1925, carried in the revised setting of 1927; Binet–Simon 1905–11, in Kite's
       English of 1916), the carried public-domain translation named in each reader. Anthology
       modules span years and are so labelled (James 1879/1890, Thorndike 1898/1911, the Hull
       machine papers 1929/30). The chart spaces stations by order, not by elapsed time — a linear
@@ -761,7 +769,11 @@ function viewEssay() {
       ancestors and the correctives: Hartley's associations before it, and Bain, who in 1855
       already had the random movement that happens to relieve a pain "clutched in the embrace
       of the feeling" and kept going ${C('bain','wille',16,'SI [16]')} — the law of effect
-      forty years early; Köhler's insight experiments as the standing counter-evidence within. Beneath it
+      forty years early; Köhler's insight experiments as the standing counter-evidence within —
+      solutions that appear whole, "with reference to the whole lay-out of the field"
+      ${C('koehler','zufall',11,'MA [29]')}, and the reminder that "every intelligence test is
+      a test, not only of the creature examined, but also of the experimenter himself"
+      ${C('koehler','schluss',1,'MA [36]')}. Beneath it
       lies Loeb's floor. The moth, he insisted, "does not fly into the flame out of
       'curiosity'", nor is it attracted by the light; "it is only oriented by it"
       ${C('loeb','instinkt',6,'CPB [29]')}, and to posit a "flying-into-the-flame centre" in

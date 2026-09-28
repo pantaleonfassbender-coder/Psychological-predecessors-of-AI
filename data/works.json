@@ -157,14 +157,15 @@
  {
   "id": "koehler",
   "linie": "lernen",
-  "status": "planned",
+  "status": "shipped",
   "autor": "Wolfgang Köhler",
   "leben": "1887–1967",
   "kurz": "Köhler",
-  "titel": "The Mentality of Apes (1917; English 1925) — selections",
+  "titel": "The Mentality of Apes (1917; English 1925, revised 1927) — selections",
   "sprachen": "English (1925, public domain)",
-  "claim": "Insight against trial and error: Sultan's stick and the detour experiments — the standing counter-evidence inside the learning line itself, and the ancestor of every ‘does it really understand?’ test.",
-  "geplant": "Selections from Ella Winter's translation (1925 printing; Internet Archive in.ernet.dli.2015.187610), public domain in the United States."
+  "claim": "Insight against trial and error: intelligence as the roundabout way, Sultan's double stick, and the criterion of insight — a solution that appears whole — the standing counter-evidence inside the learning line itself, and the ancestor of every ‘does it really understand?’ test.",
+  "geplant": "Selections from Ella Winter's translation in the revised setting of 1927 (Internet Archive in.ernet.dli.2015.187610, the unaltered 1931 reprint), public domain in the United States: the Introduction, the critique of Thorndike's experiments, Sultan's double stick, the chapter on chance, and the Conclusion.",
+  "datei": "koehler"
  },
  {
   "id": "huxley",

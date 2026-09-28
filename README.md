@@ -9,7 +9,7 @@ AI](https://philosophical-predecessors-of-ai.netlify.app), built to the same dis
 everything United States public domain, every paragraph citable, working translations marked
 as unofficial, no tracking.
 
-**Status: fourteen modules shipped, the apparatus growing.** Thorndike's *Animal
+**Status: fifteen modules shipped, the apparatus growing.** Thorndike's *Animal
 Intelligence* (the puzzle boxes and the laws of effect and exercise), Huxley's *Animal
 Automatism* (1874, complete), Spearman's *"General Intelligence"* (1904: the programme,
 the universal unity, the hierarchy, the summary of conclusions), Ebbinghaus's *Memory*
@@ -37,17 +37,21 @@ complete — the reply to Huxley — with the Principles on habit as plasticity,
 fly-wheel of society, and the naming of the stream of thought) and Bain's *The Senses
 and the Intellect* (1855: the instinctive germ of volition — random spontaneity, and the
 movement that relieves a pain "clutched in the embrace of the feeling" — with the Law of
-Contiguity and its hypothesis of currents that fuse by flowing together) are readable on stable
+Contiguity and its hypothesis of currents that fuse by flowing together) and Köhler's *The
+Mentality of Apes* (Winter's English, 1927 setting: intelligence as the roundabout way, the
+critique of Thorndike's hidden mechanisms, Sultan's double stick, the chance theory refused
+and the criterion of insight, and the Conclusion's rule that every intelligence test also
+tests the experimenter) are readable on stable
 citation grids (`AI, ch. II/VI [k]` · `Aut. [n]` · `GI [k]` · `Mem. [k]` · `IHF [k]` ·
 `DIC [k]` · `CP [k]` · `CPB [k]` · `PBV [n]` · `CR [k]` · `BM [k]` · `AWA [k]` ·
-`PP [k]` · `SI [k]`), and Fechner's *Elemente der Psychophysik* (1860) opens the
+`PP [k]` · `SI [k]` · `MA [k]`), and Fechner's *Elemente der Psychophysik* (1860) opens the
 corpus's bilingual layer: German with this site's working translation (`EP [k]`), the
 Vorwort and the definition chapter complete and the Massformel passage restored formula
 by formula. An introductory **essay** reads the corpus as a whole — and reads the
 apparatus's own machine-assisted making against it. A cross-corpus **concordance**
 searches every module (originals included), a concept **atlas** maps their shared
 vocabulary, a **timeline** charts all eighteen stations, **plates** from the cited
-digitisations open the readers, and a checker (`tools/check-corpus.py`) runs in CI. Four
+digitisations open the readers, and a checker (`tools/check-corpus.py`) runs in CI. Three
 further modules are registered in `data/works.json` with their source digitisations
 pinned. Still to come from the sibling machinery: the citation-bound dialogue.
 
@@ -57,7 +61,7 @@ pinned. Still to come from the sibling machinery: the citation-bound dialogue.
   English 1913), Galton (1883), Spearman (1904), Binet–Simon (1905–11; Kite's English 1916):
   sensation under a formula, memory under a curve, intelligence under a factor and a scale.
 - **The learning animal** — Hartley (1749), Bain (1855), Lloyd Morgan (1894), Loeb (1900),
-  Thorndike (1898/1911), Watson (1913), Pavlov (Anrep's English 1927), Köhler (English 1925):
+  Thorndike (1898/1911), Watson (1913), Pavlov (Anrep's English 1927), Köhler (English 1925/27):
   the ancestral line of reinforcement learning, with Morgan's canon as the founding rule
   against anthropomorphism and Köhler's insight as the counter-evidence within.
 - **The automaton debate** — Huxley (1874), James ("Are We Automata?" 1879 and selections
