@@ -1,7 +1,6 @@
-/* Psychological Predecessors of AI — router, registry, views.
-   Stage 0: the scaffold and the stated program. The readers, concordance,
-   atlas and timeline follow the sibling sites' proven machinery as the
-   modules ship. */
+/* Psychological Predecessors of AI — router, registry, views: overview,
+   readers, concordance, atlas, timeline, essay, coda, method. The machinery
+   follows the sibling sites (Calculemus, Ignatiana). */
 const D = { works: [], texts: {} };
 const view = document.getElementById("view");
 
@@ -37,7 +36,7 @@ const LLEDE = {
 };
 
 /* ------------------------------------------------------- citation grid */
-/* Each shipped work defines how a unit is cited. */
+/* Each module defines how a unit is cited. */
 const CITE = {
   huxley: (sec, u) => `Aut. [${u.n}]`,
   thorndike: (sec, u) =>
@@ -85,7 +84,7 @@ function route() {
 function viewOverview() {
   view.append(el(`<div>
     <div class="viewhead">
-      <span class="tag">Research apparatus · in construction</span>
+      <span class="tag">Research apparatus</span>
       <h1>Before the machines could learn, psychologists made the mind lawful</h1>
       ${(D.plates || {}).overview ? `<figure class="plate anchor">
         <a href="#/works/galton"><img src="assets/plates/overview.jpg"
@@ -96,7 +95,7 @@ function viewOverview() {
       </figure>` : ""}
       <p class="lede">Artificial intelligence has a philosophical prehistory — reasoning become
       reckoning — and it has a psychological one: the mind become mechanism, measure, and law of
-      learning. This apparatus will collect the public-domain sources of that second prehistory in
+      learning. This apparatus collects the public-domain sources of that second prehistory in
       citable, searchable editions: the texts in which sensation was brought under a formula and
       memory under a curve; in which animals taught the laws of learning that machines would one
       day obey; in which the question whether we ourselves are automata was argued at full
@@ -105,9 +104,9 @@ function viewOverview() {
       Turing remain in copyright, and are named in the <a href="#/coda">coda</a>.</p>
       <p class="fine">A sister apparatus carries the philosophical line —
       <a href="https://philosophical-predecessors-of-ai.netlify.app" rel="noopener">Calculemus:
-      philosophical predecessors of AI</a> — and the two will cross-reference each other. The
-      method follows the same discipline: everything public domain, every paragraph citable,
-      working translations marked as such, no tracking.</p>
+      philosophical predecessors of AI</a> — built to the same discipline: everything public
+      domain, every paragraph citable, working translations marked as such, no tracking. Start
+      with the <a href="#/essay">essay</a>, or open any work below.</p>
     </div>
 
     <div class="grid g2" style="margin-bottom:1.6rem">
@@ -118,9 +117,9 @@ function viewOverview() {
       </div>`).join("")}
     </div>
 
-    <h2>The program — ${D.works.filter(w=>w.status==="shipped").length} of ${D.works.length} modules shipped</h2>
-    <p class="fine" style="margin:.2rem 0 1rem">Each entry names its source digitisation now, and
-    moves into a reader as it ships. Status is tracked here and in the repository.</p>
+    <h2>The corpus — ${D.works.length} works in four lines</h2>
+    <p class="fine" style="margin:.2rem 0 1rem">Each card opens its reader. Every module names the
+    digitisation it was edited from, what it carries and what it omits.</p>
     <div class="grid g2" id="worklist"></div>
   </div>`));
   const wl = view.querySelector("#worklist");
@@ -133,12 +132,11 @@ function workCard(w) {
     ${(D.plates || {})[w.id] ? `<img class="platethumb" src="assets/plates/${w.id}_t.jpg" alt="" loading="lazy">` : ""}
     <div style="display:flex;gap:.6rem;align-items:baseline;justify-content:space-between;flex-wrap:wrap">
       <strong style="font-family:var(--serif)">${esc(w.autor)}</strong>
-      <span class="status ${open ? "shipped" : "planned"}">${open ? "reader" : "planned"}</span>
+      <span class="status ${open ? "shipped" : "planned"}">${open ? "reader" : "forthcoming"}</span>
     </div>
     <p class="fine" style="margin:.1rem 0 .3rem">${esc(w.leben)} · ${esc(w.sprachen)}</p>
     <h3 style="margin:.1rem 0 .3rem;font-size:1rem">${esc(w.titel)}</h3>
     <p style="font-size:.88rem;color:var(--fg2);margin:0">${esc(w.claim)}</p>
-    ${open ? "" : `<p class="fine" style="margin:.45rem 0 0">Planned: ${esc(w.geplant)}</p>`}
   </div>`);
   if (open) card.onclick = () => location.hash = `#/works/${w.id}`;
   return card;
@@ -237,8 +235,8 @@ function viewConcordance() {
     <div class="viewhead">
       <span class="tag">Cross-corpus search</span>
       <h1>Concordance</h1>
-      <p class="lede">Keyword in context across every shipped text, each hit resolved to its
-      citation. New modules join the search as they ship.</p>
+      <p class="lede">Keyword in context across every text in the corpus — originals included —
+      each hit resolved to its citation.</p>
     </div>
     <div class="toolbar">
       <input class="grow" id="q" type="search" placeholder="Search word or phrase …">
@@ -322,14 +320,14 @@ async function viewAtlas() {
   view.append(el(`<div>
     <div class="viewhead"><span class="tag">Term network</span>
       <h1>Atlas</h1>
-      <p class="lede">The ${NET.nodes.length} leading content terms of the shipped corpus, linked
+      <p class="lede">The ${NET.nodes.length} leading content terms of the corpus, linked
       where they occur in the same paragraph. Colour is the line whose texts use the term most
       (<span style="color:var(--messen)">the measured mind</span> ·
       <span style="color:var(--lernen)">the learning animal</span> ·
       <span style="color:var(--automat)">the automaton debate</span> ·
       <span style="color:var(--labor)">the machine in the laboratory</span>); size is frequency.
       Click a term for its neighbours and citations; scroll or double-click to zoom — more labels
-      appear as you go — and drag to pan. The map grows as modules ship.</p></div>
+      appear as you go — and drag to pan.</p></div>
     <div class="toolbar">
       <label class="fine" for="dens">Density</label>
       <select id="dens">
@@ -548,7 +546,7 @@ async function viewAtlas() {
 }
 
 /* ============================================================ TIMELINE */
-/* Chronological view of the four lines, planned stations included — the
+/* Chronological view of the four lines, all eighteen stations — the
    registry pins its sources in advance, so the chart can show the whole
    program. Dates are editorial anchors: the year of the work, not of the
    author; translated modules sit at their originals, the carried
@@ -581,8 +579,7 @@ const TL_ERAS = [
   { until: 9999, titel: "To the threshold — where the corpus ends" },
 ];
 /* Crossings between stations. A crossing with an anchor is documented by a
-   carried passage; the others are documented by the works themselves and
-   gain their passage when the module ships. */
+   carried passage and links to it. */
 const TL_CROSS = [
   { from: "hartley", to: "huxley", anchor: "#/works/huxley/text@39",
     titel: "Huxley restates Hartley's vibratiuncles as the physical basis of memory (Aut. [39]) and names him among the doctrine's best expositors — the root doctrine read back into the automaton debate" },
@@ -595,7 +592,7 @@ const TL_CROSS = [
   { from: "thorndike", to: "koehler", anchor: "#/works/koehler/thorndike@2",
     titel: "Köhler turns on Thorndike's puzzle boxes — mechanisms the animals could not survey (MA [8]) — insight against trial and error inside the learning line" },
   { from: "pavlov", to: "hull_machines",
-    titel: "Hull & Baernstein build “a mechanical parallel to the conditioned reflex” (1929) — the closing arc; the passage joins when the module ships" },
+    titel: "Hull & Baernstein build “a mechanical parallel to the conditioned reflex” (1929) — the closing arc" },
 ];
 
 function viewTimeline() {
@@ -643,7 +640,7 @@ function viewTimeline() {
     const open = w.status === "shipped";
     const right = w.linie !== "labor";
     return `<a href="${open ? `#/works/${w.id}` : "#/works"}">
-      <title>${esc(w.autor)} — ${esc(w.titel)}${open ? "" : " (planned)"}</title>
+      <title>${esc(w.autor)} — ${esc(w.titel)}${open ? "" : " (forthcoming)"}</title>
       <text x="96" y="${p.y + 4}" text-anchor="end" font-family="var(--mono)" font-size="11"
         fill="var(--fg3)">${esc(p.jahr)}</text>
       <circle cx="${p.x}" cy="${p.y}" r="5.5"
@@ -665,9 +662,8 @@ function viewTimeline() {
       <h1>Timeline — four lines toward the threshold</h1>
       <p class="lede">The corpus in time: eighteen stations from Hartley's vibrating
       associations of 1749 to the conditioning machine of 1929/30, four lines converging on
-      the year the machines begin to learn. Filled dots are shipped modules and open their
-      readers; hollow dots are planned, their sources already pinned on the
-      <a href="#/works">works page</a>. Dashed arcs mark crossings between the stations.</p></div>
+      the year the machines begin to learn. Each dot opens its module; dashed arcs mark the
+      crossings between stations, each documented by a passage the corpus carries.</p></div>
     <div class="tlwrap panel" style="padding:1rem .4rem">
       <svg class="tl" viewBox="0 0 ${W} ${H}" role="img"
         aria-label="Chronological chart of the corpus's eighteen modules in four lines">
@@ -702,7 +698,7 @@ function viewTimeline() {
           there (MA [8]). The learning line argues with itself.</li>
         <li><a href="#/works">Pavlov → Hull &amp; Baernstein</a> — the closing arc: a “mechanical
           parallel to the conditioned reflex” (Science, 1929) — psychologists building the machine
-          that learns. The passage joins when the module ships.</li>
+          that learns.</li>
       </ul>
       <p class="fine" style="margin:.8rem 0 0">Dates are editorial anchors — the year of the work,
       not of the author. Translated modules sit at their originals (Ebbinghaus 1885, carried in the
@@ -894,14 +890,14 @@ function viewEssay() {
 
     <div class="panel"><h2>How to read this corpus</h2>
       <p class="readable">These are selections chosen for an argument, not a library: every
-      module says what it carries, what it omits, and why; the registry pins each source
-      digitisation before a line of it is carried, so the plan itself is checkable; and every
+      module says what it carries, what it omits, and why, and names the digitisation it was
+      edited from, so that every choice is checkable; and every
       paragraph carries a stable citation — the codes used in this essay resolve, on click, to
       the passage in its module. Where the texts are ugly — Galton's eugenics, Morgan's
       colonial hierarchies of "civilised" and "primitive" — they are carried as printed and
       named as what they are, because a prehistory of measurement that hid the politics of
       measurement would document nothing. The <a href="#/works">works page</a> holds the
-      program; the <a href="#/timeline">timeline</a>, the <a href="#/atlas">atlas</a> and the
+      corpus line by line; the <a href="#/timeline">timeline</a>, the <a href="#/atlas">atlas</a> and the
       <a href="#/concordance">concordance</a> hold the corpus's own cross-references. The rest
       is the texts' affair.</p>
       <p class="fine">Editorial matter, CC BY 4.0. References: Franco Moretti, "Conjectures on
@@ -932,7 +928,7 @@ function viewCoda() {
       behind it: the apparatus can point at it, and does.</p>
       <p class="readable">The threshold itself moves. Works published in 1931 enter the United
       States public domain on 1 January 2027 — the second Baernstein–Hull machine paper among
-      them — and the program will take them up as they arrive.</p></div>
+      them — and the corpus will take them up as they arrive.</p></div>
     <div class="panel"><h2>Stated exclusions</h2>
       <p class="readable">This is a corpus about the mind become mechanism, measure and law of
       learning — not a history of psychology entire. Psychoanalysis is represented only by the
@@ -948,20 +944,20 @@ function viewMethod() {
   view.append(el(`<div>
     <div class="viewhead"><span class="tag">Transparency</span>
       <h1>Method, sources and limits</h1>
-      <p class="lede">What this site is, where its texts will come from, and what its editions
-      will and will not claim.</p></div>
+      <p class="lede">What this site is, where its texts come from, and what its editions do
+      and do not claim.</p></div>
 
     <div class="panel"><h2>The rights position</h2>
-      <p class="readable">Everything this apparatus ships will be in the United States public
+      <p class="readable">Everything this apparatus carries is in the United States public
       domain, and the site is operated from the United States, whose rules govern its edition
       choices. The original works qualify by publication date: everything published through 1930
       is public domain, which carries the corpus from Hartley (1749) to Hull's machine papers
       (1929/30) — the 1930 paper entered the public domain on 1 January 2026. Where a
-      public-domain English translation exists it will be used and named (Ebbinghaus 1913,
-      Binet–Simon in Kite's translation of 1916, Pavlov in Anrep's of 1927, Köhler in Winter's
-      of 1925); where none exists — notably Fechner, whose English translation of 1966 is in
-      copyright and will not be consulted — this site will supply its own working translation,
-      made directly from the original and dedicated to the public domain. Working translations
+      public-domain English translation exists it is used and named (Ebbinghaus 1913,
+      Binet–Simon in Kite's translation of 1916, Pavlov in Anrep's of 1927, Köhler in Winter's,
+      in its revised setting of 1927); where none exists — notably Fechner, whose English
+      translation of 1966 is in copyright and was not consulted — the site supplies its own
+      working translation, made directly from the original and dedicated to the public domain. Working translations
       are labelled as unofficial throughout: cite the original.</p>
       <p class="readable">The boundary of the site is itself a rights fact: the founding texts
       of cybernetics and machine intelligence — Craik 1943, McCulloch &amp; Pitts 1943, Hull's
@@ -969,28 +965,30 @@ function viewMethod() {
       ends, deliberately, at the threshold: the last texts it can carry in full are those in
       which psychologists first built a machine that learns.</p></div>
 
-    <div class="panel"><h2>The editions to come</h2>
+    <div class="panel"><h2>The editions</h2>
       <p class="readable">Each module follows the discipline proven on the sibling sites
       (<a href="https://philosophical-predecessors-of-ai.netlify.app" rel="noopener">Calculemus</a>,
       <a href="https://ignatian-research.netlify.app" rel="noopener">Ignatiana</a>): a named
       public-domain digitisation, OCR emended by hand against the sense and disclosed, a stable
-      paragraph-level citation grid, and per-module notes on what was selected and why. The
-      registry on the <a href="#/works">works page</a> pins each module's source digitisation
-      now, before a line of it is carried, so that the plan itself is checkable. As modules
-      ship, the apparatus gains the sibling machinery: readers with language toggles, a
-      cross-corpus concordance, a concept atlas, a chronological timeline, plates from the
-      printings, and a citation-bound dialogue.</p></div>
+      paragraph-level citation grid, and per-module notes on what was selected and why. Where the
+      earliest printing cannot be read reliably by machine, a later printing of the same text
+      is carried and checked against the earlier one, and the module says so. Around the
+      editions stand readers with language toggles, a cross-corpus
+      <a href="#/concordance">concordance</a>, a concept <a href="#/atlas">atlas</a>, a
+      chronological <a href="#/timeline">timeline</a>, plates from the printings, and an
+      introductory <a href="#/essay">essay</a>. A checker runs over the whole corpus on every
+      change to the repository.</p></div>
 
-    <div class="panel"><h2>Limits, stated in advance</h2>
-      <p class="readable">These will be selections chosen for an argument — how the mind was
-      made lawful, measurable and mechanisable — not complete works; each module will state its
+    <div class="panel"><h2>Limits</h2>
+      <p class="readable">These are selections chosen for an argument — how the mind was
+      made lawful, measurable and mechanisable — not complete works; each module states its
       cut. The corpus is Anglo-German-French by the accident of where experimental psychology
-      was written; the sibling site carries the non-Western roots of the computational idea, and
-      the two cross-reference. The measurement line has a history that includes eugenics: the
+      was written; the sibling site carries the non-Western roots of the computational idea. The
+      measurement line has a history that includes eugenics: the
       modules that carry Galton and the testing tradition state it. And the apparatus is built
       in sustained working sessions with a large language model, under an editor who takes
       responsibility for every selection, emendation and working translation — the repository's
-      commit history records the making, stage by stage.</p></div>
+      commit history records the making, module by module.</p></div>
   </div>`));
 }
 
@@ -1002,9 +1000,7 @@ function viewPrivacy() {
       analytics, loads no third-party scripts or fonts, and transmits nothing you type — there
       is nothing to type. The only thing stored is your theme choice (dark or daylight), kept
       in your own browser's localStorage and sent nowhere. Server logs are those of the hosting
-      provider (Netlify), governed by its privacy policy. When the citation-bound dialogue
-      ships, this page will state exactly what that one optional function transmits, before it
-      is enabled.</p></div>
+      provider (Netlify), governed by its privacy policy.</p></div>
   </div>`));
 }
 function viewImprint() {
