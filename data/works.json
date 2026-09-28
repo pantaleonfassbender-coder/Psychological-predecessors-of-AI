@@ -79,14 +79,15 @@
  {
   "id": "bain",
   "linie": "lernen",
-  "status": "planned",
+  "status": "shipped",
   "autor": "Alexander Bain",
   "leben": "1818–1903",
   "kurz": "Bain",
   "titel": "The Senses and the Intellect (1855) — selections",
   "sprachen": "English",
-  "claim": "Trial and error, and the ‘grouping’ of nerve currents that succeed together — the book read today as connectionism before the name.",
-  "geplant": "Selections from the first edition (Internet Archive sensesintellectb00bain, 1855): spontaneous activity, trial and error, retentiveness and grouping."
+  "claim": "Trial, error and reward before the names: random spontaneous movement, the one that relieves a pain 'clutched in the embrace of the feeling', and the Law of Contiguity read as currents that fuse by flowing together through the brain — connectionism before the name.",
+  "geplant": "Selections from the first edition (London: Parker, 1855; Internet Archive sensesintellectb00bain): the instinctive germ of volition (Book I, §§26–32) and the Law of Contiguity with its physical hypothesis of adhesion (Book II, ch. I, §§1–2, §4).",
+  "datei": "bain"
  },
  {
   "id": "morgan",

@@ -133,6 +133,16 @@ PLATES = [
    'credit': "William McDougall, Body and Mind (London: Methuen, 1918; "
              "first published 1911). Internet Archive cu31924029080880 "
              "(Cornell copy), leaf 6. Public domain." },
+ { 'id': 'bain',
+   'url': ia('sensesintellectb00bain', 7, w=800),
+   'caption': "Title page of The Senses and the Intellect, London 1855 — "
+              "the first edition, in which random spontaneity, the "
+              "volitional spur of feeling and the Law of Contiguity are "
+              "set down as the ground plan of learning.",
+   'credit': "Alexander Bain, The Senses and the Intellect (London: John "
+             "W. Parker and Son, 1855). Internet Archive "
+             "sensesintellectb00bain (Library of Congress copy), leaf 7. "
+             "Public domain." },
  { 'id': 'james',
    # journal scan: film margins trimmed by IIIF region, capped near 600px
    'url': ('https://iiif.archive.org/iiif/sim_mind_1879-01_4_13'

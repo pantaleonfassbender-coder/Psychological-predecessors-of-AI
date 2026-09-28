@@ -70,8 +70,16 @@ checkable. All are United States public domain (published through 1930). Entries
 
 - **Hartley, Observations on Man (1749)** — from the 1791 printing —
   <https://archive.org/details/observationsonma01hart>.
-- **Bain, The Senses and the Intellect (London 1855, first edition)** —
-  <https://archive.org/details/sensesintellectb00bain>.
+- **Bain, The Senses and the Intellect — SHIPPED** (`data/bain.json`, built by
+  `tools/build-bain.py`): selections from the first edition (London: John W. Parker and
+  Son, 1855) — <https://archive.org/details/sensesintellectb00bain> (Library of Congress
+  copy) — OCR emended against the sense, one doubtful stop read from the page image
+  (p. 290; leaf = printed page + 36). Carried: Book I, 'Of the Instinctive Germ of
+  Volition', §§26–32 (pp. 289–298, with Bain's extracts from Johannes Müller and his two
+  footnotes as notes — the second moved to the paragraph that holds its marker); Book II,
+  ch. I, 'Law of Contiguity', §§1–2 (pp. 318–321) and §4 (pp. 324–326), the omitted §3
+  named where it falls. Bain's own section numbers are kept in the text; cited as
+  `SI [k]`, k unique across the three selections.
 - **Lloyd Morgan, An Introduction to Comparative Psychology — SHIPPED**
   (`data/morgan.json`, built by `tools/build-morgan.py`): Chapter III, Other Minds than
   Ours, carried complete from the first edition (London: Walter Scott, 1894) —
@@ -199,6 +207,8 @@ credit name the source, digitisation and leaf.
 - **Pavlov** — the double chamber, Figs. 4–5 of the 1927 plates (the dog on its stand;
   the experimenter beyond the partition); `conditionedrefle0000ippa`, leaf 52, margins
   trimmed by IIIF region.
+- **Bain** — title page of the first edition (London: Parker, 1855);
+  `sensesintellectb00bain`, leaf 7.
 - **McDougall** — title page of the Methuen printing of 1918; `cu31924029080880`, leaf 6.
 - **James** — Mind, January 1879, p. 1: the masthead and the opening of "Are We
   Automata?"; `sim_mind_1879-01_4_13`, leaf 0, margins trimmed by IIIF region.

@@ -11,6 +11,7 @@
 | **Fechner, Elemente der Psychophysik (1860), selections** | `data/fechner.json` | German: public domain (1860 printing); emendation, formula restoration, numbering and the English working translation: CC0 1.0 |
 | **Galton, Inquiries into Human Faculty (1883), selections** | `data/galton.json` | English: public domain (1883 publication); selection, emendation and numbering: CC0 1.0 |
 | **Binet & Simon, The Development of Intelligence in Children (1916 translation), selections** | `data/binet.json` | English: public domain (1916 publication); selection, emendation and numbering: CC0 1.0 |
+| **Bain, The Senses and the Intellect (1855), selections** | `data/bain.json` | English: public domain (1855 publication); selection, emendation and numbering: CC0 1.0 |
 | **Lloyd Morgan, An Introduction to Comparative Psychology (1894), ch. III** | `data/morgan.json` | English: public domain (1894 publication); emendation and numbering: CC0 1.0 |
 | **Loeb, Comparative Physiology of the Brain (1900), selections** | `data/loeb.json` | English: public domain (1900 publication); selection, emendation and numbering: CC0 1.0 |
 | **Watson, Psychology as the Behaviorist Views It (1913), complete** | `data/watson.json` | English: public domain (1913 journal printing); emendation and numbering: CC0 1.0 |

@@ -9,7 +9,7 @@ AI](https://philosophical-predecessors-of-ai.netlify.app), built to the same dis
 everything United States public domain, every paragraph citable, working translations marked
 as unofficial, no tracking.
 
-**Status: thirteen modules shipped, the apparatus growing.** Thorndike's *Animal
+**Status: fourteen modules shipped, the apparatus growing.** Thorndike's *Animal
 Intelligence* (the puzzle boxes and the laws of effect and exercise), Huxley's *Animal
 Automatism* (1874, complete), Spearman's *"General Intelligence"* (1904: the programme,
 the universal unity, the hierarchy, the summary of conclusions), Ebbinghaus's *Memory*
@@ -34,17 +34,20 @@ McDougall's *Body and Mind* (1911: the chapter answering the tropism doctrine �
 total reaction, persistence with varied effort, and the telegram-argument for meaning —
 and the conclusion's verdict for Animism) and a James anthology ("Are We Automata?", 1879,
 complete — the reply to Huxley — with the Principles on habit as plasticity, the
-fly-wheel of society, and the naming of the stream of thought) are readable on stable
+fly-wheel of society, and the naming of the stream of thought) and Bain's *The Senses
+and the Intellect* (1855: the instinctive germ of volition — random spontaneity, and the
+movement that relieves a pain "clutched in the embrace of the feeling" — with the Law of
+Contiguity and its hypothesis of currents that fuse by flowing together) are readable on stable
 citation grids (`AI, ch. II/VI [k]` · `Aut. [n]` · `GI [k]` · `Mem. [k]` · `IHF [k]` ·
 `DIC [k]` · `CP [k]` · `CPB [k]` · `PBV [n]` · `CR [k]` · `BM [k]` · `AWA [k]` ·
-`PP [k]`), and Fechner's *Elemente der Psychophysik* (1860) opens the
+`PP [k]` · `SI [k]`), and Fechner's *Elemente der Psychophysik* (1860) opens the
 corpus's bilingual layer: German with this site's working translation (`EP [k]`), the
 Vorwort and the definition chapter complete and the Massformel passage restored formula
 by formula. An introductory **essay** reads the corpus as a whole — and reads the
 apparatus's own machine-assisted making against it. A cross-corpus **concordance**
 searches every module (originals included), a concept **atlas** maps their shared
 vocabulary, a **timeline** charts all eighteen stations, **plates** from the cited
-digitisations open the readers, and a checker (`tools/check-corpus.py`) runs in CI. Five
+digitisations open the readers, and a checker (`tools/check-corpus.py`) runs in CI. Four
 further modules are registered in `data/works.json` with their source digitisations
 pinned. Still to come from the sibling machinery: the citation-bound dialogue.
 

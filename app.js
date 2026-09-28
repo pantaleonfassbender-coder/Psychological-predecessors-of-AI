@@ -52,6 +52,7 @@ const CITE = {
   watson: (sec, u) => `PBV [${u.n}]`,
   pavlov: (sec, u) => `CR [${u.k}]`,
   mcdougall: (sec, u) => `BM [${u.k}]`,
+  bain: (sec, u) => `SI [${u.k}]`,
   james: (sec, u) => sec.id === 'automata' ? `AWA [${u.k}]` : `PP [${u.k}]`,
 };
 const citeOf = (workId, sec, u) => (CITE[workId] || ((s, x) => `[${x.n}]`))(sec, u);
@@ -757,8 +758,10 @@ function viewEssay() {
       ${C('thorndike','method',6,'AI, ch. II [20]')}, and the Law of Effect stated as law
       ${C('thorndike','laws',13,'AI, ch. VI [13]')} — the sentence reinforcement learning
       cites as its origin, the corpus's most direct wire into the present. Around it stand the
-      ancestors and the correctives: Hartley's associations and Bain's trial and error before
-      it, Köhler's insight experiments as the standing counter-evidence within. Beneath it
+      ancestors and the correctives: Hartley's associations before it, and Bain, who in 1855
+      already had the random movement that happens to relieve a pain "clutched in the embrace
+      of the feeling" and kept going ${C('bain','wille',16,'SI [16]')} — the law of effect
+      forty years early; Köhler's insight experiments as the standing counter-evidence within. Beneath it
       lies Loeb's floor. The moth, he insisted, "does not fly into the flame out of
       'curiosity'", nor is it attracted by the light; "it is only oriented by it"
       ${C('loeb','instinkt',6,'CPB [29]')}, and to posit a "flying-into-the-flame centre" in

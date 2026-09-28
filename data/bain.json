@@ -1,0 +1,245 @@
+{
+ "id": "bain",
+ "autor": "Alexander Bain",
+ "titel": "The Senses and the Intellect (1855) — selections",
+ "jahr": 1855,
+ "zitierweise": "SI [k]",
+ "quelle": "Selections from the first edition (London: John W. Parker and Son, 1855), Internet Archive sensesintellectb00bain (Library of Congress copy), OCR emended against the sense, one point read from the page image. Carried: Book I, 'Of the Instinctive Germ of Volition', §§26–32 (pp. 289–298, with Bain's extracts from Johannes Müller's Physiology); Book II, ch. I, 'Law of Contiguity', §§1–2 (pp. 318–321) and §4 (pp. 324–326). Bain's page-bottom footnotes are carried as notes; the omitted §3 is named where it falls. The section numbers in the text are Bain's own; cited as 'SI [k]', k unique across the three selections.",
+ "hinweis": "The pivot of the learning line. Bain's volition begins in random spontaneous movement; when one of those movements happens to relieve a pain, the feeling seizes it and keeps it going — 'clutched in the embrace of the feeling' — and repetition fixes the link. That is trial, error and reinforcement stated forty years before Thorndike's puzzle boxes. And the Law of Contiguity is given a physical reading: currents that flow together through the brain fuse, the fusion a growth in the nerve fibres and cells — connectionism before the name, and the neural hypothesis Ebbinghaus would call premature.",
+ "sections": [
+  {
+   "id": "wille",
+   "titel": "Book I — Of the Instinctive Germ of Volition, §§26–32 (pp. 289–298)",
+   "units": [
+    {
+     "n": 1,
+     "k": 1,
+     "txt": "26. In a former chapter I endeavoured to establish, as an important fact of the human system, that our various organs are liable to be moved by a stimulus flowing out from the nervous centres, in the absence of any impressions from without, or any antecedent state of feeling whatsoever. This fact of spontaneous activity, I look upon as an essential prelude to voluntary power, making indeed one of the terms or elements of Volition; in other words, Volition is a compound, made up of this and something else."
+    },
+    {
+     "n": 2,
+     "k": 2,
+     "txt": "Neither the existence of spontaneous actions, nor the essential connexion of these with voluntary actions, has been, so far as I am aware, advanced as a doctrine by any writer on the human mind; but the following interesting extracts from Professor Müller will show that he has been forcibly impressed with both the one and the other of these views."
+    },
+    {
+     "n": 3,
+     "k": 3,
+     "txt": "'It is evident that the ultimate source of voluntary motion cannot depend on any conscious conception of its object; for voluntary motions are performed by the foetus before any object can occur to the mind, before an idea can be possibly conceived of what the voluntary motion effects; we must therefore view the question in a much simpler manner. On what do the first voluntary movements in the foetus depend? All the complex conditions which give rise to voluntary motions, in the adult, are here absent. Its own body is the sole world from which the obscure conceptions of the foetus that excite its actions can be derived. The foetus moves its limbs at first, not for the attainment of any object, but solely because it can move them. Since, however, on this supposition, there can be no particular reason for the movement of any one part, and the foetus would have equal cause to move all its muscles at the same time, there must be something which determines this or that voluntary motion to be performed, — which incites the retraction, first of this foot or arm, and then of the other.' — Müller, p. 935.",
+     "note": "Page-bottom footnote: \"I should say 'spontaneous.'\""
+    },
+    {
+     "n": 4,
+     "k": 4,
+     "txt": "This last supposition, as to the equal tendency of all the muscles to come into action through the spontaneous activity of the centres, is, I think, too absolutely stated. There can hardly exist such a perfectly balanced charge of the centres, as to make all of them equally ready to commence a stimulus of the muscles under their control. It will always happen that some one will be more prone to act than another, from the mere state of constitutional or nutritive vigour belonging to it: and when that one has exhausted itself the discharge of some other may be expected. Then, as to the tendency to move first one foot and then the other, we have already seen that this alternation is provided for by a distinct arrangement referable, in all probability, to the cerebellum; so that when by any means a motion of the legs is commenced, that motion is guided in an alternating cycle. I continue the quotation from Müller.",
+     "note": "Page-bottom footnote: \"Like the ass of Buridan between two bundles of hay.\""
+    },
+    {
+     "n": 5,
+     "k": 5,
+     "txt": "'The knowledge of the changes of position, which are produced by given movements, is gained gradually, and only by means of the movements themselves; the first play of the will on single groups of the radicle motor fibres of the nerves in the medulla oblongata, must therefore be independent of any aim towards change of position; it is a mere play of volition, without any conception of the effects thereby produced in the limbs. This voluntary [say rather spontaneous] excitation of the origins of the nervous fibres, without objects in view, gives rise to motions, changes of posture, and consequent sensations. Thus a connexion is established in the yet void mind between certain sensations and certain motions. When subsequently a sensation is excited from without, in any one part of the body, the mind will be already aware that the voluntary motion, which is in consequence executed, will manifest itself in the limb which was the seat of sensation; the foetus in utero will move the limb that is pressed upon, and not all the limbs simultaneously. The voluntary movements of animals must be developed in the same manner. The bird which begins to sing, is necessitated by an instinct to incite the nerves of its laryngeal muscles to action; tones are thus produced. By the repetition of this blind exertion of volition, the bird at length learns to connect the kind of cause with the character of the effect produced."
+    },
+    {
+     "n": 6,
+     "k": 6,
+     "txt": "'We have already learned from many other facts, that the nervous principle in the medulla oblongata is in a state of extraordinary tension, or proneness to action; that the slightest change in its condition excites a discharge of nervous influence, as manifested in laughing, sneezing, sobbing, &c. While the tension of the nervous principle is not disturbed, we are equally ready to excite voluntary movements in any part of the body, and such is the state of rest or inaction. Every mental impulse to motion disturbs the balance of this tension, and causes a discharge of nervous influence in a determinate direction, — that is, excites to action a certain number of the fibres of the nervous motor apparatus.' — p. 936–7."
+    },
+    {
+     "n": 7,
+     "k": 7,
+     "txt": "This last view I conceive to be an accurate statement of the nature of nervous energy. The nervous system may be compared to an organ with bellows constantly charged, and ready to be let off in any direction, according to the particular keys that are touched. The stimulus of our sensations and feelings, instead of supplying the inward power, merely determines the manner and place of the discharge. The centres of speech and song, for example, when fresh and healthy, may either overflow so as to commence action in a purely spontaneous way, or they remain undischarged till irritated by some external influence, as, for example, the sound of another voice. The bird whose morning song has lain dormant for a time, flows out at the stimulus of another songster just begun."
+    },
+    {
+     "n": 8,
+     "k": 8,
+     "txt": "27. We must now therefore specifically consider what there is in volition over and beyond the spontaneous discharge of active impulses upon our various moving organs, — limbs, body, voice, tongue, eyes, &c. If we look at this kind of impulse closely, we shall see wherein its defect or insufficiency lies, namely, in the random nature of it. Being dependent on the condition of the various nervous centres, the discharge is regulated by physical circumstances, and not by the ends, purposes, or uses of the animal. When the centres of locomotion are fresh and exuberant, as in the dog unchained of a morning, the animal sets off at the top of his speed; the force once exhausted, the creature comes to a stand-still in the same spontaneous way, like a watch run down. But this moment of exhausted energy is the very moment when an animal ought properly to be active in procuring food and replenishment to the system; and there ought to be in the state of exhaustion itself a stimulus to act, just as a watch run down would require, in order to be self-sustaining, to touch some chord that would set a-going a power to wind it up, or as a dying fire ought to act on a spring for putting on fresh coals. Mere spontaneity, therefore, stops far short of what our volition does for us in the way of self-preservation; a power that dies out when action is most needed cannot be the appropriate support of our existence."
+    },
+    {
+     "n": 9,
+     "k": 9,
+     "txt": "Müller's application of the term 'voluntary' to the initial movements prompted solely by the state of tension of the nerve centres is not strictly correct; these movements are but one term of the couple that makes up an act of volition; both a feeling and a movement are necessary parts of every such act. A morsel of food on the tongue sets a-going the movements of mastication; this is a voluntary effort, an effort prompted and controlled by a feeling, namely, the sensation of taste or relish. Acts performed without any stimulus of feeling are usually described as involuntary; such are the spasms of disease and the reflex movements already noticed."
+    },
+    {
+     "n": 10,
+     "k": 10,
+     "txt": "There is a power in certain feelings or emotions to originate movements of the various active organs. A connexion is formed either by instinct or by acquisition, or by both together, between our emotional states and our active states, sufficient to constitute a link of cause and effect between the one and the other. And the question arises whether this link is original or acquired."
+    },
+    {
+     "n": 11,
+     "k": 11,
+     "txt": "Dr. Reid has no hesitation in classing the voluntary command of our organs, that is, the sequence of feeling and action implied in all acts of will among instincts. (See his chapter on Instincts, Essays on the Active Powers.) The power of lifting a morsel of food to the mouth is, according to him, an instinctive or pre-established conjunction of the wish and the deed; that is to say, the emotional state of hunger coupled with the sight of a piece of bread, is associated through a primitive link of the mental constitution with the several movements of the hand, arm, and mouth, concerned in the act of eating."
+    },
+    {
+     "n": 12,
+     "k": 12,
+     "txt": "This assertion of Dr. Reid's may be simply met by appealing to the facts. It is not true that human beings possess at birth any voluntary command of their limbs whatsoever. A babe of two months old cannot use its hands in obedience to its desires. The infant can grasp nothing, hold nothing, can scarcely fix its eyes on anything. Dr. Reid might just as easily assert that the movements of a ballet-dancer are instinctive, or that we are born with an already established link of causation in our minds between the wish to paint a landscape and the movements of a painter's arm. If the more perfect command of our voluntary movements implied in every art be an acquisition, so is the less perfect command of these movements that grows upon a child during the first year of life. At the moment of birth, voluntary action is all but a nonentity."
+    },
+    {
+     "n": 13,
+     "k": 13,
+     "txt": "28. According to this view, therefore, there is a process of acquirement in the establishing of those links of feeling and action that volition implies: this process will be traced and exemplified in the following Book, and also, at some future time, in a detailed discussion of the whole subject of volition. But the acquisition must needs repose upon some fundamental property of our nature that may properly be styled an Instinct. It is this initial germ or rudiment that I am now anxious to fasten upon and make apparent. There certainly does exist in the depths of our constitution a property, whereby certain of our feelings, especially the painful class, impel to action of some kind or other. This, which I have termed the volitional property of feeling, is not an acquired property. From the earliest infancy a pain has a tendency to excite the active organs, as well as the emotional expression, although as yet there is no channel prepared whereby the stimulus may flow towards the appropriate members. The child whose foot is pricked by a needle in its dress is undoubtedly impelled by an active stimulus, but as no primitive link exists between an irritation in the foot and the movement of the hand towards the part affected, the stimulus is wasted on vain efforts, and there is nothing to be done but to drown the pain by the outburst of pure emotion. It is the property of almost every feeling of pain to stimulate some action for the extinction or abatement of that pain; it is likewise the property of many emotions of pleasure to stimulate an action for the continuance and increase of the pleasure; but the primitive impulse does not in either case determine which action. We are left to a laborious and tedious process of acquisition in so far as the singling out of the requisite movement is concerned."
+    },
+    {
+     "n": 14,
+     "k": 14,
+     "txt": "If there exist at the commencement only a vague indeterminate impulse attaching to our painful or pleasurable states, how can we ever get these vague impulses to run into the true channels, or to be associated with the appropriate movements? We seem as yet no nearer the solution of the grand difficulty."
+    },
+    {
+     "n": 15,
+     "k": 15,
+     "txt": "29. I will endeavour to indicate what seems to me to be the circumstance that leads to this remarkable union between the two great isolated facts of our nature, namely, on the one hand, feelings inciting to movement in general, but to no action in particular, and, on the other hand, the spontaneous movements already spoken of."
+    },
+    {
+     "n": 16,
+     "k": 16,
+     "txt": "If, at the moment of some acute pain, there should accidentally occur a spontaneous movement, and if that movement sensibly alleviates the pain, then it is that the volitional impulse belonging to the feeling will show itself. The movement accidentally begun through some other influence, will be sustained through this influence of the painful emotion. In the original situation of things, the acute feeling is unable of itself to bring on the precise movement that would modify the suffering; there is no primordial link between a state of suffering and a train of alleviating movements. But should the proper movement be once actually begun, and cause a felt diminution of the acute agony, the spur that belongs to states of pain would suffice to sustain this movement. Once assume that the two waves occur together in the same cerebral seat — a wave of painful emotion, and a wave of spontaneous action tending to subdue the pain, — there would arise an influence out of the former to sustain and prolong the activity of the latter. The emotion cannot invite, or suggest, or waken up the appropriate action; nevertheless, the appropriate action once there and sensibly telling upon the irritation, is thereupon kept going by the active influence, the volitional spur of the irritated consciousness. In short, if the state of pain cannot awaken a dormant action, a present feeling can at least maintain a present action. This, so far as I can make out, is the original position of things in the matter of volition. It may be that the start and the movements resulting from an acute smart, may relieve the smart, but that would not be a volition. In volition there are actions quite distinct from the manifested movements due to the emotion itself; these other actions rise at first independently and spontaneously, and are clutched in the embrace of the feeling when the two are found to suit one another in the alleviation of pain or the effusion of pleasure.",
+     "label": "The movement that relieves is kept going"
+    },
+    {
+     "n": 17,
+     "k": 17,
+     "txt": "An example will perhaps place this speculation in a clearer light. An infant lying in bed has the painful sensation of chillness. This feeling produces the usual emotional display, namely, movements, and perhaps cries and tears. Besides these emotional elements there is a latent spur of volition, but with nothing to lay hold of as yet owing to the disconnected condition of the mental arrangements at our birth. The child's spontaneity, however, may be awake, and the pained condition will act so as to irritate the spontaneous centres, and make their central stimulus flow more copiously. In the course of a variety of spontaneous movements of arms, legs, and body, there occurs an action that brings the child in contact with the nurse lying beside it; instantly warmth is felt, and this alleviation of the painful feeling becomes immediately the stimulus to sustain the movement going on at that moment. That movement, when discovered, is kept up in preference to the others occurring in the course of the random spontaneity.",
+     "label": "The infant, the chill, and the random spontaneity"
+    },
+    {
+     "n": 18,
+     "k": 18,
+     "txt": "Possibly some little time may be requisite in the human infant to develop this power of clutching the right movement when it comes. But the power must be an original endowment; no experience could confer such a faculty as this. We are driven to assume some fundamental mode of connexion between the detached elements of feeling and movement occurring in the same brain at the same moment; and I know of no better way of expressing this primordial tendency of the one to embrace the other than by saying that, when both are present together, the volitional spur of the feeling can stimulate the continuance of the movement, provided a soothing and pleasurable effect is the conscious result."
+    },
+    {
+     "n": 19,
+     "k": 19,
+     "txt": "By a process of cohesion or acquisition, which I shall afterwards dwell upon, the movement and the feeling become so linked together, that the feeling can at after times waken the movement out of dormancy; this is the state of matters in the maturity of volition. The infant of twelve months, under the stimulus of cold, can hitch nearer the side of the nurse, although no spontaneous movements to that effect happen at the moment; past repetition has established a connexion that did not exist at the beginning, whereby the feeling and action have become linked together as cause and effect. A full-grown volition is now manifested, instead of that vague incitement that could do nothing until the right movement had sprung up in the course of a series of spontaneous discharges of the central sources of power."
+    },
+    {
+     "n": 20,
+     "k": 20,
+     "txt": "30. We must then assume it as a fact that as soon as a clear consciousness of movements sensibly remedial comes into play, that consciousness has the power of stimulating a concurring activity; in other words volition begins. It may be by a reflex action that a child commences to suck when the nipple is placed between its lips; but the continuing to suck so long as the sensation of hunger is felt, and the ceasing when that sensation ceases, are truly volitional acts. All through animal life, down to the very lowest sentient being, this property of consciousness is exhibited, and operates as the instrument for guiding and supporting existence. To whatever lengths the purely reflex instincts, or the movements divorced from consciousness, may be carried on in the inferior tribes, I can with difficulty admit the total absence of feeling in any being that we are accustomed to call an animal; and with feeling I am obliged also to include this property which links the state of feeling with the state of present movement. Inferiority in the animal scale is marked by the fewness of the sensations, not by an entire blank in this region; and it does not follow that because a living creature has no consciousness saving hunger, repletion, and the feeling of being hurt, that these feelings should be feeble and insufficient to stimulate and guide the animal's movements. The earthworm leaves the earth when soaked with rain, in obedience to a stimulus of uneasiness, and continues crawling until its consciousness is again serene. When the ground has dried to the proper degree, the animal makes its way back to its shelter and food. If perchance in the movements stimulated by an uneasy state, the uneasiness comes to be sensibly increased, the worm would feel itself arrested; the spur would be towards putting a stop to the movement causing pain, and some other movement would go on instead; if relief came by the change, the volitional spur would sustain the new action so long as the agreeable effect continued. Here too, I should be disposed to assume the existence of a separate spontaneous tendency to crawl in the new-born worm, a tendency growing out of its nervous and muscular organization. An animal moves and also feels; these are distinct facts, separate properties of the mental system; nevertheless, when both take place together, the feeling can, according to the nature of it, stimulate or repress the movement; and this I believe to be volition in the germ."
+    },
+    {
+     "n": 21,
+     "k": 21,
+     "txt": "31. To reduce the complicacy of this speculation, I shall repeat in numerical separateness the distinct considerations that are mixed up in it.",
+     "label": "The theory of volition in summary"
+    },
+    {
+     "n": 22,
+     "k": 22,
+     "txt": "(1.) There is a power of spontaneous movement in the various active organs anterior to, and independent of, the feelings that such movement may give birth to; and without this no action for an end can ever be commenced."
+    },
+    {
+     "n": 23,
+     "k": 23,
+     "txt": "(2.) There exists consciousness, feeling, sensation or emotion, produced from movements, from stimulants of the senses and sensitive parts, or from other causes. The physical accompaniment of this is a diffused excitement of the bodily organs constituting the outburst or expression of it, as the start from a blow."
+    },
+    {
+     "n": 24,
+     "k": 24,
+     "txt": "(3.) There is a property of consciousness, — superadded to and by no means involved in, this diffused energy of expression,— whereby a feeling can influence any present active exertion of the body so as either to continue or abate that exertion. This is the property that links feeling to movement, thereby giving birth to volition. The feelings that possess this power — including nearly all pains and many states of pleasure, — I have hitherto described as volitional feelings; those that are deficient in this stimulus, being principally of the pleasurable class, are the pure, un-volitional, or serene emotions."
+    },
+    {
+     "n": 25,
+     "k": 25,
+     "txt": "32. There are various actions, commonly called Instincts, that are only phases or results of this fundamental property of mind. Self-preservation, implying the revulsion from pain and injury, and the appropriation of the means of subsistence, is an example of volition as now explained. We have no original tendency to protect ourselves from injurious influences if they do not affect us as pains, nor to lay hold of beneficial influences that give no present pleasure. Excepting under the sweep of volition, self-preservation does not exist."
+    },
+    {
+     "n": 26,
+     "k": 26,
+     "txt": "There are certain special instances of early precaution against harm that are often remarked upon as a portion of the original provision of nature in our behalf. Thus the dread of falling is very strong in early life, and stimulates powerful efforts by way of prevention. But this is no other than an instance of the general fact we are now considering. The remembrance of the acute pain of a past fall is one source of the spur to preserve the stability of one's footing. And even still earlier, and before experienced hurts can operate as a warning, there is a severe and distressing sensation in the sudden loss of support, that prompts us vigorously to act for restoring the firm position. The case is distinguished only by the remarkable virulence of the pained condition and the corresponding degree of volitional stimulus manifested by it.",
+     "note": "The chapter goes on to the special activities — locomotion, the voice, mastication — and, from §33, to speech (pp. 299–314); not carried here."
+    }
+   ]
+  },
+  {
+   "id": "kontiguitaet",
+   "titel": "Book II, ch. I — The Law of Contiguity, §§1–2 (pp. 318–321)",
+   "units": [
+    {
+     "n": 1,
+     "k": 27,
+     "txt": "1. This associating principle is the basis of Memory, Habit, and the Acquired Powers in general. Writers on Mental Science have described it under various names. Sir William Hamilton terms it the law of 'Redintegration,' regarding it as the principle whereby one part of a whole brings up the other parts, as when one syllable of a name recals the rest, or one house in a street suggests the succeeding ones. The associating links called Order in Time, Order in Place, and Cause and Effect are all included under it. We might also name it the law of Adhesion, Mental Adhesiveness, or Acquisition."
+    },
+    {
+     "n": 2,
+     "k": 28,
+     "txt": "The following is a general statement of this mode of mental reproduction."
+    },
+    {
+     "n": 3,
+     "k": 29,
+     "txt": "Actions, Sensations, and States of Feeling, occurring together or in close succession, tend to grow together, or cohere in such a way that when any one of them is afterwards presented to the mind, the others are apt to be brought up in idea.",
+     "label": "The Law of Contiguity"
+    },
+    {
+     "n": 4,
+     "k": 30,
+     "txt": "There are various circumstances or conditions that regulate and modify the operation of this principle, so as to render the adhesive growth more or less rapid and secure. These will be best brought out by degrees in the progress of the exposition. As a general rule, repetition is necessary in order to render coherent in the mind a train or aggregate of images, as, for example, the successive aspects of a public way, with a sufficient degree of force to make one suggest the others at an after period. The precise degree of repetition needed depends on many circumstances, the quality of the individual mind being one."
+    },
+    {
+     "n": 5,
+     "k": 31,
+     "txt": "2. I shall commence the detailed exposition of the Law of Contiguity with the case of Muscular Activity, including under this head all kinds of movements, attitudes, and efforts of resistance."
+    },
+    {
+     "n": 6,
+     "k": 32,
+     "txt": "Through the intellectual property of adhesiveness or plasticity, as expressed by this principle of contiguous association, movements can be linked together in trains and made to succeed each other, with the same certainty and invariable sequence as we find in the instinctive successions of rhythmical action already discussed. The complicated evolutions of a dance come to flow of their own accord, no less than the movements on all fours of the newly dropped lamb."
+    },
+    {
+     "n": 7,
+     "k": 33,
+     "txt": "We may begin with remarking the operation of the adhesive principle upon the spontaneous and instinctive actions themselves. These actions are plainly confirmed and invigorated by repetition. Although many creatures can walk as soon as they are born, they walk much better after a little practice. Here, however, we cannot easily make allowance for the growth of the parts themselves, apart from the effect of exercise. The muscles of the limbs increase in size, and the nerve-centres that stimulate and organize the rhythmical movements acquire more development through time alone. We are, therefore, not in a good position, in the case of the instincts, to trace and estimate the force of adhesive growth due to this principle of contiguity. But knowing, as we do, how the force operates in all the voluntary operations, we are entitled to presume that it works also in the various instinctive operations. By practice, that is, by repetition, the infant sucks with more ease and vigour. In learning to walk, exercise undoubtedly concurs with the primitive alternating tendency of the limbs. The muscles of the body are strengthened by the mere action of growth; this growth is accelerated if they are regularly exercised within limits; and the very same is likely to be true of the nerves and nerve-centres that dictate the flow and alternation of muscular movements."
+    },
+    {
+     "n": 8,
+     "k": 34,
+     "txt": "I have endeavoured to establish as a fact the spontaneous commencement of all the actions that we term voluntary. Thus the limbs, the features, the eyes, the voice, the tongue, the jaw, the head, the trunk, &c., commence to move in consequence of an unprompted flow of stimulus from the nerve-centres; this flow will be sometimes to one set of members and sometimes to another, so that the organs may act separately and independently, under the influence thus imparted. Now such spontaneous movements are without doubt confirmed by repetition, and are thereby made to recur more readily in the future. Any movement struck out by central energy leaves as it were a track behind, and a less amount of nervous impulse will be required to set it on a second time. By a spontaneous stimulus the hands are closed; the act of closing determines a current or bent in that direction, and the next exertion is so much the easier. By one prompting the arms are raised and lowered alternately; by another they are moved forwards and backwards; in the course of a few repetitions adhesiveness comes in aid of the inward stimulus, and the movements grow more frequent and more decided. Through the spontaneous action of the centres the eyes are moved to and fro, and iteration gives facility to the exercise. So the voice is moved variously by an impulse from within, and each movement and note is made easier for the next occasion when the centres discharge their energy by that channel. The tongue is an organ with many movements, and all voluntary; these commence of their own accord, and are strengthened and as it were developed by repetition. The inclinations and sweep of the head, and of the trunk generally, are of the same class. The iteration of all these various movements does not make them voluntary movements in the proper sense of the expression; but it prepares them for becoming such by a future and distinct acquisition. It makes them recur more frequently and more readily, enhancing the spontaneous impulse of the centres. At one time the voice sounds a high note. As to the first stimulus of this effort, we can say nothing farther than that with all the active organs there is associated a nervous battery for commencing their movements. After an interval, the same high note is hit upon by a like discharge from the proper centre. When several repetitions have occurred in this way a facility is gained; either a less tension of the centre will originate the note, or it will be better sustained when it comes. On a different occasion a stream of sound is stimulated at a low pitch, which after a number of opportunities comes to be a ready effort of the organ. Thus it is that a variety of detached movements are getting themselves prepared for subsequent use."
+    },
+    {
+     "n": 9,
+     "k": 35,
+     "txt": "To persons that have not reflected on the very great difficulty and labour attending the growth of voluntary movements in infancy, this hypothesis of spontaneity so much dwelt upon will seem uncalled for and unlikely. But I shall have to show at a later stage how impossible it is to account for the origin of volitional acts without a supposition of this nature."
+    },
+    {
+     "n": 10,
+     "k": 36,
+     "txt": "The movements inspired by Emotion are also cultivated and confirmed by repetition; and a certain increase of power is gained in this way. The voice is developed by crying, the trunk and limbs and features by gesticulation. There is no proof that the emotional stimulus of the movements contributes in any degree to give the voluntary command of them; there seems to be a great gulf permanently fixed between these two sources of active display. Emotion cultivates itself solely. The vigour of gesticulation may be increased, but not the vigour of setting on movements independently of the excitement of the feelings.",
+     "note": "§3, on the agglutination of movements into trains and aggregates in handicraft and mechanical art — walking with the toes turned out, the succession of acts in eating, writing (pp. 321–324) — is not carried; the selection resumes with §4."
+    }
+   ]
+  },
+  {
+   "id": "adhaesion",
+   "titel": "Book II, ch. I — Adhesiveness a special property of mind, §4 (pp. 324–326)",
+   "units": [
+    {
+     "n": 1,
+     "k": 37,
+     "txt": "4. The inward process whereby movements repeated in the same succession acquire coherence and bring on one another in the proper order is one of the hidden qualities of mind. We may describe the effect, and specify some of the important physical conditions that control it, but we can go no further. It is a fundamental property of the mental and nervous system, and is unique in its kind, there being nowhere any other instance of it known to us, no other substance but nerve possessing the like property."
+    },
+    {
+     "n": 2,
+     "k": 38,
+     "txt": "The actions thus associated are voluntary actions; they are stimulated from the cerebral centre, and it is within the cerebral hemispheres that the adhesion takes place. A stream of conscious nervous energy, no matter how stimulated, causes a muscular contraction, a second stream plays upon another muscle; and the fact that these currents flow together through the brain is sufficient to make a partial fusion of the two, which in time becomes a total fusion, so that one cannot be commenced without the other commencing also. The current that directs the lifted arm to the mouth is part of a complex stream that opens the jaw; the current that gives position in the fingers of a flute-player is associated with another that fixes the lips, and a third that compresses the chest with a measured force. In virtue of passing through the common centre of the nervous system together, the many different coinciding streams become after due continuance an aggregated unity, broken up only by some more powerful alliance.",
+     "label": "Currents that flow together fuse"
+    },
+    {
+     "n": 3,
+     "k": 39,
+     "txt": "In the same manner may we express what happens in successions of acts. If the brain stimulates a given movement, such as the utterance of an articulate syllable, and if after that a second syllable is pronounced, there is a continuity established between the two, a sort of highway made, and a bent given to pass from the one act to the other; in the course of time and repetition the connexion is fully knit, and the transition becomes mechanical or automatic. The acts must be mental or conscious acts, lying in the course of the common stream of mental activity: which stream is turned first upon the one, passes next to the other, thereby, as the effect shows, establishing a tendency towards the same direction ever afterwards."
+    },
+    {
+     "n": 4,
+     "k": 40,
+     "txt": "It may be very fairly assumed that this is a process of growth like the natural development of the nerves and muscles, themselves. This view is ably expressed by Dr. Carpenter. Whether the growth lies in forming new cells, or in modifying the internal conductibility of the nerve fibres and vesicles, we are unable to say; there is no reason why both effects should not take place. But the circumstances connected with the process of education strongly favour the above comparison. We find, for example, that new acquirements are easiest and most rapid during early life, the time of most vigorous growth of the body generally. We find also that rest and nutrition are as much needed for educating the organs as for keeping up the bodily health. There is, moreover, a bound fixed to the rate of acquirements, and no amount of practice can enable us to get over it. The plastic or hardening operation takes a certain interval of time, and although the current be never so much sustained, by keeping at a thing, the rate of acquisition is not increased in the same degree.",
+     "label": "Adhesion as growth"
+    },
+    {
+     "n": 5,
+     "k": 41,
+     "txt": "In successions of movement, the completed act of one movement is the link that sets on the next. But it is in vain, at the present point of our knowledge, to enquire minutely into the steps of this subtle sequence.",
+     "note": "§5 goes on to the conditions that regulate the pace of acquisition — command of the organs, a natural force of adhesiveness unequally distributed, and repetition (pp. 326 ff.); not carried here."
+    }
+   ]
+  }
+ ]
+}
