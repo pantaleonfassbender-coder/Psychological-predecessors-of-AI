@@ -90,7 +90,7 @@ the period, locked behind the threshold.
 
 The DOI above is the concept DOI and always resolves to the latest archived
 version; each release also carries its own version DOI on Zenodo (v1.0.0:
-10.5281/zenodo.23000127).
+10.5281/zenodo.23000127; v1.1.0, the complete corpus: 10.5281/zenodo.23022855).
 
 When citing a passage, cite the printed original — the paragraph grids exist so that
 you can; where a numbering or a working translation is this site's own (stated per
