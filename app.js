@@ -54,6 +54,7 @@ const CITE = {
   bain: (sec, u) => `SI [${u.k}]`,
   koehler: (sec, u) => `MA [${u.k}]`,
   hartley: (sec, u) => `OM [${u.k}]`,
+  hull_aptitude: (sec, u) => `AT [${u.k}]`,
   james: (sec, u) => sec.id === 'automata' ? `AWA [${u.k}]` : `PP [${u.k}]`,
 };
 const citeOf = (workId, sec, u) => (CITE[workId] || ((s, x) => `[${x.n}]`))(sec, u);
@@ -833,7 +834,12 @@ function viewEssay() {
 
     <div class="panel"><h2>The threshold</h2>
       <p class="readable">The fourth line is the shortest and the hinge: Hull's
-      aptitude-forecasting machinery, and then, in 1929 and 1930, Hull and Baernstein building
+      aptitude-forecasting machinery — a machine that reads a subject's test scores from punched
+      tape, works forty or fifty forecasting formulae, stamps "forecasts of the individual's
+      probable success in all the chief type occupations of the world" on a card and rings a
+      bell ${C('hull_aptitude','maschine',5,'AT [27]')}, designed by the same author who had
+      measured how little such forecasts can know ${C('hull_aptitude','grenze',11,'AT [22]')} —
+      and then, in 1929 and 1930, Hull and Baernstein building
       an electro-chemical "mechanical parallel to the conditioned reflex" — psychologists
       constructing a device that learns, and arguing that knowledge and purpose are habit
       mechanisms a machine could have. There the corpus stops, deliberately. The boundary is a

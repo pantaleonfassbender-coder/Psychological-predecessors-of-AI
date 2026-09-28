@@ -191,8 +191,16 @@ checkable. All are United States public domain (published through 1930). Entries
 
 ## The machine in the laboratory
 
-- **Hull, Aptitude Testing (Yonkers 1928)** —
-  <https://archive.org/details/aptitudetesting00hull>.
+- **Hull, Aptitude Testing — SHIPPED** (`data/hull_aptitude.json`, built by
+  `tools/build-hull-aptitude.py`): selections from the first printing (Yonkers-on-Hudson: World
+  Book Company, 1928; Measurement and Adjustment Series, ed. Terman) —
+  <https://archive.org/details/aptitudetesting00hull> (Harold B. Lee Library copy) — US
+  public domain since 1 January 2024. OCR emended against the sense; the army-test
+  specimens, Table 61, the correlation coefficients and the regression equation restored by
+  hand from the page images (leaf = page + 19), Table 61 given as lists. Carried: ch. I,
+  pp. 1–5; ch. VIII, pp. 273–278 (Table 60 and Figure 36 not reproduced); ch. XI,
+  pp. 355–356 (machines for scoring tests); ch. XIV, pp. 487–490 (the forecasting machine).
+  Cited as `AT [k]`, k unique across the three selections.
 - **Hull & Baernstein, A Mechanical Parallel to the Conditioned Reflex** — Science 70 (1929);
   **Hull, Knowledge and Purpose as Habit Mechanisms** — Psychological Review 37 (1930, US
   public domain since 1 January 2026); journal printings, exact items to be pinned at ship
@@ -231,6 +239,8 @@ credit name the source, digitisation and leaf.
   trimmed by IIIF region.
 - **Bain** — title page of the first edition (London: Parker, 1855);
   `sensesintellectb00bain`, leaf 7.
+- **Hull, Aptitude Testing** — Fig. 60, the perforated score tape of the forecasting
+  machine, p. 488; `aptitudetesting00hull`, page n507, cropped.
 - **Hartley** — title page of the first edition (London: S. Richardson, 1749), from an
   Eighteenth Century Collections Online microfilm,
   `bim_eighteenth-century_observations-on-man-his_hartley-david_1749_1`, page n2, cropped

@@ -1,0 +1,190 @@
+{
+ "id": "hull_aptitude",
+ "autor": "Clark L. Hull",
+ "titel": "Aptitude Testing (1928) — selections",
+ "jahr": 1928,
+ "zitierweise": "AT [k]",
+ "quelle": "Selections from the first printing (Yonkers-on-Hudson: World Book Company, 1928; Measurement and Adjustment Series, ed. Lewis M. Terman), Internet Archive aptitudetesting00hull (Harold B. Lee Library copy), public domain in the United States since 1 January 2024. OCR emended against the sense; the army-test specimens, Table 61, the correlation coefficients and the regression equation were read from the page images and are restored by hand, Table 61 given as lists. Carried: ch. I, pp. 1–5; ch. VIII, pp. 273–278 (Table 60 and Figure 36 not reproduced); the machines for scoring tests from ch. XI, pp. 355–356; and the forecasting machine that closes ch. XIV and the book's text, pp. 487–490. Cited as 'AT [k]', k unique across the three selections.",
+ "hinweis": "The measured mind turned into an apparatus. Hull defines the test as a 'judicious sampling of human behavior', measures his own instruments without illusion — batteries correlating below .45 or .50 are 'practically useless', and a battery may touch every determiner of an aptitude and still be 'almost without value' — and then designs the machine: test scores punched on paper tape, forty or fifty forecasting formulae on a metal band 'somewhat resembling a music roll', a card stamped with the forecasts for 'all the chief type occupations of the world', and a bell to call the attendant. Prediction handed to a machine, with its author's own measure of how little the predictions can know.",
+ "sections": [
+  {
+   "id": "stichprobe",
+   "titel": "Ch. I — the test of life, and the test as a sample of behavior (pp. 1–5)",
+   "units": [
+    {
+     "n": 1,
+     "k": 1,
+     "txt": "The most accurate method of determining the aptitude of an individual for a vocation or other activity is the test of life itself. The ultimate test must always be the learning of the vocation in the ordinary manner, after which we may observe the degree of the individual's proficiency when he has reached the limit of training. In some activities, such as tending certain automatic machines, the time required to discover a person's aptitude by the method of actual trial may be very brief. In other activities, such as those of the medical and legal professions, the period of training may be both prolonged and expensive. Indeed, in most important vocations the time and energy required to discover an individual's ultimate aptitude by the method of trial is so great that not more than one or two such determinations can be made in the course of an ordinary life. And if it turns out that the first choice of a vocation chances to be ill-advised, there is certain to be a great economic loss and an equally great loss in human happiness. A very similar situation exists in employment. The employee is likely to represent an economic loss to his employer for a longer or shorter period at the beginning of his service. In case the employee turns out to be ill adapted to the particular work, there results not only a net economic loss to the employer, but also a loss to the employee in happiness and self-respect.",
+     "label": "The test of life itself"
+    },
+    {
+     "n": 2,
+     "k": 2,
+     "txt": "Because of the magnitude of these various wastes and losses, there is arising a more and more insistent demand for expeditious and economical methods of discovering latent aptitudes. It is this necessity for economizing time and energy that has given rise to the modern short-cut methods of aptitude prognosis by means of tests. This central fact must never be lost sight of. A method of prognosis which is not at the same time reasonably quick and reasonably inexpensive has no excuse for existence. These exacting conditions contribute much to the difficulties of the aptitude psychologist. Naturally, they determine to a considerable extent the technique which he is forced to employ."
+    },
+    {
+     "n": 3,
+     "k": 3,
+     "txt": "Many methods of detecting latent aptitudes have been advocated. Some of these are known to be of considerable value, some have a little value, while it is to be feared that certain others have no value whatsoever. All are in process of experimental trial. Since, in all probability, the science of aptitude prognosis is in its infancy, it is reasonable to expect that many new and possibly revolutionary methods and devices may still be discovered. Certainly an enormous amount of experimental research is now being directed to this end. The wise worker in aptitudes will accordingly preserve an open mind to all possibilities. He will utilize any and every device or procedure that can be demonstrated scientifically to contribute in substantial amounts to the forecasting of aptitudes."
+    },
+    {
+     "n": 4,
+     "k": 4,
+     "txt": "At present, various kinds of psychological tests are the chief means employed for making aptitude predictions. These tests range through tests of the higher mental processes, such as reasoning and ability to learn; tests of character and temperamental traits; tests of sensory acuity; tests of motor speed, coördination, and strength; tests of physiological traits, such as basal metabolism; chemical tests of the bodily secretions, such as of the blood and the saliva; etc. Though not tests, properly speaking, there may be included in the list of the aptitude psychologist's resources the determination of the various anatomical dimensions and proportions, past environmental conditions of the subject, and even the behavior and achievements of his ancestors."
+    },
+    {
+     "n": 5,
+     "k": 5,
+     "txt": "Testing in all the applied sciences is performed on the basis of samples. The pure food authorities, for example, analyze a small quantity of milk chosen with some care from a can intended for babies, say, and assume with confidence that the remainder of the milk has the same chemical characteristics as those found in the sample. It would be a waste of time and energy to determine the actual amounts of the various constituents for the entire can of milk. Moreover, the milk would be consumed by such a procedure and none left for the babies. A very similar situation is found in as diverse a situation as the smelting of iron. There is no need to make an exact determination of the total amount of iron, manganese, and phosphorus, say, of an entire car of ore. Instead, a few ounces of ore are chosen at random from each of a number of specified places over the car. This sample is ground and thoroughly mixed. Of this only a small fraction of an ounce is finally analyzed. On the analysis of this minute sample the tons of ore remaining in the car are smelted. Again, if a bacteriologist wishes to discover the nature of a throat infection, he does not endeavor to examine all the bacteria the patient may harbor. He takes a sample from the patient's throat, from the sample makes a culture, and finally examines with his microscope a small sample from this culture. Or if a physician wishes to know whether a patient suspected of anemia is deficient in red blood cells, he does not attempt to count all the blood cells in the patient's body. He secures from the patient a few drops of blood and of this actually counts but a minute part. He assumes with confidence that the blood remaining in the patient's body has approximately the same proportion of blood cells as that examined under the microscope.",
+     "label": "Psychological testing a judicious sampling of human behavior"
+    },
+    {
+     "n": 6,
+     "k": 6,
+     "txt": "Human-aptitude testing is not essentially different from the application of tests in other sciences. The medium sampled differs, of course, from that in each of the other sciences, just as these differ from each other. The thing sampled in aptitude testing is in most cases human behavior."
+    },
+    {
+     "n": 7,
+     "k": 7,
+     "txt": "A psychological test is the measurement of some phase of a carefully chosen sample of an individual's behavior. We may, for example, determine how many times a person can tap with a telegraph key in one minute. This will be a sample of that subject's behavior under those particular conditions. Another sample taken an hour or a day later will not be quite the same as the first one. But if a suitable technique is followed, the successive repetitions of a test (after practice, fatigue, and such factors are allowed for) will not differ greatly from each other. Moreover, the average from several repetitions of a test will differ still less from other averages similarly obtained.",
+     "label": "The test as a sample of behavior"
+    },
+    {
+     "n": 8,
+     "k": 8,
+     "txt": "A rather different sampling of a person's behavior will be obtained from the disarranged-sentence test, as used by the United States army in the late war. The subject is presented with twenty-four disarranged sentences, such as:"
+    },
+    {
+     "n": 9,
+     "k": 9,
+     "txt": "oranges yellow are . . . true — false / noise cannon never make a . . . true — false / to life water is necessary . . . true — false / leaves the trees in lose their fall . . . true — false / forget trifling friends grievances never . . . true — false",
+     "note": "The five specimen sentences of the army test, set as printed (p. 4). Read from the page image."
+    },
+    {
+     "n": 10,
+     "k": 10,
+     "txt": "He is directed to rearrange the sentences mentally so as to tell whether they are true or false, and then underline the word true or false at the right accordingly. He is to do this as rapidly and accurately as possible. The number of these sentences marked correctly in two minutes constitutes the test score."
+    },
+    {
+     "n": 11,
+     "k": 11,
+     "txt": "The practice of taking samples of human behavior for purposes of examination is, of course, as old as formal education itself. A school examination is merely a more or less well-chosen sample from a much larger number of possible reactions within a certain range, which the subject is presumed to be able to perform with some degree of success. Thus, a spelling examination or test may be a sample of fifty or one hundred words of varying difficulty. The ability of a given subject to spell this sample of words is, if the words have been well chosen, a distinctly useful index of the ability of the person to spell all the remaining words of the language."
+    }
+   ]
+  },
+  {
+   "id": "grenze",
+   "titel": "Ch. VIII — forecasting efficiency, and why the yield of test batteries is always limited (pp. 273–278)",
+   "units": [
+    {
+     "n": 1,
+     "k": 12,
+     "txt": "The yield of aptitude batteries is at present almost universally reported in terms of the correlation coefficient. But they must be judged, apart from the cost of administration, upon the basis of their actual efficiency in forecasting. It therefore becomes a matter of considerable importance not only to have thorough understanding of the relation between the two, but also to be able readily to translate correlation values into equivalent forecasting-efficiency values. Such a series of equivalent values is given in Table 60.",
+     "note": "Table 60, which converts R into per cent of forecasting efficiency E, and Figure 36, its graph (p. 274), are not reproduced."
+    },
+    {
+     "n": 2,
+     "k": 13,
+     "txt": "Perhaps the most striking point about this table is the remarkably small forecasting efficiencies corresponding to R values below .50. The same general tendency may be seen in the fact that the forecasting efficiency arises as much (20 points) between correlations .98 and 1.00 as between correlations .00 and .60! It is important to observe that this zone of extremely low forecasting efficiency is exactly the zone where practically all modern aptitude correlations fall. To the enthusiastic user of tests this may be somewhat disappointing, but the sooner these facts are fully realized the better for all.",
+     "note": "The paragraph runs across Table 60 and Figure 36 (pp. 273–275). Read from the page image.",
+     "label": "The zone where all modern correlations fall"
+    },
+    {
+     "n": 3,
+     "k": 14,
+     "txt": "The low forecasting efficiency of modern tests as shown by Table 60 inevitably raises the question as to their practical range of usefulness. Under ordinary conditions it seems likely that tests having a forecasting efficiency below about 10 per cent would not be worth using. This means that batteries correlating below .45 or .50 with a true criterion will hardly be useful unless they are extremely inexpensive. At the other extreme, correlations on genuine aptitudes running above .70 or .75 are so rare at present as to be practically non-existent. This means that the practical range of forecasting efficiency of modern psychological tests occupies the narrow zone roughly between 10 and 30 per cent. The situation is represented graphically in Figure 36, the curve showing the relation between R and E and the shaded portion the zone of practical forecasting efficiency of modern test batteries."
+    },
+    {
+     "n": 4,
+     "k": 15,
+     "txt": "In connection with the practical yield from test batteries, the question is often asked, \"What is a high and what is a low correlation?\" Very different answers have been given at one time or another. In the light of the facts presented above we may make a number of fairly definite statements. These may be summarized as follows:"
+    },
+    {
+     "n": 5,
+     "k": 16,
+     "txt": "Below .45 or .50, practically useless for differential prognosis. / From .50 to .60, of some value / From .60 to .70, of considerable value / From .70 to .80, of decided value but rarely found / Above .80, not obtained by present methods",
+     "note": "Page-bottom footnote: \"This statement assumes that the correlation coefficients have been corrected for attenuation due to errors in measuring the criterion (pages 231 ff.). It is a well-known fact that the ordinary correlation coefficients obtained in practice are really lower than the actual correlations between the tests and the true aptitudes. It should also be added that tests showing somewhat lower correlations than .50 may be useful in selecting individuals for a given purpose such as in employment testing or university entrance examinations, where considerable numbers of individuals falling below an arbitrary critical test score may be rejected. In general the higher the percentage of rejections that is permitted, the lower the useful correlation limit. Thus, in a private communication, Terman states that if the critical score of rejection on the Thorndike College Entrance Test (which ordinarily correlates about .50 with university marks) be placed at about 90, the number of scholastic failures would be reduced nearly to zero. This would involve, of course, the rejection of many fairly good students along with the very weak ones. But in employment work and in certain universities where large numbers of applicants must be turned away in any case, this works no particular hardship to the individual and yet results in a distinctly superior level of aptitude among those individuals finally selected.\"",
+     "label": "What is a high and what is a low correlation?"
+    },
+    {
+     "n": 6,
+     "k": 17,
+     "txt": "In view of the low forecasting efficiency of aptitude tests, the question as to its cause naturally arises. The answer has considerable significance, not only for the present but for the future possibilities of aptitude testing as well.",
+     "label": "Why the yield from test batteries is always limited"
+    },
+    {
+     "n": 7,
+     "k": 18,
+     "txt": "If we could isolate and measure separately each determiner of an aptitude, it would be possible by means of suitable weighting secured by the multiple-regression equation to make predictions of 100 per cent efficiency. But we are not able to do this. Instead, our tests are themselves aggregates of determiners which are already weighted by nature very much like the aptitude itself. Thus in Table 61, Test 1 is based on determiners III, IV, V, and X, which are respectively weighted by the nature of the behavior involved: 2, 4, 1, and 2. No possible weighting of the obtained scores of this test by a psychologist can seriously disturb this natural weighting. The weighting secured by means of the multiple-regression equation is accordingly only a secondary affair, since it can apply only to groups of determiners as found in the tests. It thus comes about that even though one or another of our tests may touch every determiner or factor involved in an aptitude, the correlation between the aptitude and the test battery may be far from perfect and its forecasting efficiency may be actually so low as hardly to be of practical utility.",
+     "note": "So the text; in Table 61 as printed, Test (1) carries determiner III with weight 3."
+    },
+    {
+     "n": 8,
+     "k": 19,
+     "txt": "Table 61. Showing a typical test-aptitude situation in terms of determiners. Every determiner of the aptitude is touched by one or more of the tests, yet the battery yields an R of only .53. — Aptitude (0): I 2, III 4, V 2, VI 3, VIII 1, XI 1, XIII 3. Test (1): III 3, IV 4, V 1, X 2. Test (2): VI 3, VII 4, VIII 1, XII 2. Test (3): I 5, II 3, III 1, VII 2. Test (4): IV 3, IX 4, XI 2, XIII 1.",
+     "note": "The table (p. 277) given as lists: each determiner with its weight. Read from the page image."
+    },
+    {
+     "n": 9,
+     "k": 20,
+     "txt": "The reality of the conditions described above may be illustrated by the specific test-aptitude situation shown in Table 61. It will easily be observed by inspection that every single determiner found in the aptitude is found in the test battery. One determiner (No. III) is found in two different tests."
+    },
+    {
+     "n": 10,
+     "k": 21,
+     "txt": "The various correlation coefficients as computed from the determiners by formula, page 231, are as follows: r01 = +.385; r02 = +.275, r12 = .00; r03 = +.338, r13 = +.087, r23 = +.233; r04 = +.137, r14 = +.400, r24 = .00, r34 = .00.",
+     "note": "The coefficients (p. 278). Read from the page image."
+    },
+    {
+     "n": 11,
+     "k": 22,
+     "txt": "These correlation coefficients are fairly typical of those secured from ordinary testing operations. Appropriate computations reveal the fact that if the tests represented in Table 61 were weighted in the best possible manner by means of a multiple-regression equation, the correlation yield (R) would be only .53. This corresponds to an actual efficiency of only 15 per cent. This is a matter of very considerable significance for the future of aptitude testing. It means that we may have involved in our test battery absolutely all of the determiners of the aptitude and yet the resulting battery may be almost without value.",
+     "note": "Page-bottom footnote: \"It is also a matter of considerable theoretical interest to observe that despite the fact that no negative determiner is to be found in Table 61, the regression equation contains a negative weight for test No. 4. Assuming all means and standard deviations to be unity, the equation is: X̄0 = .171 + .376 X1 + .215 X2 + .256 X3 − 009 X4 [so printed, for −.009]. The moral of this is, of course, that the regression equation, just as partial correlation (pages 250 ff.), may be an utterly misleading instrument for purposes of theoretical analysis of aptitude determiners. But if the multiple-regression equation is regarded as primarily a practical estimating or forecasting device, all of the mystery of this negative weight vanishes. It means that test No. 4 can contribute more to the yield of the battery as a whole by receiving a negative weight. An inspection of Table 61 suggests that this probably results from the fact that by weighting test No. 4 negatively there will result a tendency to neutralize in test No. 1 the influence of the irrelevant determiner IV, since this determiner appears prominently in both tests. Clearly test No. 1 would be much stronger with the influence of this irrelevant determiner eliminated.\" (p. 278, read from the page image)",
+     "label": "All the determiners, and almost no value"
+    }
+   ]
+  },
+  {
+   "id": "maschine",
+   "titel": "Chs. XI and XIV — machines that score tests and make aptitude forecasts (pp. 355–356, 487–490)",
+   "units": [
+    {
+     "n": 1,
+     "k": 23,
+     "txt": "Pressey has recently exhibited an ingenious machine into which multiple-choice material of the pencil-and-paper variety may be placed, the choices of the subjects being made by pressing keys. The machine counts automatically and separately the correct choices and the errors, both of which may be read off directly from dials at the conclusion of the test.",
+     "note": "From ch. XI, \"Administering the preliminary test battery to a trial group of subjects\", under the heading \"Machines for scoring multiple-choice tests automatically\" (pp. 355–356).",
+     "label": "Machines for scoring tests automatically"
+    },
+    {
+     "n": 2,
+     "k": 24,
+     "txt": "It is probable that the future will see group tests of the multiple-choice variety which will be scored entirely automatically by specially designed scoring machines. The designs for at least two such combinations are already in existence. Perhaps the most promising form of test response for mechanical scoring would be to have the subject make perforations in the test sheet given him, the position indicating his choice of the alternatives offered in the test. A machine could easily be constructed that would not only count up automatically both the right and the wrong responses in each test but which would also combine the various scores into an aptitude forecast, giving each its proper weight according to a scientific scoring formula. Such mechanical methods would not only reduce immensely the cost of scoring and computing aptitude forecasts but would also reduce the element of error resulting from human inaccuracy."
+    },
+    {
+     "n": 3,
+     "k": 25,
+     "txt": "Another system of making aptitude predictions from forecasting formulae has been devised by the writer (35) in the form of an automatic machine. This machine is an integral part of a comprehensive program of vocational guidance first sketched in 1923 (35a). The program calls for the construction of a single universal battery of tests which shall sample, so far as possible, all of the important aptitude determiners. The battery will contain perhaps thirty or forty different test units and may require a day or more to administer. Upon the basis of this one battery there will be constructed separate forecasting formulae for each of the more important type occupations — possibly to the number of forty or fifty. Thus there would be forty or fifty different equations, each equation weighting the tests of the one battery in a different way so as to make the best possible forecast of a particular aptitude. These equations would, of course, all be much longer than the one given above for free-hand drawing, each probably involving every one of the thirty or more tests of the battery. To make all the forty or fifty forecasts by such a system in the ordinary way would involve something like 1500 multiplications, all of which would need to be summated in a more or less complicated manner. This would represent a huge amount of labor, to say nothing of the human errors certain to creep into such a large amount of hand work. The forecasting machine mentioned above has been designed to perform this work automatically. Three of these machines have been constructed (34).",
+     "note": "Figure 60 (p. 488), reproduced as this module's plate; its legend: \"A section of perforated paper tape (very slightly reduced) upon which test scores are recorded. The first four scores have been ruled off and the several digits indicated for purposes of explanation. The first score is 9, the second 24, the third 365, and so on. The lower portion shows the normal appearance of the tape. The perforations on the edges are to insure the accurate feeding of the tape through the aptitude-prediction machine.\" — The numbers in parentheses refer to the chapter bibliography, not carried.",
+     "label": "A machine which makes aptitude forecasts automatically"
+    },
+    {
+     "n": 4,
+     "k": 26,
+     "txt": "In its final form, this machine will have the different forecasting formulae placed in it permanently as a four-inch perforated band of thin metal, somewhat resembling a music roll in appearance. The test scores will be given to the machine in the form of a similar perforated band of paper (Fig. 60) upon which have been recorded the test scores of a given subject. The test scores are recorded on this paper band by means of a special perforating device which is operated somewhat like a typewriter. A series of forty test scores may be thus recorded in about a minute. Once the test scores have been recorded on the paper band, it will be placed in the forecasting machine and the starter pressed. The machine will then proceed automatically, and without any attention whatever from the attendant, to make one aptitude forecast after another until the entire forty or fifty have been calculated."
+    },
+    {
+     "n": 5,
+     "k": 27,
+     "txt": "At the time of inserting the band of test scores there will also be placed in another part of the machine a card bearing the name of the subject and a blank form giving in a column the names of all the aptitudes and occupations for which forecasting formulae are available. As the machine makes its forecasts, it will stamp them down on this card automatically, opposite the names of the appropriate aptitudes. When the forecasts have all been made the machine will stop automatically, at the same time ringing a bell to call the attendant. The card of forecasts, when removed from the machine, will then present in orderly array and in units of a single uniform scale, permitting of instant comparison, forecasts of the individual's probable success in all the chief type occupations of the world. The youth whose potential aptitudes are thus recorded may then examine the card to learn those vocations in which his chance of success is low. These may be avoided in his choice of a life work. He may then examine the card to learn those vocations in which his chance of success is greatest. The three or four most promising vocations thus emerging may be given further investigation. From these, in the light of his interests, opportunities, and general circumstances, may finally be chosen a life work.",
+     "label": "The card of forecasts"
+    },
+    {
+     "n": 6,
+     "k": 28,
+     "txt": "It scarcely needs to be pointed out that the program of vocational guidance thus briefly sketched is a revolutionary departure from the current development of aptitude testing (35a). This being the case, there will no doubt be considerable inertia and resistance from conservative quarters. To this difficulty must be added the fact that the program involves a vast amount of minutely coördinated research quite impossible of accomplishment by isolated workers. But the logic of the situation is certain to triumph in the end. We may look forward with confidence to a day not far distant when some such system as that sketched above will be operating in every large school system. Then, and not until then, will there be possible a genuine vocational guidance for the masses of the people.",
+     "label": "Every large school system"
+    }
+   ]
+  }
+ ]
+}

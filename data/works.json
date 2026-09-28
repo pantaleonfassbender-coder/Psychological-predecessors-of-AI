@@ -210,14 +210,15 @@
  {
   "id": "hull_aptitude",
   "linie": "labor",
-  "status": "planned",
+  "status": "shipped",
   "autor": "Clark L. Hull",
   "leben": "1884–1952",
   "kurz": "Hull (1928)",
   "titel": "Aptitude Testing (1928) — selections",
   "sprachen": "English",
   "claim": "Forecasting human performance as a mechanical procedure: Hull's testing book already dreams of prediction done by machinery — the measured mind and the built machine converging.",
-  "geplant": "Selections from the 1928 printing (Internet Archive aptitudetesting00hull), including the forecasting chapters."
+  "geplant": "Selections from the 1928 printing (Internet Archive aptitudetesting00hull): the test as a sample of behavior, the limits of forecasting efficiency, and the machines that score tests and make aptitude forecasts automatically.",
+  "datei": "hull_aptitude"
  },
  {
   "id": "hull_machines",

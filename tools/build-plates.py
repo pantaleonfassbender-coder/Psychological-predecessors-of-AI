@@ -133,6 +133,16 @@ PLATES = [
    'credit': "William McDougall, Body and Mind (London: Methuen, 1918; "
              "first published 1911). Internet Archive cu31924029080880 "
              "(Cornell copy), leaf 6. Public domain." },
+ { 'id': 'hull_aptitude',
+   'url': 'https://archive.org/download/aptitudetesting00hull/page/n507_w1000.jpg',
+   'crop': (0.08, 0.08, 0.95, 0.87),
+   'caption': "Fig. 60: the perforated paper tape on which a subject's test scores "
+              "are punched for the aptitude-prediction machine — 9, 24, 365, and so "
+              "on — the edge holes to feed it through.",
+   'credit': "Clark L. Hull, Aptitude Testing (Yonkers-on-Hudson: World Book "
+             "Company, 1928), p. 488, Fig. 60. Internet Archive "
+             "aptitudetesting00hull, page n507, cropped. Public domain in the "
+             "United States." },
  { 'id': 'hartley',
    # microfilm frame of an ECCO copy; page image cropped to the title leaf
    'url': ('https://archive.org/download/bim_eighteenth-century_observations-'
