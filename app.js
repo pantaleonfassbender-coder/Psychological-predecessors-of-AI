@@ -108,7 +108,11 @@ function viewOverview() {
       <a href="https://philosophical-predecessors-of-ai.netlify.app" rel="noopener">Calculemus:
       philosophical predecessors of AI</a> — built to the same discipline: everything public
       domain, every paragraph citable, working translations marked as such, no tracking. Start
-      with the <a href="#/essay">essay</a>, or open any work below.</p>
+      with the <a href="#/essay">essay</a>, or open any work below. To play through it,
+      <a href="https://a-mechanical-parallel.netlify.app/" target="_blank" rel="noopener">A Mechanical Parallel</a>
+      (also <a href="https://leofassb.itch.io/a-mechanical-parallel" target="_blank" rel="noopener">on itch.io</a>) turns the eighteen modules into eighteen stations of a solitaire game:
+      build the learning machine, name the questions the counter-voices ask, and keep the limit of what
+      a measure may decide about a person.</p>
     </div>
 
     <div class="grid g2" style="margin-bottom:1.6rem">
